@@ -1,0 +1,136 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Is my score normal?</title>
+    <meta name="description" content="Type your benchmark score and see how it compares with reference scores from trusted sources for your CPU or graphics card." />
+    <link rel="icon" href="./assets/favicon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <script>
+      // Applied before first paint so a chosen theme doesn't flash.
+      try {
+        const stored = localStorage.getItem("theme");
+        if (stored === "light" || stored === "dark") document.documentElement.dataset.theme = stored;
+      } catch {
+        // Storage can be blocked: the prefers-color-scheme rules in style.css still apply.
+      }
+    </script>
+    <script type="module" src="./js/ui.js"></script>
+    <script type="module" src="./js/checker.js"></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <header class="site-header">
+      <div class="wrap header-inner">
+        <a class="brand" href="./index.html"><svg width="26" height="26" viewBox="0 0 32 32" aria-hidden="true" focusable="false"><path d="M7 22a9 9 0 1 1 18 0" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round"/><path d="M16 22l5-7" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/><circle cx="16" cy="22" r="2.2" fill="currentColor"/></svg><span data-site-name>Home</span></a>
+        <nav class="site-nav" aria-label="Main">
+          <ul>
+          <li><a href="./index.html">Home</a></li>
+          <li><a href="./check.html" aria-current="page">Check my score</a></li>
+          <li><a href="./guides/index.html">Guides</a></li>
+          <li><a href="./help.html">Help</a></li>
+          </ul>
+        </nav>
+        <button type="button" class="theme-toggle" data-theme-toggle aria-pressed="false">Dark mode</button>
+      </div>
+    </header>
+
+    <main id="main" class="wrap">
+      <h1>Is my score normal?</h1>
+      <p class="lede">Pick your hardware and the test you ran, then type your score. We compare it with reference scores from trusted sources.</p>
+      <noscript><p class="note">The checker needs JavaScript. The guides work without it.</p></noscript>
+
+      <div class="checker">
+        <form id="checker-form" class="panel" novalidate>
+          <fieldset>
+            <legend>1. Your hardware</legend>
+            <fieldset class="question">
+              <legend>What are you testing?</legend>
+              <div class="choices">
+                <label class="choice"><input type="radio" name="type" value="cpu" checked /><span>Processor (CPU)</span></label>
+                <label class="choice"><input type="radio" name="type" value="gpu" /><span>Graphics card (GPU)</span></label>
+              </div>
+            </fieldset>
+            <fieldset class="question">
+              <legend>What kind of PC?</legend>
+              <div class="choices">
+                <label class="choice"><input type="radio" name="ff" value="desktop" checked /><span>Desktop</span></label>
+                <label class="choice"><input type="radio" name="ff" value="laptop" /><span>Laptop</span></label>
+              </div>
+            </fieldset>
+            <div class="field">
+              <label id="hw-label" for="hw-input">Your CPU</label>
+              <div class="combobox">
+                <input id="hw-input" type="text" role="combobox" aria-autocomplete="list" aria-expanded="false" aria-controls="hw-listbox" autocomplete="off" spellcheck="false" />
+                <button id="hw-toggle" class="combobox-toggle" type="button" tabindex="-1" aria-label="Show all" aria-controls="hw-listbox" aria-expanded="false"></button>
+                <ul id="hw-listbox" class="combobox-list" role="listbox" aria-labelledby="hw-label" hidden></ul>
+                <p id="hw-empty" class="combobox-list combobox-empty" hidden>No match. Try a shorter search.</p>
+              </div>
+              <input id="hw" name="hw" type="hidden" />
+            </div>
+          </fieldset>
+
+          <fieldset>
+            <legend>2. The benchmark you ran</legend>
+            <p id="data-note" class="note" hidden></p>
+            <div class="field">
+              <label for="b">Benchmark</label>
+              <select id="b" name="b"></select>
+            </div>
+            <div class="field">
+              <label for="v">Version</label>
+              <select id="v" name="v" aria-describedby="v-hint"></select>
+              <span id="v-hint" class="hint" hidden></span>
+            </div>
+            <div class="field">
+              <label id="t-label" for="t">Test</label>
+              <select id="t" name="t"></select>
+            </div>
+          </fieldset>
+
+          <fieldset id="score-step">
+            <legend>3. Your score</legend>
+            <div class="field">
+              <label for="score">Score</label>
+              <input id="score" name="score" type="text" inputmode="decimal" autocomplete="off" placeholder="For example 15230" aria-describedby="score-hint" />
+              <span id="score-hint" class="hint"></span>
+            </div>
+          </fieldset>
+
+          <fieldset id="stress-step" hidden>
+            <legend>3. How did the run go?</legend>
+            <fieldset class="question">
+              <legend>Did it run without crashes, freezes or strange colours on screen?</legend>
+              <div class="choices">
+                <label class="choice"><input type="radio" name="stable" value="yes" /><span>Yes</span></label>
+                <label class="choice"><input type="radio" name="stable" value="no" /><span>No</span></label>
+                <label class="choice"><input type="radio" name="stable" value="notSure" /><span>Not sure</span></label>
+              </div>
+            </fieldset>
+            <div class="field" id="temp-field" hidden>
+              <label for="temp">Highest GPU temperature (°C)</label>
+              <input id="temp" name="temp" type="text" inputmode="decimal" autocomplete="off" placeholder="For example 78" aria-describedby="temp-hint" />
+              <span id="temp-hint" class="hint">In HWiNFO: the Maximum column next to GPU Temperature. <!-- TODO: verify label --></span>
+            </div>
+          </fieldset>
+        </form>
+
+        <section id="result" class="panel result" aria-live="polite" aria-labelledby="result-heading">
+          <h2 id="result-heading">Your result</h2>
+          <p>Loading reference data…</p>
+        </section>
+      </div>
+    </main>
+
+    <footer class="site-footer">
+      <div class="wrap">
+        <p>
+          Tool names are trademarks of their respective owners. <span data-site-name>This site</span> isn't
+          affiliated with any of them. Reference scores are credited to their sources wherever they appear.
+        </p>
+        <p>Your scores stay in your browser. Nothing you type is uploaded.</p>
+      </div>
+    </footer>
+  </body>
+</html>

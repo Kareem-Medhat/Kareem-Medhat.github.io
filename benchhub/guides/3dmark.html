@@ -1,0 +1,183 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>How to run 3DMark Time Spy and Steel Nomad</title>
+    <meta name="description" content="Beginner guide to running 3DMark Time Spy and Steel Nomad and checking if your graphics card score is normal." />
+    <link rel="icon" href="../assets/favicon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="../css/style.css" />
+    <script>
+      // Applied before first paint so a chosen theme doesn't flash.
+      try {
+        const stored = localStorage.getItem("theme");
+        if (stored === "light" || stored === "dark") document.documentElement.dataset.theme = stored;
+      } catch {
+        // Storage can be blocked: the prefers-color-scheme rules in style.css still apply.
+      }
+    </script>
+    <script type="module" src="../js/ui.js"></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <header class="site-header">
+      <div class="wrap header-inner">
+        <a class="brand" href="../index.html"><svg width="26" height="26" viewBox="0 0 32 32" aria-hidden="true" focusable="false"><path d="M7 22a9 9 0 1 1 18 0" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round"/><path d="M16 22l5-7" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/><circle cx="16" cy="22" r="2.2" fill="currentColor"/></svg><span data-site-name>Home</span></a>
+        <nav class="site-nav" aria-label="Main">
+          <ul>
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="../check.html">Check my score</a></li>
+          <li><a href="../guides/index.html" aria-current="page">Guides</a></li>
+          <li><a href="../help.html">Help</a></li>
+          </ul>
+        </nav>
+        <button type="button" class="theme-toggle" data-theme-toggle aria-pressed="false">Dark mode</button>
+      </div>
+    </header>
+
+    <main id="main" class="wrap guide">
+      <nav class="crumbs" aria-label="Breadcrumb">
+        <ol>
+          <li><a href="./index.html">Guides</a></li>
+          <li aria-current="page">3DMark</li>
+        </ol>
+      </nav>
+      <header>
+        <h1>How to run 3DMark Time Spy and Steel Nomad</h1>
+        <dl class="guide-meta">
+          <div><dt>Tests</dt><dd>Time Spy, Steel Nomad</dd></div>
+          <div><dt>Difficulty</dt><dd>Beginner</dd></div>
+          <div><dt>Time</dt><dd>About 25 minutes</dd></div>
+          <div><dt>Works on</dt><dd>Windows</dd></div>
+          <div><dt>Last verified</dt><dd>Not yet verified <!-- TODO: set to the date someone actually followed these steps --></dd></div>
+        </dl>
+      </header>
+
+        <nav class="toc" aria-labelledby="toc-heading">
+          <h2 id="toc-heading">On this page</h2>
+          <ol>
+            <li><a href="#what">What it tests</a></li>
+            <li><a href="#before">Before you start</a></li>
+            <li><a href="#download">Download</a></li>
+            <li><a href="#install">Install and set up</a></li>
+            <li><a href="#run">Run the test</a></li>
+            <li><a href="#read">Read your result</a></li>
+            <li><a href="#check">Check your score</a></li>
+            <li><a href="#troubleshooting">Troubleshooting</a></li>
+          </ol>
+        </nav>
+
+      <section aria-labelledby="what">
+        <h2 id="what">What it tests and when to use it</h2>
+        <p>3DMark runs game-like 3D scenes to measure your graphics card (GPU). This guide covers two of its tests: <strong>Time Spy</strong> and <strong>Steel Nomad</strong>. Each test has its own score, so only compare a Time Spy score with other Time Spy scores.</p>
+        <p>Use it after installing a new graphics card or driver, or when games run slower than expected. Scores are in points (pts). Higher is better.</p>
+      </section>
+
+      <section aria-labelledby="before">
+        <h2 id="before">Before you start</h2>
+        <ol class="steps-list">
+          <li>Save your work. Close other apps, including browsers, game launchers and chat apps. They use processing power and lower your score.</li>
+          <li>On a laptop, plug in the charger. On battery, most laptops slow down to save power.</li>
+          <li>Install a temperature monitor. We use <a href="https://www.hwinfo.com/download/">HWiNFO</a> (free). It shows how hot your CPU and GPU get during the test.</li>
+          <li>On Windows 11, set the fastest power mode: Settings → System → Power &amp; battery → Power mode → Best performance. <!-- TODO: verify label --></li>
+          <li>Restart the PC, then leave it idle for 5 minutes. Windows often runs updates and background tasks right after startup.</li>
+        </ol>
+      </section>
+
+      <section aria-labelledby="download">
+        <h2 id="download">Download</h2>
+        <p>3DMark is made by UL Solutions. Get it from <a href="https://benchmarks.ul.com/3dmark/download">UL's official 3DMark download center</a> or the <a href="https://store.steampowered.com/app/223850/3DMark/">official 3DMark page on Steam</a>. Don't use other download sites.</p>
+        <p class="actions">
+          <a class="button" href="https://benchmarks.ul.com/3dmark/download">Go to the 3DMark download center</a>
+          <a class="button button--ghost" href="https://store.steampowered.com/app/223850/3DMark/">Get 3DMark on Steam</a>
+        </p>
+        <p>3DMark has a free edition and paid editions. <!-- TODO: verify which tests the current free edition includes, especially Steel Nomad --></p>
+      </section>
+
+      <section aria-labelledby="install">
+        <h2 id="install">Install and set up</h2>
+        <ol class="steps-list">
+          <li>If you use Steam, open the 3DMark store page and install it like a game. Otherwise, download the installer from UL's 3DMark download center and run it.</li>
+          <li>Start 3DMark.</li>
+          <li>If 3DMark offers to download extra test files, allow it for Time Spy and Steel Nomad. <!-- TODO: verify whether tests are downloaded separately in the current version --></li>
+        </ol>
+        <!-- TODO: replace with our own screenshot -->
+          <figure class="shot"><figcaption>Screenshot coming soon: the 3DMark test list</figcaption></figure>
+      </section>
+
+      <section aria-labelledby="run">
+        <h2 id="run">Run the test</h2>
+        <p>Run each test with its default settings, so your result matches the reference scores.</p>
+        <h3>Time Spy</h3>
+        <ol class="steps-list">
+          <li>Open the list of benchmarks and choose Time Spy (not Time Spy Extreme). <!-- TODO: verify label --></li>
+          <li>Select Run. <!-- TODO: verify label --></li>
+          <li>Don't use the PC while the test runs. It takes a few minutes.</li>
+        </ol>
+        <h3>Steel Nomad</h3>
+        <ol class="steps-list">
+          <li>Open the list of benchmarks and choose Steel Nomad (not Steel Nomad Light). <!-- TODO: verify label --></li>
+          <li>Select Run. <!-- TODO: verify label --></li>
+          <li>Don't use the PC while the test runs.</li>
+        </ol>
+      </section>
+
+      <section aria-labelledby="read">
+        <h2 id="read">Read your result</h2>
+        <p><strong>Time Spy</strong> shows an overall score plus a Graphics score and a CPU score. Use the <strong>Graphics score</strong>: it measures your graphics card on its own. <!-- TODO: verify label --></p>
+        <p><strong>Steel Nomad</strong> shows one score. Use that number. <!-- TODO: verify label --></p>
+        <p>3DMark may offer to show your result online on UL's website. That's UL's service; nothing is sent to us. <!-- TODO: verify how the current version handles online results --></p>
+      </section>
+
+      <section aria-labelledby="check">
+        <h2 id="check">Check your score</h2>
+        <p class="actions">
+          <a class="button" href="../check.html?b=3dmark&amp;v=time-spy">Check my Time Spy score</a>
+          <a class="button button--ghost" href="../check.html?b=3dmark&amp;v=steel-nomad">Check my Steel Nomad score</a>
+        </p>
+      </section>
+
+      <section aria-labelledby="troubleshooting">
+        <h2 id="troubleshooting">Troubleshooting</h2>
+
+        <h3 id="low-score">My score is low</h3>
+        <ol class="steps-list">
+          <li>Go through <a href="#before">Before you start</a> again. Background apps and a battery-saving power mode are the most common causes.</li>
+          <li>Run the test again with HWiNFO open. If the temperature climbs to its limit and the clock speed drops, that's thermal throttling (see below).</li>
+          <li>Make sure your monitor cable is plugged into the graphics card, not into the motherboard ports.</li>
+          <li>Update your graphics driver from your GPU maker's website (NVIDIA, AMD or Intel).</li>
+          <li>Turn off overlays and screen recorders (for example game-launcher overlays) before you run the test.</li>
+          <li>Run the test two or three times. Small differences between runs (a few percent) are normal.</li>
+        </ol>
+
+        <h3 id="crashes">It crashes, freezes or the PC restarts</h3>
+        <ol class="steps-list">
+          <li>Undo any overclock or undervolt. The simplest way is to load the default settings in your BIOS. (The BIOS is the setup screen your PC shows before Windows starts.)</li>
+          <li>Update your graphics driver from your GPU maker's website (NVIDIA, AMD or Intel).</li>
+          <li>If the PC shuts off completely under load, your power supply may not be strong enough for your graphics card.</li>
+          <li>Check temperatures. Overheating can cause sudden shutdowns.</li>
+        </ol>
+
+        <h3 id="throttling">Thermal throttling</h3>
+        <p>Thermal throttling means your processor or graphics card slows itself down because it's too hot. It protects the hardware, but it lowers your score.</p>
+        <ol class="steps-list">
+          <li>Clean out dust from fans, filters and heatsinks. (A heatsink is the metal block with fins that pulls heat away from the chip.)</li>
+          <li>Check that every fan spins while the test runs.</li>
+          <li>Give the case room to breathe: don't push it against a wall or put it in a closed cabinet.</li>
+          <li>On a laptop, use it on a hard, flat surface, not a bed or a couch.</li>
+          <li>If temperatures are still high, the cooler may not be mounted properly. Ask someone experienced or a repair shop to check it.</li>
+        </ol>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="wrap">
+        <p>
+          Tool names are trademarks of their respective owners. <span data-site-name>This site</span> isn't
+          affiliated with any of them. Reference scores are credited to their sources wherever they appear.
+        </p>
+        <p>Your scores stay in your browser. Nothing you type is uploaded.</p>
+      </div>
+    </footer>
+  </body>
+</html>

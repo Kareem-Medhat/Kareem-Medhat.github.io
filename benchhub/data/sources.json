@@ -1,0 +1,72 @@
+[
+  {
+    "id": "nvidia",
+    "name": "NVIDIA",
+    "homepage": "https://www.nvidia.com",
+    "type": "official-vendor",
+    "notes": "Official GeForce spec pages, used for maximum GPU temperatures. Approved by the owner in chat on 2026-11-03."
+  },
+  {
+    "id": "amd",
+    "name": "AMD",
+    "homepage": "https://www.amd.com",
+    "type": "official-vendor",
+    "notes": "Official AMD product spec pages, used for maximum temperatures. Approved by the owner in chat on 2026-11-03."
+  },
+  {
+    "id": "intel",
+    "name": "Intel",
+    "homepage": "https://www.intel.com",
+    "type": "official-vendor",
+    "notes": "Official Intel product spec pages, used for maximum temperatures. Approved by the owner in chat on 2026-11-03."
+  },
+  {
+    "id": "ul-benchmarks",
+    "name": "UL Benchmarks",
+    "homepage": "https://benchmarks.ul.com",
+    "type": "official-results-database",
+    "notes": "The maker of 3DMark. Its official GPU rankings list 3DMark scores per GPU. Approved by the owner in chat on 2026-11-03."
+  },
+  {
+    "id": "geekbench-browser",
+    "name": "Geekbench Browser (Primate Labs)",
+    "homepage": "https://browser.geekbench.com",
+    "type": "official-results-database",
+    "notes": "The maker of Geekbench. Its processor charts average user-uploaded results; the owner accepted that exception to the no-user-submitted-data rule in chat on 2026-11-03."
+  },
+  {
+    "id": "techpowerup",
+    "name": "TechPowerUp",
+    "homepage": "https://www.techpowerup.com",
+    "type": "review-site",
+    "notes": "Hardware review site that tests CPUs and GPUs on a fixed test bench. Approved by the owner in chat on 2026-11-03."
+  },
+  {
+    "id": "toms-hardware",
+    "name": "Tom's Hardware",
+    "homepage": "https://www.tomshardware.com",
+    "type": "review-site",
+    "notes": "Hardware review site that tests CPUs and GPUs on a fixed test bench. Approved by the owner in chat on 2026-11-03."
+  },
+  {
+    "id": "guru3d",
+    "name": "Guru3D",
+    "homepage": "https://www.guru3d.com",
+    "type": "review-site",
+    "notes": "Hardware review site that tests CPUs and GPUs on a fixed test bench. Approved by the owner in chat on 2026-11-03."
+  },
+  {
+    "id": "gamers-nexus",
+    "name": "Gamers Nexus",
+    "homepage": "https://gamersnexus.net",
+    "type": "review-site",
+    "notes": "Hardware review site that tests CPUs and GPUs on a fixed test bench. Approved by the owner in chat on 2026-11-03."
+  },
+  {
+    "id": "notebookcheck",
+    "name": "Notebookcheck",
+    "homepage": "https://www.notebookcheck.net",
+    "type": "review-site",
+    "notes": "Laptop review site. Cite individual laptop reviews, not its per-chip pages that combine many laptops. Approved by the owner in chat on 2026-11-03."
+  }
+]

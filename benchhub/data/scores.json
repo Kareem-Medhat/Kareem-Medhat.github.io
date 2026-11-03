@@ -1,0 +1,4832 @@
+[
+  {
+    "hardwareId": "amd-ryzen-7-5800x3d",
+    "benchmark": "cinebench",
+    "version": "r23",
+    "test": "multi-core",
+    "value": 14317,
+    "sourceId": "notebookcheck",
+    "url": "https://www.notebookcheck.net/AMD-Ryzen-7-5800X3D-Review-Better-gaming-CPU-than-Core-i9-12900K-for-US-120-less.616720.0.html",
+    "retrievedDate": "2026-11-03",
+    "conditions": {
+      "formFactor": "desktop",
+      "stock": true,
+      "notes": "Notebookcheck desktop CPU review test system."
+    }
+  },
+  {
+    "hardwareId": "amd-ryzen-7-5800x3d",
+    "benchmark": "cinebench",
+    "version": "r23",
+    "test": "single-core",
+    "value": 1452,
+    "sourceId": "notebookcheck",
+    "url": "https://www.notebookcheck.net/AMD-Ryzen-7-5800X3D-Review-Better-gaming-CPU-than-Core-i9-12900K-for-US-120-less.616720.0.html",
+    "retrievedDate": "2026-11-03",
+    "conditions": {
+      "formFactor": "desktop",
+      "stock": true,
+      "notes": "Notebookcheck desktop CPU review test system."
+    }
+  },
+  {
+    "hardwareId": "amd-ryzen-5-7600",
+    "benchmark": "cinebench",
+    "version": "r23",
+    "test": "multi-core",
+    "value": 12735,
+    "sourceId": "notebookcheck",
+    "url": "https://www.notebookcheck.net/AMD-Ryzen-5-7600-65-W-Review-Midrange-US-220-gaming-sweet-spot-that-outperforms-Core-i9-12900K-and-all-Zen-3-CPUs-in-single-core.708080.0.html",
+    "retrievedDate": "2026-11-03",
+    "conditions": {
+      "formFactor": "desktop",
+      "stock": true,
+      "notes": "Notebookcheck desktop CPU review test system."
+    }
+  },
+  {
+    "hardwareId": "amd-ryzen-5-7600",
+    "benchmark": "cinebench",
+    "version": "r23",
+    "test": "single-core",
+    "value": 1852,
+    "sourceId": "notebookcheck",
+    "url": "https://www.notebookcheck.net/AMD-Ryzen-5-7600-65-W-Review-Midrange-US-220-gaming-sweet-spot-that-outperforms-Core-i9-12900K-and-all-Zen-3-CPUs-in-single-core.708080.0.html",
+    "retrievedDate": "2026-11-03",
+    "conditions": {
+      "formFactor": "desktop",
+      "stock": true,
+      "notes": "Notebookcheck desktop CPU review test system."
+    }
+  },
+  {
+    "hardwareId": "amd-ryzen-5-7600x",
+    "benchmark": "cinebench",
+    "version": "r23",
+    "test": "multi-core",
+    "value": 15322,
+    "sourceId": "notebookcheck",
+    "url": "https://www.notebookcheck.net/AMD-Ryzen-9-7900X-and-AMD-Ryzen-5-7600X-in-review-Back-to-the-fastest-gaming-CPU-crown-with-Raphael.657698.0.html",
+    "retrievedDate": "2026-11-03",
+    "conditions": {
+      "formFactor": "desktop",
+      "stock": true,
+      "notes": "Notebookcheck desktop CPU review test system."
+    }
+  },
+  {
+    "hardwareId": "amd-ryzen-5-7600x",
+    "benchmark": "cinebench",
+    "version": "r23",
+    "test": "single-core",
+    "value": 1967,
+    "sourceId": "notebookcheck",
+    "url": "https://www.notebookcheck.net/AMD-Ryzen-9-7900X-and-AMD-Ryzen-5-7600X-in-review-Back-to-the-fastest-gaming-CPU-crown-with-Raphael.657698.0.html",
+    "retrievedDate": "2026-11-03",
+    "conditions": {
+      "formFactor": "desktop",
+      "stock": true,
+      "notes": "Notebookcheck desktop CPU review test system."
+    }
+  },
+  {
+    "hardwareId": "amd-ryzen-7-7700",
+    "benchmark": "cinebench",
+    "version": "r23",
+    "test": "multi-core",
+    "value": 18760,
+    "sourceId": "notebookcheck",
+    "url": "https://www.notebookcheck.net/AMD-Ryzen-7-7700-65-W-Ryzen-7000-Review-Able-Core-i9-12900K-and-Core-i5-13600K-challenger-that-is-US-70-less-than-Ryzen-7-7700X.680150.0.html",
+    "retrievedDate": "2026-11-03",
+    "conditions": {
+      "formFactor": "desktop",
+      "stock": true,
+      "notes": "Notebookcheck desktop CPU review test system."
+    }
+  },
+  {
+    "hardwareId": "amd-ryzen-7-7700",
+    "benchmark": "cinebench",
+    "version": "r23",
+    "test": "single-core",
+    "value": 1930,
+    "sourceId": "notebookcheck",
+    "url": "https://www.notebookcheck.net/AMD-Ryzen-7-7700-65-W-Ryzen-7000-Review-Able-Core-i9-12900K-and-Core-i5-13600K-challenger-that-is-US-70-less-than-Ryzen-7-7700X.680150.0.html",
+    "retrievedDate": "2026-11-03",
+    "conditions": {
+      "formFactor": "desktop",
+      "stock": true,
+      "notes": "Notebookcheck desktop CPU review test system."
+    }
+  },
+  {
+    "hardwareId": "amd-ryzen-7-7700x",
+    "benchmark": "cinebench",
+    "version": "r23",
+    "test": "multi-core",
+    "value": 19509,
+    "sourceId": "notebookcheck",
+    "url": "https://www.notebookcheck.net/AMD-Ryzen-9-7950X-and-AMD-Ryzen-7-7700X-Review-Superlative-performance-and-efficiency-gains-that-give-Raptor-Lake-a-run-for-the-money.671235.0.html",
+    "retrievedDate": "2026-11-03",
+    "conditions": {
+      "formFactor": "desktop",
+      "stock": true,
+      "notes": "Notebookcheck desktop CPU review test system."
+    }
+  },
+  {
+    "hardwareId": "amd-ryzen-7-7700x",
+    "benchmark": "cinebench",
+    "version": "r23",
+    "test": "single-core",
+    "value": 1986,
+    "sourceId": "notebookcheck",
+    "url": "https://www.notebookcheck.net/AMD-Ryzen-9-7950X-and-AMD-Ryzen-7-7700X-Review-Superlative-performance-and-efficiency-gains-that-give-Raptor-Lake-a-run-for-the-money.671235.0.html",
+    "retrievedDate": "2026-11-03",
+    "conditions": {
+      "formFactor": "desktop",
+      "stock": true,
+      "notes": "Notebookcheck desktop CPU review test system."
+    }
+  },
+  {
+    "hardwareId": "amd-ryzen-7-7800x3d",
+    "benchmark": "cinebench",
+    "version": "r23",
+    "test": "multi-core",
+    "value": 18086,
+    "sourceId": "notebookcheck",
+    "url": "https://www.notebookcheck.net/AMD-Ryzen-7-7800X3D-desktop-CPU-review-Faster-than-a-Core-i9-13900K-thanks-to-3D-V-Cache-and-only-8-cores.734483.0.html",
+    "retrievedDate": "2026-11-03",
+    "conditions": {
+      "formFactor": "desktop",
+      "stock": true,
+      "notes": "Notebookcheck desktop CPU review test system."
+    }
+  },
+  {
+    "hardwareId": "amd-ryzen-7-7800x3d",
+    "benchmark": "cinebench",
+    "version": "r23",
+    "test": "single-core",
+    "value": 1820,
+    "sourceId": "notebookcheck",
+    "url": "https://www.notebookcheck.net/AMD-Ryzen-7-7800X3D-desktop-CPU-review-Faster-than-a-Core-i9-13900K-thanks-to-3D-V-Cache-and-only-8-cores.734483.0.html",
+    "retrievedDate": "2026-11-03",
+    "conditions": {
+      "formFactor": "desktop",
+      "stock": true,
+      "notes": "Notebookcheck desktop CPU review test system."
+    }
+  },
+  {
+    "hardwareId": "amd-ryzen-9-7900x",
+    "benchmark": "cinebench",
+    "version": "r23",
+    "test": "multi-core",
+    "value": 29480,
+    "sourceId": "notebookcheck",
+    "url": "https://www.notebookcheck.net/AMD-Ryzen-9-7900X-and-AMD-Ryzen-5-7600X-in-review-Back-to-the-fastest-gaming-CPU-crown-with-Raphael.657698.0.html",
+    "retrievedDate": "2026-11-03",
+    "conditions": {
+      "formFactor": "desktop",
+      "stock": true,
+      "notes": "Notebookcheck desktop CPU review test system."
+    }
+  },
+  {
+    "hardwareId": "amd-ryzen-9-7900x",
+    "benchmark": "cinebench",
+    "version": "r23",
+    "test": "single-core",
+    "value": 2039,
+    "sourceId": "notebookcheck",
+    "url": "https://www.notebookcheck.net/AMD-Ryzen-9-7900X-and-AMD-Ryzen-5-7600X-in-review-Back-to-the-fastest-gaming-CPU-crown-with-Raphael.657698.0.html",
+    "retrievedDate": "2026-11-03",
+    "conditions": {
+      "formFactor": "desktop",
+      "stock": true,
+      "notes": "Notebookcheck desktop CPU review test system."
+    }
+  },
+  {
+    "hardwareId": "amd-ryzen-9-7950x",
+    "benchmark": "cinebench",
+    "version": "r23",
+    "test": "multi-core",
+    "value": 38248,
+    "sourceId": "notebookcheck",
+    "url": "https://www.notebookcheck.net/AMD-Ryzen-9-7950X-and-AMD-Ryzen-7-7700X-Review-Superlative-performance-and-efficiency-gains-that-give-Raptor-Lake-a-run-for-the-money.671235.0.html",
+    "retrievedDate": "2026-11-03",
+    "conditions": {
+      "formFactor": "desktop",
+      "stock": true,
+      "notes": "Notebookcheck desktop CPU review test system."
+    }
+  },
+  {
+    "hardwareId": "amd-ryzen-9-7950x",
+    "benchmark": "cinebench",
+    "version": "r23",
+    "test": "single-core",
+    "value": 2017,
+    "sourceId": "notebookcheck",
+    "url": "https://www.notebookcheck.net/AMD-Ryzen-9-7950X-and-AMD-Ryzen-7-7700X-Review-Superlative-performance-and-efficiency-gains-that-give-Raptor-Lake-a-run-for-the-money.671235.0.html",
+    "retrievedDate": "2026-11-03",
+    "conditions": {
+      "formFactor": "desktop",
+      "stock": true,
+      "notes": "Notebookcheck desktop CPU review test system."
+    }
+  },
+  {
+    "hardwareId": "amd-ryzen-9-7950x3d",
+    "benchmark": "cinebench",
+    "version": "r23",
+    "test": "multi-core",
+    "value": 36291,
+    "sourceId": "notebookcheck",
+    "url": "https://www.notebookcheck.net/AMD-Ryzen-9-7950X3D-Desktop-CPU-review-New-gaming-flagship-with-3D-V-Cache-on-AM5-socket.704835.0.html",
+    "retrievedDate": "2026-11-03",
+    "conditions": {
+      "formFactor": "desktop",
+      "stock": true,
+      "notes": "Notebookcheck desktop CPU review test system."
+    }
+  },
+  {
+    "hardwareId": "amd-ryzen-9-7950x3d",
+    "benchmark": "cinebench",
+    "version": "r23",
+    "test": "single-core",
+    "value": 2053,
+    "sourceId": "notebookcheck",
+    "url": "https://www.notebookcheck.net/AMD-Ryzen-9-7950X3D-Desktop-CPU-review-New-gaming-flagship-with-3D-V-Cache-on-AM5-socket.704835.0.html",
+    "retrievedDate": "2026-11-03",
+    "conditions": {
+      "formFactor": "desktop",
+      "stock": true,
+      "notes": "Notebookcheck desktop CPU review test system."
+    }
+  },
+  {
+    "hardwareId": "amd-ryzen-5-9600x",
+    "benchmark": "cinebench",
+    "version": "r23",
+    "test": "multi-core",
+    "value": 17176,
+    "sourceId": "notebookcheck",
+    "url": "https://www.notebookcheck.net/Review-AMD-s-Ryzen-5-9600X-desktop-CPU-makes-Intel-s-Raptor-Lake-CPUs-look-old-thanks-to-efficient-Zen-5-architecture.872880.0.html",
+    "retrievedDate": "2026-11-03",
+    "conditions": {
+      "formFactor": "desktop",
+      "stock": true,
+      "notes": "Notebookcheck desktop CPU review test system."
+    }
+  },
+  {
+    "hardwareId": "amd-ryzen-5-9600x",
+    "benchmark": "cinebench",
+    "version": "r23",
+    "test": "single-core",
+    "value": 2180,
+    "sourceId": "notebookcheck",
+    "url": "https://www.notebookcheck.net/Review-AMD-s-Ryzen-5-9600X-desktop-CPU-makes-Intel-s-Raptor-Lake-CPUs-look-old-thanks-to-efficient-Zen-5-architecture.872880.0.html",
+    "retrievedDate": "2026-11-03",
+    "conditions": {
+      "formFactor": "desktop",
+      "stock": true,
+      "notes": "Notebookcheck desktop CPU review test system."
+    }
+  },
+  {
+    "hardwareId": "amd-ryzen-7-9700x",
+    "benchmark": "cinebench",
+    "version": "r23",
+    "test": "multi-core",
+    "value": 20485,
+    "sourceId": "notebookcheck",
+    "url": "https://www.notebookcheck.net/AMD-Ryzen-7-9700X-Review-Core-i9-14900K-levels-of-single-core-and-gaming-performance-with-Zen-5-for-US-185-less.874394.0.html",
+    "retrievedDate": "2026-11-03",
+    "conditions": {
+      "formFactor": "desktop",
+      "stock": true,
+      "notes": "Notebookcheck desktop CPU review test system."
+    }
+  },
+  {
+    "hardwareId": "amd-ryzen-7-9700x",
+    "benchmark": "cinebench",
+    "version": "r23",
+    "test": "single-core",
+    "value": 2211,
+    "sourceId": "notebookcheck",
+    "url": "https://www.notebookcheck.net/AMD-Ryzen-7-9700X-Review-Core-i9-14900K-levels-of-single-core-and-gaming-performance-with-Zen-5-for-US-185-less.874394.0.html",
+    "retrievedDate": "2026-11-03",
+    "conditions": {
+      "formFactor": "desktop",
+      "stock": true,
+      "notes": "Notebookcheck desktop CPU review test system."
+    }
+  },
+  {
+    "hardwareId": "amd-ryzen-9-9950x3d",
+    "benchmark": "cinebench",
+    "version": "r23",
+    "test": "multi-core",
+    "value": 42018,
+    "sourceId": "notebookcheck",
+    "url": "https://www.notebookcheck.net/AMD-Ryzen-9-9950X3D-Review-Ryzen-7-9800X3D-levels-of-gaming-performance-and-power-efficiency-for-50-markup-over-the-Ryzen-9-9950X.976049.0.html",
+    "retrievedDate": "2026-11-03",
+    "conditions": {
+      "formFactor": "desktop",
+      "stock": true,
+      "notes": "Notebookcheck desktop CPU review test system."
+    }
+  },
+  {
+    "hardwareId": "amd-ryzen-9-9950x3d",
+    "benchmark": "cinebench",
+    "version": "r23",
+    "test": "single-core",
+    "value": 2259,
+    "sourceId": "notebookcheck",
+    "url": "https://www.notebookcheck.net/AMD-Ryzen-9-9950X3D-Review-Ryzen-7-9800X3D-levels-of-gaming-performance-and-power-efficiency-for-50-markup-over-the-Ryzen-9-9950X.976049.0.html",
+    "retrievedDate": "2026-11-03",
+    "conditions": {
+      "formFactor": "desktop",
+      "stock": true,
+      "notes": "Notebookcheck desktop CPU review test system."
+    }
+  },
+  {
+    "hardwareId": "amd-ryzen-9-9950x3d",
+    "benchmark": "geekbench",
+    "version": "6",
+    "test": "multi-core",
+    "value": 22405,
+    "sourceId": "notebookcheck",
+    "url": "https://www.notebookcheck.net/AMD-Ryzen-9-9950X3D-Review-Ryzen-7-9800X3D-levels-of-gaming-performance-and-power-efficiency-for-50-markup-over-the-Ryzen-9-9950X.976049.0.html",
+    "retrievedDate": "2026-11-03",
+    "conditions": {
+      "formFactor": "desktop",
+      "stock": true,
+      "notes": "Notebookcheck desktop CPU review test system. Geekbench version 6.7."
+    }
+  },
+  {
+    "hardwareId": "amd-ryzen-9-9950x3d",
+    "benchmark": "geekbench",
+    "version": "6",
+    "test": "single-core",
+    "value": 3434,
+    "sourceId": "notebookcheck",
+    "url": "https://www.notebookcheck.net/AMD-Ryzen-9-9950X3D-Review-Ryzen-7-9800X3D-levels-of-gaming-performance-and-power-efficiency-for-50-markup-over-the-Ryzen-9-9950X.976049.0.html",
+    "retrievedDate": "2026-11-03",
+    "conditions": {
+      "formFactor": "desktop",
+      "stock": true,
+      "notes": "Notebookcheck desktop CPU review test system. Geekbench version 6.7."
+    }
+  },
+  {
+    "hardwareId": "intel-core-i5-13400f",
+    "benchmark": "cinebench",
+    "version": "r23",
+    "test": "multi-core",
+    "value": 15911,
+    "sourceId": "notebookcheck",
+    "url": "https://www.notebookcheck.net/Intel-Core-i5-13400F-desktop-CPU-in-review-Economical-and-inexpensive-10-core-processor-for-gaming-and-working.683539.0.html",
+    "retrievedDate": "2026-11-03",
+    "conditions": {
+      "formFactor": "desktop",
+      "stock": true,
+      "notes": "Notebookcheck desktop CPU review test system."
+    }
+  },
+  {
+    "hardwareId": "intel-core-i5-13400f",
+    "benchmark": "cinebench",
+    "version": "r23",
+    "test": "single-core",
+    "value": 1744,
+    "sourceId": "notebookcheck",
+    "url": "https://www.notebookcheck.net/Intel-Core-i5-13400F-desktop-CPU-in-review-Economical-and-inexpensive-10-core-processor-for-gaming-and-working.683539.0.html",
+    "retrievedDate": "2026-11-03",
+    "conditions": {
+      "formFactor": "desktop",
+      "stock": true,
+      "notes": "Notebookcheck desktop CPU review test system."
+    }
+  },
+  {
+    "hardwareId": "intel-core-i5-13600k",
+    "benchmark": "cinebench",
+    "version": "r23",
+    "test": "multi-core",
+    "value": 24268,
+    "sourceId": "notebookcheck",
+    "url": "https://www.notebookcheck.net/Intel-Core-i9-13900K-and-Intel-Core-i5-13600K-review-More-cores-and-a-higher-clock-speed-with-Raptor-Lake.663586.0.html",
+    "retrievedDate": "2026-11-03",
+    "conditions": {
+      "formFactor": "desktop",
+      "stock": true,
+      "notes": "Notebookcheck desktop CPU review test system."
+    }
+  },
+  {
+    "hardwareId": "intel-core-i5-13600k",
+    "benchmark": "cinebench",
+    "version": "r23",
+    "test": "single-core",
+    "value": 2010,
+    "sourceId": "notebookcheck",
+    "url": "https://www.notebookcheck.net/Intel-Core-i9-13900K-and-Intel-Core-i5-13600K-review-More-cores-and-a-higher-clock-speed-with-Raptor-Lake.663586.0.html",
+    "retrievedDate": "2026-11-03",
+    "conditions": {
+      "formFactor": "desktop",
+      "stock": true,
+      "notes": "Notebookcheck desktop CPU review test system."
+    }
+  },
+  {
+    "hardwareId": "intel-core-i9-13900k",
+    "benchmark": "cinebench",
+    "version": "r23",
+    "test": "multi-core",
+    "value": 40103,
+    "sourceId": "notebookcheck",
+    "url": "https://www.notebookcheck.net/Intel-Core-i9-13900K-and-Intel-Core-i5-13600K-review-More-cores-and-a-higher-clock-speed-with-Raptor-Lake.663586.0.html",
+    "retrievedDate": "2026-11-03",
+    "conditions": {
+      "formFactor": "desktop",
+      "stock": true,
+      "notes": "Notebookcheck desktop CPU review test system."
+    }
+  },
+  {
+    "hardwareId": "intel-core-i9-13900k",
+    "benchmark": "cinebench",
+    "version": "r23",
+    "test": "single-core",
+    "value": 2267,
+    "sourceId": "notebookcheck",
+    "url": "https://www.notebookcheck.net/Intel-Core-i9-13900K-and-Intel-Core-i5-13600K-review-More-cores-and-a-higher-clock-speed-with-Raptor-Lake.663586.0.html",
+    "retrievedDate": "2026-11-03",
+    "conditions": {
+      "formFactor": "desktop",
+      "stock": true,
+      "notes": "Notebookcheck desktop CPU review test system."
+    }
+  },
+  {
+    "hardwareId": "intel-core-i5-14600k",
+    "benchmark": "cinebench",
+    "version": "r23",
+    "test": "multi-core",
+    "value": 24491,
+    "sourceId": "notebookcheck",
+    "url": "https://www.notebookcheck.net/Intel-Core-i9-14900K-and-Intel-Core-i5-14600K-review-With-6-GHz-out-of-the-box-against-AMD-s-X3D-processors.759809.0.html",
+    "retrievedDate": "2026-11-03",
+    "conditions": {
+      "formFactor": "desktop",
+      "stock": true,
+      "notes": "Notebookcheck desktop CPU review test system."
+    }
+  },
+  {
+    "hardwareId": "intel-core-i5-14600k",
+    "benchmark": "cinebench",
+    "version": "r23",
+    "test": "single-core",
+    "value": 2064,
+    "sourceId": "notebookcheck",
+    "url": "https://www.notebookcheck.net/Intel-Core-i9-14900K-and-Intel-Core-i5-14600K-review-With-6-GHz-out-of-the-box-against-AMD-s-X3D-processors.759809.0.html",
+    "retrievedDate": "2026-11-03",
+    "conditions": {
+      "formFactor": "desktop",
+      "stock": true,
+      "notes": "Notebookcheck desktop CPU review test system."
+    }
+  },
+  {
+    "hardwareId": "intel-core-i7-14700k",
+    "benchmark": "cinebench",
+    "version": "r23",
+    "test": "multi-core",
+    "value": 35892,
+    "sourceId": "notebookcheck",
+    "url": "https://www.notebookcheck.net/Intel-Core-i7-14700K-Review-Equivalent-performance-to-that-of-Core-i9-13900K-and-Ryzen-9-7950X3D-for-nearly-US-200-less.778592.0.html",
+    "retrievedDate": "2026-11-03",
+    "conditions": {
+      "formFactor": "desktop",
+      "stock": true,
+      "notes": "Notebookcheck desktop CPU review test system."
+    }
+  },
+  {
+    "hardwareId": "intel-core-i7-14700k",
+    "benchmark": "cinebench",
+    "version": "r23",
+    "test": "single-core",
+    "value": 2153,
+    "sourceId": "notebookcheck",
+    "url": "https://www.notebookcheck.net/Intel-Core-i7-14700K-Review-Equivalent-performance-to-that-of-Core-i9-13900K-and-Ryzen-9-7950X3D-for-nearly-US-200-less.778592.0.html",
+    "retrievedDate": "2026-11-03",
+    "conditions": {
+      "formFactor": "desktop",
+      "stock": true,
+      "notes": "Notebookcheck desktop CPU review test system."
+    }
+  },
+  {
+    "hardwareId": "intel-core-i9-14900k",
+    "benchmark": "cinebench",
+    "version": "r23",
+    "test": "multi-core",
+    "value": 41193,
+    "sourceId": "notebookcheck",
+    "url": "https://www.notebookcheck.net/Intel-Core-i9-14900K-and-Intel-Core-i5-14600K-review-With-6-GHz-out-of-the-box-against-AMD-s-X3D-processors.759809.0.html",
+    "retrievedDate": "2026-11-03",
+    "conditions": {
+      "formFactor": "desktop",
+      "stock": true,
+      "notes": "Notebookcheck desktop CPU review test system."
+    }
+  },
+  {
+    "hardwareId": "intel-core-i9-14900k",
+    "benchmark": "cinebench",
+    "version": "r23",
+    "test": "single-core",
+    "value": 2351,
+    "sourceId": "notebookcheck",
+    "url": "https://www.notebookcheck.net/Intel-Core-i9-14900K-and-Intel-Core-i5-14600K-review-With-6-GHz-out-of-the-box-against-AMD-s-X3D-processors.759809.0.html",
+    "retrievedDate": "2026-11-03",
+    "conditions": {
+      "formFactor": "desktop",
+      "stock": true,
+      "notes": "Notebookcheck desktop CPU review test system."
+    }
+  },
+  {
+    "hardwareId": "amd-ryzen-5-7535hs",
+    "benchmark": "cinebench",
+    "version": "r23",
+    "test": "multi-core",
+    "value": 8613,
+    "sourceId": "notebookcheck",
+    "url": "https://www.notebookcheck.net/Lenovo-ThinkPad-E16-Gen-2-AMD-laptop-review-Cuts-corners-mostly-in-the-right-places.899320.0.html",
+    "retrievedDate": "2026-11-03",
+    "conditions": {
+      "formFactor": "laptop",
+      "stock": true,
+      "notes": "Tested in the Lenovo ThinkPad E16 Gen 2 21M5002VGE laptop (30 W PL1, 35 W PL2)."
+    }
+  },
+  {
+    "hardwareId": "amd-ryzen-5-7535hs",
+    "benchmark": "cinebench",
+    "version": "r23",
+    "test": "multi-core",
+    "value": 8540,
+    "sourceId": "notebookcheck",
+    "url": "https://www.notebookcheck.net/Lightweight-and-affordable-notebook-for-pupils-students-office-with-great-2K-display-Ninkear-S14-review.1148797.0.html",
+    "retrievedDate": "2026-11-03",
+    "conditions": {
+      "formFactor": "laptop",
+      "stock": true,
+      "notes": "Tested in the Ninkear S14, 16+1TB laptop (25 W PL1, 40 W PL2)."
+    }
+  },
+  {
+    "hardwareId": "amd-ryzen-5-7535hs",
+    "benchmark": "cinebench",
+    "version": "r23",
+    "test": "single-core",
+    "value": 1445,
+    "sourceId": "notebookcheck",
+    "url": "https://www.notebookcheck.net/Lenovo-ThinkPad-E16-Gen-2-AMD-laptop-review-Cuts-corners-mostly-in-the-right-places.899320.0.html",
+    "retrievedDate": "2026-11-03",
+    "conditions": {
+      "formFactor": "laptop",
+      "stock": true,
+      "notes": "Tested in the Lenovo ThinkPad E16 Gen 2 21M5002VGE laptop (30 W PL1, 35 W PL2)."
+    }
+  },
+  {
+    "hardwareId": "amd-ryzen-5-7535hs",
+    "benchmark": "cinebench",
+    "version": "r23",
+    "test": "single-core",
+    "value": 1435,
+    "sourceId": "notebookcheck",
+    "url": "https://www.notebookcheck.net/Lightweight-and-affordable-notebook-for-pupils-students-office-with-great-2K-display-Ninkear-S14-review.1148797.0.html",
+    "retrievedDate": "2026-11-03",
+    "conditions": {
+      "formFactor": "laptop",
+      "stock": true,
+      "notes": "Tested in the Ninkear S14, 16+1TB laptop (25 W PL1, 40 W PL2)."
+    }
+  },
+  {
+    "hardwareId": "amd-ryzen-5-7535hs",
+    "benchmark": "geekbench",
+    "version": "6",
+    "test": "multi-core",
+    "value": 8094,
+    "sourceId": "notebookcheck",
+    "url": "https://www.notebookcheck.net/Lenovo-ThinkPad-E16-Gen-2-AMD-laptop-review-Cuts-corners-mostly-in-the-right-places.899320.0.html",
+    "retrievedDate": "2026-11-03",
+    "conditions": {
+      "formFactor": "laptop",
+      "stock": true,
+      "notes": "Tested in the Lenovo ThinkPad E16 Gen 2 21M5002VGE laptop (30 W PL1, 35 W PL2). Geekbench version 6.7."
+    }
+  },
+  {
+    "hardwareId": "amd-ryzen-5-7535hs",
+    "benchmark": "geekbench",
+    "version": "6",
+    "test": "multi-core",
+    "value": 7611,
+    "sourceId": "notebookcheck",
+    "url": "https://www.notebookcheck.net/Lightweight-and-affordable-notebook-for-pupils-students-office-with-great-2K-display-Ninkear-S14-review.1148797.0.html",
+    "retrievedDate": "2026-11-03",
+    "conditions": {
+      "formFactor": "laptop",
+      "stock": true,
+      "notes": "Tested in the Ninkear S14, 16+1TB laptop (25 W PL1, 40 W PL2). Geekbench version 6.7."
+    }
+  },
+  {
+    "hardwareId": "amd-ryzen-5-7535hs",
+    "benchmark": "geekbench",
+    "version": "6",
+    "test": "single-core",
+    "value": 1988,
+    "sourceId": "notebookcheck",
+    "url": "https://www.notebookcheck.net/Lenovo-ThinkPad-E16-Gen-2-AMD-laptop-review-Cuts-corners-mostly-in-the-right-places.899320.0.html",
+    "retrievedDate": "2026-11-03",
+    "conditions": {
+      "formFactor": "laptop",
+      "stock": true,
+      "notes": "Tested in the Lenovo ThinkPad E16 Gen 2 21M5002VGE laptop (30 W PL1, 35 W PL2). Geekbench version 6.7."
+    }
+  },
+  {
+    "hardwareId": "amd-ryzen-5-7535hs",
+    "benchmark": "geekbench",
+    "version": "6",
+    "test": "single-core",
+    "value": 1922,
+    "sourceId": "notebookcheck",
+    "url": "https://www.notebookcheck.net/Lightweight-and-affordable-notebook-for-pupils-students-office-with-great-2K-display-Ninkear-S14-review.1148797.0.html",
+    "retrievedDate": "2026-11-03",
+    "conditions": {
+      "formFactor": "laptop",
+      "stock": true,
+      "notes": "Tested in the Ninkear S14, 16+1TB laptop (25 W PL1, 40 W PL2). Geekbench version 6.7."
+    }
+  },
+  {
+    "hardwareId": "amd-ryzen-7-7735hs",
+    "benchmark": "cinebench",
+    "version": "r23",
+    "test": "multi-core",
+    "value": 10283,
+    "sourceId": "notebookcheck",
+    "url": "https://www.notebookcheck.net/Highly-upgradeable-and-affordable-Lenovo-ThinkPad-E14-Gen-6-AMD-laptop-review.953041.0.html",
+    "retrievedDate": "2026-11-03",
+    "conditions": {
+      "formFactor": "laptop",
+      "stock": true,
+      "notes": "Tested in the Lenovo ThinkPad E14 Gen 6 21M3002KGE laptop (30 W PL1, 35 W PL2)."
+    }
+  },
+  {
+    "hardwareId": "amd-ryzen-7-7735hs",
+    "benchmark": "cinebench",
+    "version": "r23",
+    "test": "multi-core",
+    "value": 11116,
+    "sourceId": "notebookcheck",
+    "url": "https://www.notebookcheck.net/Lenovo-IdeaPad-Slim-5-15-laptop-review-Great-value-for-money-with-an-AMD-SoC-and-an-aluminum-case.945877.0.html",
+    "retrievedDate": "2026-11-03",
+    "conditions": {
+      "formFactor": "laptop",
+      "stock": true,
+      "notes": "Tested in the Lenovo IdeaPad Slim 5-15ARP G10 laptop (30 W PL1, 45 W PL2)."
+    }
+  },
+  {
+    "hardwareId": "amd-ryzen-7-7735hs",
+    "benchmark": "cinebench",
+    "version": "r23",
+    "test": "single-core",
+    "value": 1531,
+    "sourceId": "notebookcheck",
+    "url": "https://www.notebookcheck.net/Highly-upgradeable-and-affordable-Lenovo-ThinkPad-E14-Gen-6-AMD-laptop-review.953041.0.html",
+    "retrievedDate": "2026-11-03",
+    "conditions": {
+      "formFactor": "laptop",
+      "stock": true,
+      "notes": "Tested in the Lenovo ThinkPad E14 Gen 6 21M3002KGE laptop (30 W PL1, 35 W PL2)."
+    }
+  },
+  {
+    "hardwareId": "amd-ryzen-7-7735hs",
+    "benchmark": "cinebench",
+    "version": "r23",
+    "test": "single-core",
+    "value": 1552,
+    "sourceId": "notebookcheck",
+    "url": "https://www.notebookcheck.net/Lenovo-IdeaPad-Slim-5-15-laptop-review-Great-value-for-money-with-an-AMD-SoC-and-an-aluminum-case.945877.0.html",
+    "retrievedDate": "2026-11-03",
+    "conditions": {
+      "formFactor": "laptop",
+      "stock": true,
+      "notes": "Tested in the Lenovo IdeaPad Slim 5-15ARP G10 laptop (30 W PL1, 45 W PL2)."
+    }
+  },
+  {
+    "hardwareId": "amd-ryzen-7-7735hs",
+    "benchmark": "geekbench",
+    "version": "6",
+    "test": "multi-core",
+    "value": 9512,
+    "sourceId": "notebookcheck",
+    "url": "https://www.notebookcheck.net/Highly-upgradeable-and-affordable-Lenovo-ThinkPad-E14-Gen-6-AMD-laptop-review.953041.0.html",
+    "retrievedDate": "2026-11-03",
+    "conditions": {
+      "formFactor": "laptop",
+      "stock": true,
+      "notes": "Tested in the Lenovo ThinkPad E14 Gen 6 21M3002KGE laptop (30 W PL1, 35 W PL2). Geekbench version 6.7."
+    }
+  },
+  {
+    "hardwareId": "amd-ryzen-7-7735hs",
+    "benchmark": "geekbench",
+    "version": "6",
+    "test": "multi-core",
+    "value": 8024,
+    "sourceId": "notebookcheck",
+    "url": "https://www.notebookcheck.net/Lenovo-IdeaPad-Slim-5-15-laptop-review-Great-value-for-money-with-an-AMD-SoC-and-an-aluminum-case.945877.0.html",
+    "retrievedDate": "2026-11-03",
+    "conditions": {
+      "formFactor": "laptop",
+      "stock": true,
+      "notes": "Tested in the Lenovo IdeaPad Slim 5-15ARP G10 laptop (30 W PL1, 45 W PL2). Geekbench version 6.7."
+    }
+  },
+  {
+    "hardwareId": "amd-ryzen-7-7735hs",
+    "benchmark": "geekbench",
+    "version": "6",
+    "test": "single-core",
+    "value": 2124,
+    "sourceId": "notebookcheck",
+    "url": "https://www.notebookcheck.net/Highly-upgradeable-and-affordable-Lenovo-ThinkPad-E14-Gen-6-AMD-laptop-review.953041.0.html",
+    "retrievedDate": "2026-11-03",
+    "conditions": {
+      "formFactor": "laptop",
+      "stock": true,
+      "notes": "Tested in the Lenovo ThinkPad E14 Gen 6 21M3002KGE laptop (30 W PL1, 35 W PL2). Geekbench version 6.7."
+    }
+  },
+  {
+    "hardwareId": "amd-ryzen-7-7735hs",
+    "benchmark": "geekbench",
+    "version": "6",
+    "test": "single-core",
+    "value": 2058,
+    "sourceId": "notebookcheck",
+    "url": "https://www.notebookcheck.net/Lenovo-IdeaPad-Slim-5-15-laptop-review-Great-value-for-money-with-an-AMD-SoC-and-an-aluminum-case.945877.0.html",
+    "retrievedDate": "2026-11-03",
+    "conditions": {
+      "formFactor": "laptop",
+      "stock": true,
+      "notes": "Tested in the Lenovo IdeaPad Slim 5-15ARP G10 laptop (30 W PL1, 45 W PL2). Geekbench version 6.7."
+    }
+  },
+  {
+    "hardwareId": "amd-ryzen-7-7840hs",
+    "benchmark": "cinebench",
+    "version": "r23",
+    "test": "multi-core",
+    "value": 16201,
+    "sourceId": "notebookcheck",
+    "url": "https://www.notebookcheck.net/Lenovo-Yoga-Pro-7-14-G8-laptop-review-AMD-Zen4-isn-t-automatically-better.787943.0.html",
+    "retrievedDate": "2026-11-03",
+    "conditions": {
+      "formFactor": "laptop",
+      "stock": true,
+      "notes": "Tested in the iperf3 transmit AXE11000 1785 (min: 1706) MBit/s ∼98% iperf3 receive AXE11000 1702 (min: 1687) MBit/s ∼96% Lenovo Yoga Pro 7 14ARP G8 laptop (54 W PL1, 60 W PL2)."
+    }
+  },
+  {
+    "hardwareId": "amd-ryzen-7-7840hs",
+    "benchmark": "cinebench",
+    "version": "r23",
+    "test": "multi-core",
+    "value": 15821,
+    "sourceId": "notebookcheck",
+    "url": "https://www.notebookcheck.net/XMG-Apex-15-Late-23-review-The-gaming-laptop-with-an-RTX-4050-that-delivers-good-runtimes.758583.0.html",
+    "retrievedDate": "2026-11-03",
+    "conditions": {
+      "formFactor": "laptop",
+      "stock": true,
+      "notes": "Tested in the Schenker XMG Apex 15 (Late 23) laptop (54 W PL1, 65 W PL2)."
+    }
+  },
+  {
+    "hardwareId": "amd-ryzen-7-7840hs",
+    "benchmark": "cinebench",
+    "version": "r23",
+    "test": "single-core",
+    "value": 1742,
+    "sourceId": "notebookcheck",
+    "url": "https://www.notebookcheck.net/Lenovo-Yoga-Pro-7-14-G8-laptop-review-AMD-Zen4-isn-t-automatically-better.787943.0.html",
+    "retrievedDate": "2026-11-03",
+    "conditions": {
+      "formFactor": "laptop",
+      "stock": true,
+      "notes": "Tested in the iperf3 transmit AXE11000 1785 (min: 1706) MBit/s ∼98% iperf3 receive AXE11000 1702 (min: 1687) MBit/s ∼96% Lenovo Yoga Pro 7 14ARP G8 laptop (54 W PL1, 60 W PL2)."
+    }
+  },
+  {
+    "hardwareId": "amd-ryzen-7-7840hs",
+    "benchmark": "cinebench",
+    "version": "r23",
+    "test": "single-core",
+    "value": 1757,
+    "sourceId": "notebookcheck",
+    "url": "https://www.notebookcheck.net/XMG-Apex-15-Late-23-review-The-gaming-laptop-with-an-RTX-4050-that-delivers-good-runtimes.758583.0.html",
+    "retrievedDate": "2026-11-03",
+    "conditions": {
+      "formFactor": "laptop",
+      "stock": true,
+      "notes": "Tested in the Schenker XMG Apex 15 (Late 23) laptop (54 W PL1, 65 W PL2)."
+    }
+  },
+  {
+    "hardwareId": "amd-ryzen-9-7940hs",
+    "benchmark": "cinebench",
+    "version": "r23",
+    "test": "multi-core",
+    "value": 18131,
+    "sourceId": "notebookcheck",
+    "url": "https://www.notebookcheck.net/Asus-ROG-Zephyrus-G14-Review-Compact-Gaming-Laptop-with-AMD-Zen4-Phoenix-RTX-4090.711986.0.html",
+    "retrievedDate": "2026-11-03",
+    "conditions": {
+      "formFactor": "laptop",
+      "stock": true,
+      "notes": "Tested in the Asus ROG Zephyrus G14 GA402XY laptop (80 W PL1, 80 W PL2)."
+    }
+  },
+  {
+    "hardwareId": "amd-ryzen-9-7940hs",
+    "benchmark": "cinebench",
+    "version": "r23",
+    "test": "multi-core",
+    "value": 16519,
+    "sourceId": "notebookcheck",
+    "url": "https://www.notebookcheck.net/Radeon-RX-7700S-performance-debut-Framework-Laptop-16-review.790807.0.html",
+    "retrievedDate": "2026-11-03",
+    "conditions": {
+      "formFactor": "laptop",
+      "stock": true,
+      "notes": "Tested in the Framework Laptop 16 laptop (54 W PL1, 79 W PL2)."
+    }
+  },
+  {
+    "hardwareId": "amd-ryzen-9-7940hs",
+    "benchmark": "cinebench",
+    "version": "r23",
+    "test": "single-core",
+    "value": 1789,
+    "sourceId": "notebookcheck",
+    "url": "https://www.notebookcheck.net/Asus-ROG-Zephyrus-G14-Review-Compact-Gaming-Laptop-with-AMD-Zen4-Phoenix-RTX-4090.711986.0.html",
+    "retrievedDate": "2026-11-03",
+    "conditions": {
+      "formFactor": "laptop",
+      "stock": true,
+      "notes": "Tested in the Asus ROG Zephyrus G14 GA402XY laptop (80 W PL1, 80 W PL2)."
+    }
+  },
+  {
+    "hardwareId": "amd-ryzen-9-7940hs",
+    "benchmark": "cinebench",
+    "version": "r23",
+    "test": "single-core",
+    "value": 1733,
+    "sourceId": "notebookcheck",
+    "url": "https://www.notebookcheck.net/Radeon-RX-7700S-performance-debut-Framework-Laptop-16-review.790807.0.html",
+    "retrievedDate": "2026-11-03",
+    "conditions": {
+      "formFactor": "laptop",
+      "stock": true,
+      "notes": "Tested in the Framework Laptop 16 laptop (54 W PL1, 79 W PL2)."
+    }
+  },
+  {
+    "hardwareId": "amd-ryzen-7-8845hs",
+    "benchmark": "cinebench",
+    "version": "r23",
+    "test": "multi-core",
+    "value": 15889,
+    "sourceId": "notebookcheck",
+    "url": "https://www.notebookcheck.net/Lenovo-IdeaPad-Pro-5-14AHP9-laptop-review-The-powerful-ultraportable-with-Ryzen-8000-and-120-Hz-OLED.815456.0.html",
+    "retrievedDate": "2026-11-03",
+    "conditions": {
+      "formFactor": "laptop",
+      "stock": true,
+      "notes": "Tested in the Lenovo IdeaPad Pro 5 14AHP9 laptop (50 W PL1, 60 W PL2)."
+    }
+  },
+  {
+    "hardwareId": "amd-ryzen-7-8845hs",
+    "benchmark": "cinebench",
+    "version": "r23",
+    "test": "multi-core",
+    "value": 16387,
+    "sourceId": "notebookcheck",
+    "url": "https://www.notebookcheck.net/Schenker-VIA-14-Pro-M24-review-Compact-AMD-subnotebook-now-with-Ryzen-8000-and-brighter-display.862062.0.html",
+    "retrievedDate": "2026-11-03",
+    "conditions": {
+      "formFactor": "laptop",
+      "stock": true,
+      "notes": "Tested in the Schenker VIA 14 Pro (M24) laptop (54 W PL1, 54 W PL2)."
+    }
+  },
+  {
+    "hardwareId": "amd-ryzen-7-8845hs",
+    "benchmark": "cinebench",
+    "version": "r23",
+    "test": "single-core",
+    "value": 1716,
+    "sourceId": "notebookcheck",
+    "url": "https://www.notebookcheck.net/Lenovo-IdeaPad-Pro-5-14AHP9-laptop-review-The-powerful-ultraportable-with-Ryzen-8000-and-120-Hz-OLED.815456.0.html",
+    "retrievedDate": "2026-11-03",
+    "conditions": {
+      "formFactor": "laptop",
+      "stock": true,
+      "notes": "Tested in the Lenovo IdeaPad Pro 5 14AHP9 laptop (50 W PL1, 60 W PL2)."
+    }
+  },
+  {
+    "hardwareId": "amd-ryzen-7-8845hs",
+    "benchmark": "cinebench",
+    "version": "r23",
+    "test": "single-core",
+    "value": 1774,
+    "sourceId": "notebookcheck",
+    "url": "https://www.notebookcheck.net/Schenker-VIA-14-Pro-M24-review-Compact-AMD-subnotebook-now-with-Ryzen-8000-and-brighter-display.862062.0.html",
+    "retrievedDate": "2026-11-03",
+    "conditions": {
+      "formFactor": "laptop",
+      "stock": true,
+      "notes": "Tested in the Schenker VIA 14 Pro (M24) laptop (54 W PL1, 54 W PL2)."
+    }
+  },
+  {
+    "hardwareId": "amd-ryzen-7-8845hs",
+    "benchmark": "geekbench",
+    "version": "6",
+    "test": "multi-core",
+    "value": 12578,
+    "sourceId": "notebookcheck",
+    "url": "https://www.notebookcheck.net/Lenovo-IdeaPad-Pro-5-14AHP9-laptop-review-The-powerful-ultraportable-with-Ryzen-8000-and-120-Hz-OLED.815456.0.html",
+    "retrievedDate": "2026-11-03",
+    "conditions": {
+      "formFactor": "laptop",
+      "stock": true,
+      "notes": "Tested in the Lenovo IdeaPad Pro 5 14AHP9 laptop (50 W PL1, 60 W PL2). Geekbench version 6.7."
+    }
+  },
+  {
+    "hardwareId": "amd-ryzen-7-8845hs",
+    "benchmark": "geekbench",
+    "version": "6",
+    "test": "multi-core",
+    "value": 12940,
+    "sourceId": "notebookcheck",
+    "url": "https://www.notebookcheck.net/Schenker-VIA-14-Pro-M24-review-Compact-AMD-subnotebook-now-with-Ryzen-8000-and-brighter-display.862062.0.html",
+    "retrievedDate": "2026-11-03",
+    "conditions": {
+      "formFactor": "laptop",
+      "stock": true,
+      "notes": "Tested in the Schenker VIA 14 Pro (M24) laptop (54 W PL1, 54 W PL2). Geekbench version 6.7."
+    }
+  },
+  {
+    "hardwareId": "amd-ryzen-7-8845hs",
+    "benchmark": "geekbench",
+    "version": "6",
+    "test": "single-core",
+    "value": 2540,
+    "sourceId": "notebookcheck",
+    "url": "https://www.notebookcheck.net/Lenovo-IdeaPad-Pro-5-14AHP9-laptop-review-The-powerful-ultraportable-with-Ryzen-8000-and-120-Hz-OLED.815456.0.html",
+    "retrievedDate": "2026-11-03",
+    "conditions": {
+      "formFactor": "laptop",
+      "stock": true,
+      "notes": "Tested in the Lenovo IdeaPad Pro 5 14AHP9 laptop (50 W PL1, 60 W PL2). Geekbench version 6.7."
+    }
+  },
+  {
+    "hardwareId": "amd-ryzen-7-8845hs",
+    "benchmark": "geekbench",
+    "version": "6",
+    "test": "single-core",
+    "value": 2612,
+    "sourceId": "notebookcheck",
+    "url": "https://www.notebookcheck.net/Schenker-VIA-14-Pro-M24-review-Compact-AMD-subnotebook-now-with-Ryzen-8000-and-brighter-display.862062.0.html",
+    "retrievedDate": "2026-11-03",
+    "conditions": {
+      "formFactor": "laptop",
+      "stock": true,
+      "notes": "Tested in the Schenker VIA 14 Pro (M24) laptop (54 W PL1, 54 W PL2). Geekbench version 6.7."
+    }
+  },
+  {
+    "hardwareId": "amd-ryzen-9-8945hs",
+    "benchmark": "cinebench",
+    "version": "r23",
+    "test": "multi-core",
+    "value": 17079,
+    "sourceId": "notebookcheck",
+    "url": "https://www.notebookcheck.net/Asus-ROG-Zephyrus-G14-2024-review-The-gaming-multimedia-laptop-with-Ryzen-8000-and-G-Sync-OLED.800772.0.html",
+    "retrievedDate": "2026-11-03",
+    "conditions": {
+      "formFactor": "laptop",
+      "stock": true,
+      "notes": "Tested in the Asus ROG Zephyrus G14 2024 GA403U laptop (45 W PL1, 65 W PL2)."
+    }
+  },
+  {
+    "hardwareId": "amd-ryzen-9-8945hs",
+    "benchmark": "cinebench",
+    "version": "r23",
+    "test": "multi-core",
+    "value": 17376,
+    "sourceId": "notebookcheck",
+    "url": "https://www.notebookcheck.net/Razer-Blade-14-2024-laptop-review-Futureproofing-with-Ryzen-AI.799687.0.html",
+    "retrievedDate": "2026-11-03",
+    "conditions": {
+      "formFactor": "laptop",
+      "stock": true,
+      "notes": "Tested in the Razer Blade 14 RZ09-0508 laptop (75 W PL1, 90 W PL2)."
+    }
+  },
+  {
+    "hardwareId": "amd-ryzen-9-8945hs",
+    "benchmark": "cinebench",
+    "version": "r23",
+    "test": "single-core",
+    "value": 1805,
+    "sourceId": "notebookcheck",
+    "url": "https://www.notebookcheck.net/Asus-ROG-Zephyrus-G14-2024-review-The-gaming-multimedia-laptop-with-Ryzen-8000-and-G-Sync-OLED.800772.0.html",
+    "retrievedDate": "2026-11-03",
+    "conditions": {
+      "formFactor": "laptop",
+      "stock": true,
+      "notes": "Tested in the Asus ROG Zephyrus G14 2024 GA403U laptop (45 W PL1, 65 W PL2)."
+    }
+  },
+  {
+    "hardwareId": "amd-ryzen-9-8945hs",
+    "benchmark": "cinebench",
+    "version": "r23",
+    "test": "single-core",
+    "value": 1805,
+    "sourceId": "notebookcheck",
+    "url": "https://www.notebookcheck.net/Razer-Blade-14-2024-laptop-review-Futureproofing-with-Ryzen-AI.799687.0.html",
+    "retrievedDate": "2026-11-03",
+    "conditions": {
+      "formFactor": "laptop",
+      "stock": true,
+      "notes": "Tested in the Razer Blade 14 RZ09-0508 laptop (75 W PL1, 90 W PL2)."
+    }
+  },
+  {
+    "hardwareId": "amd-ryzen-9-8945hs",
+    "benchmark": "geekbench",
+    "version": "6",
+    "test": "multi-core",
+    "value": 13155,
+    "sourceId": "notebookcheck",
+    "url": "https://www.notebookcheck.net/Asus-ROG-Zephyrus-G14-2024-review-The-gaming-multimedia-laptop-with-Ryzen-8000-and-G-Sync-OLED.800772.0.html",
+    "retrievedDate": "2026-11-03",
+    "conditions": {
+      "formFactor": "laptop",
+      "stock": true,
+      "notes": "Tested in the Asus ROG Zephyrus G14 2024 GA403U laptop (45 W PL1, 65 W PL2). Geekbench version 6.7."
+    }
+  },
+  {
+    "hardwareId": "amd-ryzen-9-8945hs",
+    "benchmark": "geekbench",
+    "version": "6",
+    "test": "multi-core",
+    "value": 13715,
+    "sourceId": "notebookcheck",
+    "url": "https://www.notebookcheck.net/Razer-Blade-14-2024-laptop-review-Futureproofing-with-Ryzen-AI.799687.0.html",
+    "retrievedDate": "2026-11-03",
+    "conditions": {
+      "formFactor": "laptop",
+      "stock": true,
+      "notes": "Tested in the Razer Blade 14 RZ09-0508 laptop (75 W PL1, 90 W PL2). Geekbench version 6.7."
+    }
+  },
+  {
+    "hardwareId": "amd-ryzen-9-8945hs",
+    "benchmark": "geekbench",
+    "version": "6",
+    "test": "single-core",
+    "value": 2632,
+    "sourceId": "notebookcheck",
+    "url": "https://www.notebookcheck.net/Asus-ROG-Zephyrus-G14-2024-review-The-gaming-multimedia-laptop-with-Ryzen-8000-and-G-Sync-OLED.800772.0.html",
+    "retrievedDate": "2026-11-03",
+    "conditions": {
+      "formFactor": "laptop",
+      "stock": true,
+      "notes": "Tested in the Asus ROG Zephyrus G14 2024 GA403U laptop (45 W PL1, 65 W PL2). Geekbench version 6.7."
+    }
+  },
+  {
+    "hardwareId": "amd-ryzen-9-8945hs",
+    "benchmark": "geekbench",
+    "version": "6",
+    "test": "single-core",
+    "value": 2684,
+    "sourceId": "notebookcheck",
+    "url": "https://www.notebookcheck.net/Razer-Blade-14-2024-laptop-review-Futureproofing-with-Ryzen-AI.799687.0.html",
+    "retrievedDate": "2026-11-03",
+    "conditions": {
+      "formFactor": "laptop",
+      "stock": true,
+      "notes": "Tested in the Razer Blade 14 RZ09-0508 laptop (75 W PL1, 90 W PL2). Geekbench version 6.7."
+    }
+  },
+  {
+    "hardwareId": "amd-ryzen-9-7945hx",
+    "benchmark": "cinebench",
+    "version": "2026",
+    "test": "multi-core",
+    "value": 6628,
+    "sourceId": "notebookcheck",
+    "url": "https://www.notebookcheck.net/Asus-ROG-Strix-Scar-17-G733PY-laptop-review-Intel-is-no-longer-king.706291.0.html",
+    "retrievedDate": "2026-11-03",
+    "conditions": {
+      "formFactor": "laptop",
+      "stock": true,
+      "notes": "Tested in the Asus ROG Strix Scar 17 G733PY-XS96 laptop (128 W PL1, 128 W PL2)."
+    }
+  },
+  {
+    "hardwareId": "amd-ryzen-9-7945hx",
+    "benchmark": "cinebench",
+    "version": "r23",
+    "test": "multi-core",
+    "value": 34087,
+    "sourceId": "notebookcheck",
+    "url": "https://www.notebookcheck.net/Asus-ROG-Strix-Scar-17-G733PY-laptop-review-Intel-is-no-longer-king.706291.0.html",
+    "retrievedDate": "2026-11-03",
+    "conditions": {
+      "formFactor": "laptop",
+      "stock": true,
+      "notes": "Tested in the Asus ROG Strix Scar 17 G733PY-XS96 laptop (128 W PL1, 128 W PL2)."
+    }
+  },
+  {
+    "hardwareId": "amd-ryzen-9-7945hx",
+    "benchmark": "cinebench",
+    "version": "r23",
+    "test": "multi-core",
+    "value": 34521,
+    "sourceId": "notebookcheck",
+    "url": "https://www.notebookcheck.net/Asus-ROG-Zephyrus-Duo-16-Notebook-Review-Multitasking-monster-with-AMD-Zen4-RTX-4090-Mini-LED.701152.0.html",
+    "retrievedDate": "2026-11-03",
+    "conditions": {
+      "formFactor": "laptop",
+      "stock": true,
+      "notes": "Tested in the Asus Zephyrus Duo 16 GX650PY-NM006W laptop (120 W PL1, 130 W PL2)."
+    }
+  },
+  {
+    "hardwareId": "amd-ryzen-9-7945hx",
+    "benchmark": "cinebench",
+    "version": "r23",
+    "test": "single-core",
+    "value": 1873,
+    "sourceId": "notebookcheck",
+    "url": "https://www.notebookcheck.net/Asus-ROG-Strix-Scar-17-G733PY-laptop-review-Intel-is-no-longer-king.706291.0.html",
+    "retrievedDate": "2026-11-03",
+    "conditions": {
+      "formFactor": "laptop",
+      "stock": true,
+      "notes": "Tested in the Asus ROG Strix Scar 17 G733PY-XS96 laptop (128 W PL1, 128 W PL2)."
+    }
+  },
+  {
+    "hardwareId": "amd-ryzen-9-7945hx",
+    "benchmark": "cinebench",
+    "version": "r23",
+    "test": "single-core",
+    "value": 1940,
+    "sourceId": "notebookcheck",
+    "url": "https://www.notebookcheck.net/Asus-ROG-Zephyrus-Duo-16-Notebook-Review-Multitasking-monster-with-AMD-Zen4-RTX-4090-Mini-LED.701152.0.html",
+    "retrievedDate": "2026-11-03",
+    "conditions": {
+      "formFactor": "laptop",
+      "stock": true,
+      "notes": "Tested in the Asus Zephyrus Duo 16 GX650PY-NM006W laptop (120 W PL1, 130 W PL2)."
+    }
+  },
+  {
+    "hardwareId": "amd-ryzen-9-9955hx",
+    "benchmark": "cinebench",
+    "version": "2026",
+    "test": "multi-core",
+    "value": 8015,
+    "sourceId": "notebookcheck",
+    "url": "https://www.notebookcheck.net/Gaming-notebook-with-Ryzen-9-9955HX-and-RTX-5070-Ti-laptop-GPU-Chuwi-Gamebook-review.1079279.0.html",
+    "retrievedDate": "2026-11-03",
+    "conditions": {
+      "formFactor": "laptop",
+      "stock": true,
+      "notes": "Tested in the Chuwi Gamebook, R9 9955HX laptop (110 W PL1, 110 W PL2)."
+    }
+  },
+  {
+    "hardwareId": "amd-ryzen-9-9955hx",
+    "benchmark": "cinebench",
+    "version": "r23",
+    "test": "multi-core",
+    "value": 36127,
+    "sourceId": "notebookcheck",
+    "url": "https://www.notebookcheck.net/Gaming-notebook-with-Ryzen-9-9955HX-and-RTX-5070-Ti-laptop-GPU-Chuwi-Gamebook-review.1079279.0.html",
+    "retrievedDate": "2026-11-03",
+    "conditions": {
+      "formFactor": "laptop",
+      "stock": true,
+      "notes": "Tested in the Chuwi Gamebook, R9 9955HX laptop (110 W PL1, 110 W PL2)."
+    }
+  },
+  {
+    "hardwareId": "amd-ryzen-9-9955hx",
+    "benchmark": "cinebench",
+    "version": "r23",
+    "test": "multi-core",
+    "value": 39690,
+    "sourceId": "notebookcheck",
+    "url": "https://www.notebookcheck.net/MSI-Vector-A18-HX-A9W-laptop-review-GeForce-RTX-5070-Ti-is-the-way-to-go.1006977.0.html",
+    "retrievedDate": "2026-11-03",
+    "conditions": {
+      "formFactor": "laptop",
+      "stock": true,
+      "notes": "Tested in the MSI Vector A18 HX A9W laptop (145 W PL1, 145 W PL2)."
+    }
+  },
+  {
+    "hardwareId": "amd-ryzen-9-9955hx",
+    "benchmark": "cinebench",
+    "version": "r23",
+    "test": "single-core",
+    "value": 2174,
+    "sourceId": "notebookcheck",
+    "url": "https://www.notebookcheck.net/Gaming-notebook-with-Ryzen-9-9955HX-and-RTX-5070-Ti-laptop-GPU-Chuwi-Gamebook-review.1079279.0.html",
+    "retrievedDate": "2026-11-03",
+    "conditions": {
+      "formFactor": "laptop",
+      "stock": true,
+      "notes": "Tested in the Chuwi Gamebook, R9 9955HX laptop (110 W PL1, 110 W PL2)."
+    }
+  },
+  {
+    "hardwareId": "amd-ryzen-9-9955hx",
+    "benchmark": "cinebench",
+    "version": "r23",
+    "test": "single-core",
+    "value": 1828,
+    "sourceId": "notebookcheck",
+    "url": "https://www.notebookcheck.net/MSI-Vector-A18-HX-A9W-laptop-review-GeForce-RTX-5070-Ti-is-the-way-to-go.1006977.0.html",
+    "retrievedDate": "2026-11-03",
+    "conditions": {
+      "formFactor": "laptop",
+      "stock": true,
+      "notes": "Tested in the MSI Vector A18 HX A9W laptop (145 W PL1, 145 W PL2)."
+    }
+  },
+  {
+    "hardwareId": "amd-ryzen-9-9955hx",
+    "benchmark": "geekbench",
+    "version": "6",
+    "test": "multi-core",
+    "value": 19052,
+    "sourceId": "notebookcheck",
+    "url": "https://www.notebookcheck.net/Gaming-notebook-with-Ryzen-9-9955HX-and-RTX-5070-Ti-laptop-GPU-Chuwi-Gamebook-review.1079279.0.html",
+    "retrievedDate": "2026-11-03",
+    "conditions": {
+      "formFactor": "laptop",
+      "stock": true,
+      "notes": "Tested in the Chuwi Gamebook, R9 9955HX laptop (110 W PL1, 110 W PL2). Geekbench version 6.7."
+    }
+  },
+  {
+    "hardwareId": "amd-ryzen-9-9955hx",
+    "benchmark": "geekbench",
+    "version": "6",
+    "test": "multi-core",
+    "value": 16313,
+    "sourceId": "notebookcheck",
+    "url": "https://www.notebookcheck.net/MSI-Vector-A18-HX-A9W-laptop-review-GeForce-RTX-5070-Ti-is-the-way-to-go.1006977.0.html",
+    "retrievedDate": "2026-11-03",
+    "conditions": {
+      "formFactor": "laptop",
+      "stock": true,
+      "notes": "Tested in the MSI Vector A18 HX A9W laptop (145 W PL1, 145 W PL2). Geekbench version 6.7."
+    }
+  },
+  {
+    "hardwareId": "amd-ryzen-9-9955hx",
+    "benchmark": "geekbench",
+    "version": "6",
+    "test": "single-core",
+    "value": 3156,
+    "sourceId": "notebookcheck",
+    "url": "https://www.notebookcheck.net/Gaming-notebook-with-Ryzen-9-9955HX-and-RTX-5070-Ti-laptop-GPU-Chuwi-Gamebook-review.1079279.0.html",
+    "retrievedDate": "2026-11-03",
+    "conditions": {
+      "formFactor": "laptop",
+      "stock": true,
+      "notes": "Tested in the Chuwi Gamebook, R9 9955HX laptop (110 W PL1, 110 W PL2). Geekbench version 6.7."
+    }
+  },
+  {
+    "hardwareId": "amd-ryzen-9-9955hx",
+    "benchmark": "geekbench",
+    "version": "6",
+    "test": "single-core",
+    "value": 3175,
+    "sourceId": "notebookcheck",
+    "url": "https://www.notebookcheck.net/MSI-Vector-A18-HX-A9W-laptop-review-GeForce-RTX-5070-Ti-is-the-way-to-go.1006977.0.html",
+    "retrievedDate": "2026-11-03",
+    "conditions": {
+      "formFactor": "laptop",
+      "stock": true,
+      "notes": "Tested in the MSI Vector A18 HX A9W laptop (145 W PL1, 145 W PL2). Geekbench version 6.7."
+    }
+  },
+  {
+    "hardwareId": "amd-ryzen-ai-9-hx-370",
+    "benchmark": "cinebench",
+    "version": "r23",
+    "test": "multi-core",
+    "value": 16522,
+    "sourceId": "notebookcheck",
+    "url": "https://www.notebookcheck.net/Asus-Zenbook-S-16-laptop-review-The-first-Copilot-laptop-with-AMD-Zen-5-inside-a-1-3-cm-thick-case.868219.0.html",
+    "retrievedDate": "2026-11-03",
+    "conditions": {
+      "formFactor": "laptop",
+      "stock": true,
+      "notes": "Tested in the Asus Zenbook S 16 UM5606-RK333W laptop (28 W PL1, 33 W PL2)."
+    }
+  },
+  {
+    "hardwareId": "amd-ryzen-ai-9-hx-370",
+    "benchmark": "cinebench",
+    "version": "r23",
+    "test": "multi-core",
+    "value": 17963,
+    "sourceId": "notebookcheck",
+    "url": "https://www.notebookcheck.net/Framework-Laptop-13-5-Ryzen-AI-9-review-Skip-the-Intel-version-for-better-performance.997363.0.html",
+    "retrievedDate": "2026-11-03",
+    "conditions": {
+      "formFactor": "laptop",
+      "stock": true,
+      "notes": "Tested in the Framework Laptop 13.5 Ryzen AI 9 HX 370 laptop (28 W PL1, 46 W PL2)."
+    }
+  },
+  {
+    "hardwareId": "amd-ryzen-ai-9-hx-370",
+    "benchmark": "cinebench",
+    "version": "r23",
+    "test": "single-core",
+    "value": 1953,
+    "sourceId": "notebookcheck",
+    "url": "https://www.notebookcheck.net/Asus-Zenbook-S-16-laptop-review-The-first-Copilot-laptop-with-AMD-Zen-5-inside-a-1-3-cm-thick-case.868219.0.html",
+    "retrievedDate": "2026-11-03",
+    "conditions": {
+      "formFactor": "laptop",
+      "stock": true,
+      "notes": "Tested in the Asus Zenbook S 16 UM5606-RK333W laptop (28 W PL1, 33 W PL2)."
+    }
+  },
+  {
+    "hardwareId": "amd-ryzen-ai-9-hx-370",
+    "benchmark": "cinebench",
+    "version": "r23",
+    "test": "single-core",
+    "value": 1921,
+    "sourceId": "notebookcheck",
+    "url": "https://www.notebookcheck.net/Framework-Laptop-13-5-Ryzen-AI-9-review-Skip-the-Intel-version-for-better-performance.997363.0.html",
+    "retrievedDate": "2026-11-03",
+    "conditions": {
+      "formFactor": "laptop",
+      "stock": true,
+      "notes": "Tested in the Framework Laptop 13.5 Ryzen AI 9 HX 370 laptop (28 W PL1, 46 W PL2)."
+    }
+  },
+  {
+    "hardwareId": "amd-ryzen-ai-9-hx-370",
+    "benchmark": "geekbench",
+    "version": "6",
+    "test": "multi-core",
+    "value": 13648,
+    "sourceId": "notebookcheck",
+    "url": "https://www.notebookcheck.net/Asus-Zenbook-S-16-laptop-review-The-first-Copilot-laptop-with-AMD-Zen-5-inside-a-1-3-cm-thick-case.868219.0.html",
+    "retrievedDate": "2026-11-03",
+    "conditions": {
+      "formFactor": "laptop",
+      "stock": true,
+      "notes": "Tested in the Asus Zenbook S 16 UM5606-RK333W laptop (28 W PL1, 33 W PL2). Geekbench version 6.7."
+    }
+  },
+  {
+    "hardwareId": "amd-ryzen-ai-9-hx-370",
+    "benchmark": "geekbench",
+    "version": "6",
+    "test": "multi-core",
+    "value": 14531,
+    "sourceId": "notebookcheck",
+    "url": "https://www.notebookcheck.net/Framework-Laptop-13-5-Ryzen-AI-9-review-Skip-the-Intel-version-for-better-performance.997363.0.html",
+    "retrievedDate": "2026-11-03",
+    "conditions": {
+      "formFactor": "laptop",
+      "stock": true,
+      "notes": "Tested in the Framework Laptop 13.5 Ryzen AI 9 HX 370 laptop (28 W PL1, 46 W PL2). Geekbench version 6.7."
+    }
+  },
+  {
+    "hardwareId": "amd-ryzen-ai-9-hx-370",
+    "benchmark": "geekbench",
+    "version": "6",
+    "test": "single-core",
+    "value": 2785,
+    "sourceId": "notebookcheck",
+    "url": "https://www.notebookcheck.net/Asus-Zenbook-S-16-laptop-review-The-first-Copilot-laptop-with-AMD-Zen-5-inside-a-1-3-cm-thick-case.868219.0.html",
+    "retrievedDate": "2026-11-03",
+    "conditions": {
+      "formFactor": "laptop",
+      "stock": true,
+      "notes": "Tested in the Asus Zenbook S 16 UM5606-RK333W laptop (28 W PL1, 33 W PL2). Geekbench version 6.7."
+    }
+  },
+  {
+    "hardwareId": "amd-ryzen-ai-9-hx-370",
+    "benchmark": "geekbench",
+    "version": "6",
+    "test": "single-core",
+    "value": 2857,
+    "sourceId": "notebookcheck",
+    "url": "https://www.notebookcheck.net/Framework-Laptop-13-5-Ryzen-AI-9-review-Skip-the-Intel-version-for-better-performance.997363.0.html",
+    "retrievedDate": "2026-11-03",
+    "conditions": {
+      "formFactor": "laptop",
+      "stock": true,
+      "notes": "Tested in the Framework Laptop 13.5 Ryzen AI 9 HX 370 laptop (28 W PL1, 46 W PL2). Geekbench version 6.7."
+    }
+  },
+  {
+    "hardwareId": "intel-core-i5-12450h",
+    "benchmark": "cinebench",
+    "version": "r23",
+    "test": "multi-core",
+    "value": 10633,
+    "sourceId": "notebookcheck",
+    "url": "https://www.notebookcheck.net/MSI-Thin-GF63-12VE-laptop-review-GeForce-RTX-4050-gaming-with-8-GB-of-RAM.989264.0.html",
+    "retrievedDate": "2026-11-03",
+    "conditions": {
+      "formFactor": "laptop",
+      "stock": true,
+      "notes": "Tested in the MSI Thin GF63 12VE laptop (53 W PL1, 62 W PL2)."
+    }
+  },
+  {
+    "hardwareId": "intel-core-i5-12450h",
+    "benchmark": "cinebench",
+    "version": "r23",
+    "test": "single-core",
+    "value": 1601,
+    "sourceId": "notebookcheck",
+    "url": "https://www.notebookcheck.net/MSI-Thin-GF63-12VE-laptop-review-GeForce-RTX-4050-gaming-with-8-GB-of-RAM.989264.0.html",
+    "retrievedDate": "2026-11-03",
+    "conditions": {
+      "formFactor": "laptop",
+      "stock": true,
+      "notes": "Tested in the MSI Thin GF63 12VE laptop (53 W PL1, 62 W PL2)."
+    }
+  },
+  {
+    "hardwareId": "intel-core-i5-12450h",
+    "benchmark": "geekbench",
+    "version": "6",
+    "test": "multi-core",
+    "value": 7081,
+    "sourceId": "notebookcheck",
+    "url": "https://www.notebookcheck.net/MSI-Thin-GF63-12VE-laptop-review-GeForce-RTX-4050-gaming-with-8-GB-of-RAM.989264.0.html",
+    "retrievedDate": "2026-11-03",
+    "conditions": {
+      "formFactor": "laptop",
+      "stock": true,
+      "notes": "Tested in the MSI Thin GF63 12VE laptop (53 W PL1, 62 W PL2). Geekbench version 6.7."
+    }
+  },
+  {
+    "hardwareId": "intel-core-i5-12450h",
+    "benchmark": "geekbench",
+    "version": "6",
+    "test": "single-core",
+    "value": 2155,
+    "sourceId": "notebookcheck",
+    "url": "https://www.notebookcheck.net/MSI-Thin-GF63-12VE-laptop-review-GeForce-RTX-4050-gaming-with-8-GB-of-RAM.989264.0.html",
+    "retrievedDate": "2026-11-03",
+    "conditions": {
+      "formFactor": "laptop",
+      "stock": true,
+      "notes": "Tested in the MSI Thin GF63 12VE laptop (53 W PL1, 62 W PL2). Geekbench version 6.7."
+    }
+  },
+  {
+    "hardwareId": "intel-core-i5-12500h",
+    "benchmark": "cinebench",
+    "version": "r23",
+    "test": "multi-core",
+    "value": 11330,
+    "sourceId": "notebookcheck",
+    "url": "https://www.notebookcheck.net/Acer-Swift-3-SF314-in-review-Compact-laptop-with-a-beautiful-OLED-display-and-a-fast-CPU.667774.0.html",
+    "retrievedDate": "2026-11-03",
+    "conditions": {
+      "formFactor": "laptop",
+      "stock": true,
+      "notes": "Tested in the Acer Swift 3 SF314-71-56U3 laptop (35 W PL1, 80 W PL2)."
+    }
+  },
+  {
+    "hardwareId": "intel-core-i5-12500h",
+    "benchmark": "cinebench",
+    "version": "r23",
+    "test": "multi-core",
+    "value": 12225,
+    "sourceId": "notebookcheck",
+    "url": "https://www.notebookcheck.net/Honor-MagicBook-14-2022-review-Multimedia-laptop-with-RTX-2050.647183.0.html",
+    "retrievedDate": "2026-11-03",
+    "conditions": {
+      "formFactor": "laptop",
+      "stock": true,
+      "notes": "Tested in the Honor MagicBook 14 2022 laptop (56 W PL1, 84 W PL2)."
+    }
+  },
+  {
+    "hardwareId": "intel-core-i5-12500h",
+    "benchmark": "cinebench",
+    "version": "r23",
+    "test": "single-core",
+    "value": 1677,
+    "sourceId": "notebookcheck",
+    "url": "https://www.notebookcheck.net/Acer-Swift-3-SF314-in-review-Compact-laptop-with-a-beautiful-OLED-display-and-a-fast-CPU.667774.0.html",
+    "retrievedDate": "2026-11-03",
+    "conditions": {
+      "formFactor": "laptop",
+      "stock": true,
+      "notes": "Tested in the Acer Swift 3 SF314-71-56U3 laptop (35 W PL1, 80 W PL2)."
+    }
+  },
+  {
+    "hardwareId": "intel-core-i5-12500h",
+    "benchmark": "cinebench",
+    "version": "r23",
+    "test": "single-core",
+    "value": 1697,
+    "sourceId": "notebookcheck",
+    "url": "https://www.notebookcheck.net/Honor-MagicBook-14-2022-review-Multimedia-laptop-with-RTX-2050.647183.0.html",
+    "retrievedDate": "2026-11-03",
+    "conditions": {
+      "formFactor": "laptop",
+      "stock": true,
+      "notes": "Tested in the Honor MagicBook 14 2022 laptop (56 W PL1, 84 W PL2)."
+    }
+  },
+  {
+    "hardwareId": "intel-core-i7-12700h",
+    "benchmark": "cinebench",
+    "version": "2026",
+    "test": "multi-core",
+    "value": 3425,
+    "sourceId": "notebookcheck",
+    "url": "https://www.notebookcheck.net/For-gamers-and-content-creators-Lenovo-Legion-5-Pro-Notebook-Review.637076.0.html",
+    "retrievedDate": "2026-11-03",
+    "conditions": {
+      "formFactor": "laptop",
+      "stock": true,
+      "notes": "Tested in the Lenovo Legion 5 Pro 16IAH7H laptop (100 W PL1, 120 W PL2)."
+    }
+  },
+  {
+    "hardwareId": "intel-core-i7-12700h",
+    "benchmark": "cinebench",
+    "version": "r23",
+    "test": "multi-core",
+    "value": 19069,
+    "sourceId": "notebookcheck",
+    "url": "https://www.notebookcheck.net/For-gamers-and-content-creators-Lenovo-Legion-5-Pro-Notebook-Review.637076.0.html",
+    "retrievedDate": "2026-11-03",
+    "conditions": {
+      "formFactor": "laptop",
+      "stock": true,
+      "notes": "Tested in the Lenovo Legion 5 Pro 16IAH7H laptop (100 W PL1, 120 W PL2)."
+    }
+  },
+  {
+    "hardwareId": "intel-core-i7-12700h",
+    "benchmark": "cinebench",
+    "version": "r23",
+    "test": "multi-core",
+    "value": 11202,
+    "sourceId": "notebookcheck",
+    "url": "https://www.notebookcheck.net/Huawei-MateBook-D-16-2022-review-Multimedia-laptop-now-in-16-10-format-and-with-number-pad.635379.0.html",
+    "retrievedDate": "2026-11-03",
+    "conditions": {
+      "formFactor": "laptop",
+      "stock": true,
+      "notes": "Tested in the Huawei MateBook D 16 2022 laptop (35 W PL1, 64 W PL2)."
+    }
+  },
+  {
+    "hardwareId": "intel-core-i7-12700h",
+    "benchmark": "cinebench",
+    "version": "r23",
+    "test": "single-core",
+    "value": 1731,
+    "sourceId": "notebookcheck",
+    "url": "https://www.notebookcheck.net/For-gamers-and-content-creators-Lenovo-Legion-5-Pro-Notebook-Review.637076.0.html",
+    "retrievedDate": "2026-11-03",
+    "conditions": {
+      "formFactor": "laptop",
+      "stock": true,
+      "notes": "Tested in the Lenovo Legion 5 Pro 16IAH7H laptop (100 W PL1, 120 W PL2)."
+    }
+  },
+  {
+    "hardwareId": "intel-core-i7-12700h",
+    "benchmark": "cinebench",
+    "version": "r23",
+    "test": "single-core",
+    "value": 1784,
+    "sourceId": "notebookcheck",
+    "url": "https://www.notebookcheck.net/Huawei-MateBook-D-16-2022-review-Multimedia-laptop-now-in-16-10-format-and-with-number-pad.635379.0.html",
+    "retrievedDate": "2026-11-03",
+    "conditions": {
+      "formFactor": "laptop",
+      "stock": true,
+      "notes": "Tested in the Huawei MateBook D 16 2022 laptop (35 W PL1, 64 W PL2)."
+    }
+  },
+  {
+    "hardwareId": "intel-core-i5-13420h",
+    "benchmark": "cinebench",
+    "version": "r23",
+    "test": "multi-core",
+    "value": 11084,
+    "sourceId": "notebookcheck",
+    "url": "https://www.notebookcheck.net/A-budget-gamer-for-1-200-HP-Victus-15-RTX-5050-laptop-review.1147790.0.html",
+    "retrievedDate": "2026-11-03",
+    "conditions": {
+      "formFactor": "laptop",
+      "stock": true,
+      "notes": "Tested in the HP Victus 15-fa2160ng laptop (45 W PL1, 90 W PL2)."
+    }
+  },
+  {
+    "hardwareId": "intel-core-i5-13420h",
+    "benchmark": "cinebench",
+    "version": "r23",
+    "test": "multi-core",
+    "value": 8691,
+    "sourceId": "notebookcheck",
+    "url": "https://www.notebookcheck.net/Asus-ExpertBook-B1-review-The-14-inch-office-laptop-with-Win-11-Pro-and-a-3-year-warranty-for-700.964779.0.html",
+    "retrievedDate": "2026-11-03",
+    "conditions": {
+      "formFactor": "laptop",
+      "stock": true,
+      "notes": "Tested in the iperf3 transmit AXE11000 1545 (min: 1408) MBit/s ∼93% iperf3 receive AXE11000 1651 (min: 1562) MBit/s ∼93% Lenovo ThinkPad L14 G5 21L50014GE laptop (28 W PL1, 45 W PL2)."
+    }
+  },
+  {
+    "hardwareId": "intel-core-i5-13420h",
+    "benchmark": "cinebench",
+    "version": "r23",
+    "test": "single-core",
+    "value": 1689,
+    "sourceId": "notebookcheck",
+    "url": "https://www.notebookcheck.net/A-budget-gamer-for-1-200-HP-Victus-15-RTX-5050-laptop-review.1147790.0.html",
+    "retrievedDate": "2026-11-03",
+    "conditions": {
+      "formFactor": "laptop",
+      "stock": true,
+      "notes": "Tested in the HP Victus 15-fa2160ng laptop (45 W PL1, 90 W PL2)."
+    }
+  },
+  {
+    "hardwareId": "intel-core-i5-13420h",
+    "benchmark": "cinebench",
+    "version": "r23",
+    "test": "single-core",
+    "value": 1705,
+    "sourceId": "notebookcheck",
+    "url": "https://www.notebookcheck.net/Asus-ExpertBook-B1-review-The-14-inch-office-laptop-with-Win-11-Pro-and-a-3-year-warranty-for-700.964779.0.html",
+    "retrievedDate": "2026-11-03",
+    "conditions": {
+      "formFactor": "laptop",
+      "stock": true,
+      "notes": "Tested in the iperf3 transmit AXE11000 1545 (min: 1408) MBit/s ∼93% iperf3 receive AXE11000 1651 (min: 1562) MBit/s ∼93% Lenovo ThinkPad L14 G5 21L50014GE laptop (28 W PL1, 45 W PL2)."
+    }
+  },
+  {
+    "hardwareId": "intel-core-i5-13420h",
+    "benchmark": "geekbench",
+    "version": "6",
+    "test": "multi-core",
+    "value": 9262,
+    "sourceId": "notebookcheck",
+    "url": "https://www.notebookcheck.net/Asus-ExpertBook-B1-review-The-14-inch-office-laptop-with-Win-11-Pro-and-a-3-year-warranty-for-700.964779.0.html",
+    "retrievedDate": "2026-11-03",
+    "conditions": {
+      "formFactor": "laptop",
+      "stock": true,
+      "notes": "Tested in the iperf3 transmit AXE11000 1545 (min: 1408) MBit/s ∼93% iperf3 receive AXE11000 1651 (min: 1562) MBit/s ∼93% Lenovo ThinkPad L14 G5 21L50014GE laptop (28 W PL1, 45 W PL2). Geekbench version 6.7."
+    }
+  },
+  {
+    "hardwareId": "intel-core-i5-13420h",
+    "benchmark": "geekbench",
+    "version": "6",
+    "test": "single-core",
+    "value": 2365,
+    "sourceId": "notebookcheck",
+    "url": "https://www.notebookcheck.net/Asus-ExpertBook-B1-review-The-14-inch-office-laptop-with-Win-11-Pro-and-a-3-year-warranty-for-700.964779.0.html",
+    "retrievedDate": "2026-11-03",
+    "conditions": {
+      "formFactor": "laptop",
+      "stock": true,
+      "notes": "Tested in the iperf3 transmit AXE11000 1545 (min: 1408) MBit/s ∼93% iperf3 receive AXE11000 1651 (min: 1562) MBit/s ∼93% Lenovo ThinkPad L14 G5 21L50014GE laptop (28 W PL1, 45 W PL2). Geekbench version 6.7."
+    }
+  },
+  {
+    "hardwareId": "intel-core-i5-13500h",
+    "benchmark": "cinebench",
+    "version": "r23",
+    "test": "multi-core",
+    "value": 14081,
+    "sourceId": "notebookcheck",
+    "url": "https://www.notebookcheck.net/HP-Victus-15-gaming-laptop-with-Raptor-Lake-and-Ada-Lovelace-in-review.799677.0.html",
+    "retrievedDate": "2026-11-03",
+    "conditions": {
+      "formFactor": "laptop",
+      "stock": true,
+      "notes": "Tested in the HP Victus 15-fa1057ng laptop (45 W PL1, 115 W PL2)."
+    }
+  },
+  {
+    "hardwareId": "intel-core-i5-13500h",
+    "benchmark": "cinebench",
+    "version": "r23",
+    "test": "multi-core",
+    "value": 13831,
+    "sourceId": "notebookcheck",
+    "url": "https://www.notebookcheck.net/Medion-Erazer-Crawler-E40-laptop-review-Affordable-gamer-with-good-RTX-4050-performance.775903.0.html",
+    "retrievedDate": "2026-11-03",
+    "conditions": {
+      "formFactor": "laptop",
+      "stock": true,
+      "notes": "Tested in the Medion Erazer Crawler E40 - MD 62518 laptop (110 W PL1, 115 W PL2)."
+    }
+  },
+  {
+    "hardwareId": "intel-core-i5-13500h",
+    "benchmark": "cinebench",
+    "version": "r23",
+    "test": "single-core",
+    "value": 1704,
+    "sourceId": "notebookcheck",
+    "url": "https://www.notebookcheck.net/HP-Victus-15-gaming-laptop-with-Raptor-Lake-and-Ada-Lovelace-in-review.799677.0.html",
+    "retrievedDate": "2026-11-03",
+    "conditions": {
+      "formFactor": "laptop",
+      "stock": true,
+      "notes": "Tested in the HP Victus 15-fa1057ng laptop (45 W PL1, 115 W PL2)."
+    }
+  },
+  {
+    "hardwareId": "intel-core-i5-13500h",
+    "benchmark": "cinebench",
+    "version": "r23",
+    "test": "single-core",
+    "value": 1799,
+    "sourceId": "notebookcheck",
+    "url": "https://www.notebookcheck.net/Medion-Erazer-Crawler-E40-laptop-review-Affordable-gamer-with-good-RTX-4050-performance.775903.0.html",
+    "retrievedDate": "2026-11-03",
+    "conditions": {
+      "formFactor": "laptop",
+      "stock": true,
+      "notes": "Tested in the Medion Erazer Crawler E40 - MD 62518 laptop (110 W PL1, 115 W PL2)."
+    }
+  },
+  {
+    "hardwareId": "intel-core-i7-13620h",
+    "benchmark": "cinebench",
+    "version": "r23",
+    "test": "multi-core",
+    "value": 15318,
+    "sourceId": "notebookcheck",
+    "url": "https://www.notebookcheck.net/An-affordable-RTX-5070-laptop-Gigabyte-Gaming-A16-review.1072350.0.html",
+    "retrievedDate": "2026-11-03",
+    "conditions": {
+      "formFactor": "laptop",
+      "stock": true,
+      "notes": "Tested in the Gigabyte Gaming A16 GA6H laptop (50 W PL1, 82 W PL2)."
+    }
+  },
+  {
+    "hardwareId": "intel-core-i7-13620h",
+    "benchmark": "cinebench",
+    "version": "r23",
+    "test": "multi-core",
+    "value": 15176,
+    "sourceId": "notebookcheck",
+    "url": "https://www.notebookcheck.net/Lenovo-LOQ-15-Core-i7-Review-Affordable-Legion-alternative-that-throws-up-an-Intel-vs-AMD-conundrum.758130.0.html",
+    "retrievedDate": "2026-11-03",
+    "conditions": {
+      "formFactor": "laptop",
+      "stock": true,
+      "notes": "Tested in the Lenovo LOQ 15IRH8 Core i7 laptop (70 W PL1, 135 W PL2)."
+    }
+  },
+  {
+    "hardwareId": "intel-core-i7-13620h",
+    "benchmark": "cinebench",
+    "version": "r23",
+    "test": "single-core",
+    "value": 1833,
+    "sourceId": "notebookcheck",
+    "url": "https://www.notebookcheck.net/An-affordable-RTX-5070-laptop-Gigabyte-Gaming-A16-review.1072350.0.html",
+    "retrievedDate": "2026-11-03",
+    "conditions": {
+      "formFactor": "laptop",
+      "stock": true,
+      "notes": "Tested in the Gigabyte Gaming A16 GA6H laptop (50 W PL1, 82 W PL2)."
+    }
+  },
+  {
+    "hardwareId": "intel-core-i7-13620h",
+    "benchmark": "cinebench",
+    "version": "r23",
+    "test": "single-core",
+    "value": 1860,
+    "sourceId": "notebookcheck",
+    "url": "https://www.notebookcheck.net/Lenovo-LOQ-15-Core-i7-Review-Affordable-Legion-alternative-that-throws-up-an-Intel-vs-AMD-conundrum.758130.0.html",
+    "retrievedDate": "2026-11-03",
+    "conditions": {
+      "formFactor": "laptop",
+      "stock": true,
+      "notes": "Tested in the Lenovo LOQ 15IRH8 Core i7 laptop (70 W PL1, 135 W PL2)."
+    }
+  },
+  {
+    "hardwareId": "intel-core-i7-13700h",
+    "benchmark": "cinebench",
+    "version": "r23",
+    "test": "multi-core",
+    "value": 10053,
+    "sourceId": "notebookcheck",
+    "url": "https://www.notebookcheck.net/HP-Pavilion-Plus-16-Review-Premium-multimedia-laptop-that-could-have-benefitted-from-an-RTX-4050.797765.0.html",
+    "retrievedDate": "2026-11-03",
+    "conditions": {
+      "formFactor": "laptop",
+      "stock": true,
+      "notes": "Tested in the HP Pavilion Plus 16-ab0456tx laptop (60 W PL1, 61 W PL2)."
+    }
+  },
+  {
+    "hardwareId": "intel-core-i7-13700h",
+    "benchmark": "cinebench",
+    "version": "r23",
+    "test": "multi-core",
+    "value": 18282,
+    "sourceId": "notebookcheck",
+    "url": "https://www.notebookcheck.net/Tulpar-T7-V20-6-Tongfang-GM7PG0R-laptop-review-Currently-one-of-the-cheapest-RTX-4060-gamers.840678.0.html",
+    "retrievedDate": "2026-11-03",
+    "conditions": {
+      "formFactor": "laptop",
+      "stock": true,
+      "notes": "Tested in the Tulpar T7 V20.6 laptop (95 W PL1, 95 W PL2)."
+    }
+  },
+  {
+    "hardwareId": "intel-core-i7-13700h",
+    "benchmark": "cinebench",
+    "version": "r23",
+    "test": "single-core",
+    "value": 1914,
+    "sourceId": "notebookcheck",
+    "url": "https://www.notebookcheck.net/HP-Pavilion-Plus-16-Review-Premium-multimedia-laptop-that-could-have-benefitted-from-an-RTX-4050.797765.0.html",
+    "retrievedDate": "2026-11-03",
+    "conditions": {
+      "formFactor": "laptop",
+      "stock": true,
+      "notes": "Tested in the HP Pavilion Plus 16-ab0456tx laptop (60 W PL1, 61 W PL2)."
+    }
+  },
+  {
+    "hardwareId": "intel-core-i7-13700h",
+    "benchmark": "cinebench",
+    "version": "r23",
+    "test": "single-core",
+    "value": 1904,
+    "sourceId": "notebookcheck",
+    "url": "https://www.notebookcheck.net/Tulpar-T7-V20-6-Tongfang-GM7PG0R-laptop-review-Currently-one-of-the-cheapest-RTX-4060-gamers.840678.0.html",
+    "retrievedDate": "2026-11-03",
+    "conditions": {
+      "formFactor": "laptop",
+      "stock": true,
+      "notes": "Tested in the Tulpar T7 V20.6 laptop (95 W PL1, 95 W PL2)."
+    }
+  },
+  {
+    "hardwareId": "intel-core-i7-13700h",
+    "benchmark": "geekbench",
+    "version": "6",
+    "test": "multi-core",
+    "value": 11936,
+    "sourceId": "notebookcheck",
+    "url": "https://www.notebookcheck.net/HP-Pavilion-Plus-16-Review-Premium-multimedia-laptop-that-could-have-benefitted-from-an-RTX-4050.797765.0.html",
+    "retrievedDate": "2026-11-03",
+    "conditions": {
+      "formFactor": "laptop",
+      "stock": true,
+      "notes": "Tested in the HP Pavilion Plus 16-ab0456tx laptop (60 W PL1, 61 W PL2). Geekbench version 6.7."
+    }
+  },
+  {
+    "hardwareId": "intel-core-i7-13700h",
+    "benchmark": "geekbench",
+    "version": "6",
+    "test": "multi-core",
+    "value": 8415,
+    "sourceId": "notebookcheck",
+    "url": "https://www.notebookcheck.net/Tulpar-T7-V20-6-Tongfang-GM7PG0R-laptop-review-Currently-one-of-the-cheapest-RTX-4060-gamers.840678.0.html",
+    "retrievedDate": "2026-11-03",
+    "conditions": {
+      "formFactor": "laptop",
+      "stock": true,
+      "notes": "Tested in the Tulpar T7 V20.6 laptop (95 W PL1, 95 W PL2). Geekbench version 6.7."
+    }
+  },
+  {
+    "hardwareId": "intel-core-i7-13700h",
+    "benchmark": "geekbench",
+    "version": "6",
+    "test": "single-core",
+    "value": 2598,
+    "sourceId": "notebookcheck",
+    "url": "https://www.notebookcheck.net/HP-Pavilion-Plus-16-Review-Premium-multimedia-laptop-that-could-have-benefitted-from-an-RTX-4050.797765.0.html",
+    "retrievedDate": "2026-11-03",
+    "conditions": {
+      "formFactor": "laptop",
+      "stock": true,
+      "notes": "Tested in the HP Pavilion Plus 16-ab0456tx laptop (60 W PL1, 61 W PL2). Geekbench version 6.7."
+    }
+  },
+  {
+    "hardwareId": "intel-core-i7-13700h",
+    "benchmark": "geekbench",
+    "version": "6",
+    "test": "single-core",
+    "value": 2564,
+    "sourceId": "notebookcheck",
+    "url": "https://www.notebookcheck.net/Tulpar-T7-V20-6-Tongfang-GM7PG0R-laptop-review-Currently-one-of-the-cheapest-RTX-4060-gamers.840678.0.html",
+    "retrievedDate": "2026-11-03",
+    "conditions": {
+      "formFactor": "laptop",
+      "stock": true,
+      "notes": "Tested in the Tulpar T7 V20.6 laptop (95 W PL1, 95 W PL2). Geekbench version 6.7."
+    }
+  },
+  {
+    "hardwareId": "intel-core-i7-13650hx",
+    "benchmark": "cinebench",
+    "version": "2026",
+    "test": "multi-core",
+    "value": 3612,
+    "sourceId": "notebookcheck",
+    "url": "https://www.notebookcheck.net/Lenovo-LOQ-Essential-15IRX11-review-RTX-gaming-on-single-channel-RAM.1372071.0.html",
+    "retrievedDate": "2026-11-03",
+    "conditions": {
+      "formFactor": "laptop",
+      "stock": true,
+      "notes": "Tested in the Lenovo LOQ Essential 15IRX11 laptop (56 W PL1, 86 W PL2)."
+    }
+  },
+  {
+    "hardwareId": "intel-core-i7-13650hx",
+    "benchmark": "cinebench",
+    "version": "r23",
+    "test": "multi-core",
+    "value": 18879,
+    "sourceId": "notebookcheck",
+    "url": "https://www.notebookcheck.net/Gigabyte-G6X-9KG-2024-review-Affordable-gaming-notebook-with-RTX-4060.818851.0.html",
+    "retrievedDate": "2026-11-03",
+    "conditions": {
+      "formFactor": "laptop",
+      "stock": true,
+      "notes": "Tested in the Gigabyte G6X 9KG (2024) laptop (45 W PL1, 65 W PL2)."
+    }
+  },
+  {
+    "hardwareId": "intel-core-i7-13650hx",
+    "benchmark": "cinebench",
+    "version": "r23",
+    "test": "multi-core",
+    "value": 16906,
+    "sourceId": "notebookcheck",
+    "url": "https://www.notebookcheck.net/Lenovo-LOQ-Essential-15IRX11-review-RTX-gaming-on-single-channel-RAM.1372071.0.html",
+    "retrievedDate": "2026-11-03",
+    "conditions": {
+      "formFactor": "laptop",
+      "stock": true,
+      "notes": "Tested in the Lenovo LOQ Essential 15IRX11 laptop (56 W PL1, 86 W PL2)."
+    }
+  },
+  {
+    "hardwareId": "intel-core-i7-13650hx",
+    "benchmark": "cinebench",
+    "version": "r23",
+    "test": "single-core",
+    "value": 1813,
+    "sourceId": "notebookcheck",
+    "url": "https://www.notebookcheck.net/Gigabyte-G6X-9KG-2024-review-Affordable-gaming-notebook-with-RTX-4060.818851.0.html",
+    "retrievedDate": "2026-11-03",
+    "conditions": {
+      "formFactor": "laptop",
+      "stock": true,
+      "notes": "Tested in the Gigabyte G6X 9KG (2024) laptop (45 W PL1, 65 W PL2)."
+    }
+  },
+  {
+    "hardwareId": "intel-core-i7-13650hx",
+    "benchmark": "cinebench",
+    "version": "r23",
+    "test": "single-core",
+    "value": 1835,
+    "sourceId": "notebookcheck",
+    "url": "https://www.notebookcheck.net/Lenovo-LOQ-Essential-15IRX11-review-RTX-gaming-on-single-channel-RAM.1372071.0.html",
+    "retrievedDate": "2026-11-03",
+    "conditions": {
+      "formFactor": "laptop",
+      "stock": true,
+      "notes": "Tested in the Lenovo LOQ Essential 15IRX11 laptop (56 W PL1, 86 W PL2)."
+    }
+  },
+  {
+    "hardwareId": "intel-core-i7-13650hx",
+    "benchmark": "geekbench",
+    "version": "6",
+    "test": "multi-core",
+    "value": 11401,
+    "sourceId": "notebookcheck",
+    "url": "https://www.notebookcheck.net/Lenovo-LOQ-Essential-15IRX11-review-RTX-gaming-on-single-channel-RAM.1372071.0.html",
+    "retrievedDate": "2026-11-03",
+    "conditions": {
+      "formFactor": "laptop",
+      "stock": true,
+      "notes": "Tested in the Lenovo LOQ Essential 15IRX11 laptop (56 W PL1, 86 W PL2). Geekbench version 6.7."
+    }
+  },
+  {
+    "hardwareId": "intel-core-i7-13650hx",
+    "benchmark": "geekbench",
+    "version": "6",
+    "test": "single-core",
+    "value": 2570,
+    "sourceId": "notebookcheck",
+    "url": "https://www.notebookcheck.net/Lenovo-LOQ-Essential-15IRX11-review-RTX-gaming-on-single-channel-RAM.1372071.0.html",
+    "retrievedDate": "2026-11-03",
+    "conditions": {
+      "formFactor": "laptop",
+      "stock": true,
+      "notes": "Tested in the Lenovo LOQ Essential 15IRX11 laptop (56 W PL1, 86 W PL2). Geekbench version 6.7."
+    }
+  },
+  {
+    "hardwareId": "intel-core-i9-13900hx",
+    "benchmark": "cinebench",
+    "version": "r23",
+    "test": "multi-core",
+    "value": 24270,
+    "sourceId": "notebookcheck",
+    "url": "https://www.notebookcheck.net/Schenker-XMG-Focus-15-E23-budget-gaming-laptop-review-A-lot-of-performance-at-a-lesser-price-than-the-Pro-15.734476.0.html",
+    "retrievedDate": "2026-11-03",
+    "conditions": {
+      "formFactor": "laptop",
+      "stock": true,
+      "notes": "Tested in the Schenker XMG Focus 15 (E23) laptop (135 W PL1, 162 W PL2)."
+    }
+  },
+  {
+    "hardwareId": "intel-core-i9-13900hx",
+    "benchmark": "cinebench",
+    "version": "r23",
+    "test": "multi-core",
+    "value": 29376,
+    "sourceId": "notebookcheck",
+    "url": "https://www.notebookcheck.net/The-cheapest-Nvidia-RTX-5070-Ti-laptop-GPU-XMG-Focus-17-M25-gaming-laptop-review.1078545.0.html",
+    "retrievedDate": "2026-11-03",
+    "conditions": {
+      "formFactor": "laptop",
+      "stock": true,
+      "notes": "Tested in the iperf3 transmit AXE11000 1685 (min: 1591) MBit/s ∼100% iperf3 receive AXE11000 1680 (min: 1645) MBit/s ∼100% MSI Vector 17 HX AI A2XWIG laptop (135 W PL1, 150 W PL2)."
+    }
+  },
+  {
+    "hardwareId": "intel-core-i9-13900hx",
+    "benchmark": "cinebench",
+    "version": "r23",
+    "test": "single-core",
+    "value": 1935,
+    "sourceId": "notebookcheck",
+    "url": "https://www.notebookcheck.net/Schenker-XMG-Focus-15-E23-budget-gaming-laptop-review-A-lot-of-performance-at-a-lesser-price-than-the-Pro-15.734476.0.html",
+    "retrievedDate": "2026-11-03",
+    "conditions": {
+      "formFactor": "laptop",
+      "stock": true,
+      "notes": "Tested in the Schenker XMG Focus 15 (E23) laptop (135 W PL1, 162 W PL2)."
+    }
+  },
+  {
+    "hardwareId": "intel-core-i9-13900hx",
+    "benchmark": "cinebench",
+    "version": "r23",
+    "test": "single-core",
+    "value": 2057,
+    "sourceId": "notebookcheck",
+    "url": "https://www.notebookcheck.net/The-cheapest-Nvidia-RTX-5070-Ti-laptop-GPU-XMG-Focus-17-M25-gaming-laptop-review.1078545.0.html",
+    "retrievedDate": "2026-11-03",
+    "conditions": {
+      "formFactor": "laptop",
+      "stock": true,
+      "notes": "Tested in the iperf3 transmit AXE11000 1685 (min: 1591) MBit/s ∼100% iperf3 receive AXE11000 1680 (min: 1645) MBit/s ∼100% MSI Vector 17 HX AI A2XWIG laptop (135 W PL1, 150 W PL2)."
+    }
+  },
+  {
+    "hardwareId": "intel-core-i9-13900hx",
+    "benchmark": "geekbench",
+    "version": "6",
+    "test": "multi-core",
+    "value": 16712,
+    "sourceId": "notebookcheck",
+    "url": "https://www.notebookcheck.net/The-cheapest-Nvidia-RTX-5070-Ti-laptop-GPU-XMG-Focus-17-M25-gaming-laptop-review.1078545.0.html",
+    "retrievedDate": "2026-11-03",
+    "conditions": {
+      "formFactor": "laptop",
+      "stock": true,
+      "notes": "Tested in the iperf3 transmit AXE11000 1685 (min: 1591) MBit/s ∼100% iperf3 receive AXE11000 1680 (min: 1645) MBit/s ∼100% MSI Vector 17 HX AI A2XWIG laptop (135 W PL1, 150 W PL2). Geekbench version 6.7."
+    }
+  },
+  {
+    "hardwareId": "intel-core-i9-13900hx",
+    "benchmark": "geekbench",
+    "version": "6",
+    "test": "single-core",
+    "value": 2871,
+    "sourceId": "notebookcheck",
+    "url": "https://www.notebookcheck.net/The-cheapest-Nvidia-RTX-5070-Ti-laptop-GPU-XMG-Focus-17-M25-gaming-laptop-review.1078545.0.html",
+    "retrievedDate": "2026-11-03",
+    "conditions": {
+      "formFactor": "laptop",
+      "stock": true,
+      "notes": "Tested in the iperf3 transmit AXE11000 1685 (min: 1591) MBit/s ∼100% iperf3 receive AXE11000 1680 (min: 1645) MBit/s ∼100% MSI Vector 17 HX AI A2XWIG laptop (135 W PL1, 150 W PL2). Geekbench version 6.7."
+    }
+  },
+  {
+    "hardwareId": "intel-core-i7-14650hx",
+    "benchmark": "cinebench",
+    "version": "r23",
+    "test": "multi-core",
+    "value": 24455,
+    "sourceId": "notebookcheck",
+    "url": "https://www.notebookcheck.net/Lenovo-Legion-5i-16-G9-review-The-fast-gaming-laptop-with-Raptor-Lake-HX-and-an-AI-engine.798236.0.html",
+    "retrievedDate": "2026-11-03",
+    "conditions": {
+      "formFactor": "laptop",
+      "stock": true,
+      "notes": "Tested in the Lenovo Legion 5 16IRX G9 laptop (100 W PL1, 140 W PL2)."
+    }
+  },
+  {
+    "hardwareId": "intel-core-i7-14650hx",
+    "benchmark": "cinebench",
+    "version": "r23",
+    "test": "multi-core",
+    "value": 16453,
+    "sourceId": "notebookcheck",
+    "url": "https://www.notebookcheck.net/MSI-Katana-17-HX-laptop-review-Room-for-improvement-for-the-RTX-5070-gamer.1042440.0.html",
+    "retrievedDate": "2026-11-03",
+    "conditions": {
+      "formFactor": "laptop",
+      "stock": true,
+      "notes": "Tested in the MSI Katana 17 HX B14WGK laptop (50 W PL1, 60 W PL2)."
+    }
+  },
+  {
+    "hardwareId": "intel-core-i7-14650hx",
+    "benchmark": "cinebench",
+    "version": "r23",
+    "test": "single-core",
+    "value": 1963,
+    "sourceId": "notebookcheck",
+    "url": "https://www.notebookcheck.net/Lenovo-Legion-5i-16-G9-review-The-fast-gaming-laptop-with-Raptor-Lake-HX-and-an-AI-engine.798236.0.html",
+    "retrievedDate": "2026-11-03",
+    "conditions": {
+      "formFactor": "laptop",
+      "stock": true,
+      "notes": "Tested in the Lenovo Legion 5 16IRX G9 laptop (100 W PL1, 140 W PL2)."
+    }
+  },
+  {
+    "hardwareId": "intel-core-i7-14650hx",
+    "benchmark": "cinebench",
+    "version": "r23",
+    "test": "single-core",
+    "value": 1975,
+    "sourceId": "notebookcheck",
+    "url": "https://www.notebookcheck.net/MSI-Katana-17-HX-laptop-review-Room-for-improvement-for-the-RTX-5070-gamer.1042440.0.html",
+    "retrievedDate": "2026-11-03",
+    "conditions": {
+      "formFactor": "laptop",
+      "stock": true,
+      "notes": "Tested in the MSI Katana 17 HX B14WGK laptop (50 W PL1, 60 W PL2)."
+    }
+  },
+  {
+    "hardwareId": "intel-core-i7-14650hx",
+    "benchmark": "geekbench",
+    "version": "6",
+    "test": "multi-core",
+    "value": 16010,
+    "sourceId": "notebookcheck",
+    "url": "https://www.notebookcheck.net/Lenovo-Legion-5i-16-G9-review-The-fast-gaming-laptop-with-Raptor-Lake-HX-and-an-AI-engine.798236.0.html",
+    "retrievedDate": "2026-11-03",
+    "conditions": {
+      "formFactor": "laptop",
+      "stock": true,
+      "notes": "Tested in the Lenovo Legion 5 16IRX G9 laptop (100 W PL1, 140 W PL2). Geekbench version 6.7."
+    }
+  },
+  {
+    "hardwareId": "intel-core-i7-14650hx",
+    "benchmark": "geekbench",
+    "version": "6",
+    "test": "single-core",
+    "value": 2761,
+    "sourceId": "notebookcheck",
+    "url": "https://www.notebookcheck.net/Lenovo-Legion-5i-16-G9-review-The-fast-gaming-laptop-with-Raptor-Lake-HX-and-an-AI-engine.798236.0.html",
+    "retrievedDate": "2026-11-03",
+    "conditions": {
+      "formFactor": "laptop",
+      "stock": true,
+      "notes": "Tested in the Lenovo Legion 5 16IRX G9 laptop (100 W PL1, 140 W PL2). Geekbench version 6.7."
+    }
+  },
+  {
+    "hardwareId": "intel-core-i7-14700hx",
+    "benchmark": "cinebench",
+    "version": "r23",
+    "test": "multi-core",
+    "value": 19365,
+    "sourceId": "notebookcheck",
+    "url": "https://www.notebookcheck.net/Affordable-gaming-laptop-with-RTX-5060-Tulpar-T6-V3-5-review.1172291.0.html",
+    "retrievedDate": "2026-11-03",
+    "conditions": {
+      "formFactor": "laptop",
+      "stock": true,
+      "notes": "Tested in the Tulpar T6 V3.5 laptop (46 W PL1, 115 W PL2)."
+    }
+  },
+  {
+    "hardwareId": "intel-core-i7-14700hx",
+    "benchmark": "cinebench",
+    "version": "r23",
+    "test": "multi-core",
+    "value": 23887,
+    "sourceId": "notebookcheck",
+    "url": "https://www.notebookcheck.net/HP-Victus-16-2024-laptop-review-RTX-4060-power-paired-with-long-runtimes.838561.0.html",
+    "retrievedDate": "2026-11-03",
+    "conditions": {
+      "formFactor": "laptop",
+      "stock": true,
+      "notes": "Tested in the HP Victus 16 (2024) laptop (130 W PL1, 130 W PL2)."
+    }
+  },
+  {
+    "hardwareId": "intel-core-i7-14700hx",
+    "benchmark": "cinebench",
+    "version": "r23",
+    "test": "single-core",
+    "value": 2004,
+    "sourceId": "notebookcheck",
+    "url": "https://www.notebookcheck.net/Affordable-gaming-laptop-with-RTX-5060-Tulpar-T6-V3-5-review.1172291.0.html",
+    "retrievedDate": "2026-11-03",
+    "conditions": {
+      "formFactor": "laptop",
+      "stock": true,
+      "notes": "Tested in the Tulpar T6 V3.5 laptop (46 W PL1, 115 W PL2)."
+    }
+  },
+  {
+    "hardwareId": "intel-core-i7-14700hx",
+    "benchmark": "cinebench",
+    "version": "r23",
+    "test": "single-core",
+    "value": 1702,
+    "sourceId": "notebookcheck",
+    "url": "https://www.notebookcheck.net/HP-Victus-16-2024-laptop-review-RTX-4060-power-paired-with-long-runtimes.838561.0.html",
+    "retrievedDate": "2026-11-03",
+    "conditions": {
+      "formFactor": "laptop",
+      "stock": true,
+      "notes": "Tested in the HP Victus 16 (2024) laptop (130 W PL1, 130 W PL2)."
+    }
+  },
+  {
+    "hardwareId": "intel-core-i9-14900hx",
+    "benchmark": "cinebench",
+    "version": "r23",
+    "test": "multi-core",
+    "value": 23124,
+    "sourceId": "notebookcheck",
+    "url": "https://www.notebookcheck.net/XMG-Fusion-15-Early-24-review-A-compact-RTX-4070-laptop-for-gamers-and-creators.834049.0.html",
+    "retrievedDate": "2026-11-03",
+    "conditions": {
+      "formFactor": "laptop",
+      "stock": true,
+      "notes": "Tested in the Schenker XMG Fusion 15 (Early 24) laptop (160 W PL1, 170 W PL2)."
+    }
+  },
+  {
+    "hardwareId": "intel-core-i9-14900hx",
+    "benchmark": "cinebench",
+    "version": "r23",
+    "test": "multi-core",
+    "value": 28075,
+    "sourceId": "notebookcheck",
+    "url": "https://www.notebookcheck.net/XMG-Pro-16-Studio-Mid-24-review-Core-i9-and-RTX-4070-for-gamers-and-creators.867018.0.html",
+    "retrievedDate": "2026-11-03",
+    "conditions": {
+      "formFactor": "laptop",
+      "stock": true,
+      "notes": "Tested in the Schenker XMG Pro 16 Studio (Mid 24) laptop (135 W PL1, 150 W PL2)."
+    }
+  },
+  {
+    "hardwareId": "intel-core-i9-14900hx",
+    "benchmark": "cinebench",
+    "version": "r23",
+    "test": "single-core",
+    "value": 2043,
+    "sourceId": "notebookcheck",
+    "url": "https://www.notebookcheck.net/XMG-Fusion-15-Early-24-review-A-compact-RTX-4070-laptop-for-gamers-and-creators.834049.0.html",
+    "retrievedDate": "2026-11-03",
+    "conditions": {
+      "formFactor": "laptop",
+      "stock": true,
+      "notes": "Tested in the Schenker XMG Fusion 15 (Early 24) laptop (160 W PL1, 170 W PL2)."
+    }
+  },
+  {
+    "hardwareId": "intel-core-i9-14900hx",
+    "benchmark": "cinebench",
+    "version": "r23",
+    "test": "single-core",
+    "value": 2049,
+    "sourceId": "notebookcheck",
+    "url": "https://www.notebookcheck.net/XMG-Pro-16-Studio-Mid-24-review-Core-i9-and-RTX-4070-for-gamers-and-creators.867018.0.html",
+    "retrievedDate": "2026-11-03",
+    "conditions": {
+      "formFactor": "laptop",
+      "stock": true,
+      "notes": "Tested in the Schenker XMG Pro 16 Studio (Mid 24) laptop (135 W PL1, 150 W PL2)."
+    }
+  },
+  {
+    "hardwareId": "intel-core-ultra-5-125h",
+    "benchmark": "cinebench",
+    "version": "2026",
+    "test": "multi-core",
+    "value": 1584,
+    "sourceId": "notebookcheck",
+    "url": "https://www.notebookcheck.net/Alldocube-iWork-GT-Ultra-convertible-review-Alternative-to-Android-tablets-with-true-PC-performance.1260559.0.html",
+    "retrievedDate": "2026-11-03",
+    "conditions": {
+      "formFactor": "laptop",
+      "stock": true,
+      "notes": "Tested in the Alldocube iWork GT Ultra laptop (28 W PL1, 64 W PL2)."
+    }
+  },
+  {
+    "hardwareId": "intel-core-ultra-5-125h",
+    "benchmark": "cinebench",
+    "version": "r23",
+    "test": "multi-core",
+    "value": 8419,
+    "sourceId": "notebookcheck",
+    "url": "https://www.notebookcheck.net/Alldocube-iWork-GT-Ultra-convertible-review-Alternative-to-Android-tablets-with-true-PC-performance.1260559.0.html",
+    "retrievedDate": "2026-11-03",
+    "conditions": {
+      "formFactor": "laptop",
+      "stock": true,
+      "notes": "Tested in the Alldocube iWork GT Ultra laptop (28 W PL1, 64 W PL2)."
+    }
+  },
+  {
+    "hardwareId": "intel-core-ultra-5-125h",
+    "benchmark": "cinebench",
+    "version": "r23",
+    "test": "multi-core",
+    "value": 9194,
+    "sourceId": "notebookcheck",
+    "url": "https://www.notebookcheck.net/Lenovo-ThinkBook-13x-G4-laptop-review-One-of-the-best-subnotebooks-apart-from-the-keyboard.840954.0.html",
+    "retrievedDate": "2026-11-03",
+    "conditions": {
+      "formFactor": "laptop",
+      "stock": true,
+      "notes": "Tested in the iperf3 transmit AXE11000 1666 (min: 1537) MBit/s ∼98% iperf3 receive AXE11000 1709 (min: 1689) MBit/s ∼99% Dell XPS 13 9340 Core Ultra 7 laptop (28 W PL1, 51 W PL2)."
+    }
+  },
+  {
+    "hardwareId": "intel-core-ultra-5-125h",
+    "benchmark": "cinebench",
+    "version": "r23",
+    "test": "single-core",
+    "value": 1539,
+    "sourceId": "notebookcheck",
+    "url": "https://www.notebookcheck.net/Alldocube-iWork-GT-Ultra-convertible-review-Alternative-to-Android-tablets-with-true-PC-performance.1260559.0.html",
+    "retrievedDate": "2026-11-03",
+    "conditions": {
+      "formFactor": "laptop",
+      "stock": true,
+      "notes": "Tested in the Alldocube iWork GT Ultra laptop (28 W PL1, 64 W PL2)."
+    }
+  },
+  {
+    "hardwareId": "intel-core-ultra-5-125h",
+    "benchmark": "cinebench",
+    "version": "r23",
+    "test": "single-core",
+    "value": 1549,
+    "sourceId": "notebookcheck",
+    "url": "https://www.notebookcheck.net/Lenovo-ThinkBook-13x-G4-laptop-review-One-of-the-best-subnotebooks-apart-from-the-keyboard.840954.0.html",
+    "retrievedDate": "2026-11-03",
+    "conditions": {
+      "formFactor": "laptop",
+      "stock": true,
+      "notes": "Tested in the iperf3 transmit AXE11000 1666 (min: 1537) MBit/s ∼98% iperf3 receive AXE11000 1709 (min: 1689) MBit/s ∼99% Dell XPS 13 9340 Core Ultra 7 laptop (28 W PL1, 51 W PL2)."
+    }
+  },
+  {
+    "hardwareId": "intel-core-ultra-5-125h",
+    "benchmark": "geekbench",
+    "version": "6",
+    "test": "multi-core",
+    "value": 10527,
+    "sourceId": "notebookcheck",
+    "url": "https://www.notebookcheck.net/Alldocube-iWork-GT-Ultra-convertible-review-Alternative-to-Android-tablets-with-true-PC-performance.1260559.0.html",
+    "retrievedDate": "2026-11-03",
+    "conditions": {
+      "formFactor": "laptop",
+      "stock": true,
+      "notes": "Tested in the Alldocube iWork GT Ultra laptop (28 W PL1, 64 W PL2). Geekbench version 6.7."
+    }
+  },
+  {
+    "hardwareId": "intel-core-ultra-5-125h",
+    "benchmark": "geekbench",
+    "version": "6",
+    "test": "multi-core",
+    "value": 11192,
+    "sourceId": "notebookcheck",
+    "url": "https://www.notebookcheck.net/Lenovo-ThinkBook-13x-G4-laptop-review-One-of-the-best-subnotebooks-apart-from-the-keyboard.840954.0.html",
+    "retrievedDate": "2026-11-03",
+    "conditions": {
+      "formFactor": "laptop",
+      "stock": true,
+      "notes": "Tested in the iperf3 transmit AXE11000 1666 (min: 1537) MBit/s ∼98% iperf3 receive AXE11000 1709 (min: 1689) MBit/s ∼99% Dell XPS 13 9340 Core Ultra 7 laptop (28 W PL1, 51 W PL2). Geekbench version 6.7."
+    }
+  },
+  {
+    "hardwareId": "intel-core-ultra-5-125h",
+    "benchmark": "geekbench",
+    "version": "6",
+    "test": "single-core",
+    "value": 2134,
+    "sourceId": "notebookcheck",
+    "url": "https://www.notebookcheck.net/Alldocube-iWork-GT-Ultra-convertible-review-Alternative-to-Android-tablets-with-true-PC-performance.1260559.0.html",
+    "retrievedDate": "2026-11-03",
+    "conditions": {
+      "formFactor": "laptop",
+      "stock": true,
+      "notes": "Tested in the Alldocube iWork GT Ultra laptop (28 W PL1, 64 W PL2). Geekbench version 6.7."
+    }
+  },
+  {
+    "hardwareId": "intel-core-ultra-5-125h",
+    "benchmark": "geekbench",
+    "version": "6",
+    "test": "single-core",
+    "value": 2279,
+    "sourceId": "notebookcheck",
+    "url": "https://www.notebookcheck.net/Lenovo-ThinkBook-13x-G4-laptop-review-One-of-the-best-subnotebooks-apart-from-the-keyboard.840954.0.html",
+    "retrievedDate": "2026-11-03",
+    "conditions": {
+      "formFactor": "laptop",
+      "stock": true,
+      "notes": "Tested in the iperf3 transmit AXE11000 1666 (min: 1537) MBit/s ∼98% iperf3 receive AXE11000 1709 (min: 1689) MBit/s ∼99% Dell XPS 13 9340 Core Ultra 7 laptop (28 W PL1, 51 W PL2). Geekbench version 6.7."
+    }
+  },
+  {
+    "hardwareId": "intel-core-ultra-7-155h",
+    "benchmark": "cinebench",
+    "version": "r23",
+    "test": "multi-core",
+    "value": 11840,
+    "sourceId": "notebookcheck",
+    "url": "https://www.notebookcheck.net/MSI-Summit-E13-AI-Evo-convertible-review-Serious-throttling-issues-with-Core-Ultra-7.969553.0.html",
+    "retrievedDate": "2026-11-03",
+    "conditions": {
+      "formFactor": "laptop",
+      "stock": true,
+      "notes": "Tested in the MSI Summit E13 AI Evo A1MTG laptop (27 W PL1, 42 W PL2)."
+    }
+  },
+  {
+    "hardwareId": "intel-core-ultra-7-155h",
+    "benchmark": "cinebench",
+    "version": "r23",
+    "test": "multi-core",
+    "value": 17231,
+    "sourceId": "notebookcheck",
+    "url": "https://www.notebookcheck.net/Maingear-ML-16-MK2-laptop-review-GeForce-RTX-4070-performance-for-a-decent-price.883144.0.html",
+    "retrievedDate": "2026-11-03",
+    "conditions": {
+      "formFactor": "laptop",
+      "stock": true,
+      "notes": "Tested in the Maingear ML-16 MK2 laptop (57 W PL1, 85 W PL2)."
+    }
+  },
+  {
+    "hardwareId": "intel-core-ultra-7-155h",
+    "benchmark": "cinebench",
+    "version": "r23",
+    "test": "single-core",
+    "value": 1679,
+    "sourceId": "notebookcheck",
+    "url": "https://www.notebookcheck.net/MSI-Summit-E13-AI-Evo-convertible-review-Serious-throttling-issues-with-Core-Ultra-7.969553.0.html",
+    "retrievedDate": "2026-11-03",
+    "conditions": {
+      "formFactor": "laptop",
+      "stock": true,
+      "notes": "Tested in the MSI Summit E13 AI Evo A1MTG laptop (27 W PL1, 42 W PL2)."
+    }
+  },
+  {
+    "hardwareId": "intel-core-ultra-7-155h",
+    "benchmark": "cinebench",
+    "version": "r23",
+    "test": "single-core",
+    "value": 1650,
+    "sourceId": "notebookcheck",
+    "url": "https://www.notebookcheck.net/Maingear-ML-16-MK2-laptop-review-GeForce-RTX-4070-performance-for-a-decent-price.883144.0.html",
+    "retrievedDate": "2026-11-03",
+    "conditions": {
+      "formFactor": "laptop",
+      "stock": true,
+      "notes": "Tested in the Maingear ML-16 MK2 laptop (57 W PL1, 85 W PL2)."
+    }
+  },
+  {
+    "hardwareId": "intel-core-ultra-7-155h",
+    "benchmark": "geekbench",
+    "version": "6",
+    "test": "multi-core",
+    "value": 10836,
+    "sourceId": "notebookcheck",
+    "url": "https://www.notebookcheck.net/MSI-Summit-E13-AI-Evo-convertible-review-Serious-throttling-issues-with-Core-Ultra-7.969553.0.html",
+    "retrievedDate": "2026-11-03",
+    "conditions": {
+      "formFactor": "laptop",
+      "stock": true,
+      "notes": "Tested in the MSI Summit E13 AI Evo A1MTG laptop (27 W PL1, 42 W PL2). Geekbench version 6.7."
+    }
+  },
+  {
+    "hardwareId": "intel-core-ultra-7-155h",
+    "benchmark": "geekbench",
+    "version": "6",
+    "test": "multi-core",
+    "value": 11941,
+    "sourceId": "notebookcheck",
+    "url": "https://www.notebookcheck.net/Maingear-ML-16-MK2-laptop-review-GeForce-RTX-4070-performance-for-a-decent-price.883144.0.html",
+    "retrievedDate": "2026-11-03",
+    "conditions": {
+      "formFactor": "laptop",
+      "stock": true,
+      "notes": "Tested in the Maingear ML-16 MK2 laptop (57 W PL1, 85 W PL2). Geekbench version 6.7."
+    }
+  },
+  {
+    "hardwareId": "intel-core-ultra-7-155h",
+    "benchmark": "geekbench",
+    "version": "6",
+    "test": "single-core",
+    "value": 2322,
+    "sourceId": "notebookcheck",
+    "url": "https://www.notebookcheck.net/MSI-Summit-E13-AI-Evo-convertible-review-Serious-throttling-issues-with-Core-Ultra-7.969553.0.html",
+    "retrievedDate": "2026-11-03",
+    "conditions": {
+      "formFactor": "laptop",
+      "stock": true,
+      "notes": "Tested in the MSI Summit E13 AI Evo A1MTG laptop (27 W PL1, 42 W PL2). Geekbench version 6.7."
+    }
+  },
+  {
+    "hardwareId": "intel-core-ultra-7-155h",
+    "benchmark": "geekbench",
+    "version": "6",
+    "test": "single-core",
+    "value": 2238,
+    "sourceId": "notebookcheck",
+    "url": "https://www.notebookcheck.net/Maingear-ML-16-MK2-laptop-review-GeForce-RTX-4070-performance-for-a-decent-price.883144.0.html",
+    "retrievedDate": "2026-11-03",
+    "conditions": {
+      "formFactor": "laptop",
+      "stock": true,
+      "notes": "Tested in the Maingear ML-16 MK2 laptop (57 W PL1, 85 W PL2). Geekbench version 6.7."
+    }
+  },
+  {
+    "hardwareId": "intel-core-ultra-7-255h",
+    "benchmark": "cinebench",
+    "version": "2026",
+    "test": "multi-core",
+    "value": 4115,
+    "sourceId": "notebookcheck",
+    "url": "https://www.notebookcheck.net/MSI-Venture-16-AI-A2HMTG-laptop-review-Basic-budget-business.1240255.0.html",
+    "retrievedDate": "2026-11-03",
+    "conditions": {
+      "formFactor": "laptop",
+      "stock": true,
+      "notes": "Tested in the MSI Venture 16 AI A2HMTG laptop (44 W PL1, 48 W PL2)."
+    }
+  },
+  {
+    "hardwareId": "intel-core-ultra-7-255h",
+    "benchmark": "cinebench",
+    "version": "r23",
+    "test": "multi-core",
+    "value": 16105,
+    "sourceId": "notebookcheck",
+    "url": "https://www.notebookcheck.net/1-kg-Ultrabook-with-Arrow-Lake-and-excellent-input-devices-Honor-MagicBook-Art-14-2025-Review.1098985.0.html",
+    "retrievedDate": "2026-11-03",
+    "conditions": {
+      "formFactor": "laptop",
+      "stock": true,
+      "notes": "Tested in the iperf3 transmit AXE11000 1667 (min: 1595) MBit/s ∼98% iperf3 receive AXE11000 1374 (min: 1294) MBit/s ∼79% Lenovo ThinkPad X9-14 Gen 1 Aura Edition laptop (26 W PL1, 40 W PL2)."
+    }
+  },
+  {
+    "hardwareId": "intel-core-ultra-7-255h",
+    "benchmark": "cinebench",
+    "version": "r23",
+    "test": "multi-core",
+    "value": 17569,
+    "sourceId": "notebookcheck",
+    "url": "https://www.notebookcheck.net/MSI-Venture-16-AI-A2HMTG-laptop-review-Basic-budget-business.1240255.0.html",
+    "retrievedDate": "2026-11-03",
+    "conditions": {
+      "formFactor": "laptop",
+      "stock": true,
+      "notes": "Tested in the MSI Venture 16 AI A2HMTG laptop (44 W PL1, 48 W PL2)."
+    }
+  },
+  {
+    "hardwareId": "intel-core-ultra-7-255h",
+    "benchmark": "cinebench",
+    "version": "r23",
+    "test": "single-core",
+    "value": 1989,
+    "sourceId": "notebookcheck",
+    "url": "https://www.notebookcheck.net/1-kg-Ultrabook-with-Arrow-Lake-and-excellent-input-devices-Honor-MagicBook-Art-14-2025-Review.1098985.0.html",
+    "retrievedDate": "2026-11-03",
+    "conditions": {
+      "formFactor": "laptop",
+      "stock": true,
+      "notes": "Tested in the iperf3 transmit AXE11000 1667 (min: 1595) MBit/s ∼98% iperf3 receive AXE11000 1374 (min: 1294) MBit/s ∼79% Lenovo ThinkPad X9-14 Gen 1 Aura Edition laptop (26 W PL1, 40 W PL2)."
+    }
+  },
+  {
+    "hardwareId": "intel-core-ultra-7-255h",
+    "benchmark": "cinebench",
+    "version": "r23",
+    "test": "single-core",
+    "value": 1954,
+    "sourceId": "notebookcheck",
+    "url": "https://www.notebookcheck.net/MSI-Venture-16-AI-A2HMTG-laptop-review-Basic-budget-business.1240255.0.html",
+    "retrievedDate": "2026-11-03",
+    "conditions": {
+      "formFactor": "laptop",
+      "stock": true,
+      "notes": "Tested in the MSI Venture 16 AI A2HMTG laptop (44 W PL1, 48 W PL2)."
+    }
+  },
+  {
+    "hardwareId": "intel-core-ultra-7-255h",
+    "benchmark": "geekbench",
+    "version": "6",
+    "test": "multi-core",
+    "value": 14454,
+    "sourceId": "notebookcheck",
+    "url": "https://www.notebookcheck.net/1-kg-Ultrabook-with-Arrow-Lake-and-excellent-input-devices-Honor-MagicBook-Art-14-2025-Review.1098985.0.html",
+    "retrievedDate": "2026-11-03",
+    "conditions": {
+      "formFactor": "laptop",
+      "stock": true,
+      "notes": "Tested in the iperf3 transmit AXE11000 1667 (min: 1595) MBit/s ∼98% iperf3 receive AXE11000 1374 (min: 1294) MBit/s ∼79% Lenovo ThinkPad X9-14 Gen 1 Aura Edition laptop (26 W PL1, 40 W PL2). Geekbench version 6.7."
+    }
+  },
+  {
+    "hardwareId": "intel-core-ultra-7-255h",
+    "benchmark": "geekbench",
+    "version": "6",
+    "test": "multi-core",
+    "value": 14801,
+    "sourceId": "notebookcheck",
+    "url": "https://www.notebookcheck.net/MSI-Venture-16-AI-A2HMTG-laptop-review-Basic-budget-business.1240255.0.html",
+    "retrievedDate": "2026-11-03",
+    "conditions": {
+      "formFactor": "laptop",
+      "stock": true,
+      "notes": "Tested in the MSI Venture 16 AI A2HMTG laptop (44 W PL1, 48 W PL2). Geekbench version 6.7."
+    }
+  },
+  {
+    "hardwareId": "intel-core-ultra-7-255h",
+    "benchmark": "geekbench",
+    "version": "6",
+    "test": "single-core",
+    "value": 2797,
+    "sourceId": "notebookcheck",
+    "url": "https://www.notebookcheck.net/1-kg-Ultrabook-with-Arrow-Lake-and-excellent-input-devices-Honor-MagicBook-Art-14-2025-Review.1098985.0.html",
+    "retrievedDate": "2026-11-03",
+    "conditions": {
+      "formFactor": "laptop",
+      "stock": true,
+      "notes": "Tested in the iperf3 transmit AXE11000 1667 (min: 1595) MBit/s ∼98% iperf3 receive AXE11000 1374 (min: 1294) MBit/s ∼79% Lenovo ThinkPad X9-14 Gen 1 Aura Edition laptop (26 W PL1, 40 W PL2). Geekbench version 6.7."
+    }
+  },
+  {
+    "hardwareId": "intel-core-ultra-7-255h",
+    "benchmark": "geekbench",
+    "version": "6",
+    "test": "single-core",
+    "value": 2776,
+    "sourceId": "notebookcheck",
+    "url": "https://www.notebookcheck.net/MSI-Venture-16-AI-A2HMTG-laptop-review-Basic-budget-business.1240255.0.html",
+    "retrievedDate": "2026-11-03",
+    "conditions": {
+      "formFactor": "laptop",
+      "stock": true,
+      "notes": "Tested in the MSI Venture 16 AI A2HMTG laptop (44 W PL1, 48 W PL2). Geekbench version 6.7."
+    }
+  },
+  {
+    "hardwareId": "intel-core-ultra-7-258v",
+    "benchmark": "cinebench",
+    "version": "2026",
+    "test": "multi-core",
+    "value": 1753,
+    "sourceId": "notebookcheck",
+    "url": "https://www.notebookcheck.net/Lenovo-ThinkPad-X9-15-Aura-Edition-Laptop-Review-The-MacBook-Air-rival-is-very-good-even-without-a-TrackPoint.967369.0.html",
+    "retrievedDate": "2026-11-03",
+    "conditions": {
+      "formFactor": "laptop",
+      "stock": true,
+      "notes": "Tested in the iperf3 transmit AXE11000 1656 (min: 1540) MBit/s ∼98% iperf3 receive AXE11000 1568 (min: 1525) MBit/s ∼89% Microsoft Surface Laptop 15 Snapdragon X Elite laptop (25 W PL1, 37 W PL2)."
+    }
+  },
+  {
+    "hardwareId": "intel-core-ultra-7-258v",
+    "benchmark": "cinebench",
+    "version": "r23",
+    "test": "multi-core",
+    "value": 10416,
+    "sourceId": "notebookcheck",
+    "url": "https://www.notebookcheck.net/HP-OmniBook-Ultra-Flip-14-convertible-review-Lighter-than-expected.914608.0.html",
+    "retrievedDate": "2026-11-03",
+    "conditions": {
+      "formFactor": "laptop",
+      "stock": true,
+      "notes": "Tested in the HP OmniBook Ultra Flip 14 laptop (29 W PL1, 39 W PL2)."
+    }
+  },
+  {
+    "hardwareId": "intel-core-ultra-7-258v",
+    "benchmark": "cinebench",
+    "version": "r23",
+    "test": "multi-core",
+    "value": 10138,
+    "sourceId": "notebookcheck",
+    "url": "https://www.notebookcheck.net/Lenovo-ThinkPad-X9-15-Aura-Edition-Laptop-Review-The-MacBook-Air-rival-is-very-good-even-without-a-TrackPoint.967369.0.html",
+    "retrievedDate": "2026-11-03",
+    "conditions": {
+      "formFactor": "laptop",
+      "stock": true,
+      "notes": "Tested in the iperf3 transmit AXE11000 1656 (min: 1540) MBit/s ∼98% iperf3 receive AXE11000 1568 (min: 1525) MBit/s ∼89% Microsoft Surface Laptop 15 Snapdragon X Elite laptop (25 W PL1, 37 W PL2)."
+    }
+  },
+  {
+    "hardwareId": "intel-core-ultra-7-258v",
+    "benchmark": "cinebench",
+    "version": "r23",
+    "test": "single-core",
+    "value": 1664,
+    "sourceId": "notebookcheck",
+    "url": "https://www.notebookcheck.net/HP-OmniBook-Ultra-Flip-14-convertible-review-Lighter-than-expected.914608.0.html",
+    "retrievedDate": "2026-11-03",
+    "conditions": {
+      "formFactor": "laptop",
+      "stock": true,
+      "notes": "Tested in the HP OmniBook Ultra Flip 14 laptop (29 W PL1, 39 W PL2)."
+    }
+  },
+  {
+    "hardwareId": "intel-core-ultra-7-258v",
+    "benchmark": "cinebench",
+    "version": "r23",
+    "test": "single-core",
+    "value": 1875,
+    "sourceId": "notebookcheck",
+    "url": "https://www.notebookcheck.net/Lenovo-ThinkPad-X9-15-Aura-Edition-Laptop-Review-The-MacBook-Air-rival-is-very-good-even-without-a-TrackPoint.967369.0.html",
+    "retrievedDate": "2026-11-03",
+    "conditions": {
+      "formFactor": "laptop",
+      "stock": true,
+      "notes": "Tested in the iperf3 transmit AXE11000 1656 (min: 1540) MBit/s ∼98% iperf3 receive AXE11000 1568 (min: 1525) MBit/s ∼89% Microsoft Surface Laptop 15 Snapdragon X Elite laptop (25 W PL1, 37 W PL2)."
+    }
+  },
+  {
+    "hardwareId": "intel-core-ultra-7-258v",
+    "benchmark": "geekbench",
+    "version": "6",
+    "test": "multi-core",
+    "value": 10967,
+    "sourceId": "notebookcheck",
+    "url": "https://www.notebookcheck.net/HP-OmniBook-Ultra-Flip-14-convertible-review-Lighter-than-expected.914608.0.html",
+    "retrievedDate": "2026-11-03",
+    "conditions": {
+      "formFactor": "laptop",
+      "stock": true,
+      "notes": "Tested in the HP OmniBook Ultra Flip 14 laptop (29 W PL1, 39 W PL2). Geekbench version 6.7."
+    }
+  },
+  {
+    "hardwareId": "intel-core-ultra-7-258v",
+    "benchmark": "geekbench",
+    "version": "6",
+    "test": "multi-core",
+    "value": 11037,
+    "sourceId": "notebookcheck",
+    "url": "https://www.notebookcheck.net/Lenovo-ThinkPad-X9-15-Aura-Edition-Laptop-Review-The-MacBook-Air-rival-is-very-good-even-without-a-TrackPoint.967369.0.html",
+    "retrievedDate": "2026-11-03",
+    "conditions": {
+      "formFactor": "laptop",
+      "stock": true,
+      "notes": "Tested in the iperf3 transmit AXE11000 1656 (min: 1540) MBit/s ∼98% iperf3 receive AXE11000 1568 (min: 1525) MBit/s ∼89% Microsoft Surface Laptop 15 Snapdragon X Elite laptop (25 W PL1, 37 W PL2). Geekbench version 6.7."
+    }
+  },
+  {
+    "hardwareId": "intel-core-ultra-7-258v",
+    "benchmark": "geekbench",
+    "version": "6",
+    "test": "single-core",
+    "value": 2673,
+    "sourceId": "notebookcheck",
+    "url": "https://www.notebookcheck.net/HP-OmniBook-Ultra-Flip-14-convertible-review-Lighter-than-expected.914608.0.html",
+    "retrievedDate": "2026-11-03",
+    "conditions": {
+      "formFactor": "laptop",
+      "stock": true,
+      "notes": "Tested in the HP OmniBook Ultra Flip 14 laptop (29 W PL1, 39 W PL2). Geekbench version 6.7."
+    }
+  },
+  {
+    "hardwareId": "intel-core-ultra-7-258v",
+    "benchmark": "geekbench",
+    "version": "6",
+    "test": "single-core",
+    "value": 2795,
+    "sourceId": "notebookcheck",
+    "url": "https://www.notebookcheck.net/Lenovo-ThinkPad-X9-15-Aura-Edition-Laptop-Review-The-MacBook-Air-rival-is-very-good-even-without-a-TrackPoint.967369.0.html",
+    "retrievedDate": "2026-11-03",
+    "conditions": {
+      "formFactor": "laptop",
+      "stock": true,
+      "notes": "Tested in the iperf3 transmit AXE11000 1656 (min: 1540) MBit/s ∼98% iperf3 receive AXE11000 1568 (min: 1525) MBit/s ∼89% Microsoft Surface Laptop 15 Snapdragon X Elite laptop (25 W PL1, 37 W PL2). Geekbench version 6.7."
+    }
+  },
+  {
+    "hardwareId": "intel-core-ultra-9-275hx",
+    "benchmark": "cinebench",
+    "version": "2026",
+    "test": "multi-core",
+    "value": 7309,
+    "sourceId": "notebookcheck",
+    "url": "https://www.notebookcheck.net/A-mobile-workstation-with-disappointing-performance-Lenovo-ThinkPad-T16g-Gen-3-review.1220451.0.html",
+    "retrievedDate": "2026-11-03",
+    "conditions": {
+      "formFactor": "laptop",
+      "stock": true,
+      "notes": "Tested in the Lenovo ThinkPad T16g Gen 3 RTX 5080 laptop (65 W PL1, 160 W PL2)."
+    }
+  },
+  {
+    "hardwareId": "intel-core-ultra-9-275hx",
+    "benchmark": "cinebench",
+    "version": "r23",
+    "test": "multi-core",
+    "value": 37496,
+    "sourceId": "notebookcheck",
+    "url": "https://www.notebookcheck.net/A-mobile-workstation-with-disappointing-performance-Lenovo-ThinkPad-T16g-Gen-3-review.1220451.0.html",
+    "retrievedDate": "2026-11-03",
+    "conditions": {
+      "formFactor": "laptop",
+      "stock": true,
+      "notes": "Tested in the Lenovo ThinkPad T16g Gen 3 RTX 5080 laptop (65 W PL1, 160 W PL2)."
+    }
+  },
+  {
+    "hardwareId": "intel-core-ultra-9-275hx",
+    "benchmark": "cinebench",
+    "version": "r23",
+    "test": "multi-core",
+    "value": 31707,
+    "sourceId": "notebookcheck",
+    "url": "https://www.notebookcheck.net/Alienware-16-Area-51-laptop-review-Dell-s-best-flagship-gaming-laptop-yet.1027688.0.html",
+    "retrievedDate": "2026-11-03",
+    "conditions": {
+      "formFactor": "laptop",
+      "stock": true,
+      "notes": "Tested in the Alienware 16 Area-51 laptop (150 W PL1, 173 W PL2)."
+    }
+  },
+  {
+    "hardwareId": "intel-core-ultra-9-275hx",
+    "benchmark": "cinebench",
+    "version": "r23",
+    "test": "single-core",
+    "value": 2204,
+    "sourceId": "notebookcheck",
+    "url": "https://www.notebookcheck.net/A-mobile-workstation-with-disappointing-performance-Lenovo-ThinkPad-T16g-Gen-3-review.1220451.0.html",
+    "retrievedDate": "2026-11-03",
+    "conditions": {
+      "formFactor": "laptop",
+      "stock": true,
+      "notes": "Tested in the Lenovo ThinkPad T16g Gen 3 RTX 5080 laptop (65 W PL1, 160 W PL2)."
+    }
+  },
+  {
+    "hardwareId": "intel-core-ultra-9-275hx",
+    "benchmark": "cinebench",
+    "version": "r23",
+    "test": "single-core",
+    "value": 2009,
+    "sourceId": "notebookcheck",
+    "url": "https://www.notebookcheck.net/Alienware-16-Area-51-laptop-review-Dell-s-best-flagship-gaming-laptop-yet.1027688.0.html",
+    "retrievedDate": "2026-11-03",
+    "conditions": {
+      "formFactor": "laptop",
+      "stock": true,
+      "notes": "Tested in the Alienware 16 Area-51 laptop (150 W PL1, 173 W PL2)."
+    }
+  },
+  {
+    "hardwareId": "intel-core-ultra-9-275hx",
+    "benchmark": "geekbench",
+    "version": "6",
+    "test": "multi-core",
+    "value": 18610,
+    "sourceId": "notebookcheck",
+    "url": "https://www.notebookcheck.net/A-mobile-workstation-with-disappointing-performance-Lenovo-ThinkPad-T16g-Gen-3-review.1220451.0.html",
+    "retrievedDate": "2026-11-03",
+    "conditions": {
+      "formFactor": "laptop",
+      "stock": true,
+      "notes": "Tested in the Lenovo ThinkPad T16g Gen 3 RTX 5080 laptop (65 W PL1, 160 W PL2). Geekbench version 6.7."
+    }
+  },
+  {
+    "hardwareId": "intel-core-ultra-9-275hx",
+    "benchmark": "geekbench",
+    "version": "6",
+    "test": "multi-core",
+    "value": 18978,
+    "sourceId": "notebookcheck",
+    "url": "https://www.notebookcheck.net/Alienware-16-Area-51-laptop-review-Dell-s-best-flagship-gaming-laptop-yet.1027688.0.html",
+    "retrievedDate": "2026-11-03",
+    "conditions": {
+      "formFactor": "laptop",
+      "stock": true,
+      "notes": "Tested in the Alienware 16 Area-51 laptop (150 W PL1, 173 W PL2). Geekbench version 6.7."
+    }
+  },
+  {
+    "hardwareId": "intel-core-ultra-9-275hx",
+    "benchmark": "geekbench",
+    "version": "6",
+    "test": "single-core",
+    "value": 3065,
+    "sourceId": "notebookcheck",
+    "url": "https://www.notebookcheck.net/A-mobile-workstation-with-disappointing-performance-Lenovo-ThinkPad-T16g-Gen-3-review.1220451.0.html",
+    "retrievedDate": "2026-11-03",
+    "conditions": {
+      "formFactor": "laptop",
+      "stock": true,
+      "notes": "Tested in the Lenovo ThinkPad T16g Gen 3 RTX 5080 laptop (65 W PL1, 160 W PL2). Geekbench version 6.7."
+    }
+  },
+  {
+    "hardwareId": "intel-core-ultra-9-275hx",
+    "benchmark": "geekbench",
+    "version": "6",
+    "test": "single-core",
+    "value": 2925,
+    "sourceId": "notebookcheck",
+    "url": "https://www.notebookcheck.net/Alienware-16-Area-51-laptop-review-Dell-s-best-flagship-gaming-laptop-yet.1027688.0.html",
+    "retrievedDate": "2026-11-03",
+    "conditions": {
+      "formFactor": "laptop",
+      "stock": true,
+      "notes": "Tested in the Alienware 16 Area-51 laptop (150 W PL1, 173 W PL2). Geekbench version 6.7."
+    }
+  },
+  {
+    "hardwareId": "nvidia-geforce-gtx-1650",
+    "benchmark": "3dmark",
+    "version": "steel-nomad",
+    "test": "score",
+    "value": 320,
+    "sourceId": "ul-benchmarks",
+    "url": "https://benchmarks.ul.com/compare/best-gpus?amount=0&sortBy=SCORE&reverseOrder=true&types=DESKTOP&minRating=0",
+    "retrievedDate": "2026-11-03",
+    "conditions": {
+      "formFactor": "desktop",
+      "stock": true,
+      "notes": "Median of all user-submitted results for \"NVIDIA GeForce GTX 1650\" on UL's desktop GPU ranking (Steel Nomad DX12 graphics score), not a single controlled test."
+    }
+  },
+  {
+    "hardwareId": "nvidia-geforce-gtx-1660-super",
+    "benchmark": "3dmark",
+    "version": "steel-nomad",
+    "test": "score",
+    "value": 1246,
+    "sourceId": "ul-benchmarks",
+    "url": "https://benchmarks.ul.com/compare/best-gpus?amount=0&sortBy=SCORE&reverseOrder=true&types=DESKTOP&minRating=0",
+    "retrievedDate": "2026-11-03",
+    "conditions": {
+      "formFactor": "desktop",
+      "stock": true,
+      "notes": "Median of all user-submitted results for \"NVIDIA GeForce GTX 1660 SUPER\" on UL's desktop GPU ranking (Steel Nomad DX12 graphics score), not a single controlled test."
+    }
+  },
+  {
+    "hardwareId": "nvidia-geforce-rtx-2060-super",
+    "benchmark": "3dmark",
+    "version": "steel-nomad",
+    "test": "score",
+    "value": 1984,
+    "sourceId": "ul-benchmarks",
+    "url": "https://benchmarks.ul.com/compare/best-gpus?amount=0&sortBy=SCORE&reverseOrder=true&types=DESKTOP&minRating=0",
+    "retrievedDate": "2026-11-03",
+    "conditions": {
+      "formFactor": "desktop",
+      "stock": true,
+      "notes": "Median of all user-submitted results for \"NVIDIA GeForce RTX 2060 SUPER\" on UL's desktop GPU ranking (Steel Nomad DX12 graphics score), not a single controlled test."
+    }
+  },
+  {
+    "hardwareId": "nvidia-geforce-rtx-3050",
+    "benchmark": "3dmark",
+    "version": "steel-nomad",
+    "test": "score",
+    "value": 1338,
+    "sourceId": "ul-benchmarks",
+    "url": "https://benchmarks.ul.com/compare/best-gpus?amount=0&sortBy=SCORE&reverseOrder=true&types=DESKTOP&minRating=0",
+    "retrievedDate": "2026-11-03",
+    "conditions": {
+      "formFactor": "desktop",
+      "stock": true,
+      "notes": "Median of all user-submitted results for \"NVIDIA GeForce RTX 3050\" on UL's desktop GPU ranking (Steel Nomad DX12 graphics score), not a single controlled test."
+    }
+  },
+  {
+    "hardwareId": "nvidia-geforce-rtx-3060",
+    "benchmark": "3dmark",
+    "version": "steel-nomad",
+    "test": "score",
+    "value": 1978,
+    "sourceId": "ul-benchmarks",
+    "url": "https://benchmarks.ul.com/compare/best-gpus?amount=0&sortBy=SCORE&reverseOrder=true&types=DESKTOP&minRating=0",
+    "retrievedDate": "2026-11-03",
+    "conditions": {
+      "formFactor": "desktop",
+      "stock": true,
+      "notes": "Median of all user-submitted results for \"NVIDIA GeForce RTX 3060\" on UL's desktop GPU ranking (Steel Nomad DX12 graphics score), not a single controlled test."
+    }
+  },
+  {
+    "hardwareId": "nvidia-geforce-rtx-3060-ti",
+    "benchmark": "3dmark",
+    "version": "steel-nomad",
+    "test": "score",
+    "value": 2691,
+    "sourceId": "ul-benchmarks",
+    "url": "https://benchmarks.ul.com/compare/best-gpus?amount=0&sortBy=SCORE&reverseOrder=true&types=DESKTOP&minRating=0",
+    "retrievedDate": "2026-11-03",
+    "conditions": {
+      "formFactor": "desktop",
+      "stock": true,
+      "notes": "Median of all user-submitted results for \"NVIDIA GeForce RTX 3060 Ti\" on UL's desktop GPU ranking (Steel Nomad DX12 graphics score), not a single controlled test."
+    }
+  },
+  {
+    "hardwareId": "nvidia-geforce-rtx-3070",
+    "benchmark": "3dmark",
+    "version": "steel-nomad",
+    "test": "score",
+    "value": 3182,
+    "sourceId": "ul-benchmarks",
+    "url": "https://benchmarks.ul.com/compare/best-gpus?amount=0&sortBy=SCORE&reverseOrder=true&types=DESKTOP&minRating=0",
+    "retrievedDate": "2026-11-03",
+    "conditions": {
+      "formFactor": "desktop",
+      "stock": true,
+      "notes": "Median of all user-submitted results for \"NVIDIA GeForce RTX 3070\" on UL's desktop GPU ranking (Steel Nomad DX12 graphics score), not a single controlled test."
+    }
+  },
+  {
+    "hardwareId": "nvidia-geforce-rtx-3070-ti",
+    "benchmark": "3dmark",
+    "version": "steel-nomad",
+    "test": "score",
+    "value": 3501,
+    "sourceId": "ul-benchmarks",
+    "url": "https://benchmarks.ul.com/compare/best-gpus?amount=0&sortBy=SCORE&reverseOrder=true&types=DESKTOP&minRating=0",
+    "retrievedDate": "2026-11-03",
+    "conditions": {
+      "formFactor": "desktop",
+      "stock": true,
+      "notes": "Median of all user-submitted results for \"NVIDIA GeForce RTX 3070 Ti\" on UL's desktop GPU ranking (Steel Nomad DX12 graphics score), not a single controlled test."
+    }
+  },
+  {
+    "hardwareId": "nvidia-geforce-rtx-3080",
+    "benchmark": "3dmark",
+    "version": "steel-nomad",
+    "test": "score",
+    "value": 4442,
+    "sourceId": "ul-benchmarks",
+    "url": "https://benchmarks.ul.com/compare/best-gpus?amount=0&sortBy=SCORE&reverseOrder=true&types=DESKTOP&minRating=0",
+    "retrievedDate": "2026-11-03",
+    "conditions": {
+      "formFactor": "desktop",
+      "stock": true,
+      "notes": "Median of all user-submitted results for \"NVIDIA GeForce RTX 3080\" on UL's desktop GPU ranking (Steel Nomad DX12 graphics score), not a single controlled test."
+    }
+  },
+  {
+    "hardwareId": "nvidia-geforce-rtx-3080-ti",
+    "benchmark": "3dmark",
+    "version": "steel-nomad",
+    "test": "score",
+    "value": 5092,
+    "sourceId": "ul-benchmarks",
+    "url": "https://benchmarks.ul.com/compare/best-gpus?amount=0&sortBy=SCORE&reverseOrder=true&types=DESKTOP&minRating=0",
+    "retrievedDate": "2026-11-03",
+    "conditions": {
+      "formFactor": "desktop",
+      "stock": true,
+      "notes": "Median of all user-submitted results for \"NVIDIA GeForce RTX 3080 Ti\" on UL's desktop GPU ranking (Steel Nomad DX12 graphics score), not a single controlled test."
+    }
+  },
+  {
+    "hardwareId": "nvidia-geforce-rtx-3090",
+    "benchmark": "3dmark",
+    "version": "steel-nomad",
+    "test": "score",
+    "value": 5112,
+    "sourceId": "ul-benchmarks",
+    "url": "https://benchmarks.ul.com/compare/best-gpus?amount=0&sortBy=SCORE&reverseOrder=true&types=DESKTOP&minRating=0",
+    "retrievedDate": "2026-11-03",
+    "conditions": {
+      "formFactor": "desktop",
+      "stock": true,
+      "notes": "Median of all user-submitted results for \"NVIDIA GeForce RTX 3090\" on UL's desktop GPU ranking (Steel Nomad DX12 graphics score), not a single controlled test."
+    }
+  },
+  {
+    "hardwareId": "nvidia-geforce-rtx-4060",
+    "benchmark": "3dmark",
+    "version": "steel-nomad",
+    "test": "score",
+    "value": 2309,
+    "sourceId": "ul-benchmarks",
+    "url": "https://benchmarks.ul.com/compare/best-gpus?amount=0&sortBy=SCORE&reverseOrder=true&types=DESKTOP&minRating=0",
+    "retrievedDate": "2026-11-03",
+    "conditions": {
+      "formFactor": "desktop",
+      "stock": true,
+      "notes": "Median of all user-submitted results for \"NVIDIA GeForce RTX 4060\" on UL's desktop GPU ranking (Steel Nomad DX12 graphics score), not a single controlled test."
+    }
+  },
+  {
+    "hardwareId": "nvidia-geforce-rtx-4060-ti",
+    "benchmark": "3dmark",
+    "version": "steel-nomad",
+    "test": "score",
+    "value": 2907,
+    "sourceId": "ul-benchmarks",
+    "url": "https://benchmarks.ul.com/compare/best-gpus?amount=0&sortBy=SCORE&reverseOrder=true&types=DESKTOP&minRating=0",
+    "retrievedDate": "2026-11-03",
+    "conditions": {
+      "formFactor": "desktop",
+      "stock": true,
+      "notes": "Median of all user-submitted results for \"NVIDIA GeForce RTX 4060 Ti 8 GB\" on UL's desktop GPU ranking (Steel Nomad DX12 graphics score), not a single controlled test."
+    }
+  },
+  {
+    "hardwareId": "nvidia-geforce-rtx-4060-ti",
+    "benchmark": "3dmark",
+    "version": "steel-nomad",
+    "test": "score",
+    "value": 2905,
+    "sourceId": "ul-benchmarks",
+    "url": "https://benchmarks.ul.com/compare/best-gpus?amount=0&sortBy=SCORE&reverseOrder=true&types=DESKTOP&minRating=0",
+    "retrievedDate": "2026-11-03",
+    "conditions": {
+      "formFactor": "desktop",
+      "stock": true,
+      "notes": "Median of all user-submitted results for \"NVIDIA GeForce RTX 4060 Ti 16 GB\" on UL's desktop GPU ranking (Steel Nomad DX12 graphics score), not a single controlled test."
+    }
+  },
+  {
+    "hardwareId": "nvidia-geforce-rtx-4070",
+    "benchmark": "3dmark",
+    "version": "steel-nomad",
+    "test": "score",
+    "value": 3845,
+    "sourceId": "ul-benchmarks",
+    "url": "https://benchmarks.ul.com/compare/best-gpus?amount=0&sortBy=SCORE&reverseOrder=true&types=DESKTOP&minRating=0",
+    "retrievedDate": "2026-11-03",
+    "conditions": {
+      "formFactor": "desktop",
+      "stock": true,
+      "notes": "Median of all user-submitted results for \"NVIDIA GeForce RTX 4070\" on UL's desktop GPU ranking (Steel Nomad DX12 graphics score), not a single controlled test."
+    }
+  },
+  {
+    "hardwareId": "nvidia-geforce-rtx-4070-super",
+    "benchmark": "3dmark",
+    "version": "steel-nomad",
+    "test": "score",
+    "value": 4650,
+    "sourceId": "ul-benchmarks",
+    "url": "https://benchmarks.ul.com/compare/best-gpus?amount=0&sortBy=SCORE&reverseOrder=true&types=DESKTOP&minRating=0",
+    "retrievedDate": "2026-11-03",
+    "conditions": {
+      "formFactor": "desktop",
+      "stock": true,
+      "notes": "Median of all user-submitted results for \"NVIDIA GeForce RTX 4070 SUPER\" on UL's desktop GPU ranking (Steel Nomad DX12 graphics score), not a single controlled test."
+    }
+  },
+  {
+    "hardwareId": "nvidia-geforce-rtx-4070-ti",
+    "benchmark": "3dmark",
+    "version": "steel-nomad",
+    "test": "score",
+    "value": 5040,
+    "sourceId": "ul-benchmarks",
+    "url": "https://benchmarks.ul.com/compare/best-gpus?amount=0&sortBy=SCORE&reverseOrder=true&types=DESKTOP&minRating=0",
+    "retrievedDate": "2026-11-03",
+    "conditions": {
+      "formFactor": "desktop",
+      "stock": true,
+      "notes": "Median of all user-submitted results for \"NVIDIA GeForce RTX 4070 Ti\" on UL's desktop GPU ranking (Steel Nomad DX12 graphics score), not a single controlled test."
+    }
+  },
+  {
+    "hardwareId": "nvidia-geforce-rtx-4070-ti-super",
+    "benchmark": "3dmark",
+    "version": "steel-nomad",
+    "test": "score",
+    "value": 5588,
+    "sourceId": "ul-benchmarks",
+    "url": "https://benchmarks.ul.com/compare/best-gpus?amount=0&sortBy=SCORE&reverseOrder=true&types=DESKTOP&minRating=0",
+    "retrievedDate": "2026-11-03",
+    "conditions": {
+      "formFactor": "desktop",
+      "stock": true,
+      "notes": "Median of all user-submitted results for \"NVIDIA GeForce RTX 4070 Ti SUPER\" on UL's desktop GPU ranking (Steel Nomad DX12 graphics score), not a single controlled test."
+    }
+  },
+  {
+    "hardwareId": "nvidia-geforce-rtx-4080",
+    "benchmark": "3dmark",
+    "version": "steel-nomad",
+    "test": "score",
+    "value": 6585,
+    "sourceId": "ul-benchmarks",
+    "url": "https://benchmarks.ul.com/compare/best-gpus?amount=0&sortBy=SCORE&reverseOrder=true&types=DESKTOP&minRating=0",
+    "retrievedDate": "2026-11-03",
+    "conditions": {
+      "formFactor": "desktop",
+      "stock": true,
+      "notes": "Median of all user-submitted results for \"NVIDIA GeForce RTX 4080\" on UL's desktop GPU ranking (Steel Nomad DX12 graphics score), not a single controlled test."
+    }
+  },
+  {
+    "hardwareId": "nvidia-geforce-rtx-4080-super",
+    "benchmark": "3dmark",
+    "version": "steel-nomad",
+    "test": "score",
+    "value": 6621,
+    "sourceId": "ul-benchmarks",
+    "url": "https://benchmarks.ul.com/compare/best-gpus?amount=0&sortBy=SCORE&reverseOrder=true&types=DESKTOP&minRating=0",
+    "retrievedDate": "2026-11-03",
+    "conditions": {
+      "formFactor": "desktop",
+      "stock": true,
+      "notes": "Median of all user-submitted results for \"NVIDIA GeForce RTX 4080 SUPER\" on UL's desktop GPU ranking (Steel Nomad DX12 graphics score), not a single controlled test."
+    }
+  },
+  {
+    "hardwareId": "nvidia-geforce-rtx-4090",
+    "benchmark": "3dmark",
+    "version": "steel-nomad",
+    "test": "score",
+    "value": 9225,
+    "sourceId": "ul-benchmarks",
+    "url": "https://benchmarks.ul.com/compare/best-gpus?amount=0&sortBy=SCORE&reverseOrder=true&types=DESKTOP&minRating=0",
+    "retrievedDate": "2026-11-03",
+    "conditions": {
+      "formFactor": "desktop",
+      "stock": true,
+      "notes": "Median of all user-submitted results for \"NVIDIA GeForce RTX 4090\" on UL's desktop GPU ranking (Steel Nomad DX12 graphics score), not a single controlled test."
+    }
+  },
+  {
+    "hardwareId": "nvidia-geforce-rtx-5060",
+    "benchmark": "3dmark",
+    "version": "steel-nomad",
+    "test": "score",
+    "value": 3178,
+    "sourceId": "ul-benchmarks",
+    "url": "https://benchmarks.ul.com/compare/best-gpus?amount=0&sortBy=SCORE&reverseOrder=true&types=DESKTOP&minRating=0",
+    "retrievedDate": "2026-11-03",
+    "conditions": {
+      "formFactor": "desktop",
+      "stock": true,
+      "notes": "Median of all user-submitted results for \"NVIDIA GeForce RTX 5060\" on UL's desktop GPU ranking (Steel Nomad DX12 graphics score), not a single controlled test."
+    }
+  },
+  {
+    "hardwareId": "nvidia-geforce-rtx-5060-ti",
+    "benchmark": "3dmark",
+    "version": "steel-nomad",
+    "test": "score",
+    "value": 3592,
+    "sourceId": "ul-benchmarks",
+    "url": "https://benchmarks.ul.com/compare/best-gpus?amount=0&sortBy=SCORE&reverseOrder=true&types=DESKTOP&minRating=0",
+    "retrievedDate": "2026-11-03",
+    "conditions": {
+      "formFactor": "desktop",
+      "stock": true,
+      "notes": "Median of all user-submitted results for \"NVIDIA GeForce RTX 5060 Ti\" on UL's desktop GPU ranking (Steel Nomad DX12 graphics score), not a single controlled test."
+    }
+  },
+  {
+    "hardwareId": "nvidia-geforce-rtx-5060-ti",
+    "benchmark": "3dmark",
+    "version": "steel-nomad",
+    "test": "score",
+    "value": 3622,
+    "sourceId": "ul-benchmarks",
+    "url": "https://benchmarks.ul.com/compare/best-gpus?amount=0&sortBy=SCORE&reverseOrder=true&types=DESKTOP&minRating=0",
+    "retrievedDate": "2026-11-03",
+    "conditions": {
+      "formFactor": "desktop",
+      "stock": true,
+      "notes": "Median of all user-submitted results for \"NVIDIA GeForce RTX 5060 Ti 16 GB\" on UL's desktop GPU ranking (Steel Nomad DX12 graphics score), not a single controlled test."
+    }
+  },
+  {
+    "hardwareId": "nvidia-geforce-rtx-5070",
+    "benchmark": "3dmark",
+    "version": "steel-nomad",
+    "test": "score",
+    "value": 5340,
+    "sourceId": "ul-benchmarks",
+    "url": "https://benchmarks.ul.com/compare/best-gpus?amount=0&sortBy=SCORE&reverseOrder=true&types=DESKTOP&minRating=0",
+    "retrievedDate": "2026-11-03",
+    "conditions": {
+      "formFactor": "desktop",
+      "stock": true,
+      "notes": "Median of all user-submitted results for \"NVIDIA GeForce RTX 5070\" on UL's desktop GPU ranking (Steel Nomad DX12 graphics score), not a single controlled test."
+    }
+  },
+  {
+    "hardwareId": "nvidia-geforce-rtx-5070-ti",
+    "benchmark": "3dmark",
+    "version": "steel-nomad",
+    "test": "score",
+    "value": 6967,
+    "sourceId": "ul-benchmarks",
+    "url": "https://benchmarks.ul.com/compare/best-gpus?amount=0&sortBy=SCORE&reverseOrder=true&types=DESKTOP&minRating=0",
+    "retrievedDate": "2026-11-03",
+    "conditions": {
+      "formFactor": "desktop",
+      "stock": true,
+      "notes": "Median of all user-submitted results for \"NVIDIA GeForce RTX 5070 Ti\" on UL's desktop GPU ranking (Steel Nomad DX12 graphics score), not a single controlled test."
+    }
+  },
+  {
+    "hardwareId": "nvidia-geforce-rtx-5080",
+    "benchmark": "3dmark",
+    "version": "steel-nomad",
+    "test": "score",
+    "value": 8938,
+    "sourceId": "ul-benchmarks",
+    "url": "https://benchmarks.ul.com/compare/best-gpus?amount=0&sortBy=SCORE&reverseOrder=true&types=DESKTOP&minRating=0",
+    "retrievedDate": "2026-11-03",
+    "conditions": {
+      "formFactor": "desktop",
+      "stock": true,
+      "notes": "Median of all user-submitted results for \"NVIDIA GeForce RTX 5080\" on UL's desktop GPU ranking (Steel Nomad DX12 graphics score), not a single controlled test."
+    }
+  },
+  {
+    "hardwareId": "nvidia-geforce-rtx-5090",
+    "benchmark": "3dmark",
+    "version": "steel-nomad",
+    "test": "score",
+    "value": 14636,
+    "sourceId": "ul-benchmarks",
+    "url": "https://benchmarks.ul.com/compare/best-gpus?amount=0&sortBy=SCORE&reverseOrder=true&types=DESKTOP&minRating=0",
+    "retrievedDate": "2026-11-03",
+    "conditions": {
+      "formFactor": "desktop",
+      "stock": true,
+      "notes": "Median of all user-submitted results for \"NVIDIA GeForce RTX 5090\" on UL's desktop GPU ranking (Steel Nomad DX12 graphics score), not a single controlled test."
+    }
+  },
+  {
+    "hardwareId": "amd-radeon-rx-6600",
+    "benchmark": "3dmark",
+    "version": "steel-nomad",
+    "test": "score",
+    "value": 1486,
+    "sourceId": "ul-benchmarks",
+    "url": "https://benchmarks.ul.com/compare/best-gpus?amount=0&sortBy=SCORE&reverseOrder=true&types=DESKTOP&minRating=0",
+    "retrievedDate": "2026-11-03",
+    "conditions": {
+      "formFactor": "desktop",
+      "stock": true,
+      "notes": "Median of all user-submitted results for \"AMD Radeon RX 6600\" on UL's desktop GPU ranking (Steel Nomad DX12 graphics score), not a single controlled test."
+    }
+  },
+  {
+    "hardwareId": "amd-radeon-rx-6650-xt",
+    "benchmark": "3dmark",
+    "version": "steel-nomad",
+    "test": "score",
+    "value": 1853,
+    "sourceId": "ul-benchmarks",
+    "url": "https://benchmarks.ul.com/compare/best-gpus?amount=0&sortBy=SCORE&reverseOrder=true&types=DESKTOP&minRating=0",
+    "retrievedDate": "2026-11-03",
+    "conditions": {
+      "formFactor": "desktop",
+      "stock": true,
+      "notes": "Median of all user-submitted results for \"AMD Radeon RX 6650 XT\" on UL's desktop GPU ranking (Steel Nomad DX12 graphics score), not a single controlled test."
+    }
+  },
+  {
+    "hardwareId": "amd-radeon-rx-6700-xt",
+    "benchmark": "3dmark",
+    "version": "steel-nomad",
+    "test": "score",
+    "value": 2424,
+    "sourceId": "ul-benchmarks",
+    "url": "https://benchmarks.ul.com/compare/best-gpus?amount=0&sortBy=SCORE&reverseOrder=true&types=DESKTOP&minRating=0",
+    "retrievedDate": "2026-11-03",
+    "conditions": {
+      "formFactor": "desktop",
+      "stock": true,
+      "notes": "Median of all user-submitted results for \"AMD Radeon RX 6700 XT\" on UL's desktop GPU ranking (Steel Nomad DX12 graphics score), not a single controlled test."
+    }
+  },
+  {
+    "hardwareId": "amd-radeon-rx-6750-xt",
+    "benchmark": "3dmark",
+    "version": "steel-nomad",
+    "test": "score",
+    "value": 2539,
+    "sourceId": "ul-benchmarks",
+    "url": "https://benchmarks.ul.com/compare/best-gpus?amount=0&sortBy=SCORE&reverseOrder=true&types=DESKTOP&minRating=0",
+    "retrievedDate": "2026-11-03",
+    "conditions": {
+      "formFactor": "desktop",
+      "stock": true,
+      "notes": "Median of all user-submitted results for \"AMD Radeon RX 6750 XT\" on UL's desktop GPU ranking (Steel Nomad DX12 graphics score), not a single controlled test."
+    }
+  },
+  {
+    "hardwareId": "amd-radeon-rx-6800",
+    "benchmark": "3dmark",
+    "version": "steel-nomad",
+    "test": "score",
+    "value": 3181,
+    "sourceId": "ul-benchmarks",
+    "url": "https://benchmarks.ul.com/compare/best-gpus?amount=0&sortBy=SCORE&reverseOrder=true&types=DESKTOP&minRating=0",
+    "retrievedDate": "2026-11-03",
+    "conditions": {
+      "formFactor": "desktop",
+      "stock": true,
+      "notes": "Median of all user-submitted results for \"AMD Radeon RX 6800\" on UL's desktop GPU ranking (Steel Nomad DX12 graphics score), not a single controlled test."
+    }
+  },
+  {
+    "hardwareId": "amd-radeon-rx-6800-xt",
+    "benchmark": "3dmark",
+    "version": "steel-nomad",
+    "test": "score",
+    "value": 3669,
+    "sourceId": "ul-benchmarks",
+    "url": "https://benchmarks.ul.com/compare/best-gpus?amount=0&sortBy=SCORE&reverseOrder=true&types=DESKTOP&minRating=0",
+    "retrievedDate": "2026-11-03",
+    "conditions": {
+      "formFactor": "desktop",
+      "stock": true,
+      "notes": "Median of all user-submitted results for \"AMD Radeon RX 6800 XT\" on UL's desktop GPU ranking (Steel Nomad DX12 graphics score), not a single controlled test."
+    }
+  },
+  {
+    "hardwareId": "amd-radeon-rx-7600",
+    "benchmark": "3dmark",
+    "version": "steel-nomad",
+    "test": "score",
+    "value": 2312,
+    "sourceId": "ul-benchmarks",
+    "url": "https://benchmarks.ul.com/compare/best-gpus?amount=0&sortBy=SCORE&reverseOrder=true&types=DESKTOP&minRating=0",
+    "retrievedDate": "2026-11-03",
+    "conditions": {
+      "formFactor": "desktop",
+      "stock": true,
+      "notes": "Median of all user-submitted results for \"AMD Radeon RX 7600\" on UL's desktop GPU ranking (Steel Nomad DX12 graphics score), not a single controlled test."
+    }
+  },
+  {
+    "hardwareId": "amd-radeon-rx-7600-xt",
+    "benchmark": "3dmark",
+    "version": "steel-nomad",
+    "test": "score",
+    "value": 2355,
+    "sourceId": "ul-benchmarks",
+    "url": "https://benchmarks.ul.com/compare/best-gpus?amount=0&sortBy=SCORE&reverseOrder=true&types=DESKTOP&minRating=0",
+    "retrievedDate": "2026-11-03",
+    "conditions": {
+      "formFactor": "desktop",
+      "stock": true,
+      "notes": "Median of all user-submitted results for \"AMD Radeon RX 7600 XT\" on UL's desktop GPU ranking (Steel Nomad DX12 graphics score), not a single controlled test."
+    }
+  },
+  {
+    "hardwareId": "amd-radeon-rx-7700-xt",
+    "benchmark": "3dmark",
+    "version": "steel-nomad",
+    "test": "score",
+    "value": 3322,
+    "sourceId": "ul-benchmarks",
+    "url": "https://benchmarks.ul.com/compare/best-gpus?amount=0&sortBy=SCORE&reverseOrder=true&types=DESKTOP&minRating=0",
+    "retrievedDate": "2026-11-03",
+    "conditions": {
+      "formFactor": "desktop",
+      "stock": true,
+      "notes": "Median of all user-submitted results for \"AMD Radeon RX 7700 XT\" on UL's desktop GPU ranking (Steel Nomad DX12 graphics score), not a single controlled test."
+    }
+  },
+  {
+    "hardwareId": "amd-radeon-rx-7800-xt",
+    "benchmark": "3dmark",
+    "version": "steel-nomad",
+    "test": "score",
+    "value": 4152,
+    "sourceId": "ul-benchmarks",
+    "url": "https://benchmarks.ul.com/compare/best-gpus?amount=0&sortBy=SCORE&reverseOrder=true&types=DESKTOP&minRating=0",
+    "retrievedDate": "2026-11-03",
+    "conditions": {
+      "formFactor": "desktop",
+      "stock": true,
+      "notes": "Median of all user-submitted results for \"AMD Radeon RX 7800 XT\" on UL's desktop GPU ranking (Steel Nomad DX12 graphics score), not a single controlled test."
+    }
+  },
+  {
+    "hardwareId": "amd-radeon-rx-7900-gre",
+    "benchmark": "3dmark",
+    "version": "steel-nomad",
+    "test": "score",
+    "value": 4805,
+    "sourceId": "ul-benchmarks",
+    "url": "https://benchmarks.ul.com/compare/best-gpus?amount=0&sortBy=SCORE&reverseOrder=true&types=DESKTOP&minRating=0",
+    "retrievedDate": "2026-11-03",
+    "conditions": {
+      "formFactor": "desktop",
+      "stock": true,
+      "notes": "Median of all user-submitted results for \"AMD Radeon RX 7900 GRE\" on UL's desktop GPU ranking (Steel Nomad DX12 graphics score), not a single controlled test."
+    }
+  },
+  {
+    "hardwareId": "amd-radeon-rx-7900-xt",
+    "benchmark": "3dmark",
+    "version": "steel-nomad",
+    "test": "score",
+    "value": 5635,
+    "sourceId": "ul-benchmarks",
+    "url": "https://benchmarks.ul.com/compare/best-gpus?amount=0&sortBy=SCORE&reverseOrder=true&types=DESKTOP&minRating=0",
+    "retrievedDate": "2026-11-03",
+    "conditions": {
+      "formFactor": "desktop",
+      "stock": true,
+      "notes": "Median of all user-submitted results for \"AMD Radeon RX 7900 XT\" on UL's desktop GPU ranking (Steel Nomad DX12 graphics score), not a single controlled test."
+    }
+  },
+  {
+    "hardwareId": "amd-radeon-rx-7900-xtx",
+    "benchmark": "3dmark",
+    "version": "steel-nomad",
+    "test": "score",
+    "value": 6866,
+    "sourceId": "ul-benchmarks",
+    "url": "https://benchmarks.ul.com/compare/best-gpus?amount=0&sortBy=SCORE&reverseOrder=true&types=DESKTOP&minRating=0",
+    "retrievedDate": "2026-11-03",
+    "conditions": {
+      "formFactor": "desktop",
+      "stock": true,
+      "notes": "Median of all user-submitted results for \"AMD Radeon RX 7900 XTX\" on UL's desktop GPU ranking (Steel Nomad DX12 graphics score), not a single controlled test."
+    }
+  },
+  {
+    "hardwareId": "amd-radeon-rx-9060-xt",
+    "benchmark": "3dmark",
+    "version": "steel-nomad",
+    "test": "score",
+    "value": 3743,
+    "sourceId": "ul-benchmarks",
+    "url": "https://benchmarks.ul.com/compare/best-gpus?amount=0&sortBy=SCORE&reverseOrder=true&types=DESKTOP&minRating=0",
+    "retrievedDate": "2026-11-03",
+    "conditions": {
+      "formFactor": "desktop",
+      "stock": true,
+      "notes": "Median of all user-submitted results for \"AMD Radeon RX 9060 XT\" on UL's desktop GPU ranking (Steel Nomad DX12 graphics score), not a single controlled test."
+    }
+  },
+  {
+    "hardwareId": "amd-radeon-rx-9060-xt",
+    "benchmark": "3dmark",
+    "version": "steel-nomad",
+    "test": "score",
+    "value": 3820,
+    "sourceId": "ul-benchmarks",
+    "url": "https://benchmarks.ul.com/compare/best-gpus?amount=0&sortBy=SCORE&reverseOrder=true&types=DESKTOP&minRating=0",
+    "retrievedDate": "2026-11-03",
+    "conditions": {
+      "formFactor": "desktop",
+      "stock": true,
+      "notes": "Median of all user-submitted results for \"AMD Radeon RX 9060 XT 16 GB\" on UL's desktop GPU ranking (Steel Nomad DX12 graphics score), not a single controlled test."
+    }
+  },
+  {
+    "hardwareId": "amd-radeon-rx-9070",
+    "benchmark": "3dmark",
+    "version": "steel-nomad",
+    "test": "score",
+    "value": 6312,
+    "sourceId": "ul-benchmarks",
+    "url": "https://benchmarks.ul.com/compare/best-gpus?amount=0&sortBy=SCORE&reverseOrder=true&types=DESKTOP&minRating=0",
+    "retrievedDate": "2026-11-03",
+    "conditions": {
+      "formFactor": "desktop",
+      "stock": true,
+      "notes": "Median of all user-submitted results for \"AMD Radeon RX 9070\" on UL's desktop GPU ranking (Steel Nomad DX12 graphics score), not a single controlled test."
+    }
+  },
+  {
+    "hardwareId": "amd-radeon-rx-9070-xt",
+    "benchmark": "3dmark",
+    "version": "steel-nomad",
+    "test": "score",
+    "value": 7273,
+    "sourceId": "ul-benchmarks",
+    "url": "https://benchmarks.ul.com/compare/best-gpus?amount=0&sortBy=SCORE&reverseOrder=true&types=DESKTOP&minRating=0",
+    "retrievedDate": "2026-11-03",
+    "conditions": {
+      "formFactor": "desktop",
+      "stock": true,
+      "notes": "Median of all user-submitted results for \"AMD Radeon RX 9070 XT\" on UL's desktop GPU ranking (Steel Nomad DX12 graphics score), not a single controlled test."
+    }
+  },
+  {
+    "hardwareId": "intel-arc-a750",
+    "benchmark": "3dmark",
+    "version": "steel-nomad",
+    "test": "score",
+    "value": 2600,
+    "sourceId": "ul-benchmarks",
+    "url": "https://benchmarks.ul.com/compare/best-gpus?amount=0&sortBy=SCORE&reverseOrder=true&types=DESKTOP&minRating=0",
+    "retrievedDate": "2026-11-03",
+    "conditions": {
+      "formFactor": "desktop",
+      "stock": true,
+      "notes": "Median of all user-submitted results for \"Intel Arc A750\" on UL's desktop GPU ranking (Steel Nomad DX12 graphics score), not a single controlled test."
+    }
+  },
+  {
+    "hardwareId": "intel-arc-a770",
+    "benchmark": "3dmark",
+    "version": "steel-nomad",
+    "test": "score",
+    "value": 2972,
+    "sourceId": "ul-benchmarks",
+    "url": "https://benchmarks.ul.com/compare/best-gpus?amount=0&sortBy=SCORE&reverseOrder=true&types=DESKTOP&minRating=0",
+    "retrievedDate": "2026-11-03",
+    "conditions": {
+      "formFactor": "desktop",
+      "stock": true,
+      "notes": "Median of all user-submitted results for \"Intel Arc A770\" on UL's desktop GPU ranking (Steel Nomad DX12 graphics score), not a single controlled test."
+    }
+  },
+  {
+    "hardwareId": "intel-arc-b570",
+    "benchmark": "3dmark",
+    "version": "steel-nomad",
+    "test": "score",
+    "value": 2647,
+    "sourceId": "ul-benchmarks",
+    "url": "https://benchmarks.ul.com/compare/best-gpus?amount=0&sortBy=SCORE&reverseOrder=true&types=DESKTOP&minRating=0",
+    "retrievedDate": "2026-11-03",
+    "conditions": {
+      "formFactor": "desktop",
+      "stock": true,
+      "notes": "Median of all user-submitted results for \"Intel Arc B570\" on UL's desktop GPU ranking (Steel Nomad DX12 graphics score), not a single controlled test."
+    }
+  },
+  {
+    "hardwareId": "intel-arc-b580",
+    "benchmark": "3dmark",
+    "version": "steel-nomad",
+    "test": "score",
+    "value": 3055,
+    "sourceId": "ul-benchmarks",
+    "url": "https://benchmarks.ul.com/compare/best-gpus?amount=0&sortBy=SCORE&reverseOrder=true&types=DESKTOP&minRating=0",
+    "retrievedDate": "2026-11-03",
+    "conditions": {
+      "formFactor": "desktop",
+      "stock": true,
+      "notes": "Median of all user-submitted results for \"Intel Arc B580\" on UL's desktop GPU ranking (Steel Nomad DX12 graphics score), not a single controlled test."
+    }
+  },
+  {
+    "hardwareId": "nvidia-geforce-rtx-3050-laptop-gpu",
+    "benchmark": "3dmark",
+    "version": "steel-nomad",
+    "test": "score",
+    "value": 47,
+    "sourceId": "notebookcheck",
+    "url": "https://www.notebookcheck.net/LG-Gram-Pro-16-ultralight-laptop-with-Nvidia-GeForce-chip-review-Bold-minimalism.857339.0.html",
+    "retrievedDate": "2026-11-03",
+    "conditions": {
+      "formFactor": "laptop",
+      "stock": true,
+      "notes": "Tested in the LG gram Pro 16Z90SP laptop with Intel Core Ultra 7 155H."
+    }
+  },
+  {
+    "hardwareId": "nvidia-geforce-rtx-3050-laptop-gpu",
+    "benchmark": "3dmark",
+    "version": "steel-nomad",
+    "test": "score",
+    "value": 386,
+    "sourceId": "ul-benchmarks",
+    "url": "https://benchmarks.ul.com/compare/best-gpus?amount=0&sortBy=SCORE&reverseOrder=true&types=MOBILE&minRating=0",
+    "retrievedDate": "2026-11-03",
+    "conditions": {
+      "formFactor": "laptop",
+      "stock": true,
+      "notes": "Median of all user-submitted results for \"NVIDIA GeForce RTX 3050 (notebook)\" on UL's mobile GPU ranking (Steel Nomad DX12 graphics score), not a single controlled test."
+    }
+  },
+  {
+    "hardwareId": "nvidia-geforce-rtx-3050-laptop-gpu",
+    "benchmark": "3dmark",
+    "version": "steel-nomad",
+    "test": "score",
+    "value": 1088,
+    "sourceId": "ul-benchmarks",
+    "url": "https://benchmarks.ul.com/compare/best-gpus?amount=0&sortBy=SCORE&reverseOrder=true&types=MOBILE&minRating=0",
+    "retrievedDate": "2026-11-03",
+    "conditions": {
+      "formFactor": "laptop",
+      "stock": true,
+      "notes": "Median of all user-submitted results for \"NVIDIA GeForce RTX 3050 6 GB (notebook)\" on UL's mobile GPU ranking (Steel Nomad DX12 graphics score), not a single controlled test."
+    }
+  },
+  {
+    "hardwareId": "nvidia-geforce-rtx-3050-laptop-gpu",
+    "benchmark": "3dmark",
+    "version": "time-spy",
+    "test": "graphics-score",
+    "value": 3493,
+    "sourceId": "notebookcheck",
+    "url": "https://www.notebookcheck.net/Asus-VivoBook-14X-OLED-K3405-Laptop-Review-No-frills-multimedia-laptop-with-Core-i5-13500H-and-vibrant-2-8K-OLED-display.726592.0.html",
+    "retrievedDate": "2026-11-03",
+    "conditions": {
+      "formFactor": "laptop",
+      "stock": true,
+      "notes": "Tested in the Asus VivoBook 14X K3405 laptop with Intel Core i5-13500H, GPU set to 40 W TGP."
+    }
+  },
+  {
+    "hardwareId": "nvidia-geforce-rtx-3050-laptop-gpu",
+    "benchmark": "3dmark",
+    "version": "time-spy",
+    "test": "graphics-score",
+    "value": 3786,
+    "sourceId": "notebookcheck",
+    "url": "https://www.notebookcheck.net/LG-Gram-Pro-16-ultralight-laptop-with-Nvidia-GeForce-chip-review-Bold-minimalism.857339.0.html",
+    "retrievedDate": "2026-11-03",
+    "conditions": {
+      "formFactor": "laptop",
+      "stock": true,
+      "notes": "Tested in the LG gram Pro 16Z90SP laptop with Intel Core Ultra 7 155H."
+    }
+  },
+  {
+    "hardwareId": "nvidia-geforce-rtx-3060-laptop-gpu",
+    "benchmark": "3dmark",
+    "version": "steel-nomad",
+    "test": "score",
+    "value": 1882,
+    "sourceId": "notebookcheck",
+    "url": "https://www.notebookcheck.net/For-gamers-and-content-creators-Lenovo-Legion-5-Pro-Notebook-Review.637076.0.html",
+    "retrievedDate": "2026-11-03",
+    "conditions": {
+      "formFactor": "laptop",
+      "stock": true,
+      "notes": "Tested in the Lenovo Legion 5 Pro 16IAH7H laptop with Intel Core i7-12700H, GPU set to 115 W TGP (including 15 W Dynamic Boost)."
+    }
+  },
+  {
+    "hardwareId": "nvidia-geforce-rtx-3060-laptop-gpu",
+    "benchmark": "3dmark",
+    "version": "steel-nomad",
+    "test": "score",
+    "value": 1801,
+    "sourceId": "ul-benchmarks",
+    "url": "https://benchmarks.ul.com/compare/best-gpus?amount=0&sortBy=SCORE&reverseOrder=true&types=MOBILE&minRating=0",
+    "retrievedDate": "2026-11-03",
+    "conditions": {
+      "formFactor": "laptop",
+      "stock": true,
+      "notes": "Median of all user-submitted results for \"NVIDIA GeForce RTX 3060 (notebook)\" on UL's mobile GPU ranking (Steel Nomad DX12 graphics score), not a single controlled test."
+    }
+  },
+  {
+    "hardwareId": "nvidia-geforce-rtx-3060-laptop-gpu",
+    "benchmark": "3dmark",
+    "version": "time-spy",
+    "test": "graphics-score",
+    "value": 9235,
+    "sourceId": "notebookcheck",
+    "url": "https://www.notebookcheck.net/For-gamers-and-content-creators-Lenovo-Legion-5-Pro-Notebook-Review.637076.0.html",
+    "retrievedDate": "2026-11-03",
+    "conditions": {
+      "formFactor": "laptop",
+      "stock": true,
+      "notes": "Tested in the Lenovo Legion 5 Pro 16IAH7H laptop with Intel Core i7-12700H, GPU set to 115 W TGP (including 15 W Dynamic Boost)."
+    }
+  },
+  {
+    "hardwareId": "nvidia-geforce-rtx-3060-laptop-gpu",
+    "benchmark": "3dmark",
+    "version": "time-spy",
+    "test": "graphics-score",
+    "value": 9145,
+    "sourceId": "notebookcheck",
+    "url": "https://www.notebookcheck.net/The-fastest-Core-i7-12700H-laptop-you-can-buy-Lenovo-Legion-5-15IAH7H-review.669755.0.html",
+    "retrievedDate": "2026-11-03",
+    "conditions": {
+      "formFactor": "laptop",
+      "stock": true,
+      "notes": "Tested in the Lenovo Legion 5 15IAH7H 82RB laptop with Intel Core i7-12700H, GPU set to 140 W TGP."
+    }
+  },
+  {
+    "hardwareId": "nvidia-geforce-rtx-3070-laptop-gpu",
+    "benchmark": "3dmark",
+    "version": "steel-nomad",
+    "test": "score",
+    "value": 2375,
+    "sourceId": "ul-benchmarks",
+    "url": "https://benchmarks.ul.com/compare/best-gpus?amount=0&sortBy=SCORE&reverseOrder=true&types=MOBILE&minRating=0",
+    "retrievedDate": "2026-11-03",
+    "conditions": {
+      "formFactor": "laptop",
+      "stock": true,
+      "notes": "Median of all user-submitted results for \"NVIDIA GeForce RTX 3070 (notebook)\" on UL's mobile GPU ranking (Steel Nomad DX12 graphics score), not a single controlled test."
+    }
+  },
+  {
+    "hardwareId": "nvidia-geforce-rtx-3070-laptop-gpu",
+    "benchmark": "3dmark",
+    "version": "time-spy",
+    "test": "graphics-score",
+    "value": 8513,
+    "sourceId": "notebookcheck",
+    "url": "https://www.notebookcheck.net/MSI-Katana-GF66-11UG-review-A-gaming-laptop-with-wasted-potential.561019.0.html",
+    "retrievedDate": "2026-11-03",
+    "conditions": {
+      "formFactor": "laptop",
+      "stock": true,
+      "notes": "Tested in the MSI Katana GF66 11UG-220 laptop with Intel Core i7-11800H, GPU set to 85 W TGP."
+    }
+  },
+  {
+    "hardwareId": "nvidia-geforce-rtx-3070-laptop-gpu",
+    "benchmark": "3dmark",
+    "version": "time-spy",
+    "test": "graphics-score",
+    "value": 9548,
+    "sourceId": "notebookcheck",
+    "url": "https://www.notebookcheck.net/MSI-Pulse-GL76-laptop-review-105-W-TGP-GeForce-RTX-3070-graphics.680083.0.html",
+    "retrievedDate": "2026-11-03",
+    "conditions": {
+      "formFactor": "laptop",
+      "stock": true,
+      "notes": "Tested in the MSI Pulse GL76 12UGK laptop with Intel Core i7-12700H, GPU set to 105 W TGP."
+    }
+  },
+  {
+    "hardwareId": "nvidia-geforce-rtx-4050-laptop-gpu",
+    "benchmark": "3dmark",
+    "version": "steel-nomad",
+    "test": "score",
+    "value": 1786,
+    "sourceId": "ul-benchmarks",
+    "url": "https://benchmarks.ul.com/compare/best-gpus?amount=0&sortBy=SCORE&reverseOrder=true&types=MOBILE&minRating=0",
+    "retrievedDate": "2026-11-03",
+    "conditions": {
+      "formFactor": "laptop",
+      "stock": true,
+      "notes": "Median of all user-submitted results for \"NVIDIA RTX 4050 (notebook)\" on UL's mobile GPU ranking (Steel Nomad DX12 graphics score), not a single controlled test."
+    }
+  },
+  {
+    "hardwareId": "nvidia-geforce-rtx-4050-laptop-gpu",
+    "benchmark": "3dmark",
+    "version": "time-spy",
+    "test": "graphics-score",
+    "value": 6387,
+    "sourceId": "notebookcheck",
+    "url": "https://www.notebookcheck.net/MSI-Thin-GF63-12VE-laptop-review-GeForce-RTX-4050-gaming-with-8-GB-of-RAM.989264.0.html",
+    "retrievedDate": "2026-11-03",
+    "conditions": {
+      "formFactor": "laptop",
+      "stock": true,
+      "notes": "Tested in the MSI Thin GF63 12VE laptop with Intel Core i5-12450H, GPU set to 45 W TGP."
+    }
+  },
+  {
+    "hardwareId": "nvidia-geforce-rtx-4050-laptop-gpu",
+    "benchmark": "3dmark",
+    "version": "time-spy",
+    "test": "graphics-score",
+    "value": 8046,
+    "sourceId": "notebookcheck",
+    "url": "https://www.notebookcheck.net/Yoga-Pro-9i-14-in-Review-Lenovo-s-best-Multimedia-Laptop-with-AdobeRGB-Mini-LED-Panel.735956.0.html",
+    "retrievedDate": "2026-11-03",
+    "conditions": {
+      "formFactor": "laptop",
+      "stock": true,
+      "notes": "Tested in the Lenovo Yoga Pro 9-14IRP G8 laptop with Intel Core i7-13705H, GPU set to 80 W TGP (including 15 W Dynamic Boost)."
+    }
+  },
+  {
+    "hardwareId": "nvidia-geforce-rtx-4060-laptop-gpu",
+    "benchmark": "3dmark",
+    "version": "steel-nomad",
+    "test": "score",
+    "value": 2267,
+    "sourceId": "ul-benchmarks",
+    "url": "https://benchmarks.ul.com/compare/best-gpus?amount=0&sortBy=SCORE&reverseOrder=true&types=MOBILE&minRating=0",
+    "retrievedDate": "2026-11-03",
+    "conditions": {
+      "formFactor": "laptop",
+      "stock": true,
+      "notes": "Median of all user-submitted results for \"NVIDIA RTX 4060 (notebook)\" on UL's mobile GPU ranking (Steel Nomad DX12 graphics score), not a single controlled test."
+    }
+  },
+  {
+    "hardwareId": "nvidia-geforce-rtx-4060-laptop-gpu",
+    "benchmark": "3dmark",
+    "version": "time-spy",
+    "test": "graphics-score",
+    "value": 7758,
+    "sourceId": "notebookcheck",
+    "url": "https://www.notebookcheck.net/HP-Omen-Transcend-14-laptop-review-Razer-Blade-alternative-worth-considering.807238.0.html",
+    "retrievedDate": "2026-11-03",
+    "conditions": {
+      "formFactor": "laptop",
+      "stock": true,
+      "notes": "Tested in the HP Omen Transcend 14-fb0014 laptop with Intel Core Ultra 7 155H, GPU set to 65 W TGP."
+    }
+  },
+  {
+    "hardwareId": "nvidia-geforce-rtx-4060-laptop-gpu",
+    "benchmark": "3dmark",
+    "version": "time-spy",
+    "test": "graphics-score",
+    "value": 7484,
+    "sourceId": "notebookcheck",
+    "url": "https://www.notebookcheck.net/MSI-Cyborg-15-A12VF-review-Gaming-laptop-with-low-power-RTX-4060.707610.0.html",
+    "retrievedDate": "2026-11-03",
+    "conditions": {
+      "formFactor": "laptop",
+      "stock": true,
+      "notes": "Tested in the MSI Cyborg 15 A12VF laptop with Intel Core i7-12650H, GPU set to 45 W TGP (including 10 W Dynamic Boost)."
+    }
+  },
+  {
+    "hardwareId": "nvidia-geforce-rtx-4070-laptop-gpu",
+    "benchmark": "3dmark",
+    "version": "steel-nomad",
+    "test": "score",
+    "value": 2702,
+    "sourceId": "ul-benchmarks",
+    "url": "https://benchmarks.ul.com/compare/best-gpus?amount=0&sortBy=SCORE&reverseOrder=true&types=MOBILE&minRating=0",
+    "retrievedDate": "2026-11-03",
+    "conditions": {
+      "formFactor": "laptop",
+      "stock": true,
+      "notes": "Median of all user-submitted results for \"NVIDIA RTX 4070 (notebook)\" on UL's mobile GPU ranking (Steel Nomad DX12 graphics score), not a single controlled test."
+    }
+  },
+  {
+    "hardwareId": "nvidia-geforce-rtx-4070-laptop-gpu",
+    "benchmark": "3dmark",
+    "version": "time-spy",
+    "test": "graphics-score",
+    "value": 6241,
+    "sourceId": "notebookcheck",
+    "url": "https://www.notebookcheck.net/Dell-XPS-15-9530-RTX-4070-laptop-review-Both-impressive-and-underwhelming.709129.0.html",
+    "retrievedDate": "2026-11-03",
+    "conditions": {
+      "formFactor": "laptop",
+      "stock": true,
+      "notes": "Tested in the Dell XPS 15 9530 RTX 4070 laptop with Intel Core i7-13700H, GPU set to 50 W TGP."
+    }
+  },
+  {
+    "hardwareId": "nvidia-geforce-rtx-4070-laptop-gpu",
+    "benchmark": "3dmark",
+    "version": "time-spy",
+    "test": "graphics-score",
+    "value": 9329,
+    "sourceId": "notebookcheck",
+    "url": "https://www.notebookcheck.net/Dell-XPS-17-9730-laptop-review-GeForce-RTX-4070-multimedia-monster.719622.0.html",
+    "retrievedDate": "2026-11-03",
+    "conditions": {
+      "formFactor": "laptop",
+      "stock": true,
+      "notes": "Tested in the Dell XPS 17 9730 RTX 4070 laptop with Intel Core i7-13700H, GPU set to 70 W TGP."
+    }
+  },
+  {
+    "hardwareId": "nvidia-geforce-rtx-4080-laptop-gpu",
+    "benchmark": "3dmark",
+    "version": "steel-nomad",
+    "test": "score",
+    "value": 4178,
+    "sourceId": "ul-benchmarks",
+    "url": "https://benchmarks.ul.com/compare/best-gpus?amount=0&sortBy=SCORE&reverseOrder=true&types=MOBILE&minRating=0",
+    "retrievedDate": "2026-11-03",
+    "conditions": {
+      "formFactor": "laptop",
+      "stock": true,
+      "notes": "Median of all user-submitted results for \"NVIDIA RTX 4080 (notebook)\" on UL's mobile GPU ranking (Steel Nomad DX12 graphics score), not a single controlled test."
+    }
+  },
+  {
+    "hardwareId": "nvidia-geforce-rtx-4080-laptop-gpu",
+    "benchmark": "3dmark",
+    "version": "time-spy",
+    "test": "graphics-score",
+    "value": 14099,
+    "sourceId": "notebookcheck",
+    "url": "https://www.notebookcheck.net/Lenovo-ThinkPad-P1-G6-review-80-W-GeForce-RTX-4080-for-ultrathin-workstation.778650.0.html",
+    "retrievedDate": "2026-11-03",
+    "conditions": {
+      "formFactor": "laptop",
+      "stock": true,
+      "notes": "Tested in the Lenovo ThinkPad P1 G6 21FV001KUS laptop with Intel Core i7-13800H, GPU set to 80 W TGP."
+    }
+  },
+  {
+    "hardwareId": "nvidia-geforce-rtx-4080-laptop-gpu",
+    "benchmark": "3dmark",
+    "version": "time-spy",
+    "test": "graphics-score",
+    "value": 15051,
+    "sourceId": "notebookcheck",
+    "url": "https://www.notebookcheck.net/MSI-Stealth-17-Studio-review-A-laptop-with-a-quiet-RTX-4080-for-almost-every-occasion.708750.0.html",
+    "retrievedDate": "2026-11-03",
+    "conditions": {
+      "formFactor": "laptop",
+      "stock": true,
+      "notes": "Tested in the MSI Stealth 17 Studio A13VH-014 laptop with Intel Core i9-13900H, GPU set to 105 W TGP (including 25 W Dynamic Boost)."
+    }
+  },
+  {
+    "hardwareId": "nvidia-geforce-rtx-4090-laptop-gpu",
+    "benchmark": "3dmark",
+    "version": "steel-nomad",
+    "test": "score",
+    "value": 3966,
+    "sourceId": "notebookcheck",
+    "url": "https://www.notebookcheck.net/Asus-ROG-Zephyrus-G14-Review-Compact-Gaming-Laptop-with-AMD-Zen4-Phoenix-RTX-4090.711986.0.html",
+    "retrievedDate": "2026-11-03",
+    "conditions": {
+      "formFactor": "laptop",
+      "stock": true,
+      "notes": "Tested in the Asus ROG Zephyrus G14 GA402XY laptop with AMD Ryzen 9 7940HS, GPU set to 125 W TGP (including 25 W Dynamic Boost)."
+    }
+  },
+  {
+    "hardwareId": "nvidia-geforce-rtx-4090-laptop-gpu",
+    "benchmark": "3dmark",
+    "version": "steel-nomad",
+    "test": "score",
+    "value": 3915,
+    "sourceId": "notebookcheck",
+    "url": "https://www.notebookcheck.net/Asus-ROG-Zephyrus-G16-laptop-review-A-slim-gamer-with-an-RTX-4090-and-unfulfilled-potential.862201.0.html",
+    "retrievedDate": "2026-11-03",
+    "conditions": {
+      "formFactor": "laptop",
+      "stock": true,
+      "notes": "Tested in the Asus ROG Zephyrus G16 GU605MY laptop with Intel Core Ultra 9 185H."
+    }
+  },
+  {
+    "hardwareId": "nvidia-geforce-rtx-4090-laptop-gpu",
+    "benchmark": "3dmark",
+    "version": "steel-nomad",
+    "test": "score",
+    "value": 4843,
+    "sourceId": "ul-benchmarks",
+    "url": "https://benchmarks.ul.com/compare/best-gpus?amount=0&sortBy=SCORE&reverseOrder=true&types=MOBILE&minRating=0",
+    "retrievedDate": "2026-11-03",
+    "conditions": {
+      "formFactor": "laptop",
+      "stock": true,
+      "notes": "Median of all user-submitted results for \"NVIDIA RTX 4090 (notebook)\" on UL's mobile GPU ranking (Steel Nomad DX12 graphics score), not a single controlled test."
+    }
+  },
+  {
+    "hardwareId": "nvidia-geforce-rtx-4090-laptop-gpu",
+    "benchmark": "3dmark",
+    "version": "time-spy",
+    "test": "graphics-score",
+    "value": 17885,
+    "sourceId": "notebookcheck",
+    "url": "https://www.notebookcheck.net/Asus-ROG-Zephyrus-G14-Review-Compact-Gaming-Laptop-with-AMD-Zen4-Phoenix-RTX-4090.711986.0.html",
+    "retrievedDate": "2026-11-03",
+    "conditions": {
+      "formFactor": "laptop",
+      "stock": true,
+      "notes": "Tested in the Asus ROG Zephyrus G14 GA402XY laptop with AMD Ryzen 9 7940HS, GPU set to 125 W TGP (including 25 W Dynamic Boost)."
+    }
+  },
+  {
+    "hardwareId": "nvidia-geforce-rtx-4090-laptop-gpu",
+    "benchmark": "3dmark",
+    "version": "time-spy",
+    "test": "graphics-score",
+    "value": 16950,
+    "sourceId": "notebookcheck",
+    "url": "https://www.notebookcheck.net/Asus-ROG-Zephyrus-G16-laptop-review-A-slim-gamer-with-an-RTX-4090-and-unfulfilled-potential.862201.0.html",
+    "retrievedDate": "2026-11-03",
+    "conditions": {
+      "formFactor": "laptop",
+      "stock": true,
+      "notes": "Tested in the Asus ROG Zephyrus G16 GU605MY laptop with Intel Core Ultra 9 185H."
+    }
+  },
+  {
+    "hardwareId": "nvidia-geforce-rtx-5050-laptop-gpu",
+    "benchmark": "3dmark",
+    "version": "steel-nomad",
+    "test": "score",
+    "value": 2046,
+    "sourceId": "notebookcheck",
+    "url": "https://www.notebookcheck.net/Lenovo-Yoga-Pro-9-16IAH10-RTX-5050-review-Not-the-best-configuration-to-get.1189115.0.html",
+    "retrievedDate": "2026-11-03",
+    "conditions": {
+      "formFactor": "laptop",
+      "stock": true,
+      "notes": "Tested in the Lenovo Yoga Pro 9 16IAH10 RTX 5050 laptop with Intel Core Ultra 9 285H, GPU set to 100 W TGP."
+    }
+  },
+  {
+    "hardwareId": "nvidia-geforce-rtx-5050-laptop-gpu",
+    "benchmark": "3dmark",
+    "version": "steel-nomad",
+    "test": "score",
+    "value": 2130,
+    "sourceId": "ul-benchmarks",
+    "url": "https://benchmarks.ul.com/compare/best-gpus?amount=0&sortBy=SCORE&reverseOrder=true&types=MOBILE&minRating=0",
+    "retrievedDate": "2026-11-03",
+    "conditions": {
+      "formFactor": "laptop",
+      "stock": true,
+      "notes": "Median of all user-submitted results for \"NVIDIA GeForce RTX 5050 (notebook)\" on UL's mobile GPU ranking (Steel Nomad DX12 graphics score), not a single controlled test."
+    }
+  },
+  {
+    "hardwareId": "nvidia-geforce-rtx-5050-laptop-gpu",
+    "benchmark": "3dmark",
+    "version": "time-spy",
+    "test": "graphics-score",
+    "value": 9122,
+    "sourceId": "notebookcheck",
+    "url": "https://www.notebookcheck.net/Lenovo-Yoga-Pro-9-16IAH10-RTX-5050-review-Not-the-best-configuration-to-get.1189115.0.html",
+    "retrievedDate": "2026-11-03",
+    "conditions": {
+      "formFactor": "laptop",
+      "stock": true,
+      "notes": "Tested in the Lenovo Yoga Pro 9 16IAH10 RTX 5050 laptop with Intel Core Ultra 9 285H, GPU set to 100 W TGP."
+    }
+  },
+  {
+    "hardwareId": "nvidia-geforce-rtx-5050-laptop-gpu",
+    "benchmark": "3dmark",
+    "version": "time-spy",
+    "test": "graphics-score",
+    "value": 7166,
+    "sourceId": "notebookcheck",
+    "url": "https://www.notebookcheck.net/MSI-Cyborg-15-review-The-perfect-budget-gaming-laptop-for-2026.1218188.0.html",
+    "retrievedDate": "2026-11-03",
+    "conditions": {
+      "formFactor": "laptop",
+      "stock": true,
+      "notes": "Tested in the MSI Cyborg 15 B2RWEKG laptop with Intel Core 7 240H, GPU set to 45 W TGP."
+    }
+  },
+  {
+    "hardwareId": "nvidia-geforce-rtx-5060-laptop-gpu",
+    "benchmark": "3dmark",
+    "version": "steel-nomad",
+    "test": "score",
+    "value": 2176,
+    "sourceId": "notebookcheck",
+    "url": "https://www.notebookcheck.net/Lenovo-LOQ-Essential-15IRX11-review-RTX-gaming-on-single-channel-RAM.1372071.0.html",
+    "retrievedDate": "2026-11-03",
+    "conditions": {
+      "formFactor": "laptop",
+      "stock": true,
+      "notes": "Tested in the Lenovo LOQ Essential 15IRX11 laptop with Intel Core i7-13650HX, GPU set to 55 W TGP."
+    }
+  },
+  {
+    "hardwareId": "nvidia-geforce-rtx-5060-laptop-gpu",
+    "benchmark": "3dmark",
+    "version": "steel-nomad",
+    "test": "score",
+    "value": 2605,
+    "sourceId": "notebookcheck",
+    "url": "https://www.notebookcheck.net/Lenovo-Legion-7a-16-G11-Review-Lightweight-OLED-gaming-laptop-with-AMD-Ryzen-400.1261922.0.html",
+    "retrievedDate": "2026-11-03",
+    "conditions": {
+      "formFactor": "laptop",
+      "stock": true,
+      "notes": "Tested in the Lenovo Legion 7 16 AGP11 laptop with AMD Ryzen AI 9 HX 470, GPU set to 95 W TGP (including 15 W Dynamic Boost)."
+    }
+  },
+  {
+    "hardwareId": "nvidia-geforce-rtx-5060-laptop-gpu",
+    "benchmark": "3dmark",
+    "version": "steel-nomad",
+    "test": "score",
+    "value": 2639,
+    "sourceId": "ul-benchmarks",
+    "url": "https://benchmarks.ul.com/compare/best-gpus?amount=0&sortBy=SCORE&reverseOrder=true&types=MOBILE&minRating=0",
+    "retrievedDate": "2026-11-03",
+    "conditions": {
+      "formFactor": "laptop",
+      "stock": true,
+      "notes": "Median of all user-submitted results for \"NVIDIA GeForce RTX 5060 (notebook)\" on UL's mobile GPU ranking (Steel Nomad DX12 graphics score), not a single controlled test."
+    }
+  },
+  {
+    "hardwareId": "nvidia-geforce-rtx-5060-laptop-gpu",
+    "benchmark": "3dmark",
+    "version": "time-spy",
+    "test": "graphics-score",
+    "value": 9929,
+    "sourceId": "notebookcheck",
+    "url": "https://www.notebookcheck.net/Lenovo-LOQ-Essential-15IRX11-review-RTX-gaming-on-single-channel-RAM.1372071.0.html",
+    "retrievedDate": "2026-11-03",
+    "conditions": {
+      "formFactor": "laptop",
+      "stock": true,
+      "notes": "Tested in the Lenovo LOQ Essential 15IRX11 laptop with Intel Core i7-13650HX, GPU set to 55 W TGP."
+    }
+  },
+  {
+    "hardwareId": "nvidia-geforce-rtx-5060-laptop-gpu",
+    "benchmark": "3dmark",
+    "version": "time-spy",
+    "test": "graphics-score",
+    "value": 12071,
+    "sourceId": "notebookcheck",
+    "url": "https://www.notebookcheck.net/Lenovo-Legion-7a-16-G11-Review-Lightweight-OLED-gaming-laptop-with-AMD-Ryzen-400.1261922.0.html",
+    "retrievedDate": "2026-11-03",
+    "conditions": {
+      "formFactor": "laptop",
+      "stock": true,
+      "notes": "Tested in the Lenovo Legion 7 16 AGP11 laptop with AMD Ryzen AI 9 HX 470, GPU set to 95 W TGP (including 15 W Dynamic Boost)."
+    }
+  },
+  {
+    "hardwareId": "nvidia-geforce-rtx-5070-laptop-gpu",
+    "benchmark": "3dmark",
+    "version": "steel-nomad",
+    "test": "score",
+    "value": 2441,
+    "sourceId": "notebookcheck",
+    "url": "https://www.notebookcheck.net/Dell-16-Premium-laptop-review-Faster-and-more-efficient-than-the-XPS-16.1145583.0.html",
+    "retrievedDate": "2026-11-03",
+    "conditions": {
+      "formFactor": "laptop",
+      "stock": true,
+      "notes": "Tested in the Dell 16 Premium DA16250 laptop with Intel Core Ultra 7 255H, GPU set to 60 W TGP."
+    }
+  },
+  {
+    "hardwareId": "nvidia-geforce-rtx-5070-laptop-gpu",
+    "benchmark": "3dmark",
+    "version": "steel-nomad",
+    "test": "score",
+    "value": 2588,
+    "sourceId": "notebookcheck",
+    "url": "https://www.notebookcheck.net/HP-HyperX-Omen-15-review-85-W-GeForce-RTX-5070-can-feel-underwhelming.1422368.0.html",
+    "retrievedDate": "2026-11-03",
+    "conditions": {
+      "formFactor": "laptop",
+      "stock": true,
+      "notes": "Tested in the HP Omen 15-ga0931nr laptop with Intel Core Ultra 9 386H, GPU set to 85 W TGP."
+    }
+  },
+  {
+    "hardwareId": "nvidia-geforce-rtx-5070-laptop-gpu",
+    "benchmark": "3dmark",
+    "version": "steel-nomad",
+    "test": "score",
+    "value": 3012,
+    "sourceId": "ul-benchmarks",
+    "url": "https://benchmarks.ul.com/compare/best-gpus?amount=0&sortBy=SCORE&reverseOrder=true&types=MOBILE&minRating=0",
+    "retrievedDate": "2026-11-03",
+    "conditions": {
+      "formFactor": "laptop",
+      "stock": true,
+      "notes": "Median of all user-submitted results for \"NVIDIA GeForce RTX 5070 (notebook)\" on UL's mobile GPU ranking (Steel Nomad DX12 graphics score), not a single controlled test."
+    }
+  },
+  {
+    "hardwareId": "nvidia-geforce-rtx-5070-laptop-gpu",
+    "benchmark": "3dmark",
+    "version": "time-spy",
+    "test": "graphics-score",
+    "value": 10851,
+    "sourceId": "notebookcheck",
+    "url": "https://www.notebookcheck.net/Dell-16-Premium-laptop-review-Faster-and-more-efficient-than-the-XPS-16.1145583.0.html",
+    "retrievedDate": "2026-11-03",
+    "conditions": {
+      "formFactor": "laptop",
+      "stock": true,
+      "notes": "Tested in the Dell 16 Premium DA16250 laptop with Intel Core Ultra 7 255H, GPU set to 60 W TGP."
+    }
+  },
+  {
+    "hardwareId": "nvidia-geforce-rtx-5070-laptop-gpu",
+    "benchmark": "3dmark",
+    "version": "time-spy",
+    "test": "graphics-score",
+    "value": 12464,
+    "sourceId": "notebookcheck",
+    "url": "https://www.notebookcheck.net/HP-HyperX-Omen-15-review-85-W-GeForce-RTX-5070-can-feel-underwhelming.1422368.0.html",
+    "retrievedDate": "2026-11-03",
+    "conditions": {
+      "formFactor": "laptop",
+      "stock": true,
+      "notes": "Tested in the HP Omen 15-ga0931nr laptop with Intel Core Ultra 9 386H, GPU set to 85 W TGP."
+    }
+  },
+  {
+    "hardwareId": "nvidia-geforce-rtx-5070-ti-laptop-gpu",
+    "benchmark": "3dmark",
+    "version": "steel-nomad",
+    "test": "score",
+    "value": 3781,
+    "sourceId": "notebookcheck",
+    "url": "https://www.notebookcheck.net/MSI-Stealth-16-AI-B3WH-review-Part-Gamer-Part-Creator-All-Professional.1411238.0.html",
+    "retrievedDate": "2026-11-03",
+    "conditions": {
+      "formFactor": "laptop",
+      "stock": true,
+      "notes": "Tested in the MSI Stealth 16 AI B3WH laptop with Intel Core Ultra 9 386H, GPU set to 125 W TGP."
+    }
+  },
+  {
+    "hardwareId": "nvidia-geforce-rtx-5070-ti-laptop-gpu",
+    "benchmark": "3dmark",
+    "version": "steel-nomad",
+    "test": "score",
+    "value": 3694,
+    "sourceId": "notebookcheck",
+    "url": "https://www.notebookcheck.net/One-of-the-best-compact-gaming-laptops-gets-a-brighter-OLED-Asus-ROG-Zephyrus-G14-2026-Review.1321952.0.html",
+    "retrievedDate": "2026-11-03",
+    "conditions": {
+      "formFactor": "laptop",
+      "stock": true,
+      "notes": "Tested in the Asus ROG Zephyrus G14 GU405AR laptop with Intel Core Ultra 9 386H, GPU set to 115 W TGP (including 15 W Dynamic Boost)."
+    }
+  },
+  {
+    "hardwareId": "nvidia-geforce-rtx-5070-ti-laptop-gpu",
+    "benchmark": "3dmark",
+    "version": "steel-nomad",
+    "test": "score",
+    "value": 3847,
+    "sourceId": "ul-benchmarks",
+    "url": "https://benchmarks.ul.com/compare/best-gpus?amount=0&sortBy=SCORE&reverseOrder=true&types=MOBILE&minRating=0",
+    "retrievedDate": "2026-11-03",
+    "conditions": {
+      "formFactor": "laptop",
+      "stock": true,
+      "notes": "Median of all user-submitted results for \"NVIDIA GeForce RTX 5070 Ti (notebook)\" on UL's mobile GPU ranking (Steel Nomad DX12 graphics score), not a single controlled test."
+    }
+  },
+  {
+    "hardwareId": "nvidia-geforce-rtx-5070-ti-laptop-gpu",
+    "benchmark": "3dmark",
+    "version": "time-spy",
+    "test": "graphics-score",
+    "value": 16726,
+    "sourceId": "notebookcheck",
+    "url": "https://www.notebookcheck.net/MSI-Stealth-16-AI-B3WH-review-Part-Gamer-Part-Creator-All-Professional.1411238.0.html",
+    "retrievedDate": "2026-11-03",
+    "conditions": {
+      "formFactor": "laptop",
+      "stock": true,
+      "notes": "Tested in the MSI Stealth 16 AI B3WH laptop with Intel Core Ultra 9 386H, GPU set to 125 W TGP."
+    }
+  },
+  {
+    "hardwareId": "nvidia-geforce-rtx-5070-ti-laptop-gpu",
+    "benchmark": "3dmark",
+    "version": "time-spy",
+    "test": "graphics-score",
+    "value": 16295,
+    "sourceId": "notebookcheck",
+    "url": "https://www.notebookcheck.net/One-of-the-best-compact-gaming-laptops-gets-a-brighter-OLED-Asus-ROG-Zephyrus-G14-2026-Review.1321952.0.html",
+    "retrievedDate": "2026-11-03",
+    "conditions": {
+      "formFactor": "laptop",
+      "stock": true,
+      "notes": "Tested in the Asus ROG Zephyrus G14 GU405AR laptop with Intel Core Ultra 9 386H, GPU set to 115 W TGP (including 15 W Dynamic Boost)."
+    }
+  },
+  {
+    "hardwareId": "nvidia-geforce-rtx-5080-laptop-gpu",
+    "benchmark": "3dmark",
+    "version": "steel-nomad",
+    "test": "score",
+    "value": 4057,
+    "sourceId": "notebookcheck",
+    "url": "https://www.notebookcheck.net/14-inches-with-the-GeForce-RTX-5080-Laptop-Asus-ROG-Zephyrus-G14-2025-review.1014019.0.html",
+    "retrievedDate": "2026-11-03",
+    "conditions": {
+      "formFactor": "laptop",
+      "stock": true,
+      "notes": "Tested in the Asus ROG Zephyrus G14 2025 GA403WW laptop with AMD Ryzen AI 9 HX 370, GPU set to 110 W TGP (including 25 W Dynamic Boost)."
+    }
+  },
+  {
+    "hardwareId": "nvidia-geforce-rtx-5080-laptop-gpu",
+    "benchmark": "3dmark",
+    "version": "steel-nomad",
+    "test": "score",
+    "value": 4518,
+    "sourceId": "notebookcheck",
+    "url": "https://www.notebookcheck.net/The-last-17-inch-Blackwell-Mohican-MSI-Vector-17-HX-AI-gaming-laptop-review.1061610.0.html",
+    "retrievedDate": "2026-11-03",
+    "conditions": {
+      "formFactor": "laptop",
+      "stock": true,
+      "notes": "Tested in the MSI Vector 17 HX AI A2XWIG laptop with Intel Core Ultra 9 275HX, GPU set to 175 W TGP."
+    }
+  },
+  {
+    "hardwareId": "nvidia-geforce-rtx-5080-laptop-gpu",
+    "benchmark": "3dmark",
+    "version": "steel-nomad",
+    "test": "score",
+    "value": 5236,
+    "sourceId": "ul-benchmarks",
+    "url": "https://benchmarks.ul.com/compare/best-gpus?amount=0&sortBy=SCORE&reverseOrder=true&types=MOBILE&minRating=0",
+    "retrievedDate": "2026-11-03",
+    "conditions": {
+      "formFactor": "laptop",
+      "stock": true,
+      "notes": "Median of all user-submitted results for \"NVIDIA GeForce RTX 5080 (notebook)\" on UL's mobile GPU ranking (Steel Nomad DX12 graphics score), not a single controlled test."
+    }
+  },
+  {
+    "hardwareId": "nvidia-geforce-rtx-5080-laptop-gpu",
+    "benchmark": "3dmark",
+    "version": "time-spy",
+    "test": "graphics-score",
+    "value": 16644,
+    "sourceId": "notebookcheck",
+    "url": "https://www.notebookcheck.net/14-inches-with-the-GeForce-RTX-5080-Laptop-Asus-ROG-Zephyrus-G14-2025-review.1014019.0.html",
+    "retrievedDate": "2026-11-03",
+    "conditions": {
+      "formFactor": "laptop",
+      "stock": true,
+      "notes": "Tested in the Asus ROG Zephyrus G14 2025 GA403WW laptop with AMD Ryzen AI 9 HX 370, GPU set to 110 W TGP (including 25 W Dynamic Boost)."
+    }
+  },
+  {
+    "hardwareId": "nvidia-geforce-rtx-5080-laptop-gpu",
+    "benchmark": "3dmark",
+    "version": "time-spy",
+    "test": "graphics-score",
+    "value": 19091,
+    "sourceId": "notebookcheck",
+    "url": "https://www.notebookcheck.net/The-last-17-inch-Blackwell-Mohican-MSI-Vector-17-HX-AI-gaming-laptop-review.1061610.0.html",
+    "retrievedDate": "2026-11-03",
+    "conditions": {
+      "formFactor": "laptop",
+      "stock": true,
+      "notes": "Tested in the MSI Vector 17 HX AI A2XWIG laptop with Intel Core Ultra 9 275HX, GPU set to 175 W TGP."
+    }
+  },
+  {
+    "hardwareId": "nvidia-geforce-rtx-5090-laptop-gpu",
+    "benchmark": "3dmark",
+    "version": "steel-nomad",
+    "test": "score",
+    "value": 5271,
+    "sourceId": "notebookcheck",
+    "url": "https://www.notebookcheck.net/Perfect-multitasking-with-RTX-5090-Asus-ROG-Zephyrus-Duo-GX651-Review.1285993.0.html",
+    "retrievedDate": "2026-11-03",
+    "conditions": {
+      "formFactor": "laptop",
+      "stock": true,
+      "notes": "Tested in the Asus ROG Zephyrus Duo GX651 laptop with Intel Core Ultra 9 386H, GPU set to 135 W TGP (including 20 W Dynamic Boost)."
+    }
+  },
+  {
+    "hardwareId": "nvidia-geforce-rtx-5090-laptop-gpu",
+    "benchmark": "3dmark",
+    "version": "steel-nomad",
+    "test": "score",
+    "value": 6223,
+    "sourceId": "ul-benchmarks",
+    "url": "https://benchmarks.ul.com/compare/best-gpus?amount=0&sortBy=SCORE&reverseOrder=true&types=MOBILE&minRating=0",
+    "retrievedDate": "2026-11-03",
+    "conditions": {
+      "formFactor": "laptop",
+      "stock": true,
+      "notes": "Median of all user-submitted results for \"NVIDIA GeForce RTX 5090 (notebook)\" on UL's mobile GPU ranking (Steel Nomad DX12 graphics score), not a single controlled test."
+    }
+  },
+  {
+    "hardwareId": "nvidia-geforce-rtx-5090-laptop-gpu",
+    "benchmark": "3dmark",
+    "version": "time-spy",
+    "test": "graphics-score",
+    "value": 20420,
+    "sourceId": "notebookcheck",
+    "url": "https://www.notebookcheck.net/Perfect-multitasking-with-RTX-5090-Asus-ROG-Zephyrus-Duo-GX651-Review.1285993.0.html",
+    "retrievedDate": "2026-11-03",
+    "conditions": {
+      "formFactor": "laptop",
+      "stock": true,
+      "notes": "Tested in the Asus ROG Zephyrus Duo GX651 laptop with Intel Core Ultra 9 386H, GPU set to 135 W TGP (including 20 W Dynamic Boost)."
+    }
+  },
+  {
+    "hardwareId": "amd-radeon-680m",
+    "benchmark": "3dmark",
+    "version": "steel-nomad",
+    "test": "score",
+    "value": 402,
+    "sourceId": "notebookcheck",
+    "url": "https://www.notebookcheck.net/Lenovo-IdeaPad-Slim-5-15-laptop-review-Great-value-for-money-with-an-AMD-SoC-and-an-aluminum-case.945877.0.html",
+    "retrievedDate": "2026-11-03",
+    "conditions": {
+      "formFactor": "laptop",
+      "stock": true,
+      "notes": "Tested in the Lenovo IdeaPad Slim 5-15ARP G10 laptop with AMD Ryzen 7 7735HS."
+    }
+  },
+  {
+    "hardwareId": "amd-radeon-680m",
+    "benchmark": "3dmark",
+    "version": "steel-nomad",
+    "test": "score",
+    "value": 368,
+    "sourceId": "ul-benchmarks",
+    "url": "https://benchmarks.ul.com/compare/best-gpus?amount=0&sortBy=SCORE&reverseOrder=true&types=MOBILE&minRating=0",
+    "retrievedDate": "2026-11-03",
+    "conditions": {
+      "formFactor": "laptop",
+      "stock": true,
+      "notes": "Median of all user-submitted results for \"AMD Radeon 680M\" on UL's mobile GPU ranking (Steel Nomad DX12 graphics score), not a single controlled test."
+    }
+  },
+  {
+    "hardwareId": "amd-radeon-680m",
+    "benchmark": "3dmark",
+    "version": "time-spy",
+    "test": "graphics-score",
+    "value": 2430,
+    "sourceId": "notebookcheck",
+    "url": "https://www.notebookcheck.net/Lenovo-IdeaPad-Slim-5-15-laptop-review-Great-value-for-money-with-an-AMD-SoC-and-an-aluminum-case.945877.0.html",
+    "retrievedDate": "2026-11-03",
+    "conditions": {
+      "formFactor": "laptop",
+      "stock": true,
+      "notes": "Tested in the Lenovo IdeaPad Slim 5-15ARP G10 laptop with AMD Ryzen 7 7735HS."
+    }
+  },
+  {
+    "hardwareId": "amd-radeon-780m",
+    "benchmark": "3dmark",
+    "version": "steel-nomad",
+    "test": "score",
+    "value": 467,
+    "sourceId": "ul-benchmarks",
+    "url": "https://benchmarks.ul.com/compare/best-gpus?amount=0&sortBy=SCORE&reverseOrder=true&types=MOBILE&minRating=0",
+    "retrievedDate": "2026-11-03",
+    "conditions": {
+      "formFactor": "laptop",
+      "stock": true,
+      "notes": "Median of all user-submitted results for \"AMD Radeon 780M\" on UL's mobile GPU ranking (Steel Nomad DX12 graphics score), not a single controlled test."
+    }
+  },
+  {
+    "hardwareId": "amd-radeon-780m",
+    "benchmark": "3dmark",
+    "version": "time-spy",
+    "test": "graphics-score",
+    "value": 2252,
+    "sourceId": "notebookcheck",
+    "url": "https://www.notebookcheck.net/Dell-Inspiron-14-7445-2-in-1-convertible-review-Transitioning-from-Ryzen-U-to-Ryzen-HS.848710.0.html",
+    "retrievedDate": "2026-11-03",
+    "conditions": {
+      "formFactor": "laptop",
+      "stock": true,
+      "notes": "Tested in the Dell Inspiron 14 7445 2-in-1 laptop with AMD Ryzen 7 8840HS."
+    }
+  },
+  {
+    "hardwareId": "amd-radeon-780m",
+    "benchmark": "3dmark",
+    "version": "time-spy",
+    "test": "graphics-score",
+    "value": 1587,
+    "sourceId": "notebookcheck",
+    "url": "https://www.notebookcheck.net/Dynabook-Tecra-A65-M-laptop-review-Suitable-ThinkPad-E-or-EliteBook-alternative.1202807.0.html",
+    "retrievedDate": "2026-11-03",
+    "conditions": {
+      "formFactor": "laptop",
+      "stock": true,
+      "notes": "Tested in the Dynabook Tecra A60 A65-M laptop with AMD Ryzen 7 250."
+    }
+  },
+  {
+    "hardwareId": "amd-radeon-890m",
+    "benchmark": "3dmark",
+    "version": "steel-nomad",
+    "test": "score",
+    "value": 565,
+    "sourceId": "ul-benchmarks",
+    "url": "https://benchmarks.ul.com/compare/best-gpus?amount=0&sortBy=SCORE&reverseOrder=true&types=MOBILE&minRating=0",
+    "retrievedDate": "2026-11-03",
+    "conditions": {
+      "formFactor": "laptop",
+      "stock": true,
+      "notes": "Median of all user-submitted results for \"AMD Radeon 890M\" on UL's mobile GPU ranking (Steel Nomad DX12 graphics score), not a single controlled test."
+    }
+  },
+  {
+    "hardwareId": "amd-radeon-890m",
+    "benchmark": "3dmark",
+    "version": "time-spy",
+    "test": "graphics-score",
+    "value": 2639,
+    "sourceId": "notebookcheck",
+    "url": "https://www.notebookcheck.net/Dell-Pro-7-14-P714265-review-Business-with-style.1337397.0.html",
+    "retrievedDate": "2026-11-03",
+    "conditions": {
+      "formFactor": "laptop",
+      "stock": true,
+      "notes": "Tested in the Dell Pro 7 14 P714265 laptop with AMD Ryzen AI 9 HX PRO 470."
+    }
+  },
+  {
+    "hardwareId": "amd-radeon-890m",
+    "benchmark": "3dmark",
+    "version": "time-spy",
+    "test": "graphics-score",
+    "value": 3614,
+    "sourceId": "notebookcheck",
+    "url": "https://www.notebookcheck.net/HP-EliteBook-X-G1a-14-AI-review-Supercharged-business-laptop-with-AMD-Ryzen-AI-9-HX.963360.0.html",
+    "retrievedDate": "2026-11-03",
+    "conditions": {
+      "formFactor": "laptop",
+      "stock": true,
+      "notes": "Tested in the HP EliteBook X G1a 14 AI laptop with AMD Ryzen AI 9 HX PRO 375."
+    }
+  },
+  {
+    "hardwareId": "intel-arc-140v",
+    "benchmark": "3dmark",
+    "version": "time-spy",
+    "test": "graphics-score",
+    "value": 3275,
+    "sourceId": "notebookcheck",
+    "url": "https://www.notebookcheck.net/Dell-14-Plus-laptop-review-New-name-with-a-familiar-feel.1022858.0.html",
+    "retrievedDate": "2026-11-03",
+    "conditions": {
+      "formFactor": "laptop",
+      "stock": true,
+      "notes": "Tested in the Dell 14 Plus laptop with Intel Core Ultra 7 256V."
+    }
+  },
+  {
+    "hardwareId": "intel-arc-140v",
+    "benchmark": "3dmark",
+    "version": "time-spy",
+    "test": "graphics-score",
+    "value": 3646,
+    "sourceId": "notebookcheck",
+    "url": "https://www.notebookcheck.net/Dell-16-Plus-laptop-review-A-wave-goodbye-to-the-Inspiron-series.1028836.0.html",
+    "retrievedDate": "2026-11-03",
+    "conditions": {
+      "formFactor": "laptop",
+      "stock": true,
+      "notes": "Tested in the Dell 16 Plus laptop with Intel Core Ultra 7 256V."
+    }
+  }
+]
