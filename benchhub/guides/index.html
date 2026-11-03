@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Benchmark guides</title>
+    <meta name="description" content="Beginner-friendly, step-by-step guides for Cinebench, 3DMark, FurMark and Geekbench." />
+    <link rel="icon" href="../assets/favicon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="../css/style.css" />
+    <script>
+      // Applied before first paint so a chosen theme doesn't flash.
+      try {
+        const stored = localStorage.getItem("theme");
+        if (stored === "light" || stored === "dark") document.documentElement.dataset.theme = stored;
+      } catch {
+        // Storage can be blocked: the prefers-color-scheme rules in style.css still apply.
+      }
+    </script>
+    <script type="module" src="../js/ui.js"></script>
+    <script type="module" src="../js/guide-list.js"></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <header class="site-header">
+      <div class="wrap header-inner">
+        <a class="brand" href="../index.html"><svg width="26" height="26" viewBox="0 0 32 32" aria-hidden="true" focusable="false"><path d="M7 22a9 9 0 1 1 18 0" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round"/><path d="M16 22l5-7" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/><circle cx="16" cy="22" r="2.2" fill="currentColor"/></svg><span data-site-name>Home</span></a>
+        <nav class="site-nav" aria-label="Main">
+          <ul>
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="../check.html">Check my score</a></li>
+          <li><a href="../guides/index.html" aria-current="page">Guides</a></li>
+          <li><a href="../help.html">Help</a></li>
+          </ul>
+        </nav>
+        <button type="button" class="theme-toggle" data-theme-toggle aria-pressed="false">Dark mode</button>
+      </div>
+    </header>
+
+    <main id="main" class="wrap">
+      <h1>Guides</h1>
+      <p class="lede">Step-by-step instructions for each tool: where to download it safely, which test to run, and which number to check.</p>
+      <section aria-labelledby="which-test">
+        <h2 id="which-test">Which test should I run?</h2>
+        <div class="table-wrap">
+          <table class="which">
+            <thead>
+              <tr><th scope="col">I want to know…</th><th scope="col">Run this</th><th scope="col">Why this one</th></tr>
+            </thead>
+            <tbody>
+              <tr><th scope="row">Is my processor (CPU) as fast as it should be?</th><td><a href="./cinebench-2026.html">Cinebench 2026</a></td><td>The most common CPU test. One long, heavy job that also shows if your CPU gets too hot.</td></tr>
+              <tr><th scope="row">I just want a quick CPU check</th><td><a href="./geekbench-6.html">Geekbench 6</a></td><td>Done in a few minutes. Runs short, everyday-style tasks.</td></tr>
+              <tr><th scope="row">Is my graphics card (GPU) as fast as it should be?</th><td><a href="./3dmark.html">3DMark Time Spy</a></td><td>The most widely used graphics card test.</td></tr>
+              <tr><th scope="row">I have a powerful, recent graphics card</th><td><a href="./3dmark.html">3DMark Steel Nomad</a></td><td>Newer and heavier than Time Spy, so it still challenges fast cards.</td></tr>
+              <tr><th scope="row">Is my graphics card stable and cool? (games crash, PC shuts off, it runs very hot)</th><td><a href="./furmark-2.html">FurMark 2</a></td><td>A stress test: a health check, not a speed score. Read its safety warning first.</td></tr>
+              <tr><th scope="row">I already have a Cinebench R23 score</th><td><a href="./cinebench-r23.html">Cinebench R23</a></td><td>R23 uses its own scale, so it needs R23 reference scores.</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+      <h2>All guides</h2>
+      <ul class="guide-list" data-guide-list aria-live="polite"></ul>
+      <noscript><p class="note">The guide list needs JavaScript.</p></noscript>
+    </main>
+
+    <footer class="site-footer">
+      <div class="wrap">
+        <p>
+          Tool names are trademarks of their respective owners. <span data-site-name>This site</span> isn't
+          affiliated with any of them. Reference scores are credited to their sources wherever they appear.
+        </p>
+        <p>Your scores stay in your browser. Nothing you type is uploaded.</p>
+      </div>
+    </footer>
+  </body>
+</html>

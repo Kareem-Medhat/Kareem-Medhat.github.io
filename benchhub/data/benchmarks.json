@@ -1,0 +1,142 @@
+[
+  {
+    "id": "cinebench",
+    "name": "Cinebench",
+    "vendor": "Maxon",
+    "officialDownloadUrl": "https://www.maxon.net/en/cinebench",
+    "category": "cpu",
+    "unit": "pts",
+    "higherIsBetter": true,
+    "comparedBy": "cpu",
+    "guide": "guides/cinebench-2026.html",
+    "versions": [
+      {
+        "id": "2026",
+        "name": "2026",
+        "note": "The current version. Use this one unless you already have an R23 score.",
+        "guide": "guides/cinebench-2026.html",
+        "tests": [
+          {
+            "id": "multi-core",
+            "name": "CPU multi-core"
+          },
+          {
+            "id": "single-core",
+            "name": "CPU single-core"
+          }
+        ]
+      },
+      {
+        "id": "r23",
+        "name": "R23",
+        "note": "An older version with its own points scale. Only pick it if you ran R23. Its scores can't be compared with Cinebench 2026.",
+        "guide": "guides/cinebench-r23.html",
+        "tests": [
+          {
+            "id": "multi-core",
+            "name": "CPU multi-core"
+          },
+          {
+            "id": "single-core",
+            "name": "CPU single-core"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "3dmark",
+    "name": "3DMark",
+    "vendor": "UL Solutions",
+    "officialDownloadUrl": "https://benchmarks.ul.com/3dmark",
+    "category": "gpu",
+    "unit": "pts",
+    "higherIsBetter": true,
+    "comparedBy": "gpu",
+    "guide": "guides/3dmark.html",
+    "versions": [
+      {
+        "id": "time-spy",
+        "name": "Time Spy",
+        "note": "The most widely used 3DMark test. A good first choice.",
+        "tests": [
+          {
+            "id": "graphics-score",
+            "name": "Graphics score"
+          }
+        ]
+      },
+      {
+        "id": "steel-nomad",
+        "name": "Steel Nomad",
+        "note": "Newer and more demanding than Time Spy. Its scores are on a different scale, so never compare the two.",
+        "tests": [
+          {
+            "id": "score",
+            "name": "Score"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "furmark",
+    "name": "FurMark",
+    "vendor": "Geeks3D",
+    "officialDownloadUrl": "https://www.geeks3d.com/furmark/",
+    "category": "stress",
+    "unit": "pts",
+    "higherIsBetter": true,
+    "comparedBy": "gpu",
+    "guide": "guides/furmark-2.html",
+    "versions": [
+      {
+        "id": "2",
+        "name": "2",
+        "note": "The current version of FurMark.",
+        "presets": [
+          {
+            "id": "1080p",
+            "name": "1080p (1920 × 1080)"
+          },
+          {
+            "id": "1440p",
+            "name": "1440p (2560 × 1440)"
+          },
+          {
+            "id": "4k",
+            "name": "4K (3840 × 2160)"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "geekbench",
+    "name": "Geekbench",
+    "vendor": "Primate Labs",
+    "officialDownloadUrl": "https://www.geekbench.com/download/",
+    "category": "cpu",
+    "unit": "pts",
+    "higherIsBetter": true,
+    "comparedBy": "cpu",
+    "guide": "guides/geekbench-6.html",
+    "versions": [
+      {
+        "id": "6",
+        "name": "6",
+        "note": "The current version. Geekbench 5 scores use a different scale and can't be compared.",
+        "tests": [
+          {
+            "id": "single-core",
+            "name": "CPU single-core"
+          },
+          {
+            "id": "multi-core",
+            "name": "CPU multi-core"
+          }
+        ]
+      }
+    ]
+  }
+]

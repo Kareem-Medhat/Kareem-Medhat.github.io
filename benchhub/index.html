@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Is my PC score normal?</title>
+    <meta name="description" content="Beginner guides for PC benchmarks, plus a checker that compares your score with reference scores from trusted sources." />
+    <link rel="icon" href="./assets/favicon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <script>
+      // Applied before first paint so a chosen theme doesn't flash.
+      try {
+        const stored = localStorage.getItem("theme");
+        if (stored === "light" || stored === "dark") document.documentElement.dataset.theme = stored;
+      } catch {
+        // Storage can be blocked: the prefers-color-scheme rules in style.css still apply.
+      }
+    </script>
+    <script type="module" src="./js/ui.js"></script>
+    <script type="module" src="./js/guide-list.js"></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <header class="site-header">
+      <div class="wrap header-inner">
+        <a class="brand" href="./index.html"><svg width="26" height="26" viewBox="0 0 32 32" aria-hidden="true" focusable="false"><path d="M7 22a9 9 0 1 1 18 0" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round"/><path d="M16 22l5-7" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/><circle cx="16" cy="22" r="2.2" fill="currentColor"/></svg><span data-site-name>Home</span></a>
+        <nav class="site-nav" aria-label="Main">
+          <ul>
+          <li><a href="./index.html" aria-current="page">Home</a></li>
+          <li><a href="./check.html">Check my score</a></li>
+          <li><a href="./guides/index.html">Guides</a></li>
+          <li><a href="./help.html">Help</a></li>
+          </ul>
+        </nav>
+        <button type="button" class="theme-toggle" data-theme-toggle aria-pressed="false">Dark mode</button>
+      </div>
+    </header>
+
+    <main id="main" class="wrap">
+      <h1>Is your PC as fast as it should be?</h1>
+      <p class="lede">Run a benchmark with our step-by-step guides, then check your score against trusted reference scores.</p>
+      <p class="actions">
+        <a class="button" href="./check.html">Check my score</a>
+        <a class="button button--ghost" href="./guides/index.html#which-test">Which test should I run?</a>
+      </p>
+
+      <h2>Guides</h2>
+      <ul class="guide-list" data-guide-list aria-live="polite"></ul>
+      <noscript><p><a href="./guides/index.html">See all guides</a></p></noscript>
+    </main>
+
+    <footer class="site-footer">
+      <div class="wrap">
+        <p>
+          Tool names are trademarks of their respective owners. <span data-site-name>This site</span> isn't
+          affiliated with any of them. Reference scores are credited to their sources wherever they appear.
+        </p>
+        <p>Your scores stay in your browser. Nothing you type is uploaded.</p>
+      </div>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,163 @@
+[
+  {
+    "hardwareId": "nvidia-geforce-rtx-3050",
+    "maxTempC": 93,
+    "sourceId": "nvidia",
+    "url": "https://www.nvidia.com/en-us/geforce/graphics-cards/30-series/rtx-3050/",
+    "retrievedDate": "2026-11-03"
+  },
+  {
+    "hardwareId": "nvidia-geforce-rtx-3060",
+    "maxTempC": 93,
+    "sourceId": "nvidia",
+    "url": "https://www.nvidia.com/en-us/geforce/graphics-cards/30-series/rtx-3060-3060ti/",
+    "retrievedDate": "2026-11-03"
+  },
+  {
+    "hardwareId": "nvidia-geforce-rtx-3060-ti",
+    "maxTempC": 93,
+    "sourceId": "nvidia",
+    "url": "https://www.nvidia.com/en-us/geforce/graphics-cards/30-series/rtx-3060-3060ti/",
+    "retrievedDate": "2026-11-03"
+  },
+  {
+    "hardwareId": "nvidia-geforce-rtx-3070",
+    "maxTempC": 93,
+    "sourceId": "nvidia",
+    "url": "https://www.nvidia.com/en-us/geforce/graphics-cards/30-series/rtx-3070-3070ti/",
+    "retrievedDate": "2026-11-03"
+  },
+  {
+    "hardwareId": "nvidia-geforce-rtx-3070-ti",
+    "maxTempC": 93,
+    "sourceId": "nvidia",
+    "url": "https://www.nvidia.com/en-us/geforce/graphics-cards/30-series/rtx-3070-3070ti/",
+    "retrievedDate": "2026-11-03"
+  },
+  {
+    "hardwareId": "nvidia-geforce-rtx-3080",
+    "maxTempC": 93,
+    "sourceId": "nvidia",
+    "url": "https://www.nvidia.com/en-us/geforce/graphics-cards/30-series/rtx-3080-3080ti/",
+    "retrievedDate": "2026-11-03"
+  },
+  {
+    "hardwareId": "nvidia-geforce-rtx-3080-ti",
+    "maxTempC": 93,
+    "sourceId": "nvidia",
+    "url": "https://www.nvidia.com/en-us/geforce/graphics-cards/30-series/rtx-3080-3080ti/",
+    "retrievedDate": "2026-11-03"
+  },
+  {
+    "hardwareId": "nvidia-geforce-rtx-3090",
+    "maxTempC": 93,
+    "sourceId": "nvidia",
+    "url": "https://www.nvidia.com/en-us/geforce/graphics-cards/30-series/rtx-3090-3090ti/",
+    "retrievedDate": "2026-11-03"
+  },
+  {
+    "hardwareId": "nvidia-geforce-rtx-4060",
+    "maxTempC": 90,
+    "sourceId": "nvidia",
+    "url": "https://www.nvidia.com/en-us/geforce/graphics-cards/40-series/rtx-4060-4060ti/",
+    "retrievedDate": "2026-11-03"
+  },
+  {
+    "hardwareId": "nvidia-geforce-rtx-4060-ti",
+    "maxTempC": 90,
+    "sourceId": "nvidia",
+    "url": "https://www.nvidia.com/en-us/geforce/graphics-cards/40-series/rtx-4060-4060ti/",
+    "retrievedDate": "2026-11-03"
+  },
+  {
+    "hardwareId": "nvidia-geforce-rtx-4070",
+    "maxTempC": 90,
+    "sourceId": "nvidia",
+    "url": "https://www.nvidia.com/en-us/geforce/graphics-cards/40-series/rtx-4070-family/",
+    "retrievedDate": "2026-11-03"
+  },
+  {
+    "hardwareId": "nvidia-geforce-rtx-4070-super",
+    "maxTempC": 90,
+    "sourceId": "nvidia",
+    "url": "https://www.nvidia.com/en-us/geforce/graphics-cards/40-series/rtx-4070-family/",
+    "retrievedDate": "2026-11-03"
+  },
+  {
+    "hardwareId": "nvidia-geforce-rtx-4070-ti",
+    "maxTempC": 90,
+    "sourceId": "nvidia",
+    "url": "https://www.nvidia.com/en-us/geforce/graphics-cards/40-series/rtx-4070-family/",
+    "retrievedDate": "2026-11-03"
+  },
+  {
+    "hardwareId": "nvidia-geforce-rtx-4070-ti-super",
+    "maxTempC": 90,
+    "sourceId": "nvidia",
+    "url": "https://www.nvidia.com/en-us/geforce/graphics-cards/40-series/rtx-4070-family/",
+    "retrievedDate": "2026-11-03"
+  },
+  {
+    "hardwareId": "nvidia-geforce-rtx-4080",
+    "maxTempC": 90,
+    "sourceId": "nvidia",
+    "url": "https://www.nvidia.com/en-us/geforce/graphics-cards/40-series/rtx-4080-family/",
+    "retrievedDate": "2026-11-03"
+  },
+  {
+    "hardwareId": "nvidia-geforce-rtx-4080-super",
+    "maxTempC": 90,
+    "sourceId": "nvidia",
+    "url": "https://www.nvidia.com/en-us/geforce/graphics-cards/40-series/rtx-4080-family/",
+    "retrievedDate": "2026-11-03"
+  },
+  {
+    "hardwareId": "nvidia-geforce-rtx-4090",
+    "maxTempC": 90,
+    "sourceId": "nvidia",
+    "url": "https://www.nvidia.com/en-us/geforce/graphics-cards/40-series/rtx-4090/",
+    "retrievedDate": "2026-11-03"
+  },
+  {
+    "hardwareId": "nvidia-geforce-rtx-5060",
+    "maxTempC": 89,
+    "sourceId": "nvidia",
+    "url": "https://www.nvidia.com/en-us/geforce/graphics-cards/50-series/rtx-5060-family/",
+    "retrievedDate": "2026-11-03"
+  },
+  {
+    "hardwareId": "nvidia-geforce-rtx-5060-ti",
+    "maxTempC": 87,
+    "sourceId": "nvidia",
+    "url": "https://www.nvidia.com/en-us/geforce/graphics-cards/50-series/rtx-5060-family/",
+    "retrievedDate": "2026-11-03"
+  },
+  {
+    "hardwareId": "nvidia-geforce-rtx-5070",
+    "maxTempC": 85,
+    "sourceId": "nvidia",
+    "url": "https://www.nvidia.com/en-us/geforce/graphics-cards/50-series/rtx-5070-family/",
+    "retrievedDate": "2026-11-03"
+  },
+  {
+    "hardwareId": "nvidia-geforce-rtx-5070-ti",
+    "maxTempC": 88,
+    "sourceId": "nvidia",
+    "url": "https://www.nvidia.com/en-us/geforce/graphics-cards/50-series/rtx-5070-family/",
+    "retrievedDate": "2026-11-03"
+  },
+  {
+    "hardwareId": "nvidia-geforce-rtx-5080",
+    "maxTempC": 88,
+    "sourceId": "nvidia",
+    "url": "https://www.nvidia.com/en-us/geforce/graphics-cards/50-series/rtx-5080/",
+    "retrievedDate": "2026-11-03"
+  },
+  {
+    "hardwareId": "nvidia-geforce-rtx-5090",
+    "maxTempC": 90,
+    "sourceId": "nvidia",
+    "url": "https://www.nvidia.com/en-us/geforce/graphics-cards/50-series/rtx-5090/",
+    "retrievedDate": "2026-11-03"
+  }
+]

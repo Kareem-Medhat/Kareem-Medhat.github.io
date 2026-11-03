@@ -1,0 +1,169 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>How to run Cinebench R23</title>
+    <meta name="description" content="Step-by-step guide to running Cinebench R23 and checking whether your CPU score is normal." />
+    <link rel="icon" href="../assets/favicon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="../css/style.css" />
+    <script>
+      // Applied before first paint so a chosen theme doesn't flash.
+      try {
+        const stored = localStorage.getItem("theme");
+        if (stored === "light" || stored === "dark") document.documentElement.dataset.theme = stored;
+      } catch {
+        // Storage can be blocked: the prefers-color-scheme rules in style.css still apply.
+      }
+    </script>
+    <script type="module" src="../js/ui.js"></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <header class="site-header">
+      <div class="wrap header-inner">
+        <a class="brand" href="../index.html"><svg width="26" height="26" viewBox="0 0 32 32" aria-hidden="true" focusable="false"><path d="M7 22a9 9 0 1 1 18 0" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round"/><path d="M16 22l5-7" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/><circle cx="16" cy="22" r="2.2" fill="currentColor"/></svg><span data-site-name>Home</span></a>
+        <nav class="site-nav" aria-label="Main">
+          <ul>
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="../check.html">Check my score</a></li>
+          <li><a href="../guides/index.html" aria-current="page">Guides</a></li>
+          <li><a href="../help.html">Help</a></li>
+          </ul>
+        </nav>
+        <button type="button" class="theme-toggle" data-theme-toggle aria-pressed="false">Dark mode</button>
+      </div>
+    </header>
+
+    <main id="main" class="wrap guide">
+      <nav class="crumbs" aria-label="Breadcrumb">
+        <ol>
+          <li><a href="./index.html">Guides</a></li>
+          <li aria-current="page">Cinebench R23</li>
+        </ol>
+      </nav>
+      <header>
+        <h1>How to run Cinebench R23</h1>
+        <dl class="guide-meta">
+          <div><dt>Tool version</dt><dd>Cinebench R23</dd></div>
+          <div><dt>Difficulty</dt><dd>Beginner</dd></div>
+          <div><dt>Time</dt><dd>About 30 minutes</dd></div>
+          <div><dt>Works on</dt><dd>Windows, macOS</dd></div>
+          <div><dt>Last verified</dt><dd>Not yet verified <!-- TODO: set to the date someone actually followed these steps --></dd></div>
+        </dl>
+      </header>
+
+        <nav class="toc" aria-labelledby="toc-heading">
+          <h2 id="toc-heading">On this page</h2>
+          <ol>
+            <li><a href="#what">What it tests</a></li>
+            <li><a href="#before">Before you start</a></li>
+            <li><a href="#download">Download</a></li>
+            <li><a href="#install">Install and set up</a></li>
+            <li><a href="#run">Run the test</a></li>
+            <li><a href="#read">Read your result</a></li>
+            <li><a href="#check">Check your score</a></li>
+            <li><a href="#troubleshooting">Troubleshooting</a></li>
+          </ol>
+        </nav>
+
+      <section aria-labelledby="what">
+        <h2 id="what">What it tests and when to use it</h2>
+        <p>Cinebench R23 renders a 3D image using only your processor (CPU). It shows whether your CPU is as fast as it should be. Use it after building a PC, after changing your cooler, or when the PC feels slower than it used to.</p>
+        <p>The <strong>multi-core</strong> test uses all CPU cores together. The <strong>single-core</strong> test uses one core. Both scores are in points (pts). Higher is better.</p>
+      </section>
+
+      <section aria-labelledby="before">
+        <h2 id="before">Before you start</h2>
+        <ol class="steps-list">
+          <li>Save your work. Close other apps, including browsers, game launchers and chat apps. They use processing power and lower your score.</li>
+          <li>On a laptop, plug in the charger. On battery, most laptops slow down to save power.</li>
+          <li>Install a temperature monitor. We use <a href="https://www.hwinfo.com/download/">HWiNFO</a> (free). It shows how hot your CPU and GPU get during the test.</li>
+          <li>On Windows 11, set the fastest power mode: Settings → System → Power &amp; battery → Power mode → Best performance. <!-- TODO: verify label --></li>
+          <li>Restart the PC, then leave it idle for 5 minutes. Windows often runs updates and background tasks right after startup.</li>
+        </ol>
+      </section>
+
+      <section aria-labelledby="download">
+        <h2 id="download">Download</h2>
+        <p>Download Cinebench only from <a href="https://www.maxon.net/en/cinebench">Maxon's official Cinebench page</a>. Maxon makes Cinebench and offers it for free. Other download sites can bundle unwanted software.</p>
+      </section>
+
+      <section aria-labelledby="install">
+        <h2 id="install">Install and set up</h2>
+        <ol class="steps-list">
+          <li>Open <a href="https://www.maxon.net/en/cinebench">Maxon's Cinebench page</a>.</li>
+          <li>Find Cinebench R23. It's an older version, so Maxon may list it separately from the current release. <!-- TODO: verify where Maxon lists R23 downloads --></li>
+          <li>Download the version for your operating system and unpack or install it. <!-- TODO: verify whether R23 ships as an installer or a .zip archive --></li>
+          <li>Start Cinebench R23.</li>
+        </ol>
+        <!-- TODO: replace with our own screenshot -->
+          <figure class="shot"><figcaption>Screenshot coming soon: the Cinebench R23 main window</figcaption></figure>
+      </section>
+
+      <section aria-labelledby="run">
+        <h2 id="run">Run the test</h2>
+        <p>Use Cinebench <strong>R23</strong>. Scores from other Cinebench versions use a different scale and can't be compared.</p>
+        <ol class="steps-list">
+          <li>Leave every setting at its default. By default, R23 repeats the test for several minutes before it shows a final score. <!-- TODO: verify the default minimum test duration in R23 --></li>
+          <li>Next to CPU (Multi Core), select Start. <!-- TODO: verify label --></li>
+          <li>Don't use the PC while the test runs.</li>
+          <li>Wait until the final score appears.</li>
+          <li>Optional: run CPU (Single Core) the same way. <!-- TODO: verify label --> Run one test at a time.</li>
+        </ol>
+      </section>
+
+      <section aria-labelledby="read">
+        <h2 id="read">Read your result</h2>
+        <p>Your score appears in points (pts) next to the test you ran. <!-- TODO: verify label --> Higher is better. Write down the exact number.</p>
+        <p>R23 scores are on a different scale from Cinebench 2024 and 2026. Never compare them with each other.</p>
+      </section>
+
+      <section aria-labelledby="check">
+        <h2 id="check">Check your score</h2>
+        <p>Enter your score in the checker to see if it's normal for your CPU.</p>
+        <p class="actions"><a class="button" href="../check.html?b=cinebench&amp;v=r23">Check my Cinebench R23 score</a></p>
+      </section>
+
+      <section aria-labelledby="troubleshooting">
+        <h2 id="troubleshooting">Troubleshooting</h2>
+
+        <h3 id="low-score">My score is low</h3>
+        <ol class="steps-list">
+          <li>Go through <a href="#before">Before you start</a> again. Background apps and a battery-saving power mode are the most common causes.</li>
+          <li>Run the test again with HWiNFO open. If the temperature climbs to its limit and the clock speed drops, that's thermal throttling (see below).</li>
+          <li>Check your memory (RAM) speed in HWiNFO. If it's lower than the speed printed on your RAM, turn on the memory profile in your BIOS. It's called XMP on Intel systems and EXPO on AMD systems.</li>
+          <li>Run the test two or three times. Small differences between runs (a few percent) are normal.</li>
+        </ol>
+
+        <h3 id="crashes">It crashes, freezes or the PC restarts</h3>
+        <ol class="steps-list">
+          <li>Undo any overclock or undervolt. The simplest way is to load the default settings in your BIOS. (The BIOS is the setup screen your PC shows before Windows starts.)</li>
+          <li>Update your graphics driver from your GPU maker's website (NVIDIA, AMD or Intel).</li>
+
+          <li>Check temperatures. Overheating can cause sudden shutdowns.</li>
+        </ol>
+
+        <h3 id="throttling">Thermal throttling</h3>
+        <p>Thermal throttling means your processor or graphics card slows itself down because it's too hot. It protects the hardware, but it lowers your score.</p>
+        <ol class="steps-list">
+          <li>Clean out dust from fans, filters and heatsinks. (A heatsink is the metal block with fins that pulls heat away from the chip.)</li>
+          <li>Check that every fan spins while the test runs.</li>
+          <li>Give the case room to breathe: don't push it against a wall or put it in a closed cabinet.</li>
+          <li>On a laptop, use it on a hard, flat surface, not a bed or a couch.</li>
+          <li>If temperatures are still high, the cooler may not be mounted properly. Ask someone experienced or a repair shop to check it.</li>
+        </ol>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="wrap">
+        <p>
+          Tool names are trademarks of their respective owners. <span data-site-name>This site</span> isn't
+          affiliated with any of them. Reference scores are credited to their sources wherever they appear.
+        </p>
+        <p>Your scores stay in your browser. Nothing you type is uploaded.</p>
+      </div>
+    </footer>
+  </body>
+</html>

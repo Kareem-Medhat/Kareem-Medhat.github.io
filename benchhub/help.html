@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Help and common questions</title>
+    <meta name="description" content="Plain-language answers for beginners: what benchmarks are, which test to run, CPU vs GPU, and what your score means." />
+    <link rel="icon" href="./assets/favicon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <script>
+      // Applied before first paint so a chosen theme doesn't flash.
+      try {
+        const stored = localStorage.getItem("theme");
+        if (stored === "light" || stored === "dark") document.documentElement.dataset.theme = stored;
+      } catch {
+        // Storage can be blocked: the prefers-color-scheme rules in style.css still apply.
+      }
+    </script>
+    <script type="module" src="./js/ui.js"></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <header class="site-header">
+      <div class="wrap header-inner">
+        <a class="brand" href="./index.html"><svg width="26" height="26" viewBox="0 0 32 32" aria-hidden="true" focusable="false"><path d="M7 22a9 9 0 1 1 18 0" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round"/><path d="M16 22l5-7" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/><circle cx="16" cy="22" r="2.2" fill="currentColor"/></svg><span data-site-name>Home</span></a>
+        <nav class="site-nav" aria-label="Main">
+          <ul>
+          <li><a href="./index.html">Home</a></li>
+          <li><a href="./check.html">Check my score</a></li>
+          <li><a href="./guides/index.html">Guides</a></li>
+          <li><a href="./help.html" aria-current="page">Help</a></li>
+          </ul>
+        </nav>
+        <button type="button" class="theme-toggle" data-theme-toggle aria-pressed="false">Dark mode</button>
+      </div>
+    </header>
+
+    <main id="main" class="wrap guide">
+      <h1>Help and common questions</h1>
+      <section aria-labelledby="group-0">
+        <h2 id="group-0">Basics</h2>
+        <article class="qa" aria-labelledby="what-is-benchmark">
+          <h3 id="what-is-benchmark">What is a benchmark?</h3>
+          <p>A benchmark is a program that gives your hardware a fixed job and measures how well it does. Because the job is the same for everyone, you can compare your result with other people who have the same hardware. If yours is much lower, something is holding your PC back.</p>
+        </article>
+        <article class="qa" aria-labelledby="cpu-vs-gpu">
+          <h3 id="cpu-vs-gpu">What's the difference between a CPU and a GPU?</h3>
+          <p>The <strong>CPU</strong> (processor) is the main chip. It runs Windows and your programs. The <strong>GPU</strong> (graphics card) draws everything you see in games and 3D apps.</p>
+          <p>They do different jobs, so they're tested separately. Some laptops and small PCs have graphics built into the processor (called "integrated graphics"). Our graphics card list only covers separate graphics cards for now.</p>
+        </article>
+        <article class="qa" aria-labelledby="benchmark-vs-stress">
+          <h3 id="benchmark-vs-stress">What's the difference between a benchmark and a stress test?</h3>
+          <p>A <strong>benchmark</strong> measures speed. It gives you a score you can compare.</p>
+          <p>A <strong>stress test</strong> runs your hardware at full load for a while to check that it stays stable and doesn't overheat. The result is pass or fail, not a score to beat. Stress tests are heavier than benchmarks, so always read the safety warning in the guide first.</p>
+        </article>
+        <article class="qa" aria-labelledby="two-cpu-tests">
+          <h3 id="two-cpu-tests">Why are there two CPU benchmarks?</h3>
+          <p>They measure different kinds of work. <strong>Cinebench</strong> runs one long, heavy job, like rendering a 3D scene. <strong>Geekbench</strong> runs many short tasks, like compressing files and editing photos, and finishes quickly.</p>
+          <p>One of them is enough to spot a problem. Running both gives you a fuller picture. <a href="./guides/index.html#which-test">See which test to run.</a></p>
+        </article>
+        <article class="qa" aria-labelledby="two-cinebench">
+          <h3 id="two-cinebench">Why are there two versions of Cinebench? Which should I use?</h3>
+          <p>Maxon, the company behind Cinebench, releases a new version every few years. Each version draws a different scene and uses its own points scale. So 1,000 points in R23 means something completely different from 1,000 points in 2026.</p>
+          <p>Use <strong>Cinebench 2026</strong>. Only pick R23 if you've already run it and want to check that score.</p>
+        </article>
+        <article class="qa" aria-labelledby="multi-vs-single">
+          <h3 id="multi-vs-single">What do multi-core and single-core mean?</h3>
+          <p>A modern processor contains several <strong>cores</strong>: smaller processors working side by side.</p>
+          <ul>
+            <li><strong>Multi-core</strong> uses all of them at once. It shows how fast heavy work is, like exporting video.</li>
+            <li><strong>Single-core</strong> uses one. It shows how quick everyday apps and many games feel.</li>
+          </ul>
+          <p>Both matter. A low result in either one is worth a look.</p>
+        </article>
+      </section>
+
+      <section aria-labelledby="group-1">
+        <h2 id="group-1">Checking your score</h2>
+        <article class="qa" aria-labelledby="find-hardware">
+          <h3 id="find-hardware">How do I find out which CPU and graphics card I have?</h3>
+          <p><strong>Windows:</strong> press <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>Esc</kbd> to open Task Manager. If you see a small window, select More details. Open the Performance tab. Select CPU to see your processor's name, and GPU to see your graphics card's name. <!-- TODO: verify labels on current Windows 10 and 11 --></p>
+          <p><strong>Mac:</strong> open the Apple menu and choose About This Mac. <!-- TODO: verify label --></p>
+        </article>
+        <article class="qa" aria-labelledby="desktop-vs-laptop">
+          <h3 id="desktop-vs-laptop">Why do you ask whether it's a desktop or a laptop?</h3>
+          <p>Laptop chips often share a name with desktop chips, but they run on much less power and have smaller coolers. A laptop scoring lower than a desktop is normal, so we only compare laptops with laptops and desktops with desktops.</p>
+        </article>
+        <article class="qa" aria-labelledby="no-data">
+          <h3 id="no-data">It says “No trusted data yet”. What can I do?</h3>
+          <p>It doesn't mean anything is wrong with your PC. We only show numbers we can trace back to a trusted source. When we don't have one, we show nothing rather than guess. Meanwhile, you can:</p>
+          <ul>
+            <li>Pick another benchmark or test, if others are listed for your hardware.</li>
+            <li>For a graphics card, run the FurMark health check. It doesn't need reference scores.</li>
+            <li>If your PC feels slow, go through the troubleshooting section of any guide.</li>
+            <li>Check back later. We add reference scores as trusted sources publish them.</li>
+          </ul>
+        </article>
+        <article class="qa" aria-labelledby="several-sources">
+          <h3 id="several-sources">Why are there several reference scores instead of one?</h3>
+          <p>Different reviewers test with different coolers, memory and settings, so their numbers vary a little. We show each one with its conditions and the range between them, instead of averaging them into a number nobody actually measured. If your score falls inside the range, it's normal.</p>
+        </article>
+        <article class="qa" aria-labelledby="runs-differ">
+          <h3 id="runs-differ">My score changes each time I run the test. Is that normal?</h3>
+          <p>Yes. A difference of a few percent between runs is normal. Temperature and background tasks change slightly every time. Run the test two or three times and use the middle result, not the highest one.</p>
+        </article>
+        <article class="qa" aria-labelledby="low-score">
+          <h3 id="low-score">My score is low. What should I check first?</h3>
+          <ol>
+            <li>Close other apps, including browsers and game launchers.</li>
+            <li>On a laptop, plug in the charger. On Windows 11, set the power mode to Best performance.</li>
+            <li>Run the test with a temperature monitor open and check for overheating.</li>
+            <li>For a graphics card, make sure your monitor is plugged into the graphics card, not the motherboard.</li>
+          </ol>
+          <p>Every guide has a troubleshooting section with more steps.</p>
+        </article>
+      </section>
+
+      <section aria-labelledby="group-2">
+        <h2 id="group-2">Safety, cost and privacy</h2>
+        <article class="qa" aria-labelledby="privacy">
+          <h3 id="privacy">Do you upload my score or collect my data?</h3>
+          <p>No. Everything runs in your browser. There are no accounts and nothing is sent to us. The checker remembers your last entries on this device only.</p>
+          <p>Some tools (like Geekbench's free version) send results to their own makers. That's between you and them.</p>
+        </article>
+        <article class="qa" aria-labelledby="sources">
+          <h3 id="sources">Where do your reference numbers come from?</h3>
+          <p>Only from a short list of trusted sources: hardware makers, official results databases and established review sites. Every number links to the page it came from, so you can check it. We never make up, estimate or average numbers.</p>
+        </article>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="wrap">
+        <p>
+          Tool names are trademarks of their respective owners. <span data-site-name>This site</span> isn't
+          affiliated with any of them. Reference scores are credited to their sources wherever they appear.
+        </p>
+        <p>Your scores stay in your browser. Nothing you type is uploaded.</p>
+      </div>
+    </footer>
+  </body>
+</html>

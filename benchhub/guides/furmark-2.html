@@ -1,0 +1,185 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>How to run the FurMark 2 stress test safely</title>
+    <meta name="description" content="Beginner guide to stress testing your graphics card with FurMark 2 safely: temperatures, stability and throttling." />
+    <link rel="icon" href="../assets/favicon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="../css/style.css" />
+    <script>
+      // Applied before first paint so a chosen theme doesn't flash.
+      try {
+        const stored = localStorage.getItem("theme");
+        if (stored === "light" || stored === "dark") document.documentElement.dataset.theme = stored;
+      } catch {
+        // Storage can be blocked: the prefers-color-scheme rules in style.css still apply.
+      }
+    </script>
+    <script type="module" src="../js/ui.js"></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <header class="site-header">
+      <div class="wrap header-inner">
+        <a class="brand" href="../index.html"><svg width="26" height="26" viewBox="0 0 32 32" aria-hidden="true" focusable="false"><path d="M7 22a9 9 0 1 1 18 0" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round"/><path d="M16 22l5-7" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/><circle cx="16" cy="22" r="2.2" fill="currentColor"/></svg><span data-site-name>Home</span></a>
+        <nav class="site-nav" aria-label="Main">
+          <ul>
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="../check.html">Check my score</a></li>
+          <li><a href="../guides/index.html" aria-current="page">Guides</a></li>
+          <li><a href="../help.html">Help</a></li>
+          </ul>
+        </nav>
+        <button type="button" class="theme-toggle" data-theme-toggle aria-pressed="false">Dark mode</button>
+      </div>
+    </header>
+
+    <main id="main" class="wrap guide">
+      <nav class="crumbs" aria-label="Breadcrumb">
+        <ol>
+          <li><a href="./index.html">Guides</a></li>
+          <li aria-current="page">FurMark 2</li>
+        </ol>
+      </nav>
+      <header>
+        <h1>How to run the FurMark 2 stress test safely</h1>
+        <dl class="guide-meta">
+          <div><dt>Tool version</dt><dd>FurMark 2</dd></div>
+          <div><dt>Difficulty</dt><dd>Intermediate</dd></div>
+          <div><dt>Time</dt><dd>About 30 minutes</dd></div>
+          <div><dt>Works on</dt><dd>Windows, Linux</dd></div>
+          <div><dt>Last verified</dt><dd>Not yet verified <!-- TODO: set to the date someone actually followed these steps --></dd></div>
+        </dl>
+      </header>
+      <aside class="warning" aria-labelledby="safety">
+        <h2 id="safety">⚠ Safety first</h2>
+        <ul>
+          <li>FurMark puts a very heavy load on your graphics card. Watch its temperature the whole time.</li>
+          <li>Stop the test right away if the temperature goes above the safe limit for your graphics card, if the screen shows strange colours or shapes, or if you hear or smell anything unusual.</li>
+          <li>Don't run long tests on laptops or small PCs with weak cooling.</li>
+          <li>You run this test at your own risk.</li>
+        </ul>
+      </aside>
+        <nav class="toc" aria-labelledby="toc-heading">
+          <h2 id="toc-heading">On this page</h2>
+          <ol>
+            <li><a href="#what">What it tests</a></li>
+            <li><a href="#before">Before you start</a></li>
+            <li><a href="#download">Download</a></li>
+            <li><a href="#install">Install and set up</a></li>
+            <li><a href="#run">Run the test</a></li>
+            <li><a href="#read">Read your result</a></li>
+            <li><a href="#check">Check your score</a></li>
+            <li><a href="#troubleshooting">Troubleshooting</a></li>
+          </ol>
+        </nav>
+
+      <section aria-labelledby="what">
+        <h2 id="what">What it tests and when to use it</h2>
+        <p>FurMark 2 is a stress test for your graphics card (GPU). It runs the card at full load to check two things: does it stay stable, and does it stay cool enough? Use it after installing a new graphics card, changing GPU settings, or when games crash.</p>
+        <p>It's a health check, not a race. We don't rank FurMark scores.</p>
+      </section>
+
+      <section aria-labelledby="before">
+        <h2 id="before">Before you start</h2>
+        <ol class="steps-list">
+          <li>Save your work. Close other apps, including browsers, game launchers and chat apps. They use processing power and lower your score.</li>
+          <li>On a laptop, plug in the charger. On battery, most laptops slow down to save power.</li>
+          <li>Install a temperature monitor. We use <a href="https://www.hwinfo.com/download/">HWiNFO</a> (free). It shows how hot your CPU and GPU get during the test.</li>
+          <li>On Windows 11, set the fastest power mode: Settings → System → Power &amp; battery → Power mode → Best performance. <!-- TODO: verify label --></li>
+          <li>Open the <a href="../check.html?b=furmark&amp;v=2">FurMark health check</a> and pick your graphics card. If its maker publishes a maximum temperature, it shows there. Write it down.</li>
+          <li>Restart the PC, then leave it idle for 5 minutes. Windows often runs updates and background tasks right after startup.</li>
+        </ol>
+      </section>
+
+      <section aria-labelledby="download">
+        <h2 id="download">Download</h2>
+        <p>Download FurMark 2 only from <a href="https://www.geeks3d.com/furmark/downloads/">Geeks3D's official FurMark download page</a>. Geeks3D makes FurMark. Don't use other download sites.</p>
+        <p class="actions"><a class="button" href="https://www.geeks3d.com/furmark/downloads/">Download FurMark 2 from Geeks3D</a></p>
+      </section>
+
+      <section aria-labelledby="install">
+        <h2 id="install">Install and set up</h2>
+        <ol class="steps-list">
+          <li>Download FurMark 2 for your operating system (Windows or Linux).</li>
+          <li>Open the file you downloaded and follow the on-screen steps. <!-- TODO: verify whether FurMark 2 ships as an installer, a .zip archive, or both --></li>
+          <li>Start HWiNFO and open its sensor view, so you can see live temperatures. <!-- TODO: verify label --></li>
+          <li>Find your GPU temperature in the list and keep that window visible.</li>
+          <li>Start FurMark 2.</li>
+        </ol>
+        <!-- TODO: replace with our own screenshot -->
+          <figure class="shot"><figcaption>Screenshot coming soon: FurMark 2 settings next to the HWiNFO sensor window</figcaption></figure>
+      </section>
+
+      <section aria-labelledby="run">
+        <h2 id="run">Run the test</h2>
+        <ol class="steps-list">
+          <li>If you have more than one graphics card, choose the one you want to test. <!-- TODO: verify label --></li>
+          <li>Choose the 1080p (1920 × 1080) resolution preset. <!-- TODO: verify label --></li>
+          <li>Start the stress test. <!-- TODO: verify label --></li>
+          <li>Watch the GPU temperature closely for the first 2 minutes. If it reaches the maximum you wrote down, stop immediately.</li>
+          <li>Let it run for 15 minutes. Keep an eye on the temperature now and then.</li>
+          <li>Stop the test. <!-- TODO: verify how to stop the test in FurMark 2 (button or key) --></li>
+        </ol>
+      </section>
+
+      <section aria-labelledby="read">
+        <h2 id="read">Read your result</h2>
+        <p>You need two answers for the health check:</p>
+        <ol class="steps-list">
+          <li><strong>Was it stable?</strong> No crash, freeze, black screen, or strange colours and shapes on screen.</li>
+          <li><strong>What was the highest GPU temperature?</strong> In HWiNFO, look at the Maximum column next to GPU Temperature. <!-- TODO: verify label --></li>
+        </ol>
+      </section>
+
+      <section aria-labelledby="check">
+        <h2 id="check">Check your result</h2>
+        <p>The checker turns your answers into a plain-language health check.</p>
+        <p class="actions"><a class="button" href="../check.html?b=furmark&amp;v=2">Run the FurMark 2 health check</a></p>
+      </section>
+
+      <section aria-labelledby="troubleshooting">
+        <h2 id="troubleshooting">Troubleshooting</h2>
+
+        <h3 id="low-score">My score is low</h3>
+        <ol class="steps-list">
+          <li>Go through <a href="#before">Before you start</a> again. Background apps and a battery-saving power mode are the most common causes.</li>
+          <li>Run the test again with HWiNFO open. If the temperature climbs to its limit and the clock speed drops, that's thermal throttling (see below).</li>
+          <li>Make sure your monitor cable is plugged into the graphics card, not into the motherboard ports.</li>
+          <li>Update your graphics driver from your GPU maker's website (NVIDIA, AMD or Intel).</li>
+          <li>Turn off overlays and screen recorders (for example game-launcher overlays) before you run the test.</li>
+          <li>Run the test two or three times. Small differences between runs (a few percent) are normal.</li>
+        </ol>
+
+        <h3 id="crashes">It crashes, freezes or the PC restarts</h3>
+        <ol class="steps-list">
+          <li>Undo any overclock or undervolt. The simplest way is to load the default settings in your BIOS. (The BIOS is the setup screen your PC shows before Windows starts.)</li>
+          <li>Update your graphics driver from your GPU maker's website (NVIDIA, AMD or Intel).</li>
+          <li>If the PC shuts off completely under load, your power supply may not be strong enough for your graphics card.</li>
+          <li>Check temperatures. Overheating can cause sudden shutdowns.</li>
+        </ol>
+
+        <h3 id="throttling">Thermal throttling</h3>
+        <p>Thermal throttling means your processor or graphics card slows itself down because it's too hot. It protects the hardware, but it lowers your score.</p>
+        <ol class="steps-list">
+          <li>Clean out dust from fans, filters and heatsinks. (A heatsink is the metal block with fins that pulls heat away from the chip.)</li>
+          <li>Check that every fan spins while the test runs.</li>
+          <li>Give the case room to breathe: don't push it against a wall or put it in a closed cabinet.</li>
+          <li>On a laptop, use it on a hard, flat surface, not a bed or a couch.</li>
+          <li>If temperatures are still high, the cooler may not be mounted properly. Ask someone experienced or a repair shop to check it.</li>
+        </ol>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="wrap">
+        <p>
+          Tool names are trademarks of their respective owners. <span data-site-name>This site</span> isn't
+          affiliated with any of them. Reference scores are credited to their sources wherever they appear.
+        </p>
+        <p>Your scores stay in your browser. Nothing you type is uploaded.</p>
+      </div>
+    </footer>
+  </body>
+</html>
