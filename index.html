@@ -3,695 +3,243 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Kareem Medhat — Full-stack Software Engineer</title>
-    <meta
-      name="description"
-      content="Kareem Medhat is a full-stack software engineer in Cairo building type-safe production systems — student information, HR and payroll — with TypeScript, React, NestJS, tRPC, Prisma and PostgreSQL."
-    />
+    <title>Kareem Medhat — Sites</title>
+    <meta name="description" content="Websites published by Kareem Medhat." />
     <meta name="author" content="Kareem Medhat" />
-    <meta property="og:type" content="website" />
-    <meta property="og:title" content="Kareem Medhat — Full-stack Software Engineer" />
-    <meta
-      property="og:description"
-      content="Five years shipping type-safe production systems in TypeScript, from Postgres schema to pixel."
-    />
-    <meta name="theme-color" content="#07080d" />
-    <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+    <link rel="icon" href="portofolio/favicon.svg" type="image/svg+xml" />
 
     <script>
-      document.documentElement.classList.add("js");
-      document.documentElement.dataset.theme = (() => {
-        try {
-          const stored = localStorage.getItem("theme");
-          if (stored === "light" || stored === "dark") return stored;
-        } catch {
-          // Storage can be blocked (private mode, strict settings): fall back to the system preference.
-        }
-        return matchMedia("(prefers-color-scheme: light)").matches ? "light" : "dark";
-      })();
+      // Same origin as the portfolio, so honour the theme a visitor already picked there.
+      try {
+        const stored = localStorage.getItem("theme");
+        if (stored === "light" || stored === "dark") document.documentElement.dataset.theme = stored;
+      } catch {
+        // Storage can be blocked: the media query below covers the system preference.
+      }
     </script>
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Geist:wght@300..700&family=Geist+Mono:wght@400;500&family=Instrument+Serif:ital@0;1&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Geist:wght@400;500&family=Instrument+Serif:ital@0;1&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="styles.css" />
-    <script src="main.js" defer></script>
+
+    <style>
+      :root {
+        color-scheme: light;
+        --paper: #ecebf5;
+        --ink: #1b1830;
+        --ink-2: #5d5a74;
+        --rule: #cbc8de;
+        --violet: #5b45f0;
+
+        --font-sans: "Geist", ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif;
+        --font-serif: "Instrument Serif", ui-serif, Georgia, serif;
+      }
+
+      :root[data-theme="dark"] {
+        color-scheme: dark;
+        --paper: #15131f;
+        --ink: #ecebf5;
+        --ink-2: #9b98b0;
+        --rule: #2e2b40;
+        --violet: #a89bff;
+      }
+
+      @media (prefers-color-scheme: dark) {
+        :root:not([data-theme="light"]) {
+          color-scheme: dark;
+          --paper: #15131f;
+          --ink: #ecebf5;
+          --ink-2: #9b98b0;
+          --rule: #2e2b40;
+          --violet: #a89bff;
+        }
+      }
+
+      *,
+      *::before,
+      *::after {
+        box-sizing: border-box;
+      }
+
+      html,
+      body {
+        margin: 0;
+      }
+
+      body {
+        min-height: 100svh;
+        display: flex;
+        flex-direction: column;
+        background: var(--paper);
+        color: var(--ink);
+        font-family: var(--font-sans);
+        font-size: 1.0625rem;
+        line-height: 1.5;
+        -webkit-font-smoothing: antialiased;
+      }
+
+      .page {
+        flex: 1;
+        width: 100%;
+        max-width: 64rem;
+        margin: 0 auto;
+        padding: clamp(3rem, 10vh, 7rem) clamp(1rem, 5vw, 3rem) 3rem;
+        display: flex;
+        flex-direction: column;
+      }
+
+      .intro h1 {
+        margin: 0;
+        font-size: 1.0625rem;
+        font-weight: 500;
+      }
+
+      .intro p {
+        margin: 0.25rem 0 0;
+        max-width: 40ch;
+        color: var(--ink-2);
+      }
+
+      .sites {
+        list-style: none;
+        margin: clamp(3rem, 12vh, 8rem) 0 0;
+        padding: 0;
+      }
+
+      .site {
+        border-top: 1px solid var(--rule);
+      }
+
+      .site:last-child {
+        border-bottom: 1px solid var(--rule);
+      }
+
+      .site a {
+        display: grid;
+        grid-template-columns: minmax(0, 1fr) minmax(0, 18rem);
+        align-items: end;
+        gap: 0.5rem 2rem;
+        padding: 1.5rem 0 1.75rem;
+        color: inherit;
+        text-decoration: none;
+      }
+
+      .site__url {
+        display: flex;
+        flex-direction: column;
+        min-width: 0;
+      }
+
+      .site__host {
+        font-size: 0.9375rem;
+        color: var(--ink-2);
+      }
+
+      .site__path {
+        font-family: var(--font-serif);
+        font-weight: 400;
+        font-size: clamp(3rem, 22vw, 8.5rem);
+        line-height: 0.9;
+        letter-spacing: -0.02em;
+        overflow-wrap: anywhere;
+        transition: transform 280ms cubic-bezier(0.2, 0.7, 0.2, 1);
+      }
+
+      .site__slash {
+        display: inline-block;
+        color: var(--violet);
+        transition: transform 280ms cubic-bezier(0.2, 0.7, 0.2, 1);
+      }
+
+      .site__about {
+        margin: 0;
+        padding-bottom: 0.6rem;
+        color: var(--ink-2);
+        max-width: 30ch;
+      }
+
+      .site a:hover .site__path,
+      .site a:focus-visible .site__path {
+        transform: translateX(0.12em);
+      }
+
+      .site a:hover .site__slash,
+      .site a:focus-visible .site__slash {
+        transform: skewX(-14deg);
+      }
+
+      .site a:focus-visible {
+        outline: 2px solid var(--violet);
+        outline-offset: 4px;
+      }
+
+      .footer {
+        margin-top: auto;
+        padding-top: 4rem;
+        font-size: 0.9375rem;
+        color: var(--ink-2);
+      }
+
+      .footer a {
+        color: var(--ink);
+        text-underline-offset: 0.2em;
+        text-decoration-color: var(--rule);
+      }
+
+      .footer a:hover {
+        text-decoration-color: var(--violet);
+      }
+
+      .footer a:focus-visible {
+        outline: 2px solid var(--violet);
+        outline-offset: 2px;
+        border-radius: 2px;
+      }
+
+      @media (max-width: 40rem) {
+        .site a {
+          grid-template-columns: minmax(0, 1fr);
+        }
+
+        .site__about {
+          padding-bottom: 0;
+        }
+      }
+
+      @media (prefers-reduced-motion: reduce) {
+        .site__path,
+        .site__slash {
+          transition: none;
+        }
+      }
+    </style>
   </head>
 
   <body>
-    <svg class="sprite" aria-hidden="true">
-      <symbol id="i-arrow-right" viewBox="0 0 24 24"><path d="M5 12h14" /><path d="m12 5 7 7-7 7" /></symbol>
-      <symbol id="i-arrow-up-right" viewBox="0 0 24 24"><path d="M7 7h10v10" /><path d="M7 17 17 7" /></symbol>
-      <symbol id="i-arrow-up" viewBox="0 0 24 24"><path d="m5 12 7-7 7 7" /><path d="M12 19V5" /></symbol>
-      <symbol id="i-mail" viewBox="0 0 24 24"><rect width="20" height="16" x="2" y="4" rx="2" /><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7" /></symbol>
-      <symbol id="i-copy" viewBox="0 0 24 24"><rect width="14" height="14" x="8" y="8" rx="2" ry="2" /><path d="M4 16c-1.1 0-2-.9-2-2V4c0-1.1.9-2 2-2h10c1.1 0 2 .9 2 2" /></symbol>
-      <symbol id="i-check" viewBox="0 0 24 24"><path d="M20 6 9 17l-5-5" /></symbol>
-      <symbol id="i-sun" viewBox="0 0 24 24"><circle cx="12" cy="12" r="4" /><path d="M12 2v2" /><path d="M12 20v2" /><path d="m4.93 4.93 1.41 1.41" /><path d="m17.66 17.66 1.41 1.41" /><path d="M2 12h2" /><path d="M20 12h2" /><path d="m6.34 17.66-1.41 1.41" /><path d="m19.07 4.93-1.41 1.41" /></symbol>
-      <symbol id="i-moon" viewBox="0 0 24 24"><path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z" /></symbol>
-      <symbol id="i-menu" viewBox="0 0 24 24"><path d="M4 7h16" /><path d="M4 12h16" /><path d="M4 17h16" /></symbol>
-      <symbol id="i-github" viewBox="0 0 24 24"><path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4" /><path d="M9 18c-4.51 2-5-2-7-2" /></symbol>
-      <symbol id="i-pin" viewBox="0 0 24 24"><path d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0" /><circle cx="12" cy="10" r="3" /></symbol>
-      <symbol id="i-clock" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" /><path d="M12 6v6l4 2" /></symbol>
-      <symbol id="i-code" viewBox="0 0 24 24"><path d="m16 18 6-6-6-6" /><path d="m8 6-6 6 6 6" /></symbol>
-      <symbol id="i-layout" viewBox="0 0 24 24"><rect width="18" height="18" x="3" y="3" rx="2" /><path d="M3 9h18" /><path d="M9 21V9" /></symbol>
-      <symbol id="i-server" viewBox="0 0 24 24"><rect width="20" height="8" x="2" y="2" rx="2" /><rect width="20" height="8" x="2" y="14" rx="2" /><path d="M6 6h.01" /><path d="M6 18h.01" /></symbol>
-      <symbol id="i-database" viewBox="0 0 24 24"><ellipse cx="12" cy="5" rx="9" ry="3" /><path d="M3 5v14a9 3 0 0 0 18 0V5" /><path d="M3 12a9 3 0 0 0 18 0" /></symbol>
-      <symbol id="i-shield" viewBox="0 0 24 24"><path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z" /><path d="m9 12 2 2 4-4" /></symbol>
-      <symbol id="i-box" viewBox="0 0 24 24"><path d="M21 8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16Z" /><path d="m3.3 7 8.7 5 8.7-5" /><path d="M12 22V12" /></symbol>
-      <symbol id="i-snowflake" viewBox="0 0 24 24"><path d="M2 12h20" /><path d="M12 2v20" /><path d="m20 16-4-4 4-4" /><path d="m4 8 4 4-4 4" /><path d="m16 4-4 4-4-4" /><path d="m8 20 4-4 4 4" /></symbol>
-      <symbol id="i-key" viewBox="0 0 24 24"><path d="m15.5 7.5 2.3 2.3a1 1 0 0 0 1.4 0l2.1-2.1a1 1 0 0 0 0-1.4L19 4" /><path d="m21 2-9.6 9.6" /><circle cx="7.5" cy="15.5" r="5.5" /></symbol>
-      <symbol id="i-ticket" viewBox="0 0 24 24"><path d="M2 9a3 3 0 0 1 0 6v2a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2v-2a3 3 0 0 1 0-6V7a2 2 0 0 0-2-2H4a2 2 0 0 0-2 2Z" /><path d="M13 5v2" /><path d="M13 17v2" /><path d="M13 11v2" /></symbol>
-      <symbol id="i-briefcase" viewBox="0 0 24 24"><path d="M16 20V4a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16" /><rect width="20" height="14" x="2" y="6" rx="2" /></symbol>
-      <symbol id="i-cap" viewBox="0 0 24 24"><path d="M21.42 10.922a1 1 0 0 0-.019-1.838L12.83 5.18a2 2 0 0 0-1.66 0L2.6 9.08a1 1 0 0 0 0 1.832l8.57 3.908a2 2 0 0 0 1.66 0z" /><path d="M22 10v6" /><path d="M6 12.5V16a6 3 0 0 0 12 0v-3.5" /></symbol>
-    </svg>
+    <main class="page">
+      <header class="intro">
+        <h1>Kareem Medhat</h1>
+        <p>Websites I've published. New ones get added to this list.</p>
+      </header>
 
-    <a class="skip-link" href="#main">Skip to content</a>
-    <div class="scroll-progress" aria-hidden="true"></div>
+      <ul class="sites">
+        <li class="site">
+          <a href="portofolio/">
+            <span class="site__url">
+              <span class="site__host">kareem-medhat.github.io</span>
+              <span class="site__path"><span class="site__slash">/</span>portofolio</span>
+            </span>
+            <p class="site__about">My portfolio: the systems I've built, my stack, and how to reach me.</p>
+          </a>
+        </li>
+      </ul>
 
-    <header class="nav">
-      <a class="nav__brand" href="#top" aria-label="Kareem Medhat, back to top">
-        <span class="brand-mark" aria-hidden="true">KM</span>
-        <span class="nav__name">Kareem Medhat</span>
-      </a>
-
-      <nav aria-label="Primary">
-        <ul class="nav__links" id="nav-links">
-          <li><a href="#about">About</a></li>
-          <li><a href="#work">Work</a></li>
-          <li><a href="#skills">Skills</a></li>
-          <li><a href="#journey">Journey</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
-      </nav>
-
-      <div class="nav__actions">
-        <button class="icon-btn" type="button" data-theme-toggle aria-label="Toggle colour theme">
-          <svg class="icon icon--sun"><use href="#i-sun" /></svg>
-          <svg class="icon icon--moon"><use href="#i-moon" /></svg>
-        </button>
-        <a class="btn btn--small btn--primary nav__cta" href="#contact">Get in touch</a>
-        <button
-          class="icon-btn nav__menu-btn"
-          type="button"
-          data-menu-button
-          aria-label="Open menu"
-          aria-controls="nav-links"
-          aria-expanded="false"
-        >
-          <svg class="icon"><use href="#i-menu" /></svg>
-        </button>
-      </div>
-    </header>
-
-    <main id="main">
-      <!-- Hero -->
-      <section class="hero" id="top">
-        <div class="hero__bg" aria-hidden="true">
-          <div class="aurora aurora--1"></div>
-          <div class="aurora aurora--2"></div>
-          <div class="aurora aurora--3"></div>
-          <div class="hero__grid"></div>
-          <div class="hero__spotlight"></div>
-        </div>
-
-        <div class="container hero__inner">
-          <div class="hero__copy">
-            <p class="pill">
-              <span class="pill__dot" aria-hidden="true"></span>
-              Software Developer at Solace Software · Cairo
-            </p>
-
-            <h1 class="hero__title">
-              <span class="line">I build the <em class="gradient-text">software</em></span>
-              <span class="line">schools &amp; companies</span>
-              <span class="line">run on.</span>
-            </h1>
-
-            <p class="hero__lead">
-              I'm <strong>Kareem Medhat</strong>, a full-stack engineer who has spent five years shipping
-              production systems — student information, HR and payroll — in end-to-end type-safe TypeScript,
-              from the Postgres schema to the last pixel. I'm also studying Computer &amp; Systems Engineering at
-              Ain Shams University.
-            </p>
-
-            <div class="hero__actions">
-              <a class="btn btn--primary" href="#work">
-                See my work
-                <svg class="icon"><use href="#i-arrow-right" /></svg>
-              </a>
-              <a class="btn" href="#contact">
-                <svg class="icon"><use href="#i-mail" /></svg>
-                Contact me
-              </a>
-              <a
-                class="icon-btn icon-btn--lg"
-                href="https://github.com/Kareem-Medhat"
-                target="_blank"
-                rel="noopener"
-                aria-label="Kareem Medhat on GitHub"
-              >
-                <svg class="icon"><use href="#i-github" /></svg>
-              </a>
-            </div>
-          </div>
-
-          <div class="hero__visual">
-            <div class="terminal" aria-hidden="true">
-              <div class="terminal__bar">
-                <span class="dots"><i></i><i></i><i></i></span>
-                <span class="terminal__title">kareem@cairo: ~/playground</span>
-              </div>
-              <div class="terminal__body">
-                <p class="term__line term__line--cmd"><span class="term__prompt">❯</span> <span class="term__cmd">whoami</span></p>
-                <p class="term__line term__line--out">kareem-medhat · full-stack engineer</p>
-                <p class="term__line term__line--cmd"><span class="term__prompt">❯</span> <span class="term__cmd">git log --author=kareem --oneline | wc -l</span></p>
-                <p class="term__line term__line--out"><span class="term__num">1940</span></p>
-                <p class="term__line term__line--cmd"><span class="term__prompt">❯</span> <span class="term__cmd">cat stack.txt</span></p>
-                <p class="term__line term__line--out">typescript · react · nestjs · trpc · graphql</p>
-                <p class="term__line term__line--out">prisma · postgres · effect · docker · nix</p>
-                <p class="term__line term__line--cmd"><span class="term__prompt">❯</span> <span class="term__cmd">nix develop</span></p>
-                <p class="term__line term__line--out"><span class="term__ok">✓</span> reproducible dev shell ready</p>
-                <p class="term__line term__line--cmd"><span class="term__prompt">❯</span> <span class="term__cmd"></span><span class="caret"></span></p>
-              </div>
-            </div>
-            <span class="float-badge float-badge--hero-a">tRPC · end-to-end types</span>
-            <span class="float-badge float-badge--hero-b">Effect · errors as values</span>
-          </div>
-        </div>
-
-        <a class="scroll-cue" href="#about" aria-label="Scroll to About">
-          <span></span>
-        </a>
-      </section>
-
-      <!-- Stats -->
-      <section class="container stats-wrap" aria-label="At a glance">
-        <dl class="stats reveal">
-          <div class="stat">
-            <dt class="stat__label">years shipping production software</dt>
-            <dd class="stat__value"><span data-count="5">5</span><span class="stat__suffix">+</span></dd>
-          </div>
-          <div class="stat">
-            <dt class="stat__label">commits authored across my repos</dt>
-            <dd class="stat__value"><span data-count="1940">1,940</span></dd>
-          </div>
-          <div class="stat">
-            <dt class="stat__label">large platforms built &amp; maintained</dt>
-            <dd class="stat__value"><span data-count="3">3</span></dd>
-          </div>
-          <div class="stat">
-            <dt class="stat__label">data models in the platform I'm leading</dt>
-            <dd class="stat__value"><span data-count="79">79</span></dd>
-          </div>
-        </dl>
-      </section>
-
-      <!-- Tech marquee -->
-      <div class="marquee" aria-hidden="true">
-        <div class="marquee__track">
-          <ul class="marquee__list">
-            <li>TypeScript</li><li>React</li><li>NestJS</li><li>tRPC</li><li>GraphQL</li><li>Prisma</li>
-            <li>PostgreSQL</li><li>Effect</li><li>TanStack</li><li>Tailwind CSS</li><li>Node.js</li>
-            <li>Docker</li><li>Nix</li><li>Kotlin</li><li>Rust</li><li>SQL Server</li><li>Drizzle</li><li>AWS</li>
-          </ul>
-          <ul class="marquee__list">
-            <li>TypeScript</li><li>React</li><li>NestJS</li><li>tRPC</li><li>GraphQL</li><li>Prisma</li>
-            <li>PostgreSQL</li><li>Effect</li><li>TanStack</li><li>Tailwind CSS</li><li>Node.js</li>
-            <li>Docker</li><li>Nix</li><li>Kotlin</li><li>Rust</li><li>SQL Server</li><li>Drizzle</li><li>AWS</li>
-          </ul>
-        </div>
-      </div>
-
-      <!-- About -->
-      <section class="section" id="about">
-        <div class="container about">
-          <div class="about__intro">
-            <header class="section-head reveal">
-              <p class="eyebrow"><b>01</b> About</p>
-              <h2 class="section-title">Software that stays <em>boring</em> in production.</h2>
-            </header>
-            <div class="prose reveal" style="--delay: 120ms">
-              <p>
-                I started writing production code at <strong>Solace Software</strong> in 2021 and haven't stopped.
-                Most of my work lives in the unglamorous core of an organisation — admissions, enrollment,
-                transcripts, attendance, payroll, tax — where a wrong number is a real problem for a real person.
-              </p>
-              <p>
-                That shapes how I build: types that model the domain precisely, failures handled as values instead
-                of surprises, and environments anyone can reproduce with one command. I work across the whole
-                stack — schema, API, UI and the server it ships to — and I'm happiest when a refactor makes an
-                entire class of bug impossible.
-              </p>
-            </div>
-          </div>
-
-          <ol class="principles">
-            <li class="card principle reveal">
-              <span class="principle__num">01</span>
-              <h3>Types are the spec</h3>
-              <p>Parse input at the edges with valibot or zod, brand what must be trusted, and make illegal states unrepresentable.</p>
-            </li>
-            <li class="card principle reveal" style="--delay: 80ms">
-              <span class="principle__num">02</span>
-              <h3>Errors are values</h3>
-              <p>Expected failures are typed results — Effect, true-myth, fp-ts — that the caller must handle. Nothing is swallowed.</p>
-            </li>
-            <li class="card principle reveal" style="--delay: 160ms">
-              <span class="principle__num">03</span>
-              <h3>Reproducible by default</h3>
-              <p>Every project ships a Nix flake dev shell and a Docker setup, so "works on my machine" means it works on yours.</p>
-            </li>
-            <li class="card principle reveal" style="--delay: 240ms">
-              <span class="principle__num">04</span>
-              <h3>Compose, don't configure</h3>
-              <p>Small functions that each do one step, with policy chosen by the caller. No boolean flags, no god functions.</p>
-            </li>
-          </ol>
-        </div>
-      </section>
-
-      <!-- Work -->
-      <section class="section" id="work">
-        <div class="container">
-          <header class="section-head reveal">
-            <p class="eyebrow"><b>02</b> Selected work</p>
-            <h2 class="section-title">Things I've <em>built</em> and kept running.</h2>
-            <p class="section-sub">
-              Production platforms from my years at Solace Software, plus the things I build for myself.
-            </p>
-          </header>
-
-          <div class="projects">
-            <!-- School platform -->
-            <article class="card project project--sms reveal">
-              <div class="project__visual" aria-hidden="true">
-                <div class="window">
-                  <div class="window__bar">
-                    <span class="dots"><i></i><i></i><i></i></span>
-                    <span class="window__title">sola › students › S-2024-0137</span>
-                  </div>
-                  <div class="mock-sms">
-                    <div class="mock-sms__nav"><i class="is-active"></i><i></i><i></i><i></i><i></i><i></i></div>
-                    <div class="mock-sms__main">
-                      <div class="mock-person">
-                        <span class="avatar">MA</span>
-                        <div>
-                          <b>Mariam Adel</b>
-                          <small>Bachelor of Arts · Year 3</small>
-                        </div>
-                        <span class="chip chip--ok">Good standing</span>
-                      </div>
-                      <div class="meter">
-                        <div class="meter__row"><span>Program progress</span><span>96 / 132 credit hours</span></div>
-                        <div class="meter__bar"><span style="--w: 73%"></span></div>
-                      </div>
-                      <table class="mock-table">
-                        <thead><tr><th>Course</th><th>Cr</th><th>Grade</th></tr></thead>
-                        <tbody>
-                          <tr><td>HIS 210 · Ancient History</td><td>3</td><td><span class="grade">A</span></td></tr>
-                          <tr><td>LIT 305 · Literary Analysis</td><td>3</td><td><span class="grade">A−</span></td></tr>
-                          <tr><td>LAN 120 · Academic Writing</td><td>2</td><td><span class="grade">B+</span></td></tr>
-                          <tr><td>RES 400 · Research Methods</td><td>3</td><td><span class="grade grade--live">Enrolled</span></td></tr>
-                        </tbody>
-                      </table>
-                      <div class="mock-actions">
-                        <span class="btn-mini">Export CSV</span>
-                        <span class="btn-mini btn-mini--accent">Generate transcript ↓</span>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <span class="float-badge float-badge--a"><span lang="ar">العربية</span> · RTL</span>
-                <span class="float-badge float-badge--b">79 Prisma models</span>
-              </div>
-
-              <div class="project__body">
-                <p class="project__meta"><span>Solace Software</span><span>2021 — now</span><span class="project__flag">Flagship</span></p>
-                <h3 class="project__title">School Management System <span class="arrow">→</span> Sola</h3>
-                <p class="project__summary">
-                  A complete student information system for a higher-education institution, from admission to
-                  graduation. I've worked on it since 2021, and in 2026 I led its rebuild as <strong>Sola</strong>,
-                  a type-safe monorepo that replaces the legacy stack.
-                </p>
-                <ul class="project__points">
-                  <li>Admissions engine: configurable application processes, form sections, referral forms and admission requirements.</li>
-                  <li>Academics: programs, concentrations, courses with prerequisites, course offerings, grading and official PDF transcripts.</li>
-                  <li>Finance: student expenses, scholarships and payments, with exports to PDF, CSV and DOCX.</li>
-                  <li>Access control with global roles plus permissions scoped to a single course offering.</li>
-                  <li>Sola: tRPC over a 79-model Prisma schema, Effect on the server, better-auth, S3 storage, Postgres trigram search and a full Arabic interface with RTL layout.</li>
-                  <li>Folded a separate forms service into one database and shipped it all with Docker on a VPS.</li>
-                </ul>
-                <ul class="tags" aria-label="Technologies">
-                  <li class="tag">TypeScript</li><li class="tag">React</li><li class="tag">TanStack Router &amp; Query</li>
-                  <li class="tag">tRPC</li><li class="tag">Prisma</li><li class="tag">PostgreSQL</li><li class="tag">Effect</li>
-                  <li class="tag">Express</li><li class="tag">TypeORM</li><li class="tag">Docker</li>
-                </ul>
-              </div>
-            </article>
-
-            <!-- Performly -->
-            <article class="card project project--performly project--flip reveal">
-              <div class="project__visual" aria-hidden="true">
-                <div class="window">
-                  <div class="window__bar">
-                    <span class="dots"><i></i><i></i><i></i></span>
-                    <span class="window__title">acme › payroll › October run</span>
-                  </div>
-                  <div class="mock-pay">
-                    <div class="kpis">
-                      <div class="kpi"><small>Employees</small><b>248</b></div>
-                      <div class="kpi"><small>Attendance</small><b>97.4%</b></div>
-                      <div class="kpi"><small>Net payroll</small><b>EGP 3.1M</b></div>
-                    </div>
-                    <div class="chart">
-                      <span style="--h: 46%; --i: 0"></span><span style="--h: 58%; --i: 1"></span>
-                      <span style="--h: 52%; --i: 2"></span><span style="--h: 66%; --i: 3"></span>
-                      <span style="--h: 61%; --i: 4"></span><span style="--h: 74%; --i: 5"></span>
-                      <span style="--h: 70%; --i: 6"></span><span style="--h: 82%; --i: 7"></span>
-                      <span style="--h: 78%; --i: 8"></span><span style="--h: 92%; --i: 9"></span>
-                    </div>
-                    <div class="slip">
-                      <div class="slip__row"><span>Basic salary</span><span>18,000.00</span></div>
-                      <div class="slip__row"><span>Overtime · 6h</span><span class="pos">+1,250.00</span></div>
-                      <div class="slip__row"><span>Loan installment</span><span class="neg">−1,500.00</span></div>
-                      <div class="slip__row"><span>E-tax</span><span class="neg">−2,140.00</span></div>
-                      <div class="slip__row slip__row--total"><span>Net pay</span><span>15,610.00</span></div>
-                    </div>
-                  </div>
-                </div>
-                <span class="float-badge float-badge--a">GraphQL · codegen</span>
-                <span class="float-badge float-badge--b">tenant per subdomain</span>
-              </div>
-
-              <div class="project__body">
-                <p class="project__meta"><span>Solace Software</span><span>2023 — now</span></p>
-                <h3 class="project__title">Performly</h3>
-                <p class="project__summary">
-                  A multi-tenant HR &amp; payroll SaaS — attendance, shifts, leave, loans, payroll and tax — where
-                  every company gets its own subdomain and database. I work across the NestJS GraphQL API and the
-                  React client.
-                </p>
-                <ul class="project__points">
-                  <li>Re-engineered the bulk-import engine for speed and removed its race conditions and deadlocks.</li>
-                  <li>Built Egyptian e-tax export and import, plus tax-code mapping for payroll paycodes.</li>
-                  <li>Paycodes driven by formula equations, loans, payslips, cost centers and reporting.</li>
-                  <li>Permission system with a global auth guard and grouped permissions.</li>
-                  <li>Shifts with conflict detection, sign-in/out and clock-in review; migrated every ID in the system to CUIDs.</li>
-                  <li>PDF generation with headless Chrome running in Docker.</li>
-                </ul>
-                <ul class="tags" aria-label="Technologies">
-                  <li class="tag">NestJS</li><li class="tag">GraphQL</li><li class="tag">Apollo</li><li class="tag">Prisma</li>
-                  <li class="tag">ZenStack</li><li class="tag">SQL Server</li><li class="tag">React</li>
-                  <li class="tag">GraphQL Codegen</li><li class="tag">AWS SES</li><li class="tag">Docker</li>
-                </ul>
-              </div>
-            </article>
-
-            <!-- Noroc -->
-            <article class="card project project--noroc reveal">
-              <div class="project__visual" aria-hidden="true">
-                <div class="phone">
-                  <div class="phone__screen">
-                    <div class="phone__notch"></div>
-                    <div class="noroc">
-                      <div class="noroc__top"><span>Review · 8 due</span><span class="noroc__streak">12-day streak</span></div>
-                      <div class="meter__bar"><span style="--w: 40%"></span></div>
-                      <div class="noroc__card">
-                        <small>Translate</small>
-                        <b lang="ro">Bună dimineața!</b>
-                        <span class="noroc__answer">Good morning!</span>
-                      </div>
-                      <div class="noroc__grades">
-                        <span>Again<small>1m</small></span>
-                        <span>Hard<small>6m</small></span>
-                        <span class="is-picked">Good<small>1d</small></span>
-                        <span>Easy<small>4d</small></span>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <span class="float-badge float-badge--a">FSRS-6 scheduler</span>
-                <span class="float-badge float-badge--b">Jetpack Compose</span>
-              </div>
-
-              <div class="project__body">
-                <p class="project__meta"><span>Personal</span><span>2026</span><span class="project__flag project__flag--wip">In progress</span></p>
-                <h3 class="project__title">Noroc</h3>
-                <p class="project__summary">
-                  A native Android app that teaches Romanian to English speakers, built on real spaced repetition
-                  instead of mastery buckets.
-                </p>
-                <ul class="project__points">
-                  <li>FSRS-6 scheduler and review planner written in a pure-Kotlin core module, covered by unit tests.</li>
-                  <li>Jetpack Compose UI; lessons authored as YAML (notes, vocabulary, choice and sentence-building blocks) and checked by validators.</li>
-                  <li>Python tooling that extracts a reference grammar from PDF — decoding glyph IDs to recover broken ligatures — so every lesson cites its source.</li>
-                </ul>
-                <ul class="tags" aria-label="Technologies">
-                  <li class="tag">Kotlin</li><li class="tag">Jetpack Compose</li><li class="tag">Gradle</li>
-                  <li class="tag">Python</li><li class="tag">Nix</li>
-                </ul>
-              </div>
-            </article>
-
-            <!-- WhatsApp bot -->
-            <article class="card project project--chat project--flip reveal">
-              <div class="project__visual" aria-hidden="true">
-                <div class="phone">
-                  <div class="phone__screen">
-                    <div class="phone__notch"></div>
-                    <div class="chat-head">
-                      <span class="avatar">YB</span>
-                      <div><b>Your Business</b><small>Business account</small></div>
-                    </div>
-                    <div class="chat">
-                      <p class="bubble bubble--in">Hi! Can I get your price list?</p>
-                      <div class="bubble bubble--out">
-                        <b>Welcome! 👋</b>
-                        <span>Pick an option and we'll send it right away.</span>
-                      </div>
-                      <div class="chat__options"><span>Price list</span><span>Opening hours</span><span>Location</span></div>
-                      <div class="bubble bubble--out bubble--doc">
-                        <span class="doc-icon">PDF</span>
-                        <span>price-list.pdf<small>2 pages</small></span>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <span class="float-badge float-badge--a">Vercel Edge</span>
-                <span class="float-badge float-badge--b">zod-validated webhooks</span>
-              </div>
-
-              <div class="project__body">
-                <p class="project__meta"><span>Freelance</span><span>2024</span></p>
-                <h3 class="project__title">WhatsApp Business auto-responder</h3>
-                <p class="project__summary">
-                  A WhatsApp Cloud API bot with its own admin page, so a business can greet new customers and answer
-                  with text or documents without touching code.
-                </p>
-                <ul class="project__points">
-                  <li>Qwik City app deployed to Vercel's edge runtime; every webhook payload is validated with zod.</li>
-                  <li>Drizzle ORM on Postgres stores the configurable header, body, footer and reply options.</li>
-                  <li>Caching for webhook handling and media so replies stay fast.</li>
-                </ul>
-                <ul class="tags" aria-label="Technologies">
-                  <li class="tag">Qwik</li><li class="tag">TypeScript</li><li class="tag">Drizzle</li>
-                  <li class="tag">PostgreSQL</li><li class="tag">Vercel Edge</li><li class="tag">WhatsApp Cloud API</li>
-                </ul>
-              </div>
-            </article>
-          </div>
-
-          <h3 class="minis-title reveal">More from the workbench</h3>
-          <div class="minis">
-            <article class="card mini reveal">
-              <span class="mini__icon"><svg class="icon"><use href="#i-ticket" /></svg></span>
-              <p class="mini__meta">Solace Software · 2025</p>
-              <h4>Event registration &amp; invitations</h4>
-              <p>WhatsApp template messages with images and video, event-linked replies, a QR check-in flow and reliable Excel guest-list imports.</p>
-              <ul class="tags"><li class="tag">Express</li><li class="tag">MongoDB</li><li class="tag">Redis</li></ul>
-            </article>
-            <article class="card mini reveal" style="--delay: 80ms">
-              <span class="mini__icon"><svg class="icon"><use href="#i-snowflake" /></svg></span>
-              <p class="mini__meta">Personal · ongoing</p>
-              <h4>Nix overlay</h4>
-              <p>A flake overlay packaging a dozen tools and editor plugins I use daily. Every project I start ships with a reproducible flake dev shell.</p>
-              <ul class="tags"><li class="tag">Nix</li><li class="tag">NixOS</li><li class="tag">Bash</li></ul>
-            </article>
-            <article class="card mini reveal" style="--delay: 160ms">
-              <span class="mini__icon"><svg class="icon"><use href="#i-key" /></svg></span>
-              <p class="mini__meta">Personal · 2025</p>
-              <h4>otpgen</h4>
-              <p>A small CLI that turns <code>otpauth://</code> URIs into TOTP codes (SHA-1, SHA-256, SHA-512) — strict-mode Bash on top of trurl and oathtool.</p>
-              <ul class="tags"><li class="tag">Bash</li><li class="tag">CLI</li></ul>
-            </article>
-          </div>
-        </div>
-      </section>
-
-      <!-- Skills -->
-      <section class="section" id="skills">
-        <div class="container">
-          <header class="section-head reveal">
-            <p class="eyebrow"><b>03</b> Expertise</p>
-            <h2 class="section-title">A full-stack toolkit, <em>TypeScript</em> at the core.</h2>
-            <p class="section-sub legend"><span class="legend__dot" aria-hidden="true"></span> Highlighted: what I use in production every day.</p>
-          </header>
-
-          <div class="skills">
-            <article class="card skill reveal">
-              <div class="skill__head"><span class="skill__icon"><svg class="icon"><use href="#i-code" /></svg></span><h3>Languages</h3></div>
-              <p>TypeScript is home. The rest I reach for when the job calls for it.</p>
-              <ul class="chips">
-                <li class="is-core">TypeScript</li><li class="is-core">JavaScript</li><li class="is-core">SQL</li>
-                <li>Kotlin</li><li>Rust</li><li>Python</li><li>Bash</li><li>Nix</li><li>C++</li><li>LaTeX</li>
-              </ul>
-            </article>
-            <article class="card skill reveal" style="--delay: 80ms">
-              <div class="skill__head"><span class="skill__icon"><svg class="icon"><use href="#i-layout" /></svg></span><h3>Frontend</h3></div>
-              <p>Dense, fast admin interfaces — in English and Arabic.</p>
-              <ul class="chips">
-                <li class="is-core">React</li><li class="is-core">TanStack Router</li><li class="is-core">TanStack Query</li><li class="is-core">Tailwind CSS</li>
-                <li>TanStack Table</li><li>shadcn/ui · Radix</li><li>React Hook Form</li><li>Apollo Client</li>
-                <li>i18next · RTL</li><li>Qwik</li><li>Vite</li><li>Jetpack Compose</li>
-              </ul>
-            </article>
-            <article class="card skill reveal" style="--delay: 160ms">
-              <div class="skill__head"><span class="skill__icon"><svg class="icon"><use href="#i-server" /></svg></span><h3>Backend &amp; APIs</h3></div>
-              <p>Typed contracts from the database all the way to the browser.</p>
-              <ul class="chips">
-                <li class="is-core">Node.js</li><li class="is-core">NestJS</li><li class="is-core">tRPC</li><li class="is-core">GraphQL</li>
-                <li>Express</li><li>Fastify</li><li>REST</li><li>WebSockets</li><li>better-auth</li><li>Puppeteer PDFs</li>
-              </ul>
-            </article>
-            <article class="card skill reveal">
-              <div class="skill__head"><span class="skill__icon"><svg class="icon"><use href="#i-database" /></svg></span><h3>Data</h3></div>
-              <p>Relational modelling, migrations and the queries that keep exports fast.</p>
-              <ul class="chips">
-                <li class="is-core">PostgreSQL</li><li class="is-core">Prisma</li>
-                <li>SQL Server</li><li>TypeORM</li><li>Drizzle</li><li>ZenStack</li><li>MongoDB</li><li>Redis</li><li>Trigram search</li>
-              </ul>
-            </article>
-            <article class="card skill reveal" style="--delay: 80ms">
-              <div class="skill__head"><span class="skill__icon"><svg class="icon"><use href="#i-shield" /></svg></span><h3>Type safety &amp; FP</h3></div>
-              <p>Libraries that let the compiler catch what tests would miss.</p>
-              <ul class="chips">
-                <li class="is-core">Effect</li><li class="is-core">valibot</li><li class="is-core">zod</li>
-                <li>true-myth</li><li>fp-ts</li><li>remeda</li><li>ix</li><li>RxJS</li>
-              </ul>
-            </article>
-            <article class="card skill reveal" style="--delay: 160ms">
-              <div class="skill__head"><span class="skill__icon"><svg class="icon"><use href="#i-box" /></svg></span><h3>Infrastructure</h3></div>
-              <p>From a reproducible dev shell to a container on a production server.</p>
-              <ul class="chips">
-                <li class="is-core">Docker</li><li class="is-core">Nix · NixOS</li><li class="is-core">Linux</li>
-                <li>Traefik</li><li>nginx</li><li>Caddy</li><li>AWS · S3 · SES</li><li>GitHub Actions</li><li>Git</li>
-              </ul>
-            </article>
-          </div>
-        </div>
-      </section>
-
-      <!-- Journey -->
-      <section class="section" id="journey">
-        <div class="container journey">
-          <div class="journey__aside">
-            <header class="section-head reveal">
-              <p class="eyebrow"><b>04</b> Journey</p>
-              <h2 class="section-title">Five years of <em>shipping</em>.</h2>
-            </header>
-            <div class="card role reveal">
-              <p class="role__label"><span class="live-dot" aria-hidden="true"></span>Current role</p>
-              <h3>Software Developer</h3>
-              <p class="role__org"><svg class="icon"><use href="#i-briefcase" /></svg>Solace Software, Cairo · Jun 2021 — present</p>
-            </div>
-            <div class="card role reveal" style="--delay: 80ms">
-              <p class="role__label"><span class="live-dot" aria-hidden="true"></span>Studying</p>
-              <h3>B.Sc. Computer &amp; Systems Engineering</h3>
-              <p class="role__org"><svg class="icon"><use href="#i-cap" /></svg>Ain Shams University, Faculty of Engineering · Sep 2024 — present</p>
-            </div>
-          </div>
-
-          <ol class="timeline">
-            <li class="tl-item reveal">
-              <p class="tl-date">2026</p>
-              <h3>Leading the Sola rebuild</h3>
-              <p class="tl-org">Solace Software</p>
-              <p>Rebuilding the school platform as a pnpm monorepo — tRPC, Prisma, Effect, better-auth, S3 and a full Arabic, right-to-left interface — and shipping it with Docker.</p>
-            </li>
-            <li class="tl-item reveal">
-              <p class="tl-date">2025</p>
-              <h3>Event registration &amp; WhatsApp invitations</h3>
-              <p class="tl-org">Solace Software</p>
-              <p>WhatsApp template messaging with media, event-linked replies, QR check-in fixes and robust Excel guest-list imports.</p>
-            </li>
-            <li class="tl-item reveal">
-              <p class="tl-date">Sep 2024</p>
-              <h3>Started Computer &amp; Systems Engineering</h3>
-              <p class="tl-org">Ain Shams University</p>
-              <p>Studying engineering fundamentals alongside my work at Solace.</p>
-            </li>
-            <li class="tl-item reveal">
-              <p class="tl-date">2023</p>
-              <h3>Joined Performly</h3>
-              <p class="tl-org">Solace Software</p>
-              <p>Full-stack on a multi-tenant HR &amp; payroll SaaS: NestJS + GraphQL API and React + Apollo client — payroll, tax, attendance, permissions and bulk imports.</p>
-            </li>
-            <li class="tl-item reveal">
-              <p class="tl-date">Jun 2021</p>
-              <h3>Joined Solace Software</h3>
-              <p class="tl-org">Software Developer</p>
-              <p>Started on the School Management System: course registration, grading, transcripts and multi-format exports, later rebuilding its admin dashboard on TanStack Router and Query.</p>
-            </li>
-          </ol>
-        </div>
-      </section>
-
-      <!-- Contact -->
-      <section class="section" id="contact">
-        <div class="container">
-          <div class="contact reveal">
-            <div class="contact__glow" aria-hidden="true"></div>
-            <p class="eyebrow eyebrow--center"><b>05</b> Contact</p>
-            <h2 class="contact__title">Have a system that needs <em class="gradient-text">building</em>?</h2>
-            <p class="contact__text">
-              Questions, opportunities, or a legacy system that needs untangling — my inbox is open.
-            </p>
-            <div class="contact__actions">
-              <a class="btn btn--primary btn--lg" href="mailto:kareemmedhatnabil@gmail.com">
-                <svg class="icon"><use href="#i-mail" /></svg>
-                kareemmedhatnabil@gmail.com
-              </a>
-              <button class="btn btn--lg copy-btn" type="button" data-copy="kareemmedhatnabil@gmail.com">
-                <svg class="icon icon--copy"><use href="#i-copy" /></svg>
-                <svg class="icon icon--check"><use href="#i-check" /></svg>
-                <span data-copy-label>Copy email</span>
-              </button>
-              <a class="btn btn--lg" href="https://github.com/Kareem-Medhat" target="_blank" rel="noopener">
-                <svg class="icon"><use href="#i-github" /></svg>
-                GitHub
-                <svg class="icon icon--sm"><use href="#i-arrow-up-right" /></svg>
-              </a>
-            </div>
-            <p class="contact__meta">
-              <span><svg class="icon"><use href="#i-pin" /></svg>Cairo, Egypt</span>
-              <span><svg class="icon"><use href="#i-clock" /></svg><span data-local-time>—</span> local time</span>
-            </p>
-          </div>
-        </div>
-      </section>
+      <footer class="footer">
+        Find me on <a href="https://github.com/Kareem-Medhat" target="_blank" rel="noopener">GitHub</a>
+      </footer>
     </main>
-
-    <footer class="footer">
-      <div class="container">
-        <p class="footer__word" aria-hidden="true">Kareem Medhat</p>
-        <div class="footer__inner">
-          <p>© 2026 Kareem Medhat</p>
-          <a class="footer__top" href="#top">Back to top <svg class="icon icon--sm"><use href="#i-arrow-up" /></svg></a>
-        </div>
-      </div>
-    </footer>
   </body>
 </html>
