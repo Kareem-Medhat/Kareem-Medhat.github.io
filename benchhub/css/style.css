@@ -704,6 +704,11 @@ input[inputmode="decimal"]::placeholder {
   white-space: nowrap;
 }
 
+.which-tip {
+  margin-top: 0.75rem;
+  color: var(--muted);
+}
+
 /* Stack the table into cards on phones so nothing scrolls sideways */
 @media (max-width: 40rem) {
   .which thead {

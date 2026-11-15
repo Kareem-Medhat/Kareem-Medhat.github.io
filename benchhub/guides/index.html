@@ -41,21 +41,23 @@
       <p class="lede">Step-by-step instructions for each tool: where to download it safely, which test to run, and which number to check.</p>
       <section aria-labelledby="which-test">
         <h2 id="which-test">Which test should I run?</h2>
+        <p>Find your question, run the test next to it, then type your result into the checker. Each tool's points are on its own scale, so only compare a score with reference scores from the same test.</p>
         <div class="table-wrap">
           <table class="which">
             <thead>
-              <tr><th scope="col">I want to know…</th><th scope="col">Run this</th><th scope="col">Why this one</th></tr>
+              <tr><th scope="col">I want to know…</th><th scope="col">Run this</th><th scope="col">What it tells you</th></tr>
             </thead>
             <tbody>
-              <tr><th scope="row">Is my processor (CPU) as fast as it should be?</th><td><a href="./cinebench-2026.html">Cinebench 2026</a></td><td>The most common CPU test. One long, heavy job that also shows if your CPU gets too hot.</td></tr>
-              <tr><th scope="row">I just want a quick CPU check</th><td><a href="./geekbench-6.html">Geekbench 6</a></td><td>Done in a few minutes. Runs short, everyday-style tasks.</td></tr>
-              <tr><th scope="row">Is my graphics card (GPU) as fast as it should be?</th><td><a href="./3dmark.html">3DMark Time Spy</a></td><td>The most widely used graphics card test.</td></tr>
-              <tr><th scope="row">I have a powerful, recent graphics card</th><td><a href="./3dmark.html">3DMark Steel Nomad</a></td><td>Newer and heavier than Time Spy, so it still challenges fast cards.</td></tr>
-              <tr><th scope="row">Is my graphics card stable and cool? (games crash, PC shuts off, it runs very hot)</th><td><a href="./furmark-2.html">FurMark 2</a></td><td>A stress test: a health check, not a speed score. Read its safety warning first.</td></tr>
-              <tr><th scope="row">I already have a Cinebench R23 score</th><td><a href="./cinebench-r23.html">Cinebench R23</a></td><td>R23 uses its own scale, so it needs R23 reference scores.</td></tr>
+              <tr><th scope="row">Is my processor (CPU) as fast as it should be for heavy work, like rendering or exporting video?</th><td><a href="./cinebench-2026.html">Cinebench 2026</a></td><td>One long, heavy job that uses every core. A low score usually points to heat or a power limit holding the CPU back.</td></tr>
+              <tr><th scope="row">What if the checker has no Cinebench 2026 scores for my CPU?</th><td><a href="./cinebench-r23.html">Cinebench R23</a></td><td>The same kind of test in an older version. It has been around longer, so more CPUs have reference scores, especially older ones.</td></tr>
+              <tr><th scope="row">Is my PC as quick as it should be in everyday use, like browsing and office apps?</th><td><a href="./geekbench-6.html">Geekbench 6</a></td><td>Short, everyday-style tasks, done in a few minutes. The single-core score is the one that matches how snappy the PC feels.</td></tr>
+              <tr><th scope="row">Is my graphics card (GPU) as fast as it should be in games?</th><td><a href="./3dmark.html">3DMark Steel Nomad</a></td><td>A heavy, modern graphics test. Its score depends almost only on the graphics card, so it is the cleanest way to check one.</td></tr>
+              <tr><th scope="row">What if there are no Steel Nomad scores for my graphics card, or it is too slow to run it?</th><td><a href="./3dmark.html">3DMark Time Spy</a></td><td>An older, lighter graphics test that most cards can run. Use the graphics score, not the overall score.</td></tr>
+              <tr><th scope="row">Is my graphics card overheating? (games crash, the PC shuts off, the fans get very loud)</th><td><a href="./furmark-2.html">FurMark 2</a></td><td>A stress test, not a speed score. You compare the highest temperature you saw with your card's maximum. Read its safety warning first.</td></tr>
             </tbody>
           </table>
         </div>
+        <p class="which-tip">Not sure which one applies? <a href="../check.html">Pick your hardware in the checker</a> first. It only lists the tests we have trusted reference scores for.</p>
       </section>
 
       <h2>All guides</h2>
