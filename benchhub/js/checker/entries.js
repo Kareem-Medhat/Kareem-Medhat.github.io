@@ -14,7 +14,6 @@ export const readEntries = (form) => {
     v: toChoice(formData.get("v")),
     t: toChoice(formData.get("t")),
     score: toChoice(formData.get("score")),
-    stable: toChoice(formData.get("stable")),
     temp: toChoice(formData.get("temp")),
   };
 };
