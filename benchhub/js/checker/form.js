@@ -31,7 +31,6 @@ export const findElements = () => {
     scoreStep: getElement("score-step"),
     scoreHint: getElement("score-hint"),
     stressStep: getElement("stress-step"),
-    tempField: getElement("temp-field"),
     result: getElement("result"),
   };
 };
@@ -52,7 +51,7 @@ const renderSelect = ({ select, placeholder, choice, toValue }) => {
 };
 
 const toDataNote = ({ hardware, formFactor, wantedBenchmark, benchmarks }) => {
-  // The stress health check needs no reference data, so a "no data" note would only confuse.
+  // The stress check compares temperatures, not scores, so a "no data" note would only confuse.
   if (hardware === undefined || wantedBenchmark?.category === CategoryKind.Stress) {
     return undefined;
   }
@@ -102,7 +101,6 @@ export const renderForm = ({ elements, selection }) => {
   const isStressSelected = benchmark?.category === CategoryKind.Stress;
   elements.scoreStep.toggleAttribute("hidden", isStressSelected);
   elements.stressStep.toggleAttribute("hidden", !isStressSelected);
-  elements.tempField.toggleAttribute("hidden", selection.temperatureLimit === undefined);
   elements.scoreHint.replaceChildren(
     benchmark === undefined ? "" : `In ${benchmark.unit}. ${benchmark.higherIsBetter ? "Higher is better." : "Lower is better."}`,
   );

@@ -99,16 +99,8 @@
           </fieldset>
 
           <fieldset id="stress-step" hidden>
-            <legend>3. How did the run go?</legend>
-            <fieldset class="question">
-              <legend>Did it run without crashes, freezes or strange colours on screen?</legend>
-              <div class="choices">
-                <label class="choice"><input type="radio" name="stable" value="yes" /><span>Yes</span></label>
-                <label class="choice"><input type="radio" name="stable" value="no" /><span>No</span></label>
-                <label class="choice"><input type="radio" name="stable" value="notSure" /><span>Not sure</span></label>
-              </div>
-            </fieldset>
-            <div class="field" id="temp-field" hidden>
+            <legend>3. How hot did it get?</legend>
+            <div class="field">
               <label for="temp">Highest GPU temperature (°C)</label>
               <input id="temp" name="temp" type="text" inputmode="decimal" autocomplete="off" placeholder="For example 78" aria-describedby="temp-hint" />
               <span id="temp-hint" class="hint">In HWiNFO: the Maximum column next to GPU Temperature. <!-- TODO: verify label --></span>

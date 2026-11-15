@@ -1,8 +1,8 @@
 import { CategoryKind, toHardwareName, toSiteUrl } from "../data.js";
 import {
   DiagnosisKind,
-  StressAnswerKind,
   StressVerdictKind,
+  TemperatureLimitKind,
   diagnose,
   diagnosisRules,
   toPercentBetter,
@@ -152,15 +152,28 @@ const toScoreView = ({ benchmark, version, references, scoreText }) => {
 };
 
 const toLimitLine = (limit) => {
-  return el("p", {
-    children: [
-      "Maximum temperature for your card: ",
-      el("strong", { children: [`${limit.maxTempC} °C`] }),
-      " (",
-      el("a", { attrs: { href: limit.url, rel: "noopener" }, children: [limit.source.name] }),
-      ").",
-    ],
-  });
+  if (limit.kind === TemperatureLimitKind.Maker) {
+    return el("p", {
+      children: [
+        "Maximum temperature for your card: ",
+        el("strong", { children: [`${limit.maxTempC} °C`] }),
+        " (",
+        el("a", { attrs: { href: limit.url, rel: "noopener" }, children: [limit.source.name] }),
+        ").",
+      ],
+    });
+  }
+  if (limit.kind === TemperatureLimitKind.General) {
+    return el("p", {
+      children: [
+        "Your card's maker doesn't publish a maximum temperature. General guide: ",
+        el("strong", { children: [`stay below ${limit.lowestMaxTempC} °C`] }),
+        `. The maximums that are published (${limit.sourceNames.join(", ")}, ${limit.publishedCount} cards we track) run from ${limit.lowestMaxTempC} °C to ${limit.highestMaxTempC} °C. `,
+        el("a", { attrs: { href: toSiteUrl("help.html#general-temperature") }, children: ["Where does this come from?"] }),
+      ],
+    });
+  }
+  throw new Error(`Unknown temperature limit kind: ${limit.kind}`);
 };
 
 const toStressView = ({ version, entries, limit }) => {
@@ -170,15 +183,12 @@ const toStressView = ({ version, entries, limit }) => {
     [StressVerdictKind.Fail]: { icon: "✕", tone: ToneKind.Bad },
   });
   const guideLink = el("a", { attrs: { href: toSiteUrl(version.guide) }, children: ["Read the guide, including the safety warning"] });
-  const intro = [el("p", { children: [guideLink, "."] }), ...(limit === undefined ? [] : [toLimitLine(limit)])];
+  const intro = [toLimitLine(limit), el("p", { children: [guideLink, "."] })];
   const temperatureC = toPositiveNumber(entries.temp);
-  if (entries.stable === undefined) {
-    return [...intro, el("p", { children: ["Answer the question above to see your result."] })];
+  if (temperatureC === undefined) {
+    return [...intro, el("p", { children: ["Type the highest temperature you saw to compare it."] })];
   }
-  if (entries.stable === StressAnswerKind.Yes && limit !== undefined && temperatureC === undefined) {
-    return [...intro, el("p", { children: ["Type the highest temperature you saw."] })];
-  }
-  const verdict = toStressVerdict({ isStable: entries.stable, temperatureC, maxTempC: limit?.maxTempC });
+  const verdict = toStressVerdict({ temperatureC, limit });
   return [...intro, toVerdict({ display: stressVerdictDisplay[verdict.kind], title: verdict.title, advice: verdict.advice })];
 };
 

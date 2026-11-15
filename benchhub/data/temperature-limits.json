@@ -159,5 +159,26 @@
     "sourceId": "nvidia",
     "url": "https://www.nvidia.com/en-us/geforce/graphics-cards/50-series/rtx-5090/",
     "retrievedDate": "2026-11-03"
+  },
+  {
+    "hardwareId": "nvidia-geforce-rtx-3050-6-gb",
+    "maxTempC": 93,
+    "sourceId": "nvidia",
+    "url": "https://www.nvidia.com/en-us/geforce/graphics-cards/30-series/rtx-3050/",
+    "retrievedDate": "2026-11-15"
+  },
+  {
+    "hardwareId": "nvidia-geforce-rtx-3090-ti",
+    "maxTempC": 92,
+    "sourceId": "nvidia",
+    "url": "https://www.nvidia.com/en-us/geforce/graphics-cards/30-series/rtx-3090-3090ti/",
+    "retrievedDate": "2026-11-15"
+  },
+  {
+    "hardwareId": "nvidia-geforce-rtx-5050",
+    "maxTempC": 87,
+    "sourceId": "nvidia",
+    "url": "https://www.nvidia.com/en-us/geforce/graphics-cards/50-series/rtx-5050/",
+    "retrievedDate": "2026-11-15"
   }
 ]
