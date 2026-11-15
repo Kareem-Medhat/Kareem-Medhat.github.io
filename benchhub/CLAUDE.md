@@ -21,7 +21,8 @@ Everything runs in the browser. There is no backend, no database, no user accoun
 ### GitHub Pages rules
 - The site may be served from a subpath (`https://<user>.github.io/<repo>/`). **Use relative paths everywhere** (`./css/style.css`, `../data/scores.json`), never root-absolute paths like `/css/style.css`.
 - Include an empty `.nojekyll` file in the root so GitHub Pages serves every file as-is.
-- Include a `404.html`.
+- The site is published by the GitHub Actions workflow in the repository root (`.github/workflows/pages.yml`), not by publishing the branch as-is. It leaves out `scripts/` and every `.md` file, so owner tooling and notes never go public. Anything new that must not be public needs an exclude there.
+- There is no custom 404 page: GitHub Pages only serves one from the root of the published site, which this project doesn't own.
 - Don't rely on server-side redirects or URL rewriting. Every page is a real `.html` file.
 - Test locally with a simple static server (`python3 -m http.server 8000`), not by opening files directly. `fetch()` doesn't work over `file://`.
 
@@ -55,7 +56,6 @@ scripts/                    # owner tooling, run with Node; not loaded by the si
   collect-scores.js         # collects scores from allowlisted sources into data/ (usage in its header)
   collect/                  # its modules; config.js holds source URLs, test mapping and limits
 .nojekyll
-404.html
 ```
 
 Shared header and footer markup is repeated in each HTML file (no build step). Keep it identical across pages, and when you change it, change every page.
@@ -185,7 +185,7 @@ Writing style: second person, short sentences, explain any jargon in one line, a
 
 Get each step working before moving on:
 
-1. Folder structure, `.nojekyll`, `404.html`, shared header/footer, `style.css` with light/dark themes, home page.
+1. Folder structure, `.nojekyll`, shared header/footer, `style.css` with light/dark themes, home page.
 2. `benchmarks.json` and `hardware.json` for the starter set: **Cinebench 2026 + R23, 3DMark Time Spy + Steel Nomad, FurMark 2, Geekbench 6**.
 3. `sources.json` and `scores.json` **with empty arrays** if the owner hasn't provided sources yet. Ask the owner for the trusted sources before adding any scores.
 4. `js/data.js` loading and validation, then `js/stats.js`.
