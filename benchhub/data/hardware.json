@@ -921,5 +921,1930 @@
     "vendor": "Intel",
     "model": "Arc 140V",
     "formFactor": "laptop"
+  },
+  {
+    "id": "amd-athlon-silver-3050e",
+    "type": "cpu",
+    "vendor": "AMD",
+    "model": "Athlon Silver 3050e",
+    "formFactor": "laptop"
+  },
+  {
+    "id": "amd-athlon-silver-7120u",
+    "type": "cpu",
+    "vendor": "AMD",
+    "model": "Athlon Silver 7120U",
+    "formFactor": "laptop"
+  },
+  {
+    "id": "amd-radeon-pro-5500m",
+    "type": "gpu",
+    "vendor": "AMD",
+    "model": "Radeon Pro 5500M",
+    "formFactor": "laptop"
+  },
+  {
+    "id": "amd-radeon-pro-560x",
+    "type": "gpu",
+    "vendor": "AMD",
+    "model": "Radeon Pro 560X",
+    "formFactor": "laptop"
+  },
+  {
+    "id": "amd-radeon-pro-w6800",
+    "type": "gpu",
+    "vendor": "AMD",
+    "model": "Radeon Pro W6800",
+    "formFactor": "desktop"
+  },
+  {
+    "id": "amd-radeon-pro-wx-3200",
+    "type": "gpu",
+    "vendor": "AMD",
+    "model": "Radeon Pro WX 3200",
+    "formFactor": "laptop"
+  },
+  {
+    "id": "amd-ryzen-5-pro-215",
+    "type": "cpu",
+    "vendor": "AMD",
+    "model": "Ryzen 5 PRO 215",
+    "formFactor": "laptop"
+  },
+  {
+    "id": "amd-ryzen-5-pro-5650u",
+    "type": "cpu",
+    "vendor": "AMD",
+    "model": "Ryzen 5 PRO 5650U",
+    "formFactor": "laptop"
+  },
+  {
+    "id": "amd-ryzen-5-pro-5675u",
+    "type": "cpu",
+    "vendor": "AMD",
+    "model": "Ryzen 5 PRO 5675U",
+    "formFactor": "laptop"
+  },
+  {
+    "id": "amd-ryzen-5-pro-6650h",
+    "type": "cpu",
+    "vendor": "AMD",
+    "model": "Ryzen 5 PRO 6650H",
+    "formFactor": "laptop"
+  },
+  {
+    "id": "amd-ryzen-5-pro-6650u",
+    "type": "cpu",
+    "vendor": "AMD",
+    "model": "Ryzen 5 PRO 6650U",
+    "formFactor": "laptop"
+  },
+  {
+    "id": "amd-ryzen-5-pro-7640hs",
+    "type": "cpu",
+    "vendor": "AMD",
+    "model": "Ryzen 5 PRO 7640HS",
+    "formFactor": "laptop"
+  },
+  {
+    "id": "amd-ryzen-7-pro-4750u",
+    "type": "cpu",
+    "vendor": "AMD",
+    "model": "Ryzen 7 PRO 4750U",
+    "formFactor": "laptop"
+  },
+  {
+    "id": "amd-ryzen-7-pro-5850u",
+    "type": "cpu",
+    "vendor": "AMD",
+    "model": "Ryzen 7 PRO 5850U",
+    "formFactor": "laptop"
+  },
+  {
+    "id": "amd-ryzen-7-pro-6850h",
+    "type": "cpu",
+    "vendor": "AMD",
+    "model": "Ryzen 7 PRO 6850H",
+    "formFactor": "laptop"
+  },
+  {
+    "id": "amd-ryzen-7-pro-6850u",
+    "type": "cpu",
+    "vendor": "AMD",
+    "model": "Ryzen 7 PRO 6850U",
+    "formFactor": "laptop"
+  },
+  {
+    "id": "amd-ryzen-7-pro-6860z",
+    "type": "cpu",
+    "vendor": "AMD",
+    "model": "Ryzen 7 PRO 6860Z",
+    "formFactor": "laptop"
+  },
+  {
+    "id": "amd-ryzen-7-pro-7730u",
+    "type": "cpu",
+    "vendor": "AMD",
+    "model": "Ryzen 7 PRO 7730U",
+    "formFactor": "laptop"
+  },
+  {
+    "id": "amd-ryzen-7-pro-7735u",
+    "type": "cpu",
+    "vendor": "AMD",
+    "model": "Ryzen 7 PRO 7735U",
+    "formFactor": "laptop"
+  },
+  {
+    "id": "amd-ryzen-7-pro-7840hs",
+    "type": "cpu",
+    "vendor": "AMD",
+    "model": "Ryzen 7 PRO 7840HS",
+    "formFactor": "laptop"
+  },
+  {
+    "id": "amd-ryzen-7-pro-7840u",
+    "type": "cpu",
+    "vendor": "AMD",
+    "model": "Ryzen 7 PRO 7840U",
+    "formFactor": "laptop"
+  },
+  {
+    "id": "amd-ryzen-7-pro-8840hs",
+    "type": "cpu",
+    "vendor": "AMD",
+    "model": "Ryzen 7 PRO 8840HS",
+    "formFactor": "laptop"
+  },
+  {
+    "id": "amd-ryzen-9-pro-6950h",
+    "type": "cpu",
+    "vendor": "AMD",
+    "model": "Ryzen 9 PRO 6950H",
+    "formFactor": "laptop"
+  },
+  {
+    "id": "amd-ryzen-9-pro-6950hs",
+    "type": "cpu",
+    "vendor": "AMD",
+    "model": "Ryzen 9 PRO 6950HS",
+    "formFactor": "laptop"
+  },
+  {
+    "id": "amd-ryzen-9-pro-7940hs",
+    "type": "cpu",
+    "vendor": "AMD",
+    "model": "Ryzen 9 PRO 7940HS",
+    "formFactor": "laptop"
+  },
+  {
+    "id": "amd-ryzen-ai-5-pro-340",
+    "type": "cpu",
+    "vendor": "AMD",
+    "model": "Ryzen AI 5 PRO 340",
+    "formFactor": "laptop"
+  },
+  {
+    "id": "amd-ryzen-ai-7-pro-350",
+    "type": "cpu",
+    "vendor": "AMD",
+    "model": "Ryzen AI 7 PRO 350",
+    "formFactor": "laptop"
+  },
+  {
+    "id": "amd-ryzen-ai-7-pro-360",
+    "type": "cpu",
+    "vendor": "AMD",
+    "model": "Ryzen AI 7 PRO 360",
+    "formFactor": "laptop"
+  },
+  {
+    "id": "amd-ryzen-ai-7-pro-450",
+    "type": "cpu",
+    "vendor": "AMD",
+    "model": "Ryzen AI 7 PRO 450",
+    "formFactor": "laptop"
+  },
+  {
+    "id": "amd-ryzen-ai-9-hx-pro-370",
+    "type": "cpu",
+    "vendor": "AMD",
+    "model": "Ryzen AI 9 HX PRO 370",
+    "formFactor": "laptop"
+  },
+  {
+    "id": "amd-ryzen-ai-9-hx-pro-470",
+    "type": "cpu",
+    "vendor": "AMD",
+    "model": "Ryzen AI 9 HX PRO 470",
+    "formFactor": "laptop"
+  },
+  {
+    "id": "amd-ryzen-ai-max-plus-pro-395",
+    "type": "cpu",
+    "vendor": "AMD",
+    "model": "Ryzen AI Max+ PRO 395",
+    "formFactor": "laptop"
+  },
+  {
+    "id": "amd-ryzen-ai-max-pro-380",
+    "type": "cpu",
+    "vendor": "AMD",
+    "model": "Ryzen AI Max PRO 380",
+    "formFactor": "laptop"
+  },
+  {
+    "id": "amd-ryzen-ai-max-pro-390",
+    "type": "cpu",
+    "vendor": "AMD",
+    "model": "Ryzen AI Max PRO 390",
+    "formFactor": "laptop"
+  },
+  {
+    "id": "amd-ryzen-threadripper-pro-7995wx",
+    "type": "cpu",
+    "vendor": "AMD",
+    "model": "Ryzen Threadripper PRO 7995WX",
+    "formFactor": "desktop"
+  },
+  {
+    "id": "intel-arc-a350m",
+    "type": "gpu",
+    "vendor": "Intel",
+    "model": "Arc A350M",
+    "formFactor": "laptop"
+  },
+  {
+    "id": "intel-arc-a370m",
+    "type": "gpu",
+    "vendor": "Intel",
+    "model": "Arc A370M",
+    "formFactor": "laptop"
+  },
+  {
+    "id": "intel-arc-a380",
+    "type": "gpu",
+    "vendor": "Intel",
+    "model": "Arc A380",
+    "formFactor": "desktop"
+  },
+  {
+    "id": "intel-core-i3-1215u",
+    "type": "cpu",
+    "vendor": "Intel",
+    "model": "Core i3-1215U",
+    "formFactor": "laptop"
+  },
+  {
+    "id": "intel-core-i3-1315u",
+    "type": "cpu",
+    "vendor": "Intel",
+    "model": "Core i3-1315U",
+    "formFactor": "laptop"
+  },
+  {
+    "id": "intel-pentium-gold-7505",
+    "type": "cpu",
+    "vendor": "Intel",
+    "model": "Pentium Gold 7505",
+    "formFactor": "laptop"
+  },
+  {
+    "id": "intel-xeon-w-10885m",
+    "type": "cpu",
+    "vendor": "Intel",
+    "model": "Xeon W-10885M",
+    "formFactor": "laptop"
+  },
+  {
+    "id": "intel-xeon-w-11955m",
+    "type": "cpu",
+    "vendor": "Intel",
+    "model": "Xeon W-11955M",
+    "formFactor": "laptop"
+  },
+  {
+    "id": "nvidia-geforce-gtx-1650-max-q",
+    "type": "gpu",
+    "vendor": "NVIDIA",
+    "model": "GeForce GTX 1650 Max-Q",
+    "formFactor": "laptop"
+  },
+  {
+    "id": "nvidia-geforce-gtx-1650-ti-laptop-gpu",
+    "type": "gpu",
+    "vendor": "NVIDIA",
+    "model": "GeForce GTX 1650 Ti Laptop GPU",
+    "formFactor": "laptop"
+  },
+  {
+    "id": "nvidia-geforce-gtx-1650-ti-max-q",
+    "type": "gpu",
+    "vendor": "NVIDIA",
+    "model": "GeForce GTX 1650 Ti Max-Q",
+    "formFactor": "laptop"
+  },
+  {
+    "id": "nvidia-geforce-gtx-1660",
+    "type": "gpu",
+    "vendor": "NVIDIA",
+    "model": "GeForce GTX 1660",
+    "formFactor": "desktop"
+  },
+  {
+    "id": "nvidia-geforce-gtx-1660-ti-max-q",
+    "type": "gpu",
+    "vendor": "NVIDIA",
+    "model": "GeForce GTX 1660 Ti Max-Q",
+    "formFactor": "laptop"
+  },
+  {
+    "id": "nvidia-geforce-mx110",
+    "type": "gpu",
+    "vendor": "NVIDIA",
+    "model": "GeForce MX110",
+    "formFactor": "laptop"
+  },
+  {
+    "id": "nvidia-geforce-mx130",
+    "type": "gpu",
+    "vendor": "NVIDIA",
+    "model": "GeForce MX130",
+    "formFactor": "laptop"
+  },
+  {
+    "id": "nvidia-geforce-mx450",
+    "type": "gpu",
+    "vendor": "NVIDIA",
+    "model": "GeForce MX450",
+    "formFactor": "laptop"
+  },
+  {
+    "id": "nvidia-geforce-mx550",
+    "type": "gpu",
+    "vendor": "NVIDIA",
+    "model": "GeForce MX550",
+    "formFactor": "laptop"
+  },
+  {
+    "id": "nvidia-rtx-2000-ada-generation-laptop-gpu",
+    "type": "gpu",
+    "vendor": "NVIDIA",
+    "model": "RTX 2000 Ada Generation Laptop GPU",
+    "formFactor": "laptop"
+  },
+  {
+    "id": "nvidia-rtx-3000-ada-generation-laptop-gpu",
+    "type": "gpu",
+    "vendor": "NVIDIA",
+    "model": "RTX 3000 Ada Generation Laptop GPU",
+    "formFactor": "laptop"
+  },
+  {
+    "id": "nvidia-rtx-3500-ada-generation-laptop-gpu",
+    "type": "gpu",
+    "vendor": "NVIDIA",
+    "model": "RTX 3500 Ada Generation Laptop GPU",
+    "formFactor": "laptop"
+  },
+  {
+    "id": "nvidia-rtx-4000-ada-generation-laptop-gpu",
+    "type": "gpu",
+    "vendor": "NVIDIA",
+    "model": "RTX 4000 Ada Generation Laptop GPU",
+    "formFactor": "laptop"
+  },
+  {
+    "id": "nvidia-rtx-500-ada-generation-laptop-gpu",
+    "type": "gpu",
+    "vendor": "NVIDIA",
+    "model": "RTX 500 Ada Generation Laptop GPU",
+    "formFactor": "laptop"
+  },
+  {
+    "id": "nvidia-rtx-5000-ada-generation-laptop-gpu",
+    "type": "gpu",
+    "vendor": "NVIDIA",
+    "model": "RTX 5000 Ada Generation Laptop GPU",
+    "formFactor": "laptop"
+  },
+  {
+    "id": "nvidia-rtx-6000-ada-generation",
+    "type": "gpu",
+    "vendor": "NVIDIA",
+    "model": "RTX 6000 Ada Generation",
+    "formFactor": "desktop"
+  },
+  {
+    "id": "nvidia-rtx-a1000-laptop-gpu",
+    "type": "gpu",
+    "vendor": "NVIDIA",
+    "model": "RTX A1000 Laptop GPU",
+    "formFactor": "laptop"
+  },
+  {
+    "id": "nvidia-rtx-a2000",
+    "type": "gpu",
+    "vendor": "NVIDIA",
+    "model": "RTX A2000",
+    "formFactor": "desktop"
+  },
+  {
+    "id": "nvidia-rtx-a2000-laptop-gpu",
+    "type": "gpu",
+    "vendor": "NVIDIA",
+    "model": "RTX A2000 Laptop GPU",
+    "formFactor": "laptop"
+  },
+  {
+    "id": "nvidia-rtx-a3000-laptop-gpu",
+    "type": "gpu",
+    "vendor": "NVIDIA",
+    "model": "RTX A3000 Laptop GPU",
+    "formFactor": "laptop"
+  },
+  {
+    "id": "nvidia-rtx-a500-laptop-gpu",
+    "type": "gpu",
+    "vendor": "NVIDIA",
+    "model": "RTX A500 Laptop GPU",
+    "formFactor": "laptop"
+  },
+  {
+    "id": "nvidia-rtx-a5000-laptop-gpu",
+    "type": "gpu",
+    "vendor": "NVIDIA",
+    "model": "RTX A5000 Laptop GPU",
+    "formFactor": "laptop"
+  },
+  {
+    "id": "nvidia-rtx-a5500-laptop-gpu",
+    "type": "gpu",
+    "vendor": "NVIDIA",
+    "model": "RTX A5500 Laptop GPU",
+    "formFactor": "laptop"
+  },
+  {
+    "id": "nvidia-rtx-a6000",
+    "type": "gpu",
+    "vendor": "NVIDIA",
+    "model": "RTX A6000",
+    "formFactor": "desktop"
+  },
+  {
+    "id": "nvidia-rtx-pro-2000-blackwell-generation-laptop-gpu",
+    "type": "gpu",
+    "vendor": "NVIDIA",
+    "model": "RTX PRO 2000 Blackwell Generation Laptop GPU",
+    "formFactor": "laptop"
+  },
+  {
+    "id": "nvidia-rtx-pro-3000-blackwell-generation-laptop-gpu",
+    "type": "gpu",
+    "vendor": "NVIDIA",
+    "model": "RTX PRO 3000 Blackwell Generation Laptop GPU",
+    "formFactor": "laptop"
+  },
+  {
+    "id": "nvidia-rtx-pro-500-blackwell-generation-laptop-gpu",
+    "type": "gpu",
+    "vendor": "NVIDIA",
+    "model": "RTX PRO 500 Blackwell Generation Laptop GPU",
+    "formFactor": "laptop"
+  },
+  {
+    "id": "nvidia-rtx-pro-5000-blackwell-generation-laptop-gpu",
+    "type": "gpu",
+    "vendor": "NVIDIA",
+    "model": "RTX PRO 5000 Blackwell Generation Laptop GPU",
+    "formFactor": "laptop"
+  },
+  {
+    "id": "nvidia-t1000",
+    "type": "gpu",
+    "vendor": "NVIDIA",
+    "model": "T1000",
+    "formFactor": "desktop"
+  },
+  {
+    "id": "nvidia-t1200-laptop-gpu",
+    "type": "gpu",
+    "vendor": "NVIDIA",
+    "model": "T1200 Laptop GPU",
+    "formFactor": "laptop"
+  },
+  {
+    "id": "nvidia-t500-laptop-gpu",
+    "type": "gpu",
+    "vendor": "NVIDIA",
+    "model": "T500 Laptop GPU",
+    "formFactor": "laptop"
+  },
+  {
+    "id": "nvidia-t550-laptop-gpu",
+    "type": "gpu",
+    "vendor": "NVIDIA",
+    "model": "T550 Laptop GPU",
+    "formFactor": "laptop"
+  },
+  {
+    "id": "nvidia-t600",
+    "type": "gpu",
+    "vendor": "NVIDIA",
+    "model": "T600",
+    "formFactor": "desktop"
+  },
+  {
+    "id": "nvidia-t600-laptop-gpu",
+    "type": "gpu",
+    "vendor": "NVIDIA",
+    "model": "T600 Laptop GPU",
+    "formFactor": "laptop"
+  },
+  {
+    "id": "amd-radeon-780m-desktop",
+    "type": "gpu",
+    "vendor": "AMD",
+    "model": "Radeon 780M",
+    "formFactor": "desktop"
+  },
+  {
+    "id": "amd-radeon-8060s-graphics",
+    "type": "gpu",
+    "vendor": "AMD",
+    "model": "Radeon 8060S Graphics",
+    "formFactor": "laptop"
+  },
+  {
+    "id": "amd-radeon-ai-pro-r9700",
+    "type": "gpu",
+    "vendor": "AMD",
+    "model": "Radeon AI PRO R9700",
+    "formFactor": "desktop"
+  },
+  {
+    "id": "amd-radeon-graphics-granite-ridge",
+    "type": "gpu",
+    "vendor": "AMD",
+    "model": "Radeon Graphics (Granite Ridge)",
+    "formFactor": "desktop"
+  },
+  {
+    "id": "amd-radeon-graphics-raphael",
+    "type": "gpu",
+    "vendor": "AMD",
+    "model": "Radeon Graphics (Raphael)",
+    "formFactor": "desktop"
+  },
+  {
+    "id": "amd-radeon-pro-vii",
+    "type": "gpu",
+    "vendor": "AMD",
+    "model": "Radeon Pro VII",
+    "formFactor": "desktop"
+  },
+  {
+    "id": "amd-radeon-r9-390",
+    "type": "gpu",
+    "vendor": "AMD",
+    "model": "Radeon R9 390",
+    "formFactor": "desktop"
+  },
+  {
+    "id": "amd-radeon-rx-470",
+    "type": "gpu",
+    "vendor": "AMD",
+    "model": "Radeon RX 470",
+    "formFactor": "desktop"
+  },
+  {
+    "id": "amd-radeon-rx-480",
+    "type": "gpu",
+    "vendor": "AMD",
+    "model": "Radeon RX 480",
+    "formFactor": "desktop"
+  },
+  {
+    "id": "amd-radeon-rx-5500-xt",
+    "type": "gpu",
+    "vendor": "AMD",
+    "model": "Radeon RX 5500 XT",
+    "formFactor": "desktop"
+  },
+  {
+    "id": "amd-radeon-rx-5600",
+    "type": "gpu",
+    "vendor": "AMD",
+    "model": "Radeon RX 5600",
+    "formFactor": "desktop"
+  },
+  {
+    "id": "amd-radeon-rx-5600-xt",
+    "type": "gpu",
+    "vendor": "AMD",
+    "model": "Radeon RX 5600 XT",
+    "formFactor": "desktop"
+  },
+  {
+    "id": "amd-radeon-rx-570",
+    "type": "gpu",
+    "vendor": "AMD",
+    "model": "Radeon RX 570",
+    "formFactor": "desktop"
+  },
+  {
+    "id": "amd-radeon-rx-5700",
+    "type": "gpu",
+    "vendor": "AMD",
+    "model": "Radeon RX 5700",
+    "formFactor": "desktop"
+  },
+  {
+    "id": "amd-radeon-rx-5700-xt",
+    "type": "gpu",
+    "vendor": "AMD",
+    "model": "Radeon RX 5700 XT",
+    "formFactor": "desktop"
+  },
+  {
+    "id": "amd-radeon-rx-580",
+    "type": "gpu",
+    "vendor": "AMD",
+    "model": "Radeon RX 580",
+    "formFactor": "desktop"
+  },
+  {
+    "id": "amd-radeon-rx-580-2048sp",
+    "type": "gpu",
+    "vendor": "AMD",
+    "model": "Radeon RX 580 2048SP",
+    "formFactor": "desktop"
+  },
+  {
+    "id": "amd-radeon-rx-590",
+    "type": "gpu",
+    "vendor": "AMD",
+    "model": "Radeon RX 590",
+    "formFactor": "desktop"
+  },
+  {
+    "id": "amd-radeon-rx-590-gme",
+    "type": "gpu",
+    "vendor": "AMD",
+    "model": "Radeon RX 590 GME",
+    "formFactor": "desktop"
+  },
+  {
+    "id": "amd-radeon-rx-6500-xt",
+    "type": "gpu",
+    "vendor": "AMD",
+    "model": "Radeon RX 6500 XT",
+    "formFactor": "desktop"
+  },
+  {
+    "id": "amd-radeon-rx-6600-le",
+    "type": "gpu",
+    "vendor": "AMD",
+    "model": "Radeon RX 6600 LE",
+    "formFactor": "desktop"
+  },
+  {
+    "id": "amd-radeon-rx-6600-xt",
+    "type": "gpu",
+    "vendor": "AMD",
+    "model": "Radeon RX 6600 XT",
+    "formFactor": "desktop"
+  },
+  {
+    "id": "amd-radeon-rx-6600m",
+    "type": "gpu",
+    "vendor": "AMD",
+    "model": "Radeon RX 6600M",
+    "formFactor": "laptop"
+  },
+  {
+    "id": "amd-radeon-rx-6700",
+    "type": "gpu",
+    "vendor": "AMD",
+    "model": "Radeon RX 6700",
+    "formFactor": "desktop"
+  },
+  {
+    "id": "amd-radeon-rx-6700s",
+    "type": "gpu",
+    "vendor": "AMD",
+    "model": "Radeon RX 6700S",
+    "formFactor": "laptop"
+  },
+  {
+    "id": "amd-radeon-rx-6750-gre-10-gb",
+    "type": "gpu",
+    "vendor": "AMD",
+    "model": "Radeon RX 6750 GRE 10 GB",
+    "formFactor": "desktop"
+  },
+  {
+    "id": "amd-radeon-rx-6750-gre-12-gb",
+    "type": "gpu",
+    "vendor": "AMD",
+    "model": "Radeon RX 6750 GRE 12 GB",
+    "formFactor": "desktop"
+  },
+  {
+    "id": "amd-radeon-rx-6800m",
+    "type": "gpu",
+    "vendor": "AMD",
+    "model": "Radeon RX 6800M",
+    "formFactor": "laptop"
+  },
+  {
+    "id": "amd-radeon-rx-6800s",
+    "type": "gpu",
+    "vendor": "AMD",
+    "model": "Radeon RX 6800S",
+    "formFactor": "laptop"
+  },
+  {
+    "id": "amd-radeon-rx-6900-xt",
+    "type": "gpu",
+    "vendor": "AMD",
+    "model": "Radeon RX 6900 XT",
+    "formFactor": "desktop"
+  },
+  {
+    "id": "amd-radeon-rx-6950-xt",
+    "type": "gpu",
+    "vendor": "AMD",
+    "model": "Radeon RX 6950 XT",
+    "formFactor": "desktop"
+  },
+  {
+    "id": "amd-radeon-rx-7600m-xt",
+    "type": "gpu",
+    "vendor": "AMD",
+    "model": "Radeon RX 7600M XT",
+    "formFactor": "laptop"
+  },
+  {
+    "id": "amd-radeon-rx-7600s",
+    "type": "gpu",
+    "vendor": "AMD",
+    "model": "Radeon RX 7600S",
+    "formFactor": "laptop"
+  },
+  {
+    "id": "amd-radeon-rx-7650-gre",
+    "type": "gpu",
+    "vendor": "AMD",
+    "model": "Radeon RX 7650 GRE",
+    "formFactor": "desktop"
+  },
+  {
+    "id": "amd-radeon-rx-7700",
+    "type": "gpu",
+    "vendor": "AMD",
+    "model": "Radeon RX 7700",
+    "formFactor": "desktop"
+  },
+  {
+    "id": "amd-radeon-rx-7700s",
+    "type": "gpu",
+    "vendor": "AMD",
+    "model": "Radeon RX 7700S",
+    "formFactor": "laptop"
+  },
+  {
+    "id": "amd-radeon-rx-7800m",
+    "type": "gpu",
+    "vendor": "AMD",
+    "model": "Radeon RX 7800M",
+    "formFactor": "laptop"
+  },
+  {
+    "id": "amd-radeon-rx-9060",
+    "type": "gpu",
+    "vendor": "AMD",
+    "model": "Radeon RX 9060",
+    "formFactor": "desktop"
+  },
+  {
+    "id": "amd-radeon-rx-9060-xt-16-gb",
+    "type": "gpu",
+    "vendor": "AMD",
+    "model": "Radeon RX 9060 XT 16 GB",
+    "formFactor": "desktop"
+  },
+  {
+    "id": "amd-radeon-rx-9070-gre",
+    "type": "gpu",
+    "vendor": "AMD",
+    "model": "Radeon RX 9070 GRE",
+    "formFactor": "desktop"
+  },
+  {
+    "id": "amd-radeon-rx-vega-56",
+    "type": "gpu",
+    "vendor": "AMD",
+    "model": "Radeon RX Vega 56",
+    "formFactor": "desktop"
+  },
+  {
+    "id": "amd-radeon-rx-vega-64",
+    "type": "gpu",
+    "vendor": "AMD",
+    "model": "Radeon RX Vega 64",
+    "formFactor": "desktop"
+  },
+  {
+    "id": "amd-radeon-vega-7-cezanne",
+    "type": "gpu",
+    "vendor": "AMD",
+    "model": "Radeon Vega 7 (Cezanne)",
+    "formFactor": "desktop"
+  },
+  {
+    "id": "amd-radeon-vega-8-cezanne",
+    "type": "gpu",
+    "vendor": "AMD",
+    "model": "Radeon Vega 8 (Cezanne)",
+    "formFactor": "laptop"
+  },
+  {
+    "id": "amd-radeon-vii",
+    "type": "gpu",
+    "vendor": "AMD",
+    "model": "Radeon VII",
+    "formFactor": "desktop"
+  },
+  {
+    "id": "amd-rog-ally-extreme-laptop-gpu",
+    "type": "gpu",
+    "vendor": "AMD",
+    "model": "ROG Ally Extreme Laptop GPU",
+    "formFactor": "laptop"
+  },
+  {
+    "id": "intel-arc-140t-laptop-gpu",
+    "type": "gpu",
+    "vendor": "Intel",
+    "model": "Arc 140T Laptop GPU",
+    "formFactor": "laptop"
+  },
+  {
+    "id": "intel-arc-a580",
+    "type": "gpu",
+    "vendor": "Intel",
+    "model": "Arc A580",
+    "formFactor": "desktop"
+  },
+  {
+    "id": "intel-arc-a770m",
+    "type": "gpu",
+    "vendor": "Intel",
+    "model": "Arc A770M",
+    "formFactor": "laptop"
+  },
+  {
+    "id": "intel-arc-b390",
+    "type": "gpu",
+    "vendor": "Intel",
+    "model": "Arc B390",
+    "formFactor": "laptop"
+  },
+  {
+    "id": "intel-arc-graphics",
+    "type": "gpu",
+    "vendor": "Intel",
+    "model": "Arc Graphics",
+    "formFactor": "laptop"
+  },
+  {
+    "id": "intel-arc-graphics-lunar-lake",
+    "type": "gpu",
+    "vendor": "Intel",
+    "model": "Arc Graphics (Lunar Lake)",
+    "formFactor": "laptop"
+  },
+  {
+    "id": "intel-arc-pro-b50",
+    "type": "gpu",
+    "vendor": "Intel",
+    "model": "Arc Pro B50",
+    "formFactor": "desktop"
+  },
+  {
+    "id": "intel-graphics-ultra-200-series",
+    "type": "gpu",
+    "vendor": "Intel",
+    "model": "Graphics (Ultra 200 Series)",
+    "formFactor": "desktop"
+  },
+  {
+    "id": "intel-iris-xe-graphics-g7-96eu",
+    "type": "gpu",
+    "vendor": "Intel",
+    "model": "Iris Xe Graphics G7 96EU",
+    "formFactor": "laptop"
+  },
+  {
+    "id": "nvidia-geforce-gtx-1050",
+    "type": "gpu",
+    "vendor": "NVIDIA",
+    "model": "GeForce GTX 1050",
+    "formFactor": "desktop"
+  },
+  {
+    "id": "nvidia-geforce-gtx-1050-ti-desktop",
+    "type": "gpu",
+    "vendor": "NVIDIA",
+    "model": "GeForce GTX 1050 Ti",
+    "formFactor": "desktop"
+  },
+  {
+    "id": "nvidia-geforce-gtx-1050-ti-laptop",
+    "type": "gpu",
+    "vendor": "NVIDIA",
+    "model": "GeForce GTX 1050 Ti",
+    "formFactor": "laptop"
+  },
+  {
+    "id": "nvidia-geforce-gtx-1060-3gb",
+    "type": "gpu",
+    "vendor": "NVIDIA",
+    "model": "GeForce GTX 1060-3GB",
+    "formFactor": "desktop"
+  },
+  {
+    "id": "nvidia-geforce-gtx-1060-6gb",
+    "type": "gpu",
+    "vendor": "NVIDIA",
+    "model": "GeForce GTX 1060-6GB",
+    "formFactor": "desktop"
+  },
+  {
+    "id": "nvidia-geforce-gtx-1060-laptop",
+    "type": "gpu",
+    "vendor": "NVIDIA",
+    "model": "GeForce GTX 1060",
+    "formFactor": "laptop"
+  },
+  {
+    "id": "nvidia-geforce-gtx-1070-desktop",
+    "type": "gpu",
+    "vendor": "NVIDIA",
+    "model": "GeForce GTX 1070",
+    "formFactor": "desktop"
+  },
+  {
+    "id": "nvidia-geforce-gtx-1070-laptop",
+    "type": "gpu",
+    "vendor": "NVIDIA",
+    "model": "GeForce GTX 1070",
+    "formFactor": "laptop"
+  },
+  {
+    "id": "nvidia-geforce-gtx-1070-ti",
+    "type": "gpu",
+    "vendor": "NVIDIA",
+    "model": "GeForce GTX 1070 Ti",
+    "formFactor": "desktop"
+  },
+  {
+    "id": "nvidia-geforce-gtx-1080-desktop",
+    "type": "gpu",
+    "vendor": "NVIDIA",
+    "model": "GeForce GTX 1080",
+    "formFactor": "desktop"
+  },
+  {
+    "id": "nvidia-geforce-gtx-1080-laptop",
+    "type": "gpu",
+    "vendor": "NVIDIA",
+    "model": "GeForce GTX 1080",
+    "formFactor": "laptop"
+  },
+  {
+    "id": "nvidia-geforce-gtx-1080-ti",
+    "type": "gpu",
+    "vendor": "NVIDIA",
+    "model": "GeForce GTX 1080 Ti",
+    "formFactor": "desktop"
+  },
+  {
+    "id": "nvidia-geforce-gtx-1650-laptop",
+    "type": "gpu",
+    "vendor": "NVIDIA",
+    "model": "GeForce GTX 1650",
+    "formFactor": "laptop"
+  },
+  {
+    "id": "nvidia-geforce-gtx-1650-super",
+    "type": "gpu",
+    "vendor": "NVIDIA",
+    "model": "GeForce GTX 1650 SUPER",
+    "formFactor": "desktop"
+  },
+  {
+    "id": "nvidia-geforce-gtx-1660-ti-desktop",
+    "type": "gpu",
+    "vendor": "NVIDIA",
+    "model": "GeForce GTX 1660 Ti",
+    "formFactor": "desktop"
+  },
+  {
+    "id": "nvidia-geforce-gtx-1660-ti-laptop",
+    "type": "gpu",
+    "vendor": "NVIDIA",
+    "model": "GeForce GTX 1660 Ti",
+    "formFactor": "laptop"
+  },
+  {
+    "id": "nvidia-geforce-gtx-960",
+    "type": "gpu",
+    "vendor": "NVIDIA",
+    "model": "GeForce GTX 960",
+    "formFactor": "desktop"
+  },
+  {
+    "id": "nvidia-geforce-gtx-970",
+    "type": "gpu",
+    "vendor": "NVIDIA",
+    "model": "GeForce GTX 970",
+    "formFactor": "desktop"
+  },
+  {
+    "id": "nvidia-geforce-gtx-980",
+    "type": "gpu",
+    "vendor": "NVIDIA",
+    "model": "GeForce GTX 980",
+    "formFactor": "desktop"
+  },
+  {
+    "id": "nvidia-geforce-gtx-980-ti",
+    "type": "gpu",
+    "vendor": "NVIDIA",
+    "model": "GeForce GTX 980 Ti",
+    "formFactor": "desktop"
+  },
+  {
+    "id": "nvidia-geforce-rtx-2050-laptop-gpu",
+    "type": "gpu",
+    "vendor": "NVIDIA",
+    "model": "GeForce RTX 2050 Laptop GPU",
+    "formFactor": "laptop"
+  },
+  {
+    "id": "nvidia-geforce-rtx-2060-12-gb",
+    "type": "gpu",
+    "vendor": "NVIDIA",
+    "model": "GeForce RTX 2060 12 GB",
+    "formFactor": "desktop"
+  },
+  {
+    "id": "nvidia-geforce-rtx-2060-laptop",
+    "type": "gpu",
+    "vendor": "NVIDIA",
+    "model": "GeForce RTX 2060",
+    "formFactor": "laptop"
+  },
+  {
+    "id": "nvidia-geforce-rtx-2060-notebook-refresh",
+    "type": "gpu",
+    "vendor": "NVIDIA",
+    "model": "GeForce RTX 2060 (Notebook refresh)",
+    "formFactor": "laptop"
+  },
+  {
+    "id": "nvidia-geforce-rtx-2070-desktop",
+    "type": "gpu",
+    "vendor": "NVIDIA",
+    "model": "GeForce RTX 2070",
+    "formFactor": "desktop"
+  },
+  {
+    "id": "nvidia-geforce-rtx-2070-laptop",
+    "type": "gpu",
+    "vendor": "NVIDIA",
+    "model": "GeForce RTX 2070",
+    "formFactor": "laptop"
+  },
+  {
+    "id": "nvidia-geforce-rtx-2070-notebook-refresh",
+    "type": "gpu",
+    "vendor": "NVIDIA",
+    "model": "GeForce RTX 2070 (Notebook refresh)",
+    "formFactor": "laptop"
+  },
+  {
+    "id": "nvidia-geforce-rtx-2070-refresh",
+    "type": "gpu",
+    "vendor": "NVIDIA",
+    "model": "GeForce RTX 2070 (refresh)",
+    "formFactor": "desktop"
+  },
+  {
+    "id": "nvidia-geforce-rtx-2070-super-laptop",
+    "type": "gpu",
+    "vendor": "NVIDIA",
+    "model": "GeForce RTX 2070 SUPER",
+    "formFactor": "laptop"
+  },
+  {
+    "id": "nvidia-geforce-rtx-2080-desktop",
+    "type": "gpu",
+    "vendor": "NVIDIA",
+    "model": "GeForce RTX 2080",
+    "formFactor": "desktop"
+  },
+  {
+    "id": "nvidia-geforce-rtx-2080-laptop",
+    "type": "gpu",
+    "vendor": "NVIDIA",
+    "model": "GeForce RTX 2080",
+    "formFactor": "laptop"
+  },
+  {
+    "id": "nvidia-geforce-rtx-2080-super-desktop",
+    "type": "gpu",
+    "vendor": "NVIDIA",
+    "model": "GeForce RTX 2080 SUPER",
+    "formFactor": "desktop"
+  },
+  {
+    "id": "nvidia-geforce-rtx-2080-super-laptop",
+    "type": "gpu",
+    "vendor": "NVIDIA",
+    "model": "GeForce RTX 2080 SUPER",
+    "formFactor": "laptop"
+  },
+  {
+    "id": "nvidia-geforce-rtx-2080-ti",
+    "type": "gpu",
+    "vendor": "NVIDIA",
+    "model": "GeForce RTX 2080 Ti",
+    "formFactor": "desktop"
+  },
+  {
+    "id": "nvidia-geforce-rtx-3050-6-gb",
+    "type": "gpu",
+    "vendor": "NVIDIA",
+    "model": "GeForce RTX 3050 6 GB",
+    "formFactor": "desktop"
+  },
+  {
+    "id": "nvidia-geforce-rtx-3050-6-gb-laptop-gpu",
+    "type": "gpu",
+    "vendor": "NVIDIA",
+    "model": "GeForce RTX 3050 6 GB Laptop GPU",
+    "formFactor": "laptop"
+  },
+  {
+    "id": "nvidia-geforce-rtx-3050-ti-laptop-gpu",
+    "type": "gpu",
+    "vendor": "NVIDIA",
+    "model": "GeForce RTX 3050 Ti Laptop GPU",
+    "formFactor": "laptop"
+  },
+  {
+    "id": "nvidia-geforce-rtx-3060-8-gb",
+    "type": "gpu",
+    "vendor": "NVIDIA",
+    "model": "GeForce RTX 3060 8 GB",
+    "formFactor": "desktop"
+  },
+  {
+    "id": "nvidia-geforce-rtx-3060-ga104",
+    "type": "gpu",
+    "vendor": "NVIDIA",
+    "model": "GeForce RTX 3060 GA104",
+    "formFactor": "desktop"
+  },
+  {
+    "id": "nvidia-geforce-rtx-3060-ti-gddr6x",
+    "type": "gpu",
+    "vendor": "NVIDIA",
+    "model": "GeForce RTX 3060 Ti GDDR6X",
+    "formFactor": "desktop"
+  },
+  {
+    "id": "nvidia-geforce-rtx-3060-ti-lhr",
+    "type": "gpu",
+    "vendor": "NVIDIA",
+    "model": "GeForce RTX 3060 Ti LHR",
+    "formFactor": "desktop"
+  },
+  {
+    "id": "nvidia-geforce-rtx-3070-lhr",
+    "type": "gpu",
+    "vendor": "NVIDIA",
+    "model": "GeForce RTX 3070 LHR",
+    "formFactor": "desktop"
+  },
+  {
+    "id": "nvidia-geforce-rtx-3070-ti-laptop-gpu",
+    "type": "gpu",
+    "vendor": "NVIDIA",
+    "model": "GeForce RTX 3070 Ti Laptop GPU",
+    "formFactor": "laptop"
+  },
+  {
+    "id": "nvidia-geforce-rtx-3080-12-gb",
+    "type": "gpu",
+    "vendor": "NVIDIA",
+    "model": "GeForce RTX 3080 12 GB",
+    "formFactor": "desktop"
+  },
+  {
+    "id": "nvidia-geforce-rtx-3080-laptop-gpu",
+    "type": "gpu",
+    "vendor": "NVIDIA",
+    "model": "GeForce RTX 3080 Laptop GPU",
+    "formFactor": "laptop"
+  },
+  {
+    "id": "nvidia-geforce-rtx-3080-lhr",
+    "type": "gpu",
+    "vendor": "NVIDIA",
+    "model": "GeForce RTX 3080 LHR",
+    "formFactor": "desktop"
+  },
+  {
+    "id": "nvidia-geforce-rtx-3080-ti-laptop-gpu",
+    "type": "gpu",
+    "vendor": "NVIDIA",
+    "model": "GeForce RTX 3080 Ti Laptop GPU",
+    "formFactor": "laptop"
+  },
+  {
+    "id": "nvidia-geforce-rtx-3090-ti",
+    "type": "gpu",
+    "vendor": "NVIDIA",
+    "model": "GeForce RTX 3090 Ti",
+    "formFactor": "desktop"
+  },
+  {
+    "id": "nvidia-geforce-rtx-4060-ti-16-gb",
+    "type": "gpu",
+    "vendor": "NVIDIA",
+    "model": "GeForce RTX 4060 Ti 16 GB",
+    "formFactor": "desktop"
+  },
+  {
+    "id": "nvidia-geforce-rtx-4060-ti-8-gb",
+    "type": "gpu",
+    "vendor": "NVIDIA",
+    "model": "GeForce RTX 4060 Ti 8 GB",
+    "formFactor": "desktop"
+  },
+  {
+    "id": "nvidia-geforce-rtx-4090-d",
+    "type": "gpu",
+    "vendor": "NVIDIA",
+    "model": "GeForce RTX 4090 D",
+    "formFactor": "desktop"
+  },
+  {
+    "id": "nvidia-geforce-rtx-5050",
+    "type": "gpu",
+    "vendor": "NVIDIA",
+    "model": "GeForce RTX 5050",
+    "formFactor": "desktop"
+  },
+  {
+    "id": "nvidia-geforce-rtx-5060-ti-16-gb",
+    "type": "gpu",
+    "vendor": "NVIDIA",
+    "model": "GeForce RTX 5060 Ti 16 GB",
+    "formFactor": "desktop"
+  },
+  {
+    "id": "nvidia-geforce-rtx-5090-d",
+    "type": "gpu",
+    "vendor": "NVIDIA",
+    "model": "GeForce RTX 5090 D",
+    "formFactor": "desktop"
+  },
+  {
+    "id": "nvidia-gtx-titan-x",
+    "type": "gpu",
+    "vendor": "NVIDIA",
+    "model": "GTX TITAN X",
+    "formFactor": "desktop"
+  },
+  {
+    "id": "nvidia-p106-100",
+    "type": "gpu",
+    "vendor": "NVIDIA",
+    "model": "P106-100",
+    "formFactor": "desktop"
+  },
+  {
+    "id": "nvidia-quadro-rtx-3000-laptop-gpu",
+    "type": "gpu",
+    "vendor": "NVIDIA",
+    "model": "Quadro RTX 3000 Laptop GPU",
+    "formFactor": "laptop"
+  },
+  {
+    "id": "nvidia-quadro-rtx-4000",
+    "type": "gpu",
+    "vendor": "NVIDIA",
+    "model": "Quadro RTX 4000",
+    "formFactor": "desktop"
+  },
+  {
+    "id": "nvidia-rtx-5090-d-v2",
+    "type": "gpu",
+    "vendor": "NVIDIA",
+    "model": "RTX 5090 D v2",
+    "formFactor": "desktop"
+  },
+  {
+    "id": "nvidia-rtx-a2000-12-gb",
+    "type": "gpu",
+    "vendor": "NVIDIA",
+    "model": "RTX A2000 12 GB",
+    "formFactor": "desktop"
+  },
+  {
+    "id": "nvidia-rtx-a4000",
+    "type": "gpu",
+    "vendor": "NVIDIA",
+    "model": "RTX A4000",
+    "formFactor": "desktop"
+  },
+  {
+    "id": "nvidia-rtx-a4500",
+    "type": "gpu",
+    "vendor": "NVIDIA",
+    "model": "RTX A4500",
+    "formFactor": "desktop"
+  },
+  {
+    "id": "nvidia-rtx-a5000",
+    "type": "gpu",
+    "vendor": "NVIDIA",
+    "model": "RTX A5000",
+    "formFactor": "desktop"
+  },
+  {
+    "id": "nvidia-rtx-pro-6000-blackwell",
+    "type": "gpu",
+    "vendor": "NVIDIA",
+    "model": "RTX PRO 6000 Blackwell",
+    "formFactor": "desktop"
+  },
+  {
+    "id": "nvidia-titan-rtx",
+    "type": "gpu",
+    "vendor": "NVIDIA",
+    "model": "Titan RTX",
+    "formFactor": "desktop"
+  },
+  {
+    "id": "nvidia-titan-v",
+    "type": "gpu",
+    "vendor": "NVIDIA",
+    "model": "Titan V",
+    "formFactor": "desktop"
+  },
+  {
+    "id": "nvidia-titan-x-pascal",
+    "type": "gpu",
+    "vendor": "NVIDIA",
+    "model": "Titan X (Pascal)",
+    "formFactor": "desktop"
+  },
+  {
+    "id": "nvidia-titan-xp",
+    "type": "gpu",
+    "vendor": "NVIDIA",
+    "model": "Titan Xp",
+    "formFactor": "desktop"
+  },
+  {
+    "id": "qualcomm-adreno-x1-85",
+    "type": "gpu",
+    "vendor": "Qualcomm",
+    "model": "Adreno X1-85",
+    "formFactor": "laptop"
+  },
+  {
+    "id": "intel-core-i9-12950hx",
+    "type": "cpu",
+    "vendor": "Intel",
+    "model": "Core i9-12950HX",
+    "formFactor": "laptop"
+  },
+  {
+    "id": "amd-radeon-660m",
+    "type": "gpu",
+    "vendor": "AMD",
+    "model": "Radeon 660M",
+    "formFactor": "laptop"
+  },
+  {
+    "id": "amd-radeon-8060s",
+    "type": "gpu",
+    "vendor": "AMD",
+    "model": "Radeon 8060S",
+    "formFactor": "laptop"
+  },
+  {
+    "id": "amd-radeon-860m",
+    "type": "gpu",
+    "vendor": "AMD",
+    "model": "Radeon 860M",
+    "formFactor": "laptop"
+  },
+  {
+    "id": "amd-radeon-rx-vega-10",
+    "type": "gpu",
+    "vendor": "AMD",
+    "model": "Radeon RX Vega 10",
+    "formFactor": "laptop"
+  },
+  {
+    "id": "amd-radeon-rx-vega-6-ryzen-4000-5000",
+    "type": "gpu",
+    "vendor": "AMD",
+    "model": "Radeon RX Vega 6 (Ryzen 4000/5000)",
+    "formFactor": "laptop"
+  },
+  {
+    "id": "amd-radeon-rx-vega-7",
+    "type": "gpu",
+    "vendor": "AMD",
+    "model": "Radeon RX Vega 7",
+    "formFactor": "laptop"
+  },
+  {
+    "id": "amd-radeon-rx-vega-8-ryzen-2000-3000",
+    "type": "gpu",
+    "vendor": "AMD",
+    "model": "Radeon RX Vega 8 (Ryzen 2000/3000)",
+    "formFactor": "laptop"
+  },
+  {
+    "id": "amd-radeon-rx-vega-8-ryzen-4000-5000",
+    "type": "gpu",
+    "vendor": "AMD",
+    "model": "Radeon RX Vega 8 (Ryzen 4000/5000)",
+    "formFactor": "laptop"
+  },
+  {
+    "id": "amd-ryzen-5-4500u",
+    "type": "cpu",
+    "vendor": "AMD",
+    "model": "Ryzen 5 4500U",
+    "formFactor": "laptop"
+  },
+  {
+    "id": "amd-ryzen-5-4600h",
+    "type": "cpu",
+    "vendor": "AMD",
+    "model": "Ryzen 5 4600H",
+    "formFactor": "laptop"
+  },
+  {
+    "id": "amd-ryzen-5-5500u",
+    "type": "cpu",
+    "vendor": "AMD",
+    "model": "Ryzen 5 5500U",
+    "formFactor": "laptop"
+  },
+  {
+    "id": "amd-ryzen-5-5600h",
+    "type": "cpu",
+    "vendor": "AMD",
+    "model": "Ryzen 5 5600H",
+    "formFactor": "laptop"
+  },
+  {
+    "id": "amd-ryzen-7-4700u",
+    "type": "cpu",
+    "vendor": "AMD",
+    "model": "Ryzen 7 4700U",
+    "formFactor": "laptop"
+  },
+  {
+    "id": "amd-ryzen-7-4800h",
+    "type": "cpu",
+    "vendor": "AMD",
+    "model": "Ryzen 7 4800H",
+    "formFactor": "laptop"
+  },
+  {
+    "id": "amd-ryzen-7-5700u",
+    "type": "cpu",
+    "vendor": "AMD",
+    "model": "Ryzen 7 5700U",
+    "formFactor": "laptop"
+  },
+  {
+    "id": "amd-ryzen-7-5800h",
+    "type": "cpu",
+    "vendor": "AMD",
+    "model": "Ryzen 7 5800H",
+    "formFactor": "laptop"
+  },
+  {
+    "id": "amd-ryzen-7-6800h",
+    "type": "cpu",
+    "vendor": "AMD",
+    "model": "Ryzen 7 6800H",
+    "formFactor": "laptop"
+  },
+  {
+    "id": "amd-ryzen-7-7840u",
+    "type": "cpu",
+    "vendor": "AMD",
+    "model": "Ryzen 7 7840U",
+    "formFactor": "laptop"
+  },
+  {
+    "id": "amd-ryzen-9-5900hx",
+    "type": "cpu",
+    "vendor": "AMD",
+    "model": "Ryzen 9 5900HX",
+    "formFactor": "laptop"
+  },
+  {
+    "id": "amd-ryzen-9-6900hx",
+    "type": "cpu",
+    "vendor": "AMD",
+    "model": "Ryzen 9 6900HX",
+    "formFactor": "laptop"
+  },
+  {
+    "id": "amd-ryzen-ai-7-350",
+    "type": "cpu",
+    "vendor": "AMD",
+    "model": "Ryzen AI 7 350",
+    "formFactor": "laptop"
+  },
+  {
+    "id": "amd-ryzen-ai-9-hx-470",
+    "type": "cpu",
+    "vendor": "AMD",
+    "model": "Ryzen AI 9 HX 470",
+    "formFactor": "laptop"
+  },
+  {
+    "id": "intel-arc-8-core-igpu",
+    "type": "gpu",
+    "vendor": "Intel",
+    "model": "Arc 8-Core iGPU",
+    "formFactor": "laptop"
+  },
+  {
+    "id": "intel-arc-b390-12-xe3-panther-lake-igpu",
+    "type": "gpu",
+    "vendor": "Intel",
+    "model": "Arc B390 12 Xe3 Panther Lake iGPU",
+    "formFactor": "laptop"
+  },
+  {
+    "id": "intel-arc-graphics-130v",
+    "type": "gpu",
+    "vendor": "Intel",
+    "model": "Arc Graphics 130V",
+    "formFactor": "laptop"
+  },
+  {
+    "id": "intel-arc-graphics-140t",
+    "type": "gpu",
+    "vendor": "Intel",
+    "model": "Arc Graphics 140T",
+    "formFactor": "laptop"
+  },
+  {
+    "id": "intel-arc-graphics-140v",
+    "type": "gpu",
+    "vendor": "Intel",
+    "model": "Arc Graphics 140V",
+    "formFactor": "laptop"
+  },
+  {
+    "id": "intel-core-i5-10300h",
+    "type": "cpu",
+    "vendor": "Intel",
+    "model": "Core i5-10300H",
+    "formFactor": "laptop"
+  },
+  {
+    "id": "intel-core-i5-11300h",
+    "type": "cpu",
+    "vendor": "Intel",
+    "model": "Core i5-11300H",
+    "formFactor": "laptop"
+  },
+  {
+    "id": "intel-core-i5-1135g7",
+    "type": "cpu",
+    "vendor": "Intel",
+    "model": "Core i5-1135G7",
+    "formFactor": "laptop"
+  },
+  {
+    "id": "intel-core-i5-1240p",
+    "type": "cpu",
+    "vendor": "Intel",
+    "model": "Core i5-1240P",
+    "formFactor": "laptop"
+  },
+  {
+    "id": "intel-core-i5-1335u",
+    "type": "cpu",
+    "vendor": "Intel",
+    "model": "Core i5-1335U",
+    "formFactor": "laptop"
+  },
+  {
+    "id": "intel-core-i5-8250u",
+    "type": "cpu",
+    "vendor": "Intel",
+    "model": "Core i5-8250U",
+    "formFactor": "laptop"
+  },
+  {
+    "id": "intel-core-i7-10750h",
+    "type": "cpu",
+    "vendor": "Intel",
+    "model": "Core i7-10750H",
+    "formFactor": "laptop"
+  },
+  {
+    "id": "intel-core-i7-10870h",
+    "type": "cpu",
+    "vendor": "Intel",
+    "model": "Core i7-10870H",
+    "formFactor": "laptop"
+  },
+  {
+    "id": "intel-core-i7-10875h",
+    "type": "cpu",
+    "vendor": "Intel",
+    "model": "Core i7-10875H",
+    "formFactor": "laptop"
+  },
+  {
+    "id": "intel-core-i7-11370h",
+    "type": "cpu",
+    "vendor": "Intel",
+    "model": "Core i7-11370H",
+    "formFactor": "laptop"
+  },
+  {
+    "id": "intel-core-i7-1165g7",
+    "type": "cpu",
+    "vendor": "Intel",
+    "model": "Core i7-1165G7",
+    "formFactor": "laptop"
+  },
+  {
+    "id": "intel-core-i7-11800h",
+    "type": "cpu",
+    "vendor": "Intel",
+    "model": "Core i7-11800H",
+    "formFactor": "laptop"
+  },
+  {
+    "id": "intel-core-i7-1185g7",
+    "type": "cpu",
+    "vendor": "Intel",
+    "model": "Core i7-1185G7",
+    "formFactor": "laptop"
+  },
+  {
+    "id": "intel-core-i7-1255u",
+    "type": "cpu",
+    "vendor": "Intel",
+    "model": "Core i7-1255U",
+    "formFactor": "laptop"
+  },
+  {
+    "id": "intel-core-i7-1260p",
+    "type": "cpu",
+    "vendor": "Intel",
+    "model": "Core i7-1260P",
+    "formFactor": "laptop"
+  },
+  {
+    "id": "intel-core-i7-12650h",
+    "type": "cpu",
+    "vendor": "Intel",
+    "model": "Core i7-12650H",
+    "formFactor": "laptop"
+  },
+  {
+    "id": "intel-core-i7-1265u",
+    "type": "cpu",
+    "vendor": "Intel",
+    "model": "Core i7-1265U",
+    "formFactor": "laptop"
+  },
+  {
+    "id": "intel-core-i7-1355u",
+    "type": "cpu",
+    "vendor": "Intel",
+    "model": "Core i7-1355U",
+    "formFactor": "laptop"
+  },
+  {
+    "id": "intel-core-i7-1360p",
+    "type": "cpu",
+    "vendor": "Intel",
+    "model": "Core i7-1360P",
+    "formFactor": "laptop"
+  },
+  {
+    "id": "intel-core-i7-13700hx",
+    "type": "cpu",
+    "vendor": "Intel",
+    "model": "Core i7-13700HX",
+    "formFactor": "laptop"
+  },
+  {
+    "id": "intel-core-i7-8550u",
+    "type": "cpu",
+    "vendor": "Intel",
+    "model": "Core i7-8550U",
+    "formFactor": "laptop"
+  },
+  {
+    "id": "intel-core-i9-10980hk",
+    "type": "cpu",
+    "vendor": "Intel",
+    "model": "Core i9-10980HK",
+    "formFactor": "laptop"
+  },
+  {
+    "id": "intel-core-i9-12900h",
+    "type": "cpu",
+    "vendor": "Intel",
+    "model": "Core i9-12900H",
+    "formFactor": "laptop"
+  },
+  {
+    "id": "intel-core-i9-12900hk",
+    "type": "cpu",
+    "vendor": "Intel",
+    "model": "Core i9-12900HK",
+    "formFactor": "laptop"
+  },
+  {
+    "id": "intel-core-i9-13900h",
+    "type": "cpu",
+    "vendor": "Intel",
+    "model": "Core i9-13900H",
+    "formFactor": "laptop"
+  },
+  {
+    "id": "intel-core-i9-13980hx",
+    "type": "cpu",
+    "vendor": "Intel",
+    "model": "Core i9-13980HX",
+    "formFactor": "laptop"
+  },
+  {
+    "id": "intel-core-ultra-5-226v",
+    "type": "cpu",
+    "vendor": "Intel",
+    "model": "Core Ultra 5 226V",
+    "formFactor": "laptop"
+  },
+  {
+    "id": "intel-core-ultra-7-256v",
+    "type": "cpu",
+    "vendor": "Intel",
+    "model": "Core Ultra 7 256V",
+    "formFactor": "laptop"
+  },
+  {
+    "id": "intel-core-ultra-9-185h",
+    "type": "cpu",
+    "vendor": "Intel",
+    "model": "Core Ultra 9 185H",
+    "formFactor": "laptop"
+  },
+  {
+    "id": "intel-core-ultra-9-285h",
+    "type": "cpu",
+    "vendor": "Intel",
+    "model": "Core Ultra 9 285H",
+    "formFactor": "laptop"
+  },
+  {
+    "id": "intel-core-ultra-9-386h",
+    "type": "cpu",
+    "vendor": "Intel",
+    "model": "Core Ultra 9 386H",
+    "formFactor": "laptop"
+  },
+  {
+    "id": "intel-core-ultra-x7-358h",
+    "type": "cpu",
+    "vendor": "Intel",
+    "model": "Core Ultra X7 358H",
+    "formFactor": "laptop"
+  },
+  {
+    "id": "intel-graphics-4-core-igpu-meteor-arrow-lake",
+    "type": "gpu",
+    "vendor": "Intel",
+    "model": "Graphics 4-Core iGPU (Meteor / Arrow Lake)",
+    "formFactor": "laptop"
+  },
+  {
+    "id": "intel-graphics-4-xe3-panther-lake-igpu",
+    "type": "gpu",
+    "vendor": "Intel",
+    "model": "Graphics 4 Xe3 Panther Lake iGPU",
+    "formFactor": "laptop"
+  },
+  {
+    "id": "intel-iris-xe-graphics-g7-80eus",
+    "type": "gpu",
+    "vendor": "Intel",
+    "model": "Iris Xe Graphics G7 80EUs",
+    "formFactor": "laptop"
+  },
+  {
+    "id": "intel-iris-xe-graphics-g7-96eus",
+    "type": "gpu",
+    "vendor": "Intel",
+    "model": "Iris Xe Graphics G7 96EUs",
+    "formFactor": "laptop"
+  },
+  {
+    "id": "intel-uhd-graphics-24eus-alder-lake-n",
+    "type": "gpu",
+    "vendor": "Intel",
+    "model": "UHD Graphics 24EUs (Alder Lake-N)",
+    "formFactor": "laptop"
+  },
+  {
+    "id": "intel-uhd-graphics-64eus-alder-lake-12th-gen",
+    "type": "gpu",
+    "vendor": "Intel",
+    "model": "UHD Graphics 64EUs (Alder Lake 12th Gen)",
+    "formFactor": "laptop"
+  },
+  {
+    "id": "intel-uhd-graphics-xe-g4-48eus",
+    "type": "gpu",
+    "vendor": "Intel",
+    "model": "UHD Graphics Xe G4 48EUs",
+    "formFactor": "laptop"
+  },
+  {
+    "id": "nvidia-geforce-gtx-1070-max-q",
+    "type": "gpu",
+    "vendor": "NVIDIA",
+    "model": "GeForce GTX 1070 Max-Q",
+    "formFactor": "laptop"
+  },
+  {
+    "id": "nvidia-geforce-rtx-2080-super-max-q",
+    "type": "gpu",
+    "vendor": "NVIDIA",
+    "model": "GeForce RTX 2080 Super Max-Q",
+    "formFactor": "laptop"
+  },
+  {
+    "id": "nvidia-geforce-rtx-3050-4gb-laptop-gpu",
+    "type": "gpu",
+    "vendor": "NVIDIA",
+    "model": "GeForce RTX 3050 4GB Laptop GPU",
+    "formFactor": "laptop"
+  },
+  {
+    "id": "qualcomm-sd-x-adreno-x1-45-1-7-tflops",
+    "type": "gpu",
+    "vendor": "Qualcomm",
+    "model": "SD X Adreno X1-45 1.7 TFLOPS",
+    "formFactor": "laptop"
+  },
+  {
+    "id": "qualcomm-sd-x-adreno-x1-85-3-8-tflops",
+    "type": "gpu",
+    "vendor": "Qualcomm",
+    "model": "SD X Adreno X1-85 3.8 TFLOPS",
+    "formFactor": "laptop"
+  },
+  {
+    "id": "qualcomm-snapdragon-x-elite-x1e-80-100",
+    "type": "cpu",
+    "vendor": "Qualcomm",
+    "model": "Snapdragon X Elite X1E-80-100",
+    "formFactor": "laptop"
+  },
+  {
+    "id": "qualcomm-snapdragon-x-plus-x1p-42-100",
+    "type": "cpu",
+    "vendor": "Qualcomm",
+    "model": "Snapdragon X Plus X1P-42-100",
+    "formFactor": "laptop"
   }
 ]

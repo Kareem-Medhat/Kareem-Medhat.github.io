@@ -51,6 +51,9 @@ data/
   temperature-limits.json   # makers' published max GPU temperatures, each one cited like a score
 assets/
   img/                      # our own screenshots only
+scripts/                    # owner tooling, run with Node; not loaded by the site
+  collect-scores.js         # collects scores from allowlisted sources into data/ (usage in its header)
+  collect/                  # its modules; config.js holds source URLs, test mapping and limits
 .nojekyll
 404.html
 ```
@@ -124,7 +127,7 @@ All reference scores on this site come **only** from the sources listed in `data
 Adding a tool means adding a registry entry and a guide page. The JS should not need changes. Never hardcode benchmark names, units or directions in JavaScript.
 
 ### 3. Stress tests are not leaderboards
-FurMark, OCCT and Prime95 are mainly **stability and temperature tests**. The site treats them as a pass/fail health check (did it stay stable, did temperatures stay safe, did it throttle), not a ranking. Their guides must include the safety warning (see Guides).
+FurMark, OCCT and Prime95 are mainly **stability and temperature tests**. The site treats them as a health check, not a ranking. The checker offers a stress test only when it has a temperature to compare with: it shows the card's maximum temperature (the maker's published one from `temperature-limits.json`, or, when the maker publishes none, a general guide computed from the range of published maximums) and compares the user's highest temperature with it. Stability (crashes, freezes, glitches) is covered in the guide, not asked in the checker. Their guides must include the safety warning (see Guides).
 
 ### 4. Hardware names
 `data/hardware.json` lists each CPU/GPU once with a canonical `id`, `type`, `vendor`, `model`, optional `variant`, and `formFactor` (`desktop` or `laptop`; laptop chips are separate entries, e.g. "GeForce RTX 4060 Laptop GPU"). The checker uses a searchable dropdown from this list. Never compare on free text.
